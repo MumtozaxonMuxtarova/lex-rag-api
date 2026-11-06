@@ -1,0 +1,67 @@
+  {
+    "run_id": "manual-10",
+    "batch_id": "manual-10-b01",
+    "batch_index": 1,
+    "total_batches": 10,
+    "options": {
+      "top_k": 5,
+      "return_contexts": true,
+      "return_debug": true,
+      "temperature": 0,
+      "seed": 42,
+      "as_of_date": "2026-11-06",
+      "answer_language": "auto"
+    },
+    "items": [
+      {
+        "id": "q001",
+        "question": "Mehnat kodeksining 4-moddasida nima belgilangan?",
+        "language": "uz-Latn"
+      },
+      {
+        "id": "q002",
+        "question": "Mehnat sohasidagi ijtimoiy sheriklikning darajalari bo‘yicha kodeks qanday qoidalarni belgilaydi?",
+        "language": "uz-Latn"
+      },
+      {
+        "id": "q003",
+        "question": "Mehnat shartnomasining muddati bo‘yicha kodeks qanday qoidalarni belgilaydi?",
+        "language": "uz-Latn"
+      },
+      {
+        "id": "q004",
+        "question": "Zararni qoplash bo‘yicha kodeks qanday qoidalarni belgilaydi?",
+        "language": "uz-Latn"
+      },
+      {
+        "id": "q005",
+        "question": "Har yilgi asosiy eng kam mehnat taʼtilining davomiyligi: qanday muddat, yosh yoki miqdor belgilangan?",
+        "language": "uz-Latn"
+      },
+      {
+        "id": "q006",
+        "question": "Har yilgi mehnat taʼtilini qismlarga boʻlish: qanday muddat, yosh yoki miqdor belgilangan?",
+        "language": "uz-Latn"
+      },
+      {
+        "id": "q007",
+        "question": "Xodimning huquqlari; Xodimning majburiyatlari bo‘yicha kodeks qanday qoidalarni belgilaydi?",
+        "language": "uz-Latn"
+      },
+      {
+        "id": "q008",
+        "question": "Fuqarolarning huquq layoqati; Fuqaroning muomala layoqati bo‘yicha kodeks qanday qoidalarni belgilaydi?",
+        "language": "uz-Latn"
+      },
+      {
+        "id": "q009",
+        "question": "2026-11-06 holatiga Notarial tasdiqlangan ishonchnomalarga tenglashtirilgan ishonchnomalar qanday tartibga solinadi?",
+        "language": "uz-Latn"
+      },
+      {
+        "id": "q010",
+        "question": "Какие правила установлены по вопросу: Продолжительность ежегодного основного минимального трудового отпуска?",
+        "language": "ru"
+      }
+    ]
+  }

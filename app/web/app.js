@@ -98,17 +98,15 @@ function sourceLink(citation) {
     return url.href;
   } catch {return null;}
 }
-function renderResult(result, question) {
-  const root = $('results');
-  root.replaceChildren();
-  root.hidden = false;
+function renderResult(result, question, root) {
+
   const head = element('div', 'result-head');
   head.append(element('h2', '', 'Qidiruv natijasi'), element('span', 'result-meta', `${result.timing?.total_ms?.toFixed(0) || 0} ms · Asl manba`));
   root.append(head);
   const card = element('article', 'answer-card');
   const body = element('div', 'answer-body');
   body.append(element('span', 'answer-label', 'SIZNING SAVOLINGIZ'), element('p', '', question));
-  body.append(element('span', 'answer-label', 'QONUNDAN TOPILGAN MATN'), element('div', 'answer-text', result.answer || ''));
+  body.append(element('span', 'answer-label', 'QONUNDAN TOPILGAN MATN'), element('div', 'answer-text', result.answer || (result.no_answer ? 'Mos javob topilmadi.' : messageFor(result.error?.code))));
   const foot = element('div', 'answer-foot');
   const copy = element('button', 'copy-button', 'Nusxa olish');
   copy.type = 'button';
@@ -149,14 +147,24 @@ function renderResult(result, question) {
     }
     root.append(details);
   }
-  root.scrollIntoView({behavior: window.matchMedia('(prefers-reduced-motion: reduce)').matches ? 'auto' : 'smooth', block: 'start'});
+  if (!root.previousElementSibling) root.scrollIntoView({behavior: window.matchMedia('(prefers-reduced-motion: reduce)').matches ? 'auto' : 'smooth', block: 'start'});
 }
 async function search() {
   if (state.busy) return;
   const question = $('question').value.trim();
   if (!question) {feedback('Avval savolingizni yozing.', true); return;}
+  let payload;
+  if (question.startsWith('{') || question.startsWith('[')) {
+    try {
+      payload = JSON.parse(question);
+      if (!Array.isArray(payload.items) || payload.items.length < 1 || payload.items.length > 10)
+        throw new Error('JSON ichida items ro‘yxati va 1–10 ta savol bo‘lishi kerak.');
+      $('question').value = JSON.stringify(payload, null, 2);
+    } catch (error) {feedback('JSON: ' + error.message, true); return;}
+  } else if (question.length > 2000) {feedback('Savol 2000 belgidan oshmasligi kerak.', true); return;}
   if (!state.key) {showConnection(true); return;}
   if (!$('search-form').reportValidity()) return;
+  $('raw-response').hidden = true;
   setBusy(true);
   $('results').hidden = true;
   feedback('Tegishli qonun moddalari qidirilmoqda…');
@@ -171,7 +179,7 @@ async function search() {
   try {
     let batch;
     for (let retry = 0; retry < 3; retry++) {
-      try {batch = await api('/v1/rag/batch', {method: 'POST', body: JSON.stringify(state.lastRequest.body)}); break;}
+      try {batch = await api('/v1/rag/batch', {method: 'POST', body: JSON.stringify(payload || state.lastRequest.body)}); break;}
       catch (error) {if (error.status !== 429 || retry === 2) throw error; await sleep(error.retryAfter * 1000);}
     }
     const deadline = Date.now() + 180000;
@@ -181,13 +189,20 @@ async function search() {
       await sleep(1500);
       batch = await api(`/v1/rag/batch/${encodeURIComponent(batch.batch_id)}`);
     }
+    $('raw-response').open = false;
+    $('raw-response').hidden = false;
+    $('raw-json').textContent = JSON.stringify(batch, null, 2);
     if (batch.status === 'failed') throw new Error(messageFor(batch.error?.code));
-    const result = batch.results?.find(item => item.id === 'q001');
-    if (!result) throw new Error('Backend javobida savol natijasi topilmadi.');
-    if (result.status === 'error' || result.status === 'timeout') throw new Error(messageFor(result.error?.code));
-    if (result.no_answer || result.status === 'no_answer') {
-      feedback('Mavjud ikki kodeksdan mos javob topilmadi. Savolni aniqroq yozing. Bu boshqa qonunlarda ham javob yo‘q degani emas.');
-    } else {feedback(''); renderResult(result, question);}
+    const root = $('results');
+    root.replaceChildren();
+    root.hidden = false;
+    feedback('');
+    const questions = (payload || state.lastRequest.body).items;
+    for (const result of batch.results) {
+      const group = element('section', 'batch-result');
+      root.append(group);
+      renderResult(result, questions.find(item => item.id === result.id)?.question || result.id, group);
+    }
   } catch (error) {
     feedback(error.message, true);
     if (error.status === 401 || error.status === 403) {
@@ -198,7 +213,7 @@ async function search() {
 }
 $('as-of-date').disabled = true;
 $('search-form').addEventListener('submit', event => {event.preventDefault(); search();});
-$('question').addEventListener('input', () => {$('character-count').textContent = `${number($('question').value.length)} / 2 000`;});
+$('question').addEventListener('input', () => {$('character-count').textContent = `${number($('question').value.length)} belgi`;});
 $('question').addEventListener('keydown', event => {
   if (event.key === 'Enter' && (event.ctrlKey || event.metaKey)) {event.preventDefault(); search();}
 });
@@ -210,6 +225,7 @@ $('new-search').addEventListener('click', () => {
   $('question').value = '';
   $('character-count').textContent = '0 / 2 000';
   $('results').hidden = true;
+  $('raw-response').hidden = true;
   state.lastRequest = null;
   feedback('');
   $('question').focus();
@@ -247,3 +263,18 @@ fetch('/v1/health', {signal: AbortSignal.timeout(10000)}).then(response => {
   $('service-status').replaceChildren(element('i'), document.createTextNode(health.index_ready ? 'Backend onlayn' : 'Baza yuklanmagan'));
   $('service-status').classList.toggle('online', health.index_ready);
 }).catch(() => {$('service-status').replaceChildren(element('i'), document.createTextNode('Backend oflayn'));});
+
+$('json-file').addEventListener('change', async event => {
+  const file = event.target.files[0];
+  if (!file) return;
+  try {
+    const data = JSON.parse(await file.text());
+    $('question').value = JSON.stringify(data, null, 2);
+    $('question').dispatchEvent(new Event('input'));
+    feedback('');
+  } catch {feedback('Fayldagi JSON formatini tekshiring.', true);}
+  event.target.value = '';
+});
+$('question').addEventListener('blur', () => {
+  try { if ($('question').value.trim().startsWith('{')) $('question').value = JSON.stringify(JSON.parse($('question').value), null, 2); } catch {}
+});
