@@ -1,0 +1,163 @@
+{
+  "before": "tz-final-http",
+  "after": "final-seed-disk",
+  "dataset_sha256": "bc9eeba49ed3706e471688263619dc345361297d6db3adf19028c5bfe69485ec",
+  "systems": {
+    "before": {
+      "pipeline_version": "0.4.0",
+      "llm_model": null,
+      "embedding_model": null,
+      "reranker": "lexical-title-v2",
+      "query_rewriter": "uz-colloquial-rules-v1",
+      "implementation_version": "7c04e361977c5e6b",
+      "index_version": "f7713de8144eee76",
+      "lex_snapshot_date": "2026-11-06",
+      "mode": "bm25-multisource-extractive",
+      "documents": 6,
+      "chunks": 29727,
+      "translation_map_version": "f4467e667a7fd4d1"
+    },
+    "after": {
+      "pipeline_version": "0.4.0",
+      "llm_model": null,
+      "embedding_model": null,
+      "reranker": "lexical-title-v2",
+      "query_rewriter": "uz-colloquial-rules-v1",
+      "implementation_version": "28230ff628ff3fba",
+      "index_version": "f7713de8144eee76",
+      "lex_snapshot_date": "2026-11-06",
+      "mode": "bm25-multisource-extractive",
+      "documents": 6,
+      "chunks": 29727,
+      "translation_map_version": "f4467e667a7fd4d1"
+    }
+  },
+  "metrics": {
+    "Hit@1": {
+      "before": 1.0,
+      "after": 1.0,
+      "delta": 0.0
+    },
+    "Hit@5": {
+      "before": 1.0,
+      "after": 1.0,
+      "delta": 0.0
+    },
+    "Hit@5_document": {
+      "before": 1.0,
+      "after": 1.0,
+      "delta": 0.0
+    },
+    "MRR@5": {
+      "before": 1.0,
+      "after": 1.0,
+      "delta": 0.0
+    },
+    "Recall@5": {
+      "before": 1.0,
+      "after": 1.0,
+      "delta": 0.0
+    },
+    "answerable": {
+      "before": 90,
+      "after": 90,
+      "delta": 0
+    },
+    "correct_rejections": {
+      "before": 10,
+      "after": 10,
+      "delta": 0
+    },
+    "error_rate": {
+      "before": 0.0,
+      "after": 0.0,
+      "delta": 0.0
+    },
+    "errors": {
+      "before": 0,
+      "after": 0,
+      "delta": 0
+    },
+    "exact_answer_correctness_proxy_0_2": {
+      "before": 2.0,
+      "after": 2.0,
+      "delta": 0.0
+    },
+    "expected_missing_top5": {
+      "before": 0,
+      "after": 0,
+      "delta": 0
+    },
+    "fabricated_sources": {
+      "before": 0,
+      "after": 0,
+      "delta": 0
+    },
+    "false_answers_out_of_scope": {
+      "before": 0,
+      "after": 0,
+      "delta": 0
+    },
+    "gold_citation_accuracy_proxy": {
+      "before": 1.0,
+      "after": 1.0,
+      "delta": 0.0
+    },
+    "gold_context_precision_at5": {
+      "before": 0.32222222222222224,
+      "after": 0.93,
+      "delta": 0.6077777777777778
+    },
+    "latency_p50_ms": {
+      "before": 35.762,
+      "after": 26.868,
+      "delta": -8.894000000000002
+    },
+    "latency_p95_ms": {
+      "before": 75.995,
+      "after": 63.747,
+      "delta": -12.248000000000005
+    },
+    "multi_all_targets_top5": {
+      "before": 15,
+      "after": 15,
+      "delta": 0
+    },
+    "no_answer_all": {
+      "before": 10,
+      "after": 10,
+      "delta": 0
+    },
+    "no_result_answerable": {
+      "before": 0,
+      "after": 0,
+      "delta": 0
+    },
+    "out_of_date_citations": {
+      "before": 0,
+      "after": 0,
+      "delta": 0
+    },
+    "total": {
+      "before": 100,
+      "after": 100,
+      "delta": 0
+    },
+    "unanswerable": {
+      "before": 10,
+      "after": 10,
+      "delta": 0
+    },
+    "verbatim_quote_rate": {
+      "before": 1.0,
+      "after": 1.0,
+      "delta": 0.0
+    },
+    "wrong_top1_answerable": {
+      "before": 0,
+      "after": 0,
+      "delta": 0
+    }
+  },
+  "note": "Same frozen development suite; quality proxies are not independent semantic judgments. Timing depends on transport and machine load."
+}

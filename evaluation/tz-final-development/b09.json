@@ -1,0 +1,793 @@
+{
+  "run_id": "tz-final-development",
+  "batch_id": "tz-final-development-b09",
+  "status": "completed",
+  "system": {
+    "pipeline_version": "0.3.0",
+    "llm_model": null,
+    "embedding_model": null,
+    "reranker": "lexical-title-v1",
+    "index_version": "f7713de8144eee76",
+    "lex_snapshot_date": "2026-11-06",
+    "mode": "bm25-multisource-extractive",
+    "documents": 6,
+    "chunks": 29727
+  },
+  "timing": {
+    "received_at": "2026-11-06T00:55:35.487071+00:00",
+    "completed_at": "2026-11-06T00:55:35.839001+00:00",
+    "total_ms": 352.685
+  },
+  "summary": {
+    "total": 10,
+    "ok": 9,
+    "no_answer": 1,
+    "error": 0
+  },
+  "results": [
+    {
+      "id": "q081",
+      "status": "ok",
+      "answer": "Har kungi ishning (smenaning) davomiyligi:\na) oʻziga nisbatan ish vaqtining normal davomiyligi belgilangan xodimlar uchun:\nolti kunlik ish haftasida — yetti soatdan;\nbesh kunlik ish haftasida — sakkiz soatdan;\nb) oʻn sakkiz yoshgacha boʻlgan xodimlar uchun — ushbu Kodeksning 416-moddasida belgilangan davomiylikdan;\nv) nogironligi boʻlgan xodimlar uchun — ushbu Kodeks 427-moddasining ikkinchi qismida belgilangan davomiylikdan;\ng) noqulay mehnat sharoitlaridagi ishlarda band boʻlgan xodimlar uchun — ushbu Kodeksning 478-moddasida belgilangan davomiylikdan oshishi mumkin emas.\nMadaniy-tomosha tashkilotlarining, televideniye, radioeshittirish tashkilotlarining va boshqa ommaviy axborot vositalarining ijodiy xodimlari, professional sportchilar, shuningdek asarlarni yaratishda va (yoki) ijro etishda (namoyish etishda) ishtirok etuvchi boshqa shaxslar uchun, Oʻzbekiston Respublikasi Vazirlar Mahkamasi tomonidan Ijtimoiy-mehnat masalalari boʻyicha respublika uch tomonlama komissiyasi bilan kelishuvga koʻra ishlar, kasblar, lavozimlarning tasdiqlanadigan roʻyxatlariga muvofiq har kungi ishning (smenaning) davomiyligi qonunchilikka, ichki hujjatlarga, jamoa shartnomasiga yoxud mehnat shartnomasiga muvofiq belgilanishi mumkin.\nTashkilotda ish vaqtini jamlab hisobga olish joriy etilgan taqdirda, ushbu Kodeksning 199-moddasida nazarda tutilgan qoidalar qoʻllaniladi. [1]\n\nMehnat shartnomasi taraflarining kelishuviga koʻra xodimga ishga qabul qilish chogʻida va keyinchalik toʻliqsiz ish vaqti (toʻliqsiz ish kuni (smena) va (yoki) toʻliqsiz ish haftasi, shu jumladan ish kunini qismlarga boʻlgan holda) belgilanishi mumkin. Toʻliqsiz ish vaqti ham muddati cheklanmagan holda, ham mehnat shartnomasi taraflari kelishgan har qanday muddatga belgilanishi mumkin.\nIsh beruvchi:\nushbu Kodeksning 398-moddasiga muvofiq;\nnogironligi boʻlgan shaxsning iltimosiga koʻra, agar mazkur shaxs uchun ish vaqtini belgilash ushbu Kodeks 424-moddasining ikkinchi qismiga muvofiq tibbiy-ijtimoiy ekspert komissiyasining tavsiyalarida nazarda tutilgan boʻlsa;\nushbu Kodeksda yoki mehnat haqidagi boshqa huquqiy hujjatlarda nazarda tutilgan oʻzga hollarda toʻliqsiz ish kunini belgilashi shart.\nUshbu moddaning ikkinchi qismida sanab oʻtilgan shaxslar uchun toʻliqsiz ish vaqti xodim uchun qulay boʻlgan muddatga, biroq toʻliqsiz ish vaqtini majburiy ravishda belgilash uchun asos boʻlgan holatlar mavjud boʻlgan davrdan ortiq boʻlmagan muddatga belgilanadi, ish vaqtining va dam olish vaqtining rejimi, shu jumladan har kungi ishning (smenaning) davomiyligi, ishning boshlanish va tugash vaqti, ishdagi tanaffuslar vaqti esa ushbu ish beruvchidagi ishlab chiqarish (ish) sharoitlari hisobga olingan holda xodimning istaklariga muvofiq belgilanadi. Bunda nogironligi boʻlgan shaxslar toʻliqsiz ish vaqtining davomiyligi va ish rejimi tibbiy-ijtimoiy ekspert komissiyasining tavsiyalariga muvofiq belgilanishi kerak.\nToʻliqsiz ish vaqti shartlarida ishlaganda xodimning mehnatiga haq toʻlash u ishlab bergan vaqtga mutanosib ravishda yoki u bajargan ishning hajmiga qarab amalga oshiriladi.\nToʻliqsiz ish vaqti shartlarida ishlash xodimlar uchun har yilgi asosiy mehnat taʼtili davomiyligining, mehnat stajini hisoblab chiqarishning va boshqa mehnat huquqlarining biror-bir cheklanishlariga sabab boʻlmaydi. [2]",
+      "answer_language": "uz-Latn",
+      "no_answer": false,
+      "citations": [
+        {
+          "doc_id": "lex:6257288",
+          "doc_title": "Oʻzbekiston Respublikasining Mehnat kodeksi",
+          "doc_type": "kodeks",
+          "url": "https://lex.uz/docs/-6257288",
+          "article": "185-modda",
+          "part": null,
+          "edition_date": "2026-10-15",
+          "doc_status": "amalda",
+          "chunk_id": "lex:6257288#uz-Latn#art-185#2026-10-15",
+          "ref": 1,
+          "quote": "Har kungi ishning (smenaning) davomiyligi:\na) oʻziga nisbatan ish vaqtining normal davomiyligi belgilangan xodimlar uchun:\nolti kunlik ish haftasida — yetti soatdan;\nbesh kunlik ish haftasida — sakkiz soatdan;\nb) oʻn sakkiz yoshgacha boʻlgan xodimlar uchun — ushbu Kodeksning 416-moddasida belgilangan davomiylikdan;\nv) nogironligi boʻlgan xodimlar uchun — ushbu Kodeks 427-moddasining ikkinchi qismida belgilangan davomiylikdan;\ng) noqulay mehnat sharoitlaridagi ishlarda band boʻlgan xodimlar uchun — ushbu Kodeksning 478-moddasida belgilangan davomiylikdan oshishi mumkin emas.\nMadaniy-tomosha tashkilotlarining, televideniye, radioeshittirish tashkilotlarining va boshqa ommaviy axborot vositalarining ijodiy xodimlari, professional sportchilar, shuningdek asarlarni yaratishda va (yoki) ijro etishda (namoyish etishda) ishtirok etuvchi boshqa shaxslar uchun, Oʻzbekiston Respublikasi Vazirlar Mahkamasi tomonidan Ijtimoiy-mehnat masalalari boʻyicha respublika uch tomonlama komissiyasi bilan kelishuvga koʻra ishlar, kasblar, lavozimlarning tasdiqlanadigan roʻyxatlariga muvofiq har kungi ishning (smenaning) davomiyligi qonunchilikka, ichki hujjatlarga, jamoa shartnomasiga yoxud mehnat shartnomasiga muvofiq belgilanishi mumkin.\nTashkilotda ish vaqtini jamlab hisobga olish joriy etilgan taqdirda, ushbu Kodeksning 199-moddasida nazarda tutilgan qoidalar qoʻllaniladi.",
+          "source_url": "https://www.lex.uz/docs/-6257288?ONDATE=15.10.2026+01",
+          "source_anchor": "-6262348",
+          "edition_label": "15.10.2026 01"
+        },
+        {
+          "doc_id": "lex:6257288",
+          "doc_title": "Oʻzbekiston Respublikasining Mehnat kodeksi",
+          "doc_type": "kodeks",
+          "url": "https://lex.uz/docs/-6257288",
+          "article": "186-modda",
+          "part": null,
+          "edition_date": "2026-10-15",
+          "doc_status": "amalda",
+          "chunk_id": "lex:6257288#uz-Latn#art-186#2026-10-15",
+          "ref": 2,
+          "quote": "Mehnat shartnomasi taraflarining kelishuviga koʻra xodimga ishga qabul qilish chogʻida va keyinchalik toʻliqsiz ish vaqti (toʻliqsiz ish kuni (smena) va (yoki) toʻliqsiz ish haftasi, shu jumladan ish kunini qismlarga boʻlgan holda) belgilanishi mumkin. Toʻliqsiz ish vaqti ham muddati cheklanmagan holda, ham mehnat shartnomasi taraflari kelishgan har qanday muddatga belgilanishi mumkin.\nIsh beruvchi:\nushbu Kodeksning 398-moddasiga muvofiq;\nnogironligi boʻlgan shaxsning iltimosiga koʻra, agar mazkur shaxs uchun ish vaqtini belgilash ushbu Kodeks 424-moddasining ikkinchi qismiga muvofiq tibbiy-ijtimoiy ekspert komissiyasining tavsiyalarida nazarda tutilgan boʻlsa;\nushbu Kodeksda yoki mehnat haqidagi boshqa huquqiy hujjatlarda nazarda tutilgan oʻzga hollarda toʻliqsiz ish kunini belgilashi shart.\nUshbu moddaning ikkinchi qismida sanab oʻtilgan shaxslar uchun toʻliqsiz ish vaqti xodim uchun qulay boʻlgan muddatga, biroq toʻliqsiz ish vaqtini majburiy ravishda belgilash uchun asos boʻlgan holatlar mavjud boʻlgan davrdan ortiq boʻlmagan muddatga belgilanadi, ish vaqtining va dam olish vaqtining rejimi, shu jumladan har kungi ishning (smenaning) davomiyligi, ishning boshlanish va tugash vaqti, ishdagi tanaffuslar vaqti esa ushbu ish beruvchidagi ishlab chiqarish (ish) sharoitlari hisobga olingan holda xodimning istaklariga muvofiq belgilanadi. Bunda nogironligi boʻlgan shaxslar toʻliqsiz ish vaqtining davomiyligi va ish rejimi tibbiy-ijtimoiy ekspert komissiyasining tavsiyalariga muvofiq belgilanishi kerak.\nToʻliqsiz ish vaqti shartlarida ishlaganda xodimning mehnatiga haq toʻlash u ishlab bergan vaqtga mutanosib ravishda yoki u bajargan ishning hajmiga qarab amalga oshiriladi.\nToʻliqsiz ish vaqti shartlarida ishlash xodimlar uchun har yilgi asosiy mehnat taʼtili davomiyligining, mehnat stajini hisoblab chiqarishning va boshqa mehnat huquqlarining biror-bir cheklanishlariga sabab boʻlmaydi.",
+          "source_url": "https://www.lex.uz/docs/-6257288?ONDATE=15.10.2026+01",
+          "source_anchor": "-6262365",
+          "edition_label": "15.10.2026 01"
+        }
+      ],
+      "contexts": [
+        {
+          "rank": 1,
+          "chunk_id": "lex:6257288#uz-Latn#art-185#2026-10-15",
+          "doc_id": "lex:6257288",
+          "article": "185-modda",
+          "text": "185-modda. Har kungi ishning (smenaning) davomiyligi\nHar kungi ishning (smenaning) davomiyligi:\na) oʻziga nisbatan ish vaqtining normal davomiyligi belgilangan xodimlar uchun:\nolti kunlik ish haftasida — yetti soatdan;\nbesh kunlik ish haftasida — sakkiz soatdan;\nb) oʻn sakkiz yoshgacha boʻlgan xodimlar uchun — ushbu Kodeksning 416-moddasida belgilangan davomiylikdan;\nv) nogironligi boʻlgan xodimlar uchun — ushbu Kodeks 427-moddasining ikkinchi qismida belgilangan davomiylikdan;\ng) noqulay mehnat sharoitlaridagi ishlarda band boʻlgan xodimlar uchun — ushbu Kodeksning 478-moddasida belgilangan davomiylikdan oshishi mumkin emas.\nMadaniy-tomosha tashkilotlarining, televideniye, radioeshittirish tashkilotlarining va boshqa ommaviy axborot vositalarining ijodiy xodimlari, professional sportchilar, shuningdek asarlarni yaratishda va (yoki) ijro etishda (namoyish etishda) ishtirok etuvchi boshqa shaxslar uchun, Oʻzbekiston Respublikasi Vazirlar Mahkamasi tomonidan Ijtimoiy-mehnat masalalari boʻyicha respublika uch tomonlama komissiyasi bilan kelishuvga koʻra ishlar, kasblar, lavozimlarning tasdiqlanadigan roʻyxatlariga muvofiq har kungi ishning (smenaning) davomiyligi qonunchilikka, ichki hujjatlarga, jamoa shartnomasiga yoxud mehnat shartnomasiga muvofiq belgilanishi mumkin.\nTashkilotda ish vaqtini jamlab hisobga olish joriy etilgan taqdirda, ushbu Kodeksning 199-moddasida nazarda tutilgan qoidalar qoʻllaniladi.",
+          "retrieval_score": 26.348252873965293,
+          "rerank_score": 82.3482528739653,
+          "used_in_answer": true
+        },
+        {
+          "rank": 2,
+          "chunk_id": "lex:6257288#uz-Latn#art-186#2026-10-15",
+          "doc_id": "lex:6257288",
+          "article": "186-modda",
+          "text": "186-modda. Toʻliqsiz ish vaqti\nMehnat shartnomasi taraflarining kelishuviga koʻra xodimga ishga qabul qilish chogʻida va keyinchalik toʻliqsiz ish vaqti (toʻliqsiz ish kuni (smena) va (yoki) toʻliqsiz ish haftasi, shu jumladan ish kunini qismlarga boʻlgan holda) belgilanishi mumkin. Toʻliqsiz ish vaqti ham muddati cheklanmagan holda, ham mehnat shartnomasi taraflari kelishgan har qanday muddatga belgilanishi mumkin.\nIsh beruvchi:\nushbu Kodeksning 398-moddasiga muvofiq;\nnogironligi boʻlgan shaxsning iltimosiga koʻra, agar mazkur shaxs uchun ish vaqtini belgilash ushbu Kodeks 424-moddasining ikkinchi qismiga muvofiq tibbiy-ijtimoiy ekspert komissiyasining tavsiyalarida nazarda tutilgan boʻlsa;\nushbu Kodeksda yoki mehnat haqidagi boshqa huquqiy hujjatlarda nazarda tutilgan oʻzga hollarda toʻliqsiz ish kunini belgilashi shart.\nUshbu moddaning ikkinchi qismida sanab oʻtilgan shaxslar uchun toʻliqsiz ish vaqti xodim uchun qulay boʻlgan muddatga, biroq toʻliqsiz ish vaqtini majburiy ravishda belgilash uchun asos boʻlgan holatlar mavjud boʻlgan davrdan ortiq boʻlmagan muddatga belgilanadi, ish vaqtining va dam olish vaqtining rejimi, shu jumladan har kungi ishning (smenaning) davomiyligi, ishning boshlanish va tugash vaqti, ishdagi tanaffuslar vaqti esa ushbu ish beruvchidagi ishlab chiqarish (ish) sharoitlari hisobga olingan holda xodimning istaklariga muvofiq belgilanadi. Bunda nogironligi boʻlgan shaxslar toʻliqsiz ish vaqtining davomiyligi va ish rejimi tibbiy-ijtimoiy ekspert komissiyasining tavsiyalariga muvofiq belgilanishi kerak.\nToʻliqsiz ish vaqti shartlarida ishlaganda xodimning mehnatiga haq toʻlash u ishlab bergan vaqtga mutanosib ravishda yoki u bajargan ishning hajmiga qarab amalga oshiriladi.\nToʻliqsiz ish vaqti shartlarida ishlash xodimlar uchun har yilgi asosiy mehnat taʼtili davomiyligining, mehnat stajini hisoblab chiqarishning va boshqa mehnat huquqlarining biror-bir cheklanishlariga sabab boʻlmaydi.",
+          "retrieval_score": 19.906071178947148,
+          "rerank_score": 60.906071178947144,
+          "used_in_answer": true
+        },
+        {
+          "rank": 3,
+          "chunk_id": "lex:6257288#uz-Latn#art-206#2026-10-15",
+          "doc_id": "lex:6257288",
+          "article": "206-modda",
+          "text": "206-modda. Har kungi (smenalar oraligʻidagi) dam olishning davomiyligi\nIshning tugashi va uning keyingi kuni (smenada) boshlanishi oʻrtasidagi har kungi (smenalar oraligʻidagi) dam olish davomiyligi, shu jumladan dam olish va ovqatlanish uchun tanaffus oʻn ikki soatdan kam boʻlishi mumkin emas.",
+          "retrieval_score": 26.963467082194885,
+          "rerank_score": 61.96346708219488,
+          "used_in_answer": false
+        },
+        {
+          "rank": 4,
+          "chunk_id": "lex:6257288#uz-Latn#art-258#2026-10-15",
+          "doc_id": "lex:6257288",
+          "article": "258-modda",
+          "text": "258-modda. Qisqartirilgan va toʻliqsiz ish vaqtida mehnatga haq toʻlash\nQisqartirilgan ish vaqti sharoitlarida band boʻlgan xodimlarning ish haqi normal ish vaqti uchun belgilangan toʻliq hajmda toʻlanadi.\nUshbu moddaning birinchi qismida nazarda tutilgan qoida mazkur Kodeks 415-moddasining ikkinchi qismida nazarda tutilgan, oʻquv yili davomida oʻqishdan boʻsh vaqtida ishlaydigan oʻn sakkiz yoshga toʻlmagan shaxslarning mehnatiga haq toʻlash ishlab berilgan vaqtga mutanosib ravishda yoki ishlab chiqargan mahsulotiga qarab amalga oshiriladigan hollarga nisbatan tatbiq etilmaydi.\nToʻliqsiz ish vaqtida (toʻliqsiz ish kuni, toʻliqsiz ish haftasi, toʻliqsiz ish kunining va toʻliqsiz ish haftasining qoʻshilishi) ishlaydigan xodimlarning mehnatiga haq toʻlash ishlab berilgan vaqtiga mutanosib ravishda yoki haqiqatda ishlab chiqargan mahsulotiga qarab amalga oshiriladi.",
+          "retrieval_score": 19.334828702834493,
+          "rerank_score": 52.3348287028345,
+          "used_in_answer": false
+        },
+        {
+          "rank": 5,
+          "chunk_id": "lex:6257288#uz-Latn#art-478#2026-10-15",
+          "doc_id": "lex:6257288",
+          "article": "478-modda",
+          "text": "478-modda. Noqulay mehnat sharoitlaridagi ishlarda band boʻlgan xodimlarning har kungi ishi (smenasi) davomiyligi\nNoqulay mehnat sharoitlaridagi ishlarda band boʻlgan xodimlarning har kungi ishi (smenasi) davomiyligi olti kunlik ish haftasida — olti soatdan, besh kunlik ish haftasida esa — yetti soatu oʻttiz daqiqadan ortiq boʻlmasligi kerak.\nNoqulay mehnat sharoitlaridagi ishlarda band boʻlgan xodimlarning har kungi ishi (smenasi) davomiyligi:\noʻttiz soatli olti kunlik ish haftasida — besh soatdan, oʻttiz soatli besh kunlik ish haftasida esa — olti soatdan ortiq boʻlmasligi kerak;\nyigirma toʻrt soatli olti kunlik ish haftasida — toʻrt soat, yigirma toʻrt soatli besh kunlik ish haftasida esa — besh soatdan ortiq boʻlmasligi kerak.",
+          "retrieval_score": 20.5324829501437,
+          "rerank_score": 45.5324829501437,
+          "used_in_answer": false
+        }
+      ],
+      "error": null,
+      "timing": {
+        "retrieval_ms": 47.647,
+        "rerank_ms": 0,
+        "generation_ms": 0.056,
+        "total_ms": 62.486
+      }
+    },
+    {
+      "id": "q082",
+      "status": "ok",
+      "answer": "Mehnat shartnomasi bir xil kuchga ega boʻlgan kamida ikki nusxada yozma (qogʻozda yoki elektron) shaklda tuzilib, ularning har biri taraflar tomonidan imzolanadi.\nElektron shakldagi mehnat shartnomasi qonunchilikda belgilangan tartibda “Yagona milliy mehnat tizimi” idoralararo dasturiy-apparat majmuida rasmiylashtiriladi.\nMehnat shartnomasining har bir nusxasi xodimning va ishga qabul qilish huquqiga ega boʻlgan mansabdor shaxsning imzolari bilan mustahkamlanadi.\nIsh beruvchida muhr mavjud boʻlgan taqdirda mansabdor shaxsning mehnat shartnomasining barcha nusxalaridagi imzosi muhr bilan tasdiqlanadi.\nMehnat shartnomasining bir nusxasi xodimga beriladi, boshqasi (boshqalari) ish beruvchida saqlanadi. Mehnat shartnomasining nusxasi xodim tomonidan olinganligi ish beruvchida saqlanadigan mehnat shartnomasi nusxasidagi xodim mehnat shartnomasining nusxasini olganligi toʻgʻrisidagi alohida imzosi bilan tasdiqlanadi.\nMehnat shartnomasida shartnomaning ushbu Kodeksning 107-moddasida nazarda tutilgan rekvizitlari koʻrsatiladi.\nIsh beruvchilar va xodimlarga mehnat shartnomalarini tuzishda amaliy yordam koʻrsatish maqsadida Oʻzbekiston Respublikasi Vazirlar Mahkamasi tomonidan Ijtimoiy-mehnat masalalari boʻyicha respublika uch tomonlama komissiyasi bilan kelishuvga koʻra tavsiyaviy xususiyatga ega boʻlgan mehnat shartnomalarining namunaviy shakllari ishlab chiqiladi. [1]",
+      "answer_language": "uz-Latn",
+      "no_answer": false,
+      "citations": [
+        {
+          "doc_id": "lex:6257288",
+          "doc_title": "Oʻzbekiston Respublikasining Mehnat kodeksi",
+          "doc_type": "kodeks",
+          "url": "https://lex.uz/docs/-6257288",
+          "article": "106-modda",
+          "part": null,
+          "edition_date": "2026-10-15",
+          "doc_status": "amalda",
+          "chunk_id": "lex:6257288#uz-Latn#art-106#2026-10-15",
+          "ref": 1,
+          "quote": "Mehnat shartnomasi bir xil kuchga ega boʻlgan kamida ikki nusxada yozma (qogʻozda yoki elektron) shaklda tuzilib, ularning har biri taraflar tomonidan imzolanadi.\nElektron shakldagi mehnat shartnomasi qonunchilikda belgilangan tartibda “Yagona milliy mehnat tizimi” idoralararo dasturiy-apparat majmuida rasmiylashtiriladi.\nMehnat shartnomasining har bir nusxasi xodimning va ishga qabul qilish huquqiga ega boʻlgan mansabdor shaxsning imzolari bilan mustahkamlanadi.\nIsh beruvchida muhr mavjud boʻlgan taqdirda mansabdor shaxsning mehnat shartnomasining barcha nusxalaridagi imzosi muhr bilan tasdiqlanadi.\nMehnat shartnomasining bir nusxasi xodimga beriladi, boshqasi (boshqalari) ish beruvchida saqlanadi. Mehnat shartnomasining nusxasi xodim tomonidan olinganligi ish beruvchida saqlanadigan mehnat shartnomasi nusxasidagi xodim mehnat shartnomasining nusxasini olganligi toʻgʻrisidagi alohida imzosi bilan tasdiqlanadi.\nMehnat shartnomasida shartnomaning ushbu Kodeksning 107-moddasida nazarda tutilgan rekvizitlari koʻrsatiladi.\nIsh beruvchilar va xodimlarga mehnat shartnomalarini tuzishda amaliy yordam koʻrsatish maqsadida Oʻzbekiston Respublikasi Vazirlar Mahkamasi tomonidan Ijtimoiy-mehnat masalalari boʻyicha respublika uch tomonlama komissiyasi bilan kelishuvga koʻra tavsiyaviy xususiyatga ega boʻlgan mehnat shartnomalarining namunaviy shakllari ishlab chiqiladi.",
+          "source_url": "https://www.lex.uz/docs/-6257288?ONDATE=15.10.2026+01",
+          "source_anchor": "-6260169",
+          "edition_label": "15.10.2026 01"
+        }
+      ],
+      "contexts": [
+        {
+          "rank": 1,
+          "chunk_id": "lex:6257288#uz-Latn#art-106#2026-10-15",
+          "doc_id": "lex:6257288",
+          "article": "106-modda",
+          "text": "106-modda. Mehnat shartnomasining shakli\nMehnat shartnomasi bir xil kuchga ega boʻlgan kamida ikki nusxada yozma (qogʻozda yoki elektron) shaklda tuzilib, ularning har biri taraflar tomonidan imzolanadi.\nElektron shakldagi mehnat shartnomasi qonunchilikda belgilangan tartibda “Yagona milliy mehnat tizimi” idoralararo dasturiy-apparat majmuida rasmiylashtiriladi.\nMehnat shartnomasining har bir nusxasi xodimning va ishga qabul qilish huquqiga ega boʻlgan mansabdor shaxsning imzolari bilan mustahkamlanadi.\nIsh beruvchida muhr mavjud boʻlgan taqdirda mansabdor shaxsning mehnat shartnomasining barcha nusxalaridagi imzosi muhr bilan tasdiqlanadi.\nMehnat shartnomasining bir nusxasi xodimga beriladi, boshqasi (boshqalari) ish beruvchida saqlanadi. Mehnat shartnomasining nusxasi xodim tomonidan olinganligi ish beruvchida saqlanadigan mehnat shartnomasi nusxasidagi xodim mehnat shartnomasining nusxasini olganligi toʻgʻrisidagi alohida imzosi bilan tasdiqlanadi.\nMehnat shartnomasida shartnomaning ushbu Kodeksning 107-moddasida nazarda tutilgan rekvizitlari koʻrsatiladi.\nIsh beruvchilar va xodimlarga mehnat shartnomalarini tuzishda amaliy yordam koʻrsatish maqsadida Oʻzbekiston Respublikasi Vazirlar Mahkamasi tomonidan Ijtimoiy-mehnat masalalari boʻyicha respublika uch tomonlama komissiyasi bilan kelishuvga koʻra tavsiyaviy xususiyatga ega boʻlgan mehnat shartnomalarining namunaviy shakllari ishlab chiqiladi.",
+          "retrieval_score": 14.239408708676393,
+          "rerank_score": 55.23940870867639,
+          "used_in_answer": true
+        },
+        {
+          "rank": 2,
+          "chunk_id": "lex:6257288#uz-Latn#art-107#2026-10-15",
+          "doc_id": "lex:6257288",
+          "article": "107-modda",
+          "text": "107-modda. Mehnat shartnomasining rekvizitlari\nMehnat shartnomasida mehnat shartnomasi tuzilgan sana va joy, mehnat shartnomasining raqami va uning taraflarining rekvizitlari koʻrsatiladi.\nXodimning mehnat shartnomasida koʻrsatiladigan rekvizitlari quyidagilardan iborat:\nfamiliyasi, ismi va otasining ismi;\nshaxsini tasdiqlovchi hujjatlar toʻgʻrisidagi maʼlumotlar;\nyashash yoki turgan joyining manzili va u bilan bogʻlanishga doir maʼlumotlar;\njismoniy shaxsning shaxsiy identifikatsiya raqami;\nshaxsiy jamgʻarib boriladigan pensiya hisobvaragʻi raqami.\nIsh beruvchining mehnat shartnomasida koʻrsatiladigan rekvizitlari quyidagilardan iborat:\nmehnat shartnomasini tuzgan ish beruvchining nomi: tashkilotning nomi, agar ish beruvchi tashkilotning alohida boʻlinmasi boʻlsa, — ushbu boʻlinmaning nomi, ish beruvchi jismoniy shaxs boʻlgan hollarda, — jismoniy shaxs boʻlgan ish beruvchining familiyasi, ismi, otasining ismi va pasport maʼlumotlari (identifikatsiyalovchi ID-kartasi maʼlumotlari), yakka tartibdagi tadbirkor boʻlgan ish beruvchi uchun esa uning familiyasi, ismi, otasining ismi, pasport maʼlumotlari (identifikatsiyalovchi ID-kartasi maʼlumotlari), shuningdek davlat roʻyxatidan oʻtganligi toʻgʻrisidagi guvohnomaning raqami va berilgan sanasi;\nish beruvchining mehnat shartnomasini imzolagan vakili haqidagi maʼlumotlar va, agar tashkilot yoki uning alohida boʻlinmasi ish beruvchi boʻlsa, vakilga tegishli vakolatlar berilganligining asosi;\nish beruvchi tashkilotning joylashgan yeri (pochta manzili) yoki tashkilotning alohida boʻlinmasi xodim bilan mehnat shartnomasini tuzgan ish beruvchi boʻlgan hollarda, ushbu alohida boʻlinmaning joylashgan yeri (pochta manzili) yoxud jismoniy shaxs boʻlgan ish beruvchining yashash yoki turgan joyi manzili;\nsoliq toʻlovchining identifikatsiya raqami (bundan yakka tartibdagi tadbirkorlar boʻlmagan jismoniy shaxslar boʻlgan ish beruvchilar mustasno);\ntashkilotlar yoki ularning alohida boʻlinmalari boʻlgan ish beruvchilarning, shuningdek yakka tartibdagi tadbirkorlarning bank rekvizitlari;\nish beruvchining aloqa maʼlumotlari (telefon raqamlari, elektron pochta manzili va boshqalar).\nAgar mehnat shartnomasini tuzishda ushbu moddaning birinchi, ikkinchi va uchinchi qismlarida nazarda tutilgan rekvizitlardan biror-biri shartnomaga kiritilmagan boʻlsa, bu mehnat shartnomasini tuzilmagan deb eʼtirof etish yoki uni bekor qilish uchun asos boʻlmaydi. Mehnat shartnomasi yetishmayotgan rekvizitlar bilan toʻldirilishi kerak. Bunda yetishmayotgan rekvizitlar mehnat shartnomasiga doir yozma shaklda tuziladigan qoʻshimcha kelishuv bilan belgilanadi, ushbu kelishuv mehnat shartnomasining ajralmas qismidir.\nRekvizitlar oʻzgargan taqdirda, mehnat shartnomasining tarafi ular oʻzgartirilgan paytdan eʼtiboran uch ish kuni ichida bu haqda boshqa tarafga yozma shaklda xabar qilishi kerak.",
+          "retrieval_score": 10.471702127514368,
+          "rerank_score": 34.47170212751437,
+          "used_in_answer": false
+        },
+        {
+          "rank": 3,
+          "chunk_id": "lex:6257288#uz-Latn#art-65#2026-10-15",
+          "doc_id": "lex:6257288",
+          "article": "65-modda",
+          "text": "65-modda. Jamoa shartnomasining tushunchasi va shakli\nJamoa shartnomasi tashkilotda yoki yakka tartibdagi tadbirkorda yakka tartibdagi mehnatga oid munosabatlarni va ular bilan bevosita bogʻliq boʻlgan ijtimoiy munosabatlarni tartibga soluvchi hamda xodimlar tomonidan oʻz vakillari orqali va ish beruvchi tomonidan tuziladigan mehnat toʻgʻrisidagi huquqiy hujjatdir.\nJamoa shartnomasi umuman tashkilotda, uning alohida boʻlinmalarida tuzilishi mumkin.\nTashkilotning alohida boʻlinmasida jamoaviy muzokaralar oʻtkazish, ish beruvchi nomidan jamoa shartnomasini imzolash uchun ish beruvchi ushbu alohida boʻlinma rahbariga yoki boshqa shaxsga ushbu Kodeksning 46-moddasiga muvofiq zarur vakolatlar beradi.\nTashkilotning alohida boʻlinmasida jamoaviy muzokaralarni oʻtkazish, jamoa shartnomasini imzolash chogʻida xodimlar manfaatlarini ifoda etish huquqi ushbu boʻlinma xodimlarining vakillariga beriladi.\nJamoa shartnomasi yozma shaklda tuziladi.",
+          "retrieval_score": 12.20100434040123,
+          "rerank_score": 34.20100434040123,
+          "used_in_answer": false
+        },
+        {
+          "rank": 4,
+          "chunk_id": "lex:6257288#uz-Latn#art-110#2026-10-15",
+          "doc_id": "lex:6257288",
+          "article": "110-modda",
+          "text": "110-modda. Mehnat shartnomasining muddati\nMehnat shartnomasi:\nnomuayyan muddatga;\nuch yildan koʻp boʻlmagan muayyan muddatga (muddatli mehnat shartnomasi) tuzilishi mumkin.\nAgar mehnat shartnomasida uning amal qilish muddati shartlashilmagan boʻlsa, shartnoma nomuayyan muddatga tuzilgan deb hisoblanadi.",
+          "retrieval_score": 9.341710383990417,
+          "rerank_score": 33.34171038399042,
+          "used_in_answer": false
+        },
+        {
+          "rank": 5,
+          "chunk_id": "lex:6257288#uz-Latn#art-104#2026-10-15",
+          "doc_id": "lex:6257288",
+          "article": "104-modda",
+          "text": "104-modda. Mehnat shartnomasining mazmuni\nMehnat shartnomasiga kiritilishi shart boʻlgan shartlar quyidagilardan iborat:\nish joyi — xodim shartnomada shart qilib koʻrsatilgan mehnat vazifasiga koʻra mehnat faoliyatini amalga oshiradigan ish beruvchi (tashkilot, uning alohida boʻlinmasi yoki jismoniy shaxs), shuningdek xodim mehnat qilishi kerak boʻlgan joy;\nmehnat vazifasi — muayyan kasb, mutaxassislik, malaka yoxud lavozim boʻyicha ish, shuningdek xodimga topshiriladigan ishning aniq turi;\nishning boshlanish sanasi — xodim mehnat shartnomasida shart qilib koʻrsatilgan ishni bajarishga kirishishi kerak boʻlgan kalendar sana;\nmehnatga haq toʻlash shartlari (shu jumladan xodimning tarif stavkasi yoki maoshi miqdori, qoʻshimcha toʻlovlar, ustamalar va ragʻbatlantiruvchi toʻlovlar);\nxodim bilan muddatli mehnat shartnomasi tuzilgan taqdirda mehnat shartnomasining muddati, shuningdek ushbu Kodeksga yoki boshqa qonunlarga muvofiq muddatli shartnomani tuzish uchun asoslar;\nish vaqti va dam olish vaqti rejimi, agar bu xodim uchun ushbu rejim mazkur ish beruvchida mehnat faoliyatini amalga oshiradigan xodimlar uchun nazarda tutilgan ish vaqtining va dam olish vaqtining umumiy rejimidan farq qiladigan boʻlsa;\nish joyidagi mehnat sharoitlarining xususiyatlari koʻrsatilgan holda normal sharoitlardan farq qiladigan sharoitlardagi ish uchun kafolatlar va kompensatsiyalar, agar xodim mazkur ishga qabul qilinayotgan boʻlsa;\nzarur boʻlgan hollarda ishning xususiyatini belgilaydigan shartlar (koʻchma, sayyor, yoʻldagi, ishning boshqa xususiyati);\nmehnat toʻgʻrisidagi qonunchilikda va mehnat haqidagi boshqa huquqiy hujjatlarda nazarda tutilgan hollarda boshqa shartlar.\nAgar mehnat shartnomasini tuzish chogʻida ushbu moddaning birinchi qismida nazarda tutilgan shartlardan biror-biri shartnomaga kiritilmagan boʻlsa, bu mehnat shartnomasini tuzilmagan deb eʼtirof etish yoki uni bekor qilish uchun asos boʻlmaydi. Mehnat shartnomasi qoʻshimcha shartlar bilan toʻldirilishi kerak. Bunda qoʻshimcha shartlar mehnat shartnomasining ajralmas qismi boʻlgan, mehnat shartnomasiga doir yozma shaklda tuziladigan qoʻshimcha kelishuv bilan belgilanadi.\nMehnat shartnomasida mehnat toʻgʻrisidagi qonunchilikda va mehnat haqidagi boshqa huquqiy hujjatlarda belgilanganiga nisbatan xodimning holatini yomonlashtirmaydigan qoʻshimcha shartlar, shu jumladan quyidagi shartlar nazarda tutilishi mumkin:\nish joyini aniqlashtirish (tarkibiy boʻlinma va uning joylashgan yeri koʻrsatilgan holda) va (yoki) ish joyi toʻgʻrisida;\nishga qabul qilish chogʻidagi dastlabki sinov haqida;\nbir necha kasbda (lavozimda) ishlaganlik toʻgʻrisida;\ndavlat sirlarini va qonun bilan qoʻriqlanadigan boshqa sirni oshkor qilmaslik haqida;\nagar oʻqitish ish beruvchining mablagʻlari hisobidan olib borilgan boʻlsa, xodimning oʻqishdan keyin shartnomada belgilangan muddatdan kam boʻlmagan muddatni ishlab berish majburiyati toʻgʻrisida;\nxodimni qoʻshimcha sugʻurta qilish turlari va shartlari haqida;\nxodimga va uning oila aʼzolariga taqdim etiladigan ijtimoiy-maishiy sharoitlar toʻgʻrisida;\nxodimning ish sharoitlariga nisbatan qoʻllaniladigan xodimning va ish beruvchining mehnat toʻgʻrisidagi qonunchilikda hamda mehnat haqidagi boshqa huquqiy hujjatlarda belgilangan huquqlari va majburiyatlarini aniqlashtirish haqida.\nXodimning va ish beruvchining mehnat toʻgʻrisidagi qonunchilikda belgilangan biror-bir huquqlari va (yoki) majburiyatlarining mehnat shartnomasiga kiritilmasligi ushbu huquqlarni amalga oshirishni yoki bu majburiyatlarni bajarishni rad etish sifatida koʻrib chiqilishi mumkin emas.",
+          "retrieval_score": 8.690340768876776,
+          "rerank_score": 32.69034076887678,
+          "used_in_answer": false
+        }
+      ],
+      "error": null,
+      "timing": {
+        "retrieval_ms": 13.14,
+        "rerank_ms": 0,
+        "generation_ms": 0.044,
+        "total_ms": 30.912
+      }
+    },
+    {
+      "id": "q083",
+      "status": "ok",
+      "answer": "Дастлабки синов муддати уч ойдан, ташкилотларнинг раҳбарлари ва уларнинг ўринбосарлари, бош бухгалтерлар ҳамда ташкилотлар алоҳида бўлинмаларининг раҳбарлари учун эса олти ойдан ошмаслиги керак.\nВақтинча меҳнатга қобилиятсизлик даври ва ходим ҳақиқатда ишда бўлмаган бошқа даврлар дастлабки синов муддатига қўшилмайди. [1]",
+      "answer_language": "uz-Cyrl",
+      "no_answer": false,
+      "citations": [
+        {
+          "doc_id": "lex:6257288",
+          "doc_title": "Ўзбекистон Республикасининг Меҳнат кодекси",
+          "doc_type": "kodeks",
+          "url": "https://lex.uz/docs/6257288",
+          "article": "130-modda",
+          "part": null,
+          "edition_date": "2026-10-15",
+          "doc_status": "amalda",
+          "chunk_id": "lex:6257288#uz-Cyrl#art-130#2026-10-15",
+          "ref": 1,
+          "quote": "Дастлабки синов муддати уч ойдан, ташкилотларнинг раҳбарлари ва уларнинг ўринбосарлари, бош бухгалтерлар ҳамда ташкилотлар алоҳида бўлинмаларининг раҳбарлари учун эса олти ойдан ошмаслиги керак.\nВақтинча меҳнатга қобилиятсизлик даври ва ходим ҳақиқатда ишда бўлмаган бошқа даврлар дастлабки синов муддатига қўшилмайди.",
+          "source_url": "https://www.lex.uz/docs/6257288?ONDATE=15.10.2026+01",
+          "source_anchor": "6260649",
+          "edition_label": "15.10.2026 01"
+        }
+      ],
+      "contexts": [
+        {
+          "rank": 1,
+          "chunk_id": "lex:6257288#uz-Cyrl#art-130#2026-10-15",
+          "doc_id": "lex:6257288",
+          "article": "130-modda",
+          "text": "130-модда. Дастлабки синов муддати\nДастлабки синов муддати уч ойдан, ташкилотларнинг раҳбарлари ва уларнинг ўринбосарлари, бош бухгалтерлар ҳамда ташкилотлар алоҳида бўлинмаларининг раҳбарлари учун эса олти ойдан ошмаслиги керак.\nВақтинча меҳнатга қобилиятсизлик даври ва ходим ҳақиқатда ишда бўлмаган бошқа даврлар дастлабки синов муддатига қўшилмайди.",
+          "retrieval_score": 22.53806203074342,
+          "rerank_score": 63.53806203074342,
+          "used_in_answer": true
+        },
+        {
+          "rank": 2,
+          "chunk_id": "lex:6257288#uz-Cyrl#art-132#2026-10-15",
+          "doc_id": "lex:6257288",
+          "article": "132-modda",
+          "text": "132-модда. Дастлабки синов натижаси\nДастлабки синов муддати тугагунига қадар тарафларнинг ҳар бири иккинчи тарафни камида уч кун олдин ёзма шаклда огоҳлантирган ҳолда меҳнат шартномасини бекор қилишга ҳақли.\nИш берувчи ходим билан тузилган меҳнат шартномасини синов натижаси қониқарсиз бўлганда, ходимни синовдан ўтмаган деб эътироф этиш учун асос бўлиб хизмат қилган сабабларни кўрсатган ҳолда ўз ташаббусига кўра, дастлабки синов даврида бекор қилишга ҳақли.\nХодимнинг ташаббуси билан меҳнат шартномасини дастлабки синов даврида бекор қилиш учун ходимнинг ёзма аризаси асос бўлиб, унда ходимнинг меҳнатга оид муносабатларни ҳақиқатда тугатиш истаги акс эттирилиши керак. Бунда ходимни меҳнат шартномасини бекор қилиш тўғрисида қарор қабул қилишга ундаган сабаблар аҳамиятга эга эмас.\nМеҳнат шартномасини бекор қилиш ҳақида ушбу модданинг биринчи қисмида назарда тутилган огоҳлантириш муддатини қисқартиришга фақат шартнома тарафларининг келишуви билан йўл қўйилади.\nХодимнинг ташаббуси билан меҳнат шартномаси дастлабки синов даврида бекор қилинаётган тақдирда, ходим ушбу модданинг биринчи қисмида назарда тутилган ёки меҳнат шартномаси тарафларининг келишуви билан белгиланган, меҳнат шартномасини бекор қилиш тўғрисидаги огоҳлантириш муддати мобайнида меҳнатга оид муносабатларни тугатиш ҳақида берилган аризани қайтариб олишга ҳақли.\nДастлабки синов даврида ходимнинг ташаббуси билан меҳнат шартномасини бекор қилиш тўғрисида қонунда белгиланган ёки тарафларнинг келишувига кўра аниқланган огоҳлантириш муддати тугагач, ходим ишни ташлаб кетишга ҳақли. Иш берувчи томонидан меҳнат шартномаси бекор қилинишини кечиктиришга йўл қўйилмайди.\nАгар меҳнат шартномасида назарда тутилган дастлабки синов муддати тугаган бўлса ёхуд ушбу муддат тугашига камида уч кун қолган бўлса ҳамда ходим ёки иш берувчи уч кунлик огоҳлантириш муддатини қисқартиришга ўз розилигини бермаса, меҳнат шартномасининг амал қилиши давом этади ва келгусида уни бекор қилишга умумий асосларда йўл қўйилади.",
+          "retrieval_score": 20.58043734004751,
+          "rerank_score": 44.58043734004751,
+          "used_in_answer": false
+        },
+        {
+          "rank": 3,
+          "chunk_id": "lex:6257288#uz-Cyrl#art-129#2026-10-15",
+          "doc_id": "lex:6257288",
+          "article": "129-modda",
+          "text": "129-модда. Ишга қабул қилиш чоғидаги дастлабки синов\nМеҳнат шартномаси қуйидаги мақсадда дастлабки синов билан тузилиши мумкин:\nходимнинг топширилаётган ишга мувофиқлигини текшириш;\nмеҳнат шартномасида шарт қилиб кўрсатилган ишни давом эттириш мақсадга мувофиқлиги ҳақида ходим томонидан қарор қабул қилиш.\nДастлабки синовдан ўтиш меҳнат шартномасида шартлашилган бўлиши керак. Бундай шартлашув мавжуд бўлмаган тақдирда, ходим дастлабки синовсиз ишга қабул қилинган деб ҳисобланади.\nҚуйидагилар ишга қабул қилинганда дастлабки синов белгиланмайди:\nҳомиладор аёл, уч ёшга тўлмаган боласи бор аёл ёки уч ёшга тўлмаган болани ёлғиз ўзи тарбиялаётган ота (васий);\nзахирага қўйиладиган иш ўринларига ишга жойлаштириш учун юборилган аҳолининг ижтимоий эҳтиёжманд тоифаларидан бўлган шахслар;\nдавлат грантлари асосида ўқиган ва олий таълим ташкилотини тамомлаган кундан эътиборан уч ой ичида йўлланма бўйича олинган мутахассислигига доир ишга кираётган олий таълим ташкилотларининг битирувчилари;\nтегишли таълим ташкилотини тамомлаган кундан эътиборан бир йил ичида биринчи бор ишга кираётганда олинган мутахассислиги бўйича мустақил равишда ишга жойлашаётган умумий ўрта, ўрта махсус, профессионал ва олий таълим ташкилотларининг битирувчилари;\nўзи билан олти ойгача муддатга меҳнат шартномаси тузилаётган ходимлар;\nўн саккиз ёшга тўлмаган шахслар;\nишга қайтадан қабул қилинган тақдирда иш берувчи илгари қайси ходимлар билан меҳнат шартномасини алоҳида асослар бўйича бекор қилган бўлса, ўша шахслар;\nишлаб чиқаришда ўқитиш шартномаси бўйича ушбу иш берувчида ўқишни ўтаган ўқувчилар;\nжамоа келишувларида, шунингдек жамоа шартномасида ва иш берувчининг ички ҳужжатларида назарда тутилган бошқа ходимлар.\nДастлабки синов фақат ходимни ишга қабул қилиш чоғида белгиланиши мумкин. Ходим бошқа ишга ўтказилаётганда ва бошқа иш берувчига хизмат сафарига юборилганда дастлабки синов белгиланишига йўл қўйилмайди.",
+          "retrieval_score": 18.076461990980242,
+          "rerank_score": 36.07646199098024,
+          "used_in_answer": false
+        },
+        {
+          "rank": 4,
+          "chunk_id": "lex:6257288#uz-Cyrl#art-131#2026-10-15",
+          "doc_id": "lex:6257288",
+          "article": "131-modda",
+          "text": "131-модда. Дастлабки синов даврида ходимга нисбатан меҳнат тўғрисидаги қонунчиликнинг амал қилишини татбиқ этиш\nДастлабки синов даврида ходимга нисбатан меҳнат тўғрисидаги қонунчиликнинг ва меҳнат ҳақидаги бошқа ҳуқуқий ҳужжатларнинг амал қилиши тўлиқ татбиқ этилади.\nДастлабки синов даври меҳнат стажига, шу жумладан ҳар йилги меҳнат таътилини олиш ҳуқуқини берадиган иш стажига ҳам киритилади.",
+          "retrieval_score": 18.21973120123674,
+          "rerank_score": 24.21973120123674,
+          "used_in_answer": false
+        },
+        {
+          "rank": 5,
+          "chunk_id": "lex:111189#uz-Cyrl#art-361#2026-09-12",
+          "doc_id": "lex:111189",
+          "article": "361-modda",
+          "text": "361-модда. Дастлабки шартнома\nДастлабки шартнома бўйича тарафлар келгусида мол-мулк бериш, ишлар бажариш ёки хизматлар кўрсатиш ҳақида дастлабки шартномада назарда тутилган шартлар асосида шартнома тузиш (асосий шартнома) мажбуриятини оладилар.\nДастлабки шартнома асосий шартнома учун белгиланган шаклда, борди-ю, асосий шартноманинг шакли аниқланмаган бўлса, ёзма шаклда тузилади. Дастлабки шартноманинг шакли тўғрисидаги қоидаларга риоя қилмаслик унинг ҳақиқий саналмаслигига сабаб бўлади.\nДастлабки шартномада асосий шартноманинг нарсасини, шунингдек бошқа муҳим шартларини белгилаб қўйиш имконини берадиган шартлар бўлиши керак.\nДастлабки шартномада тарафлар қанча муддатда асосий шартномани тузиш мажбуриятини олиши кўрсатилади. Агар дастлабки шартномада бундай муддат белгилаб қўйилган бўлмаса, асосий шартнома дастлабки шартнома тузилган пайтдан бошлаб бир йил ичида тузилиши шарт.\nДастлабки шартномани тузган тараф асосий шартномани тузишдан бош тортган тақдирда ушбу Кодекс 377-моддасининг олтинчи ва еттинчи қисмларида назарда тутилган қоидалар қўлланилади.\nАгар тарафлар асосий шартномани тузишлари лозим бўлган муддатнинг охиригача у тузилмаса ёки тарафларнинг биронтаси ҳам иккинчи тарафга ана шундай шартнома тузиш ҳақида таклиф юбормаса, дастлабки шартномада назарда тутилган мажбуриятлар бекор бўлади.",
+          "retrieval_score": 11.071451821923254,
+          "rerank_score": 20.071451821923254,
+          "used_in_answer": false
+        }
+      ],
+      "error": null,
+      "timing": {
+        "retrieval_ms": 7.165,
+        "rerank_ms": 0,
+        "generation_ms": 0.042,
+        "total_ms": 23.446
+      }
+    },
+    {
+      "id": "q084",
+      "status": "no_answer",
+      "answer": null,
+      "answer_language": "uz-Latn",
+      "no_answer": true,
+      "citations": [],
+      "contexts": [],
+      "error": null,
+      "timing": {
+        "retrieval_ms": 0.685,
+        "rerank_ms": 0,
+        "generation_ms": 0.016,
+        "total_ms": 10.97
+      }
+    },
+    {
+      "id": "q085",
+      "status": "ok",
+      "answer": "Jismoniy shaxs bilan ushbu Kodeks 11-moddasining ikkinchi qismida nazarda tutilgan munosabatlarni haqiqatdan tartibga soluvchi fuqarolik-huquqiy xususiyatga ega shartnomani tuzish ushbu munosabatlarning sud tomonidan yakka tartibdagi mehnatga oid munosabatlar deb eʼtirof etilishiga sabab boʻladi. Bunday holda mehnat shartnomasi fuqarolik-huquqiy xususiyatga ega shartnoma tuzilgan kundan eʼtiboran tuzilgan deb hisoblanadi, taraflarning munosabatlari esa shartnomada shartlashilgan ishni jismoniy shaxs tomonidan bajarish boshlangan kundan eʼtiboran yakka tartibdagi mehnatga oid munosabatlar deb eʼtirof etiladi.\nShaxsiy mehnatdan foydalanish bilan bogʻliq boʻlgan va fuqarolik-huquqiy xususiyatga ega shartnoma asosida yuzaga kelgan munosabatlar tugatilgan taqdirda, ushbu munosabatlarni yakka tartibdagi mehnatga oid munosabatlar deb eʼtirof etish sud tomonidan amalga oshiriladi. Mazkur shartnoma boʻyicha ijrochi boʻlgan jismoniy shaxs ushbu munosabatlarni yakka tartibdagi mehnatga oid munosabatlar deb eʼtirof etish uchun yakka tartibdagi mehnat nizolarini koʻrib chiqish uchun nazarda tutilgan tartibda va muddatlarda sudga murojaat qilishga haqlidir. [1]",
+      "answer_language": "uz-Latn",
+      "no_answer": false,
+      "citations": [
+        {
+          "doc_id": "lex:6257288",
+          "doc_title": "Oʻzbekiston Respublikasining Mehnat kodeksi",
+          "doc_type": "kodeks",
+          "url": "https://lex.uz/docs/-6257288",
+          "article": "33-modda",
+          "part": null,
+          "edition_date": "2026-10-15",
+          "doc_status": "amalda",
+          "chunk_id": "lex:6257288#uz-Latn#art-33#2026-10-15",
+          "ref": 1,
+          "quote": "Jismoniy shaxs bilan ushbu Kodeks 11-moddasining ikkinchi qismida nazarda tutilgan munosabatlarni haqiqatdan tartibga soluvchi fuqarolik-huquqiy xususiyatga ega shartnomani tuzish ushbu munosabatlarning sud tomonidan yakka tartibdagi mehnatga oid munosabatlar deb eʼtirof etilishiga sabab boʻladi. Bunday holda mehnat shartnomasi fuqarolik-huquqiy xususiyatga ega shartnoma tuzilgan kundan eʼtiboran tuzilgan deb hisoblanadi, taraflarning munosabatlari esa shartnomada shartlashilgan ishni jismoniy shaxs tomonidan bajarish boshlangan kundan eʼtiboran yakka tartibdagi mehnatga oid munosabatlar deb eʼtirof etiladi.\nShaxsiy mehnatdan foydalanish bilan bogʻliq boʻlgan va fuqarolik-huquqiy xususiyatga ega shartnoma asosida yuzaga kelgan munosabatlar tugatilgan taqdirda, ushbu munosabatlarni yakka tartibdagi mehnatga oid munosabatlar deb eʼtirof etish sud tomonidan amalga oshiriladi. Mazkur shartnoma boʻyicha ijrochi boʻlgan jismoniy shaxs ushbu munosabatlarni yakka tartibdagi mehnatga oid munosabatlar deb eʼtirof etish uchun yakka tartibdagi mehnat nizolarini koʻrib chiqish uchun nazarda tutilgan tartibda va muddatlarda sudga murojaat qilishga haqlidir.",
+          "source_url": "https://www.lex.uz/docs/-6257288?ONDATE=15.10.2026+01",
+          "source_anchor": "-6258218",
+          "edition_label": "15.10.2026 01"
+        }
+      ],
+      "contexts": [
+        {
+          "rank": 1,
+          "chunk_id": "lex:6257288#uz-Latn#art-33#2026-10-15",
+          "doc_id": "lex:6257288",
+          "article": "33-modda",
+          "text": "33-modda. Shaxsiy mehnatdan foydalanish bilan bogʻliq boʻlgan va fuqarolik-huquqiy xususiyatga ega shartnoma asosida yuzaga kelgan munosabatlarni yakka tartibdagi mehnatga oid munosabatlar deb eʼtirof etish\nJismoniy shaxs bilan ushbu Kodeks 11-moddasining ikkinchi qismida nazarda tutilgan munosabatlarni haqiqatdan tartibga soluvchi fuqarolik-huquqiy xususiyatga ega shartnomani tuzish ushbu munosabatlarning sud tomonidan yakka tartibdagi mehnatga oid munosabatlar deb eʼtirof etilishiga sabab boʻladi. Bunday holda mehnat shartnomasi fuqarolik-huquqiy xususiyatga ega shartnoma tuzilgan kundan eʼtiboran tuzilgan deb hisoblanadi, taraflarning munosabatlari esa shartnomada shartlashilgan ishni jismoniy shaxs tomonidan bajarish boshlangan kundan eʼtiboran yakka tartibdagi mehnatga oid munosabatlar deb eʼtirof etiladi.\nShaxsiy mehnatdan foydalanish bilan bogʻliq boʻlgan va fuqarolik-huquqiy xususiyatga ega shartnoma asosida yuzaga kelgan munosabatlar tugatilgan taqdirda, ushbu munosabatlarni yakka tartibdagi mehnatga oid munosabatlar deb eʼtirof etish sud tomonidan amalga oshiriladi. Mazkur shartnoma boʻyicha ijrochi boʻlgan jismoniy shaxs ushbu munosabatlarni yakka tartibdagi mehnatga oid munosabatlar deb eʼtirof etish uchun yakka tartibdagi mehnat nizolarini koʻrib chiqish uchun nazarda tutilgan tartibda va muddatlarda sudga murojaat qilishga haqlidir.",
+          "retrieval_score": 13.88922413309492,
+          "rerank_score": 20.88922413309492,
+          "used_in_answer": true
+        }
+      ],
+      "error": null,
+      "timing": {
+        "retrieval_ms": 14.071,
+        "rerank_ms": 0,
+        "generation_ms": 0.037,
+        "total_ms": 24.212
+      }
+    },
+    {
+      "id": "q086",
+      "status": "ok",
+      "answer": "Mehnat shartnomasining mazmuniga:\nxodimning holatini mehnat toʻgʻrisidagi qonunchilikka va mehnat haqidagi boshqa huquqiy hujjatlarga nisbatan yomonlashtiradigan;\nmehnat va mashgʻulotlar sohasida kamsitishni taqiqlash toʻgʻrisidagi talablarni buzadigan;\nmajburiy mehnatni taqiqlash haqidagi talablarni buzadigan;\nxodimni qonunga xilof harakatlarni yoki ham xodimning, ham boshqa shaxslarning huquqlarini buzadigan, hayoti va sogʻligʻiga tahdid soladigan, shaʼniga, qadr-qimmatiga yoki ishchanlik obroʻsiga putur yetkazadigan harakatlarni amalga oshirishga majburlaydigan shartlar kiritilmasligi kerak, agar ular kiritilgan boʻlsa, haqiqiy boʻlmaydi.\nMehnat shartnomasi ayrim shartlarining haqiqiy emasligi mehnat shartnomasining umuman haqiqiy emasligiga sabab boʻlmaydi. [1]",
+      "answer_language": "uz-Latn",
+      "no_answer": false,
+      "citations": [
+        {
+          "doc_id": "lex:6257288",
+          "doc_title": "Oʻzbekiston Respublikasining Mehnat kodeksi",
+          "doc_type": "kodeks",
+          "url": "https://lex.uz/docs/-6257288",
+          "article": "105-modda",
+          "part": null,
+          "edition_date": "2026-10-15",
+          "doc_status": "amalda",
+          "chunk_id": "lex:6257288#uz-Latn#art-105#2026-10-15",
+          "ref": 1,
+          "quote": "Mehnat shartnomasining mazmuniga:\nxodimning holatini mehnat toʻgʻrisidagi qonunchilikka va mehnat haqidagi boshqa huquqiy hujjatlarga nisbatan yomonlashtiradigan;\nmehnat va mashgʻulotlar sohasida kamsitishni taqiqlash toʻgʻrisidagi talablarni buzadigan;\nmajburiy mehnatni taqiqlash haqidagi talablarni buzadigan;\nxodimni qonunga xilof harakatlarni yoki ham xodimning, ham boshqa shaxslarning huquqlarini buzadigan, hayoti va sogʻligʻiga tahdid soladigan, shaʼniga, qadr-qimmatiga yoki ishchanlik obroʻsiga putur yetkazadigan harakatlarni amalga oshirishga majburlaydigan shartlar kiritilmasligi kerak, agar ular kiritilgan boʻlsa, haqiqiy boʻlmaydi.\nMehnat shartnomasi ayrim shartlarining haqiqiy emasligi mehnat shartnomasining umuman haqiqiy emasligiga sabab boʻlmaydi.",
+          "source_url": "https://www.lex.uz/docs/-6257288?ONDATE=15.10.2026+01",
+          "source_anchor": "-6260162",
+          "edition_label": "15.10.2026 01"
+        }
+      ],
+      "contexts": [
+        {
+          "rank": 1,
+          "chunk_id": "lex:6257288#uz-Latn#art-105#2026-10-15",
+          "doc_id": "lex:6257288",
+          "article": "105-modda",
+          "text": "105-modda. Mehnat shartnomasi shartlarining haqiqiy emasligi\nMehnat shartnomasining mazmuniga:\nxodimning holatini mehnat toʻgʻrisidagi qonunchilikka va mehnat haqidagi boshqa huquqiy hujjatlarga nisbatan yomonlashtiradigan;\nmehnat va mashgʻulotlar sohasida kamsitishni taqiqlash toʻgʻrisidagi talablarni buzadigan;\nmajburiy mehnatni taqiqlash haqidagi talablarni buzadigan;\nxodimni qonunga xilof harakatlarni yoki ham xodimning, ham boshqa shaxslarning huquqlarini buzadigan, hayoti va sogʻligʻiga tahdid soladigan, shaʼniga, qadr-qimmatiga yoki ishchanlik obroʻsiga putur yetkazadigan harakatlarni amalga oshirishga majburlaydigan shartlar kiritilmasligi kerak, agar ular kiritilgan boʻlsa, haqiqiy boʻlmaydi.\nMehnat shartnomasi ayrim shartlarining haqiqiy emasligi mehnat shartnomasining umuman haqiqiy emasligiga sabab boʻlmaydi.",
+          "retrieval_score": 20.776718619305875,
+          "rerank_score": 91.77671861930588,
+          "used_in_answer": true
+        },
+        {
+          "rank": 2,
+          "chunk_id": "lex:6257288#uz-Latn#art-17#2026-10-15",
+          "doc_id": "lex:6257288",
+          "article": "17-modda",
+          "text": "17-modda. Mehnat haqidagi boshqa huquqiy hujjatlar qoidalarining va mehnat shartnomasi shartlarining haqiqiy emasligi\nUshbu Kodeks 13-moddasining ikkinchi qismida, 14-moddasining birinchi, ikkinchi va toʻrtinchi qismlarida, 15-moddasining birinchi va ikkinchi qismlarida nazarda tutilgan talablarga rioya etmaslik xodimning holatini yomonlashtiradigan mehnat haqidagi boshqa huquqiy hujjatlar qoidalarining haqiqiy emasligiga sabab boʻladi.\nUshbu Kodeks 16-moddasining ikkinchi qismida nazarda tutilgan talablarga rioya etmaslik xodimning holatini yomonlashtiradigan mehnat shartnomasi shartlarining haqiqiy emasligiga sabab boʻladi.\nHaqiqiy boʻlmagan mehnat haqidagi boshqa huquqiy hujjatlarning qoidalari, shuningdek mehnat shartnomasining shartlari qoʻllanilmaydi. Bunday qoidalar va shartlar qabul qilingan paytdan eʼtiboran haqiqiy emas deb hisoblanadi.\nMehnat haqidagi boshqa huquqiy hujjatlar ayrim qoidalarining yoki mehnat shartnomasi alohida shartlarining haqiqiy emasligi tegishli hujjatning yoki mehnat shartnomasining umuman haqiqiy emasligiga sabab boʻlmaydi.",
+          "retrieval_score": 23.579074157772176,
+          "rerank_score": 86.57907415777217,
+          "used_in_answer": false
+        },
+        {
+          "rank": 3,
+          "chunk_id": "lex:6257288#uz-Latn#art-68#2026-10-15",
+          "doc_id": "lex:6257288",
+          "article": "68-modda",
+          "text": "68-modda. Jamoa shartnomasi shartlarining haqiqiy emasligi\nJamoa shartnomasida quyidagi shartlar boʻlmasligi kerak:\nxodimlarning holatini mazkur xodimlarga tatbiq etiladigan qonunchilikka yoki jamoa kelishuvlariga nisbatan yomonlashtiradigan;\nmehnat va mashgʻulotlar sohasida kamsitishni taqiqlash haqidagi talablarni buzadigan;\nmajburiy mehnatni taqiqlash toʻgʻrisidagi talablarni buzadigan;\nichki darajada hal etilishi mumkin boʻlgan masalalardan tashqariga chiqadigan.\nAgar jamoa shartnomasida ushbu moddaning birinchi qismida nazarda tutilgan shartlar boʻlsa, bunday shartlar haqiqiy emasdir. Jamoa shartnomasi ayrim shartlarining haqiqiy emasligi jamoa shartnomasining umuman haqiqiy emasligiga sabab boʻlmaydi.",
+          "retrieval_score": 20.64101577108613,
+          "rerank_score": 74.64101577108613,
+          "used_in_answer": false
+        },
+        {
+          "rank": 4,
+          "chunk_id": "lex:6257288#uz-Latn#art-380#2026-10-15",
+          "doc_id": "lex:6257288",
+          "article": "380-modda",
+          "text": "380-modda. Ishlab chiqarish taʼlimi shartnomasi shartlarining haqiqiy emasligi\nIshlab chiqarish taʼlimi shartnomasining oʻquvchining holatini ushbu Kodeksda, qonunchilikda va mehnat haqidagi boshqa huquqiy hujjatlarda nazarda tutilgan shartlarga nisbatan yomonlashtiruvchi shartlari haqiqiy emasdir.",
+          "retrieval_score": 22.360969315853513,
+          "rerank_score": 72.36096931585351,
+          "used_in_answer": false
+        },
+        {
+          "rank": 5,
+          "chunk_id": "lex:6257288#uz-Latn#art-177#2026-10-15",
+          "doc_id": "lex:6257288",
+          "article": "177-modda",
+          "text": "177-modda. Xodimning oʻzining shaxsga doir maʼlumotlari himoya qilinishini rad etishi toʻgʻrisidagi mehnat shartnomasi shartlarining, ichki hujjatlar qoidalarining haqiqiy emasligi\nXodimning oʻzining shaxsga doir maʼlumotlari himoya qilinishini rad etishini nazarda tutuvchi yoki xodimning oʻzining shaxsga doir maʼlumotlarini himoya qilish sohasidagi holatini qonunchilikka nisbatan yomonlashtiruvchi mehnat shartnomasining, xodim va ish beruvchi oʻrtasidagi boshqa kelishuvlarning shartlari, ichki hujjatlarning qoidalari haqiqiy emasdir.",
+          "retrieval_score": 18.921898169694433,
+          "rerank_score": 65.92189816969443,
+          "used_in_answer": false
+        }
+      ],
+      "error": null,
+      "timing": {
+        "retrieval_ms": 34.482,
+        "rerank_ms": 0,
+        "generation_ms": 0.046,
+        "total_ms": 44.634
+      }
+    },
+    {
+      "id": "q087",
+      "status": "ok",
+      "answer": "Fuqarolik huquqlari protsessual qonunchilik yoki shartnomada belgilab qoʻyilganidek, ishlar qaysi sudga taalluqli boʻlishiga qarab, sud, iqtisodiy sud yoki hakamlik sudi (bundan keyin — sud) tomonidan himoya qilinadi.\nQonunda nazarda tutilgan hollardagina fuqarolik huquqlari maʼmuriy tartibda himoya qilinadi. Maʼmuriy tartibda qabul qilingan qaror ustidan sudga shikoyat qilish mumkin. [1]",
+      "answer_language": "uz-Latn",
+      "no_answer": false,
+      "citations": [
+        {
+          "doc_id": "lex:111189",
+          "doc_title": "Oʻzbekiston Respublikasining Fuqarolik kodeksi (birinchi qism)",
+          "doc_type": "kodeks",
+          "url": "https://lex.uz/docs/-111189",
+          "article": "10-modda",
+          "part": null,
+          "edition_date": "2026-09-12",
+          "doc_status": "amalda",
+          "chunk_id": "lex:111189#uz-Latn#art-10#2026-09-12",
+          "ref": 1,
+          "quote": "Fuqarolik huquqlari protsessual qonunchilik yoki shartnomada belgilab qoʻyilganidek, ishlar qaysi sudga taalluqli boʻlishiga qarab, sud, iqtisodiy sud yoki hakamlik sudi (bundan keyin — sud) tomonidan himoya qilinadi.\nQonunda nazarda tutilgan hollardagina fuqarolik huquqlari maʼmuriy tartibda himoya qilinadi. Maʼmuriy tartibda qabul qilingan qaror ustidan sudga shikoyat qilish mumkin.",
+          "source_url": "https://www.lex.uz/docs/-111189?ONDATE=12.09.2026+01",
+          "source_anchor": "-150415",
+          "edition_label": "12.09.2026 01"
+        }
+      ],
+      "contexts": [
+        {
+          "rank": 1,
+          "chunk_id": "lex:111189#uz-Latn#art-10#2026-09-12",
+          "doc_id": "lex:111189",
+          "article": "10-modda",
+          "text": "10-modda. Fuqarolik huquqlarini sud orqali himoya qilish\nFuqarolik huquqlari protsessual qonunchilik yoki shartnomada belgilab qoʻyilganidek, ishlar qaysi sudga taalluqli boʻlishiga qarab, sud, iqtisodiy sud yoki hakamlik sudi (bundan keyin — sud) tomonidan himoya qilinadi.\nQonunda nazarda tutilgan hollardagina fuqarolik huquqlari maʼmuriy tartibda himoya qilinadi. Maʼmuriy tartibda qabul qilingan qaror ustidan sudga shikoyat qilish mumkin.",
+          "retrieval_score": 30.969765301938047,
+          "rerank_score": 116.96976530193805,
+          "used_in_answer": true
+        },
+        {
+          "rank": 2,
+          "chunk_id": "lex:111189#uz-Latn#art-11#2026-09-12",
+          "doc_id": "lex:111189",
+          "article": "11-modda",
+          "text": "11-modda. Fuqarolik huquqlarini himoya qilish usullari\nFuqarolik huquqlari quyidagi yoʻllar bilan himoya qilinadi:\nhuquqni tan olish;\nhuquq buzilishidan oldingi holatni tiklash va huquqni buzadigan yoki uning buzilishi xavfini tugʻdiradigan harakatlarning oldini olish;\nbitimni haqiqiy emas deb topish va uning haqiqiy emasligi oqibatlarini qoʻllash;\ndavlat organining yoki fuqarolarning oʻzini oʻzi boshqarish organining hujjatini haqiqiy emas deb topish;\nshaxsning oʻz huquqini oʻzi himoya qilishi;\nburchni aslicha (natura) bajarishga majbur qilish;\nzararni toʻlash;\nneustoyka undirish;\nmaʼnaviy ziyonni qoplash;\nhuquqiy munosabatni bekor qilish yoki oʻzgartirish;\ndavlat organining yoki fuqarolarning oʻzini oʻzi boshqarish organining qonunga zid hujjatini sudning qoʻllamasligi.\nFuqarolik huquqlari qonunda nazarda tutilgan boshqacha usullar bilan ham himoya qilinishi mumkin.",
+          "retrieval_score": 18.62627105147321,
+          "rerank_score": 72.62627105147321,
+          "used_in_answer": false
+        },
+        {
+          "rank": 3,
+          "chunk_id": "lex:111189#uz-Latn#art-13#2026-09-12",
+          "doc_id": "lex:111189",
+          "article": "13-modda",
+          "text": "13-modda. Fuqarolik huquqlarini shaxsning oʻzi himoya qilishi\nFuqarolik huquqlarini shaxsning oʻzi himoya qilishiga yoʻl qoʻyiladi.\nFuqarolik huquqlarini shaxsning oʻzi himoya qilish usullari huquqni buzishga mutanosib boʻlishi hamda huquq buzilishining oldini olish uchun zarur harakatlar doirasidan chiqib ketmasligi kerak.",
+          "retrieval_score": 19.832578457514156,
+          "rerank_score": 71.83257845751416,
+          "used_in_answer": false
+        },
+        {
+          "rank": 4,
+          "chunk_id": "lex:6257288#uz-Latn#art-529#2026-10-15",
+          "doc_id": "lex:6257288",
+          "article": "529-modda",
+          "text": "529-modda. Mehnat huquqlarini himoya qilishning asosiy usullari\nMehnat huquqlarini himoya qilishning asosiy usullari quyidagilardan iborat:\nxodimlarning mehnat huquqlarini oʻzi himoya qilishidan;\nmehnat toʻgʻrisidagi qonunchilikka, mehnat haqidagi boshqa huquqiy hujjatlarga va mehnatni muhofaza qilish qoidalariga rioya etilishi ustidan davlat nazorati hamda tekshiruvidan;\nmehnat toʻgʻrisidagi qonunchilikka, mehnat haqidagi boshqa huquqiy hujjatlarga va mehnatni muhofaza qilish qoidalariga rioya etilishi ustidan jamoatchilik nazoratidan;\nmehnat huquqlarining yarashtiruv-vositachilik tartib-taomillari orqali himoya qilishdan;\nmehnat huquqlarining mehnat nizolarini koʻrib chiquvchi organlar tomonidan himoya qilishdan.\nXodimlarga mehnat huquqlarini himoya qilish usulini tanlash, qonunda taqiqlanmagan barcha usullar bilan oʻz mehnat huquqlarini himoya qilish huquqi kafolatlanadi.",
+          "retrieval_score": 16.173319844582412,
+          "rerank_score": 51.17331984458241,
+          "used_in_answer": false
+        },
+        {
+          "rank": 5,
+          "chunk_id": "lex:6257288#uz-Latn#art-533#2026-10-15",
+          "doc_id": "lex:6257288",
+          "article": "533-modda",
+          "text": "533-modda. Oʻzini oʻzi himoya qilish huquqini suiisteʼmol qilish\nQuyidagilar oʻzini oʻzi himoya qilish huquqini suiisteʼmol qilishdir:\nushbu Kodeksda yoki boshqa qonunda nazarda tutilmagan hollarda xodim mehnat shartnomasida shart qilib koʻrsatilgan ishni bajarishni bila turib rad etishi;\nushbu Kodeks 531-moddasining birinchi qismida nazarda tutilgan holatlar mavjud boʻlganda xodimning mehnat shartnomasida shart qilib koʻrsatilgan ishni bajarishni ish beruvchini bu haqda xabardor qilmasdan rad etishi;\noʻzini oʻzi himoya qilishiga asos boʻlgan holatlar bartaraf etilganidan keyin ham xodim oʻzini oʻzi himoya qilishni toʻxtatishni rad etishi.\nOʻzini oʻzi himoya qilish huquqini suiisteʼmol qilish xodimni intizomiy javobgarlikka tortish uchun asos boʻlishi mumkin. Oʻzini oʻzi himoya qilish huquqining suiisteʼmol qilinishi ish beruvchiga haqiqatda toʻgʻridan-toʻgʻri zarar yetkazilishiga olib kelgan hollarda, ushbu Kodeksda nazarda tutilgan tartibda va miqdorlarda ushbu zararning oʻrnini qoplash majburiyati xodimning zimmasiga yuklatilishi mumkin.",
+          "retrieval_score": 14.70627800126861,
+          "rerank_score": 49.70627800126861,
+          "used_in_answer": false
+        }
+      ],
+      "error": null,
+      "timing": {
+        "retrieval_ms": 28.019,
+        "rerank_ms": 0,
+        "generation_ms": 0.048,
+        "total_ms": 38.119
+      }
+    },
+    {
+      "id": "q088",
+      "status": "ok",
+      "answer": "Birinchi ish yili uchun har yilgi mehnat taʼtilidan foydalanish huquqi xodimda u ushbu ish beruvchida uzluksiz ishlagan olti oy oʻtganidan keyin yuzaga keladi. Mehnat shartnomasi taraflarining kelishuviga koʻra xodimga ishlagan olti oy oʻtguniga qadar ham mehnat taʼtili berilishi mumkin.\nBirinchi bor tashkil etilgan tashkilotlar uchun xodimlarga birinchi ish yili uchun har yilgi mehnat taʼtili birinchi ish yili tugaguniga qadar ushbu taʼtilni berish sharti bilan olti oy ishlamasidan ilgari yoki undan keyin berilishi mumkin.\nOlti oy oʻtguniga qadar xodimning xohishiga koʻra quyidagilarga har yilgi mehnat taʼtili beriladi:\nayollarga — homiladorlik va tugʻish taʼtilidan oldin yoki undan keyin;\noʻn toʻrt yoshga toʻlmagan bitta yoki undan ortiq bolani (oʻn olti yoshga toʻlmagan nogironligi boʻlgan bolani) tarbiyalayotgan shaxslarga (yolgʻiz ota-onaga, shu jumladan beva ayollarga, beva erkaklarga, nikohdan ajralganlarga, muddatli harbiy xizmatdagi harbiy xizmatchilarning xotinlariga, ota-onaning oʻrnini bosuvchi shaxslarga);\noʻn sakkiz yoshdan kichik boʻlgan shaxslarga;\nrezervga boʻshatilganidan keyin uch oydan kechiktirmay ishga kirgan muddatli harbiy xizmatni oʻtagan sobiq harbiy xizmatchilarga;\n1941 — 1945-yillardagi urush qatnashchilariga va imtiyozlari boʻyicha ularga tenglashtirilgan shaxslarga;\nI va II guruh nogironligi boʻlgan xodimlarga;\nishdan ajralmagan holda taʼlim tashkilotlarida oʻqiyotganlarga, agar ular oʻzining har yilgi mehnat taʼtilini imtihonlar, sinovlar (zachyotlar) topshirish, bitiruv malakaviy ishlarini, magistrlik dissertatsiyalarini, kurs, laboratoriya ishlarini va boshqa oʻquv ishlarini bajarish vaqtiga toʻgʻrilab olishni xohlasa;\njamoa kelishuvlarida, shuningdek jamoa shartnomasida yoxud ichki hujjatlarda belgilangan boshqa hollarda boshqa xodimlarga.\nUshbu moddaning birinchi, ikkinchi va uchinchi qismlarida nazarda tutilgan hollarda har yilgi mehnat taʼtili toʻliq davomiylikda va toʻliq haq toʻlangan holda beriladi.\nOlti oydan kam ishlagan oʻrindoshlarga birinchi ish yili uchun har yilgi mehnat taʼtili ularning xohishiga koʻra asosiy ish boʻyicha har yilgi mehnat taʼtili bilan bir vaqtda oʻrindoshlik asosida ishdagi taʼtil uchun ishlab berilgan vaqtga mutanosib ravishda haq toʻlangan holda beriladi. Olti oy va undan ortiq ishlagan oʻrindoshlarga birinchi ish yili uchun oʻrindoshlik asosidagi ishda beriladigan har yilgi mehnat taʼtiliga, shuningdek ikkinchi va keyingi ish yillari uchun ushbu toifadagi xodimlarning mehnat taʼtiliga, ushbu taʼtil ish yili davomida qaysi vaqtda berilishidan qatʼi nazar, toʻliq haq toʻlanadi.\nHar yilgi mehnat taʼtili oʻquvchilarning yozgi taʼtili davrida beriladigan taʼlim tashkilotlarining oʻqituvchilar tarkibiga birinchi ish yilidagi har yilgi mehnat taʼtili oʻquvchilarning yozgi taʼtili davrida toʻliq davomiylikda, ular ushbu taʼlim tashkilotiga ishga kirgan vaqtidan qatʼi nazar, ishlab bergan vaqtiga mutanosib ravishda haq toʻlangan holda beriladi. Mazkur toifadagi xodimlarga ikkinchi va keyingi ish yillari uchun beriladigan mehnat taʼtiliga, ushbu taʼtil ish yili davomida qaysi vaqtda berilishidan qatʼi nazar, toʻliq haq toʻlanadi. [1]",
+      "answer_language": "uz-Latn",
+      "no_answer": false,
+      "citations": [
+        {
+          "doc_id": "lex:6257288",
+          "doc_title": "Oʻzbekiston Respublikasining Mehnat kodeksi",
+          "doc_type": "kodeks",
+          "url": "https://lex.uz/docs/-6257288",
+          "article": "227-modda",
+          "part": null,
+          "edition_date": "2026-10-15",
+          "doc_status": "amalda",
+          "chunk_id": "lex:6257288#uz-Latn#art-227#2026-10-15",
+          "ref": 1,
+          "quote": "Birinchi ish yili uchun har yilgi mehnat taʼtilidan foydalanish huquqi xodimda u ushbu ish beruvchida uzluksiz ishlagan olti oy oʻtganidan keyin yuzaga keladi. Mehnat shartnomasi taraflarining kelishuviga koʻra xodimga ishlagan olti oy oʻtguniga qadar ham mehnat taʼtili berilishi mumkin.\nBirinchi bor tashkil etilgan tashkilotlar uchun xodimlarga birinchi ish yili uchun har yilgi mehnat taʼtili birinchi ish yili tugaguniga qadar ushbu taʼtilni berish sharti bilan olti oy ishlamasidan ilgari yoki undan keyin berilishi mumkin.\nOlti oy oʻtguniga qadar xodimning xohishiga koʻra quyidagilarga har yilgi mehnat taʼtili beriladi:\nayollarga — homiladorlik va tugʻish taʼtilidan oldin yoki undan keyin;\noʻn toʻrt yoshga toʻlmagan bitta yoki undan ortiq bolani (oʻn olti yoshga toʻlmagan nogironligi boʻlgan bolani) tarbiyalayotgan shaxslarga (yolgʻiz ota-onaga, shu jumladan beva ayollarga, beva erkaklarga, nikohdan ajralganlarga, muddatli harbiy xizmatdagi harbiy xizmatchilarning xotinlariga, ota-onaning oʻrnini bosuvchi shaxslarga);\noʻn sakkiz yoshdan kichik boʻlgan shaxslarga;\nrezervga boʻshatilganidan keyin uch oydan kechiktirmay ishga kirgan muddatli harbiy xizmatni oʻtagan sobiq harbiy xizmatchilarga;\n1941 — 1945-yillardagi urush qatnashchilariga va imtiyozlari boʻyicha ularga tenglashtirilgan shaxslarga;\nI va II guruh nogironligi boʻlgan xodimlarga;\nishdan ajralmagan holda taʼlim tashkilotlarida oʻqiyotganlarga, agar ular oʻzining har yilgi mehnat taʼtilini imtihonlar, sinovlar (zachyotlar) topshirish, bitiruv malakaviy ishlarini, magistrlik dissertatsiyalarini, kurs, laboratoriya ishlarini va boshqa oʻquv ishlarini bajarish vaqtiga toʻgʻrilab olishni xohlasa;\njamoa kelishuvlarida, shuningdek jamoa shartnomasida yoxud ichki hujjatlarda belgilangan boshqa hollarda boshqa xodimlarga.\nUshbu moddaning birinchi, ikkinchi va uchinchi qismlarida nazarda tutilgan hollarda har yilgi mehnat taʼtili toʻliq davomiylikda va toʻliq haq toʻlangan holda beriladi.\nOlti oydan kam ishlagan oʻrindoshlarga birinchi ish yili uchun har yilgi mehnat taʼtili ularning xohishiga koʻra asosiy ish boʻyicha har yilgi mehnat taʼtili bilan bir vaqtda oʻrindoshlik asosida ishdagi taʼtil uchun ishlab berilgan vaqtga mutanosib ravishda haq toʻlangan holda beriladi. Olti oy va undan ortiq ishlagan oʻrindoshlarga birinchi ish yili uchun oʻrindoshlik asosidagi ishda beriladigan har yilgi mehnat taʼtiliga, shuningdek ikkinchi va keyingi ish yillari uchun ushbu toifadagi xodimlarning mehnat taʼtiliga, ushbu taʼtil ish yili davomida qaysi vaqtda berilishidan qatʼi nazar, toʻliq haq toʻlanadi.\nHar yilgi mehnat taʼtili oʻquvchilarning yozgi taʼtili davrida beriladigan taʼlim tashkilotlarining oʻqituvchilar tarkibiga birinchi ish yilidagi har yilgi mehnat taʼtili oʻquvchilarning yozgi taʼtili davrida toʻliq davomiylikda, ular ushbu taʼlim tashkilotiga ishga kirgan vaqtidan qatʼi nazar, ishlab bergan vaqtiga mutanosib ravishda haq toʻlangan holda beriladi. Mazkur toifadagi xodimlarga ikkinchi va keyingi ish yillari uchun beriladigan mehnat taʼtiliga, ushbu taʼtil ish yili davomida qaysi vaqtda berilishidan qatʼi nazar, toʻliq haq toʻlanadi.",
+          "source_url": "https://www.lex.uz/docs/-6257288?ONDATE=15.10.2026+01",
+          "source_anchor": "-6263096",
+          "edition_label": "15.10.2026 01"
+        }
+      ],
+      "contexts": [
+        {
+          "rank": 1,
+          "chunk_id": "lex:6257288#uz-Latn#art-227#2026-10-15",
+          "doc_id": "lex:6257288",
+          "article": "227-modda",
+          "text": "227-modda. Birinchi ish yili uchun har yilgi mehnat taʼtilini berish tartibi\nBirinchi ish yili uchun har yilgi mehnat taʼtilidan foydalanish huquqi xodimda u ushbu ish beruvchida uzluksiz ishlagan olti oy oʻtganidan keyin yuzaga keladi. Mehnat shartnomasi taraflarining kelishuviga koʻra xodimga ishlagan olti oy oʻtguniga qadar ham mehnat taʼtili berilishi mumkin.\nBirinchi bor tashkil etilgan tashkilotlar uchun xodimlarga birinchi ish yili uchun har yilgi mehnat taʼtili birinchi ish yili tugaguniga qadar ushbu taʼtilni berish sharti bilan olti oy ishlamasidan ilgari yoki undan keyin berilishi mumkin.\nOlti oy oʻtguniga qadar xodimning xohishiga koʻra quyidagilarga har yilgi mehnat taʼtili beriladi:\nayollarga — homiladorlik va tugʻish taʼtilidan oldin yoki undan keyin;\noʻn toʻrt yoshga toʻlmagan bitta yoki undan ortiq bolani (oʻn olti yoshga toʻlmagan nogironligi boʻlgan bolani) tarbiyalayotgan shaxslarga (yolgʻiz ota-onaga, shu jumladan beva ayollarga, beva erkaklarga, nikohdan ajralganlarga, muddatli harbiy xizmatdagi harbiy xizmatchilarning xotinlariga, ota-onaning oʻrnini bosuvchi shaxslarga);\noʻn sakkiz yoshdan kichik boʻlgan shaxslarga;\nrezervga boʻshatilganidan keyin uch oydan kechiktirmay ishga kirgan muddatli harbiy xizmatni oʻtagan sobiq harbiy xizmatchilarga;\n1941 — 1945-yillardagi urush qatnashchilariga va imtiyozlari boʻyicha ularga tenglashtirilgan shaxslarga;\nI va II guruh nogironligi boʻlgan xodimlarga;\nishdan ajralmagan holda taʼlim tashkilotlarida oʻqiyotganlarga, agar ular oʻzining har yilgi mehnat taʼtilini imtihonlar, sinovlar (zachyotlar) topshirish, bitiruv malakaviy ishlarini, magistrlik dissertatsiyalarini, kurs, laboratoriya ishlarini va boshqa oʻquv ishlarini bajarish vaqtiga toʻgʻrilab olishni xohlasa;\njamoa kelishuvlarida, shuningdek jamoa shartnomasida yoxud ichki hujjatlarda belgilangan boshqa hollarda boshqa xodimlarga.\nUshbu moddaning birinchi, ikkinchi va uchinchi qismlarida nazarda tutilgan hollarda har yilgi mehnat taʼtili toʻliq davomiylikda va toʻliq haq toʻlangan holda beriladi.\nOlti oydan kam ishlagan oʻrindoshlarga birinchi ish yili uchun har yilgi mehnat taʼtili ularning xohishiga koʻra asosiy ish boʻyicha har yilgi mehnat taʼtili bilan bir vaqtda oʻrindoshlik asosida ishdagi taʼtil uchun ishlab berilgan vaqtga mutanosib ravishda haq toʻlangan holda beriladi. Olti oy va undan ortiq ishlagan oʻrindoshlarga birinchi ish yili uchun oʻrindoshlik asosidagi ishda beriladigan har yilgi mehnat taʼtiliga, shuningdek ikkinchi va keyingi ish yillari uchun ushbu toifadagi xodimlarning mehnat taʼtiliga, ushbu taʼtil ish yili davomida qaysi vaqtda berilishidan qatʼi nazar, toʻliq haq toʻlanadi.\nHar yilgi mehnat taʼtili oʻquvchilarning yozgi taʼtili davrida beriladigan taʼlim tashkilotlarining oʻqituvchilar tarkibiga birinchi ish yilidagi har yilgi mehnat taʼtili oʻquvchilarning yozgi taʼtili davrida toʻliq davomiylikda, ular ushbu taʼlim tashkilotiga ishga kirgan vaqtidan qatʼi nazar, ishlab bergan vaqtiga mutanosib ravishda haq toʻlangan holda beriladi. Mazkur toifadagi xodimlarga ikkinchi va keyingi ish yillari uchun beriladigan mehnat taʼtiliga, ushbu taʼtil ish yili davomida qaysi vaqtda berilishidan qatʼi nazar, toʻliq haq toʻlanadi.",
+          "retrieval_score": 36.69086667016174,
+          "rerank_score": 137.69086667016174,
+          "used_in_answer": true
+        },
+        {
+          "rank": 2,
+          "chunk_id": "lex:6257288#uz-Latn#art-230#2026-10-15",
+          "doc_id": "lex:6257288",
+          "article": "230-modda",
+          "text": "230-modda. Har yilgi mehnat taʼtilining bir qismini keyingi ish yiliga koʻchirish\nHar yilgi mehnat taʼtili har yili, ushbu taʼtil berilayotgan ish yili tugaguniga qadar berilishi kerak.\nIshlab chiqarish xususiyatiga ega sabablarga koʻra joriy yilda har yilgi mehnat taʼtilini toʻliq berish imkoni boʻlmagan alohida hollarda xodimning roziligi bilan taʼtilning oʻn toʻrt kalendar kundan ortiq boʻlgan qismi keyingi ish yiliga koʻchirilishi mumkin boʻlib, ushbu yil davomida undan foydalanilishi shart.\nOʻn sakkiz yoshga toʻlmagan xodimlarga, nogironligi boʻlgan xodimlarga har yilgi mehnat taʼtilini, shuningdek ushbu Kodeksning 481 va 483-moddalarida koʻrsatilgan har yilgi qoʻshimcha taʼtillarni bermaslik taqiqlanadi.",
+          "retrieval_score": 31.385923813224437,
+          "rerank_score": 96.38592381322444,
+          "used_in_answer": false
+        },
+        {
+          "rank": 3,
+          "chunk_id": "lex:6257288#uz-Latn#art-228#2026-10-15",
+          "doc_id": "lex:6257288",
+          "article": "228-modda",
+          "text": "228-modda. Ikkinchi va keyingi ish yillari uchun har yilgi mehnat taʼtilini berish tartibi\nIkkinchi va keyingi ish yillari uchun har yilgi mehnat taʼtili ish beruvchi va xodim uchun majburiy boʻlgan taʼtillar jadvali bilan belgilanadigan har yilgi mehnat taʼtillarini berish navbatiga muvofiq beriladi.\nTaʼtillar jadvali kalendar yil boshlanguniga qadar ish beruvchi tomonidan kasaba uyushmasi qoʻmitasi bilan kelishuvga koʻra tasdiqlanadi.\nXodim har yilgi mehnat taʼtili beriladigan vaqt toʻgʻrisida taʼtil boshlanishidan kamida oʻn besh kun oldin xabardor qilinishi kerak.\nXodimning xohishiga koʻra har yilgi mehnat taʼtili unga qulay boʻlgan vaqtda quyidagilarga berilishi kerak:\nayollarga — homiladorlik va tugʻish taʼtilidan oldin yoki undan keyin;\nbolani parvarishlash taʼtilidan foydalanayotgan xodimga ushbu taʼtildan oldin yoki keyin;\noʻn toʻrt yoshga toʻlmagan bir yoki undan ortiq nafar bolani (oʻn olti yoshga toʻlmagan nogironligi boʻlgan bolani) tarbiyalayotgan shaxslarga (yolgʻiz ota-onaga, shu jumladan beva ayollarga, beva erkaklarga, nikohdan ajralganlarga, muddatli harbiy xizmatdagi harbiy xizmatchilarning xotinlariga, ota-onaning oʻrnini bosuvchi shaxslarga);\nI va II guruh nogironligi boʻlgan shaxslarga;\n1941 — 1945-yillardagi urush qatnashchilariga va imtiyozlari boʻyicha ularga tenglashtirilgan shaxslarga;\noʻn sakkiz yoshdan kichik boʻlgan shaxslarga;\nishdan ajralmagan holda taʼlim tashkilotlarida oʻqiyotganlarga, agar ular oʻzining har yilgi mehnat taʼtilini imtihonlar, sinovlar (zachyotlar) topshirish, bitiruv malakaviy ishlarini, magistrlik dissertatsiyalarini, kurs, laboratoriya ishlarini va boshqa oʻquv ishlarini bajarish vaqtiga toʻgʻrilab olishni xohlasa;\n“Oʻzbekiston Respublikasi faxriy donori” koʻkrak nishoni bilan taqdirlangan shaxslarga;\njamoa kelishuvlarida, shuningdek jamoa shartnomasida yoxud boshqa ichki hujjatlarda belgilangan hollarda boshqa xodimlarga.\nIshlaydigan erkaklarga har yilgi mehnat taʼtili ularning xohishiga koʻra xotinining homiladorlik va tugʻish taʼtili davrida beriladi.\nJadvalda belgilangan har yilgi mehnat taʼtilini berish vaqti xodim va ish beruvchi oʻrtasidagi kelishuvga binoan oʻzgartirilishi mumkin.",
+          "retrieval_score": 25.587564289522756,
+          "rerank_score": 90.58756428952276,
+          "used_in_answer": false
+        },
+        {
+          "rank": 4,
+          "chunk_id": "lex:6257288#uz-Latn#art-418#2026-10-15",
+          "doc_id": "lex:6257288",
+          "article": "418-modda",
+          "text": "418-modda. Oʻn sakkiz yoshgacha boʻlgan xodimlarga yillik uzaytirilgan mehnat taʼtili berish\nOʻn sakkiz yoshgacha boʻlgan xodimlarga davomiyligi kamida oʻttiz kalendar kun boʻlgan yillik mehnat taʼtili beriladi va ular bu taʼtildan yilning oʻzlari uchun qulay boʻlgan istalgan vaqtida foydalanishi mumkin.\nAgar yillik mehnat taʼtili berilayotgan ish yili xodim oʻn sakkiz yoshga toʻladigan va toʻlib boʻlganidan keyingi davrlarni qamrab olsa, taʼtilning davomiyligi xodim oʻn sakkiz yoshga toʻlguniga qadar va oʻn sakkiz yoshga toʻlganidan keyingi ishlangan vaqtga mutanosib ravishda hisoblab chiqariladi.\nOʻn sakkiz yoshgacha boʻlgan xodimlarni yillik mehnat taʼtilidan chaqirib olishga yoʻl qoʻyilmaydi.",
+          "retrieval_score": 31.5662214578293,
+          "rerank_score": 75.5662214578293,
+          "used_in_answer": false
+        },
+        {
+          "rank": 5,
+          "chunk_id": "lex:6257288#uz-Latn#art-223#2026-10-15",
+          "doc_id": "lex:6257288",
+          "article": "223-modda",
+          "text": "223-modda. Har yilgi mehnat taʼtili davomiyligini ishlab berilgan vaqtga mutanosib ravishda hisoblab chiqarish hollari\nAgar ish yili davomida xodimning har yilgi mehnat taʼtilining davomiyligi oʻzgargan (voyaga yetmagan xodim oʻn sakkiz yoshga toʻlganligi munosabati bilan u asosiy uzaytirilgan mehnat taʼtilini olish huquqini yoʻqotgan; xodimga I yoki II guruh nogironligi belgilangan va shu sababli unda uzaytirilgan taʼtil olish huquqi yuzaga kelgan; xodim ish yilining bir qismini oddiy mehnat sharoitlarida, boshqa qismini esa unga qoʻshimcha taʼtil olish huquqini beradigan noqulay mehnat sharoitlarida ishlagan boʻlsa; xodim ish yili davomida boshqa ishga oʻtkazilgan va bu ishda mehnat taʼtilining xodim unga oʻtkazilguniga qadar bajargan ishidagiga nisbatan boshqacha davomiyligi nazarda tutilgan boʻlsa va boshqalar) boʻlsa, har yilgi mehnat taʼtilining davomiyligini ishlab berilgan vaqtga mutanosib ravishda hisoblab chiqarish amalga oshiriladi.\nIshlab chiqarish zaruriyati yoki bekor turib qolish munosabati bilan ish beruvchining tashabbusiga koʻra xodimni vaqtincha boshqa ishga oʻtkazish har yilgi mehnat taʼtili davomiyligining mehnat shartnomasida nazarda tutilgan asosiy ish boʻyicha belgilangan mehnat taʼtili davomiyligiga nisbatan kamayishiga olib kelmasligi kerak.\nIshning birinchi yili uchun har yilgi mehnat taʼtili quyidagi toifadagi xodimlarga ishlab berilgan vaqtiga mutanosib ravishda haq toʻlangan holda toʻliq davomiylikda beriladi:\nhar yilgi mehnat taʼtili oʻquvchilarning yozgi taʼtili davrida beriladigan taʼlim tashkilotlarining oʻqituvchilar tarkibiga va uslubiyotchilariga. Ushbu toifadagi xodimlarning ikkinchi va keyingi ish yillari uchun har yilgi mehnat taʼtiliga toʻliq hajmda haq toʻlanadi;\nbirinchi ish yilida olti oydan kam ishlagan oʻrindoshlarga — asosiy ishi boʻyicha har yilgi mehnat taʼtili bilan bir vaqtda mehnat taʼtili berilganda. Birinchi ish yilida oʻrindoshlik asosidagi ishda olti oydan koʻp ishlagan xodimlarga bunday ishda beriladigan mehnat taʼtili, shuningdek keyingi ish yillaridagi har yilgi mehnat taʼtillari uchun toʻliq haq toʻlanadi.\nXodim bilan mehnat shartnomasi bekor qilinganda joriy ish yilida foydalanilmagan har yilgi mehnat taʼtili uchun xodimga tegishli boʻlgan kompensatsiyaning miqdori, shuningdek joriy ish yilida ishlab berilmagan taʼtil kunlari uchun ushlab qolinadigan haq miqdori xodimning oxirgi ish yilida ishlab bergan vaqtiga mutanosib ravishda hisoblab chiqariladi.",
+          "retrieval_score": 34.67523452147018,
+          "rerank_score": 74.67523452147017,
+          "used_in_answer": false
+        }
+      ],
+      "error": null,
+      "timing": {
+        "retrieval_ms": 34.805,
+        "rerank_ms": 0,
+        "generation_ms": 0.05,
+        "total_ms": 44.715
+      }
+    },
+    {
+      "id": "q089",
+      "status": "ok",
+      "answer": "Har yilgi asosiy eng kam mehnat taʼtilining davomiyligi yigirma bir kalendar kunni tashkil etadi. [1]\n\nQuyidagilarga yoshi va sogʻligʻining holati hisobga olingan holda har yilgi asosiy uzaytirilgan taʼtil beriladi:\noʻn sakkiz yoshgacha boʻlgan shaxslarga — oʻttiz kalendar kun;\nI va II guruh nogironligi boʻlgan xodimlarga — oʻttiz kalendar kun.\nDavlat hokimiyati organlari va respublika ijro etuvchi hokimiyat organlari xodimlariga davomiyligi yigirma yetti kalendar kun boʻlgan har yilgi asosiy uzaytirilgan taʼtil beriladi, bundan xodimlarning ayrim toifalari uchun qonunda har yilgi asosiy uzaytirilgan taʼtilning uzoqroq davomiyligi belgilangan hollar mustasno.\nHar yilgi asosiy uzaytirilgan taʼtillar ayrim toifadagi xodimlar uchun ham ular mehnat vazifalarining oʻziga xos jihatlari va xususiyatlariga hamda boshqa holatlarga qarab belgilanadi. Bunday taʼtillar olish huquqiga ega boʻlgan xodimlarning roʻyxati va ushbu taʼtillarning davomiyligi qonunchilikda belgilanadi.\nQonunchilikda belgilanganidan tashqari, har yilgi asosiy uzaytirilgan taʼtillar berish, shuningdek har yilgi asosiy uzaytirilgan taʼtilning davomiyligini uning qonunchilik bilan kafolatlangan davomiyligiga nisbatan koʻpaytirish jamoa kelishuvlarida, shuningdek jamoa shartnomasida, ichki hujjatlarda, mehnat shartnomasida nazarda tutilishi mumkin. [2]",
+      "answer_language": "uz-Latn",
+      "no_answer": false,
+      "citations": [
+        {
+          "doc_id": "lex:6257288",
+          "doc_title": "Oʻzbekiston Respublikasining Mehnat kodeksi",
+          "doc_type": "kodeks",
+          "url": "https://lex.uz/docs/-6257288",
+          "article": "217-modda",
+          "part": null,
+          "edition_date": "2026-10-15",
+          "doc_status": "amalda",
+          "chunk_id": "lex:6257288#uz-Latn#art-217#2026-10-15",
+          "ref": 1,
+          "quote": "Har yilgi asosiy eng kam mehnat taʼtilining davomiyligi yigirma bir kalendar kunni tashkil etadi.",
+          "source_url": "https://www.lex.uz/docs/-6257288?ONDATE=15.10.2026+01",
+          "source_anchor": "-6263022",
+          "edition_label": "15.10.2026 01"
+        },
+        {
+          "doc_id": "lex:6257288",
+          "doc_title": "Oʻzbekiston Respublikasining Mehnat kodeksi",
+          "doc_type": "kodeks",
+          "url": "https://lex.uz/docs/-6257288",
+          "article": "218-modda",
+          "part": null,
+          "edition_date": "2026-10-15",
+          "doc_status": "amalda",
+          "chunk_id": "lex:6257288#uz-Latn#art-218#2026-10-15",
+          "ref": 2,
+          "quote": "Quyidagilarga yoshi va sogʻligʻining holati hisobga olingan holda har yilgi asosiy uzaytirilgan taʼtil beriladi:\noʻn sakkiz yoshgacha boʻlgan shaxslarga — oʻttiz kalendar kun;\nI va II guruh nogironligi boʻlgan xodimlarga — oʻttiz kalendar kun.\nDavlat hokimiyati organlari va respublika ijro etuvchi hokimiyat organlari xodimlariga davomiyligi yigirma yetti kalendar kun boʻlgan har yilgi asosiy uzaytirilgan taʼtil beriladi, bundan xodimlarning ayrim toifalari uchun qonunda har yilgi asosiy uzaytirilgan taʼtilning uzoqroq davomiyligi belgilangan hollar mustasno.\nHar yilgi asosiy uzaytirilgan taʼtillar ayrim toifadagi xodimlar uchun ham ular mehnat vazifalarining oʻziga xos jihatlari va xususiyatlariga hamda boshqa holatlarga qarab belgilanadi. Bunday taʼtillar olish huquqiga ega boʻlgan xodimlarning roʻyxati va ushbu taʼtillarning davomiyligi qonunchilikda belgilanadi.\nQonunchilikda belgilanganidan tashqari, har yilgi asosiy uzaytirilgan taʼtillar berish, shuningdek har yilgi asosiy uzaytirilgan taʼtilning davomiyligini uning qonunchilik bilan kafolatlangan davomiyligiga nisbatan koʻpaytirish jamoa kelishuvlarida, shuningdek jamoa shartnomasida, ichki hujjatlarda, mehnat shartnomasida nazarda tutilishi mumkin.",
+          "source_url": "https://www.lex.uz/docs/-6257288?ONDATE=15.10.2026+01",
+          "source_anchor": "-6263024",
+          "edition_label": "15.10.2026 01"
+        }
+      ],
+      "contexts": [
+        {
+          "rank": 1,
+          "chunk_id": "lex:6257288#uz-Latn#art-217#2026-10-15",
+          "doc_id": "lex:6257288",
+          "article": "217-modda",
+          "text": "217-modda. Har yilgi asosiy eng kam mehnat taʼtilining davomiyligi\nHar yilgi asosiy eng kam mehnat taʼtilining davomiyligi yigirma bir kalendar kunni tashkil etadi.",
+          "retrieval_score": 31.757057455457215,
+          "rerank_score": 117.75705745545721,
+          "used_in_answer": true
+        },
+        {
+          "rank": 2,
+          "chunk_id": "lex:6257288#uz-Latn#art-218#2026-10-15",
+          "doc_id": "lex:6257288",
+          "article": "218-modda",
+          "text": "218-modda. Har yilgi asosiy uzaytirilgan taʼtil\nQuyidagilarga yoshi va sogʻligʻining holati hisobga olingan holda har yilgi asosiy uzaytirilgan taʼtil beriladi:\noʻn sakkiz yoshgacha boʻlgan shaxslarga — oʻttiz kalendar kun;\nI va II guruh nogironligi boʻlgan xodimlarga — oʻttiz kalendar kun.\nDavlat hokimiyati organlari va respublika ijro etuvchi hokimiyat organlari xodimlariga davomiyligi yigirma yetti kalendar kun boʻlgan har yilgi asosiy uzaytirilgan taʼtil beriladi, bundan xodimlarning ayrim toifalari uchun qonunda har yilgi asosiy uzaytirilgan taʼtilning uzoqroq davomiyligi belgilangan hollar mustasno.\nHar yilgi asosiy uzaytirilgan taʼtillar ayrim toifadagi xodimlar uchun ham ular mehnat vazifalarining oʻziga xos jihatlari va xususiyatlariga hamda boshqa holatlarga qarab belgilanadi. Bunday taʼtillar olish huquqiga ega boʻlgan xodimlarning roʻyxati va ushbu taʼtillarning davomiyligi qonunchilikda belgilanadi.\nQonunchilikda belgilanganidan tashqari, har yilgi asosiy uzaytirilgan taʼtillar berish, shuningdek har yilgi asosiy uzaytirilgan taʼtilning davomiyligini uning qonunchilik bilan kafolatlangan davomiyligiga nisbatan koʻpaytirish jamoa kelishuvlarida, shuningdek jamoa shartnomasida, ichki hujjatlarda, mehnat shartnomasida nazarda tutilishi mumkin.",
+          "retrieval_score": 29.588022528280426,
+          "rerank_score": 85.58802252828042,
+          "used_in_answer": true
+        },
+        {
+          "rank": 3,
+          "chunk_id": "lex:6257288#uz-Latn#art-222#2026-10-15",
+          "doc_id": "lex:6257288",
+          "article": "222-modda",
+          "text": "222-modda. Har yilgi asosiy va qoʻshimcha mehnat taʼtillarini jamlash tartibi\nHar yilgi mehnat taʼtilining umumiy davomiyligini hisoblab chiqarishda qoʻshimcha taʼtillar har yilgi asosiy eng kam taʼtil yoki har yilgi asosiy uzaytirilgan taʼtilga qoʻshib jamlanadi.\nBarcha hollarda qonunchilik bilan belgilangan taʼtillarni jamlashda ularning davomiyligi bir ish yili uchun ellik olti kalendar kundan oshib ketishi mumkin emas.\nUshbu moddaning ikkinchi qismida nazarda tutilgan cheklov qonunchilikda nazarda tutilmagan, jamoa kelishuvlarida, shuningdek jamoa shartnomasida, ish beruvchining kasaba uyushmasi qoʻmitasi bilan kelishuvga koʻra qabul qilingan ichki hujjatlarida yoxud mehnat shartnomasida belgilangan mehnat taʼtillariga nisbatan tatbiq etilmaydi.",
+          "retrieval_score": 26.990262160485667,
+          "rerank_score": 78.99026216048567,
+          "used_in_answer": false
+        },
+        {
+          "rank": 4,
+          "chunk_id": "lex:6257288#uz-Latn#art-221#2026-10-15",
+          "doc_id": "lex:6257288",
+          "article": "221-modda",
+          "text": "221-modda. Har yilgi mehnat taʼtillarining davomiyligini hisoblab chiqarish\nXodimlarning har yilgi asosiy va qoʻshimcha mehnat taʼtillarining davomiyligi kalendar kunlarda hisoblab chiqariladi.\nHar yilgi mehnat taʼtili davriga toʻgʻri keladigan ishlanmaydigan bayram kunlari mehnat taʼtillarining davomiyligini belgilashda hisobga olinmaydi.\nQonunchilikda nazarda tutilgan hollarda ayrim toifadagi xodimlarga beriladigan har yilgi asosiy va qoʻshimcha mehnat taʼtillarining davomiyligi olti kunlik ish haftasi hisobidan kalendar boʻyicha ish kunlarida hisoblab chiqariladi.",
+          "retrieval_score": 23.64921105306411,
+          "rerank_score": 75.6492110530641,
+          "used_in_answer": false
+        },
+        {
+          "rank": 5,
+          "chunk_id": "lex:6257288#uz-Latn#art-229#2026-10-15",
+          "doc_id": "lex:6257288",
+          "article": "229-modda",
+          "text": "229-modda. Har yilgi mehnat taʼtilini uzaytirish yoki uni boshqa muddatga koʻchirish\nXodimlar quyidagi hollarda har yilgi mehnat taʼtilini uzaytirish yoki boshqa muddatga koʻchirish huquqiga ega:\nvaqtincha mehnatga qobiliyatsizlik davrida;\nhomiladorlik va tugʻish taʼtilining muddati boshlanganda;\nhar yilgi mehnat taʼtili oʻquv taʼtiliga toʻgʻri kelib qolganda;\ndavlat yoki jamoat majburiyatlarini bajarayotganda, agar qonunchilikda bunday majburiyatlarni bajarish uchun ishdan ozod etish nazarda tutilgan boʻlsa;\njamoa kelishuvlarida yoki jamoa shartnomasida nazarda tutilgan boshqa hollarda.\nAgar har yilgi mehnat taʼtilidan foydalanishga monelik qiluvchi sabablar taʼtil boshlanguniga qadar kelib chiqqan boʻlsa, xodim bilan ish beruvchi oʻrtasidagi kelishuvga binoan taʼtildan foydalanishning yangi muddati belgilanadi. Bunday sabablar taʼtil davrida kelib chiqqan hollarda taʼtil tegishli kunlar soniga uzaytiriladi yoki xodim bilan ish beruvchining kelishuviga koʻra taʼtilning foydalanilmay qolgan qismi boshqa muddatga koʻchiriladi.\nXodim har yilgi mehnat taʼtilidan foydalanishga toʻsqinlik qiladigan, yuzaga kelgan sabablar toʻgʻrisida ish beruvchini yozma shaklda xabardor qilishi shart.\nAgar xodim ushbu Kodeks 228-moddasining uchinchi qismida nazarda tutilgan muddatda taʼtil boshlanadigan vaqt haqida oʻz vaqtida xabardor qilinmagan yoki unga taʼtil boshlanguniga qadar ushbu Kodeks 233-moddasining uchinchi qismiga muvofiq taʼtil vaqti uchun haq toʻlanmagan boʻlsa, har yilgi mehnat taʼtili xodimning arizasiga koʻra boshqa muddatga koʻchiriladi.",
+          "retrieval_score": 18.053546620536498,
+          "rerank_score": 66.0535466205365,
+          "used_in_answer": false
+        }
+      ],
+      "error": null,
+      "timing": {
+        "retrieval_ms": 38.407,
+        "rerank_ms": 0,
+        "generation_ms": 0.041,
+        "total_ms": 49.65
+      }
+    },
+    {
+      "id": "q090",
+      "status": "ok",
+      "answer": "Mehnat shartnomasida mehnat shartnomasi tuzilgan sana va joy, mehnat shartnomasining raqami va uning taraflarining rekvizitlari koʻrsatiladi.\nXodimning mehnat shartnomasida koʻrsatiladigan rekvizitlari quyidagilardan iborat:\nfamiliyasi, ismi va otasining ismi;\nshaxsini tasdiqlovchi hujjatlar toʻgʻrisidagi maʼlumotlar;\nyashash yoki turgan joyining manzili va u bilan bogʻlanishga doir maʼlumotlar;\njismoniy shaxsning shaxsiy identifikatsiya raqami;\nshaxsiy jamgʻarib boriladigan pensiya hisobvaragʻi raqami.\nIsh beruvchining mehnat shartnomasida koʻrsatiladigan rekvizitlari quyidagilardan iborat:\nmehnat shartnomasini tuzgan ish beruvchining nomi: tashkilotning nomi, agar ish beruvchi tashkilotning alohida boʻlinmasi boʻlsa, — ushbu boʻlinmaning nomi, ish beruvchi jismoniy shaxs boʻlgan hollarda, — jismoniy shaxs boʻlgan ish beruvchining familiyasi, ismi, otasining ismi va pasport maʼlumotlari (identifikatsiyalovchi ID-kartasi maʼlumotlari), yakka tartibdagi tadbirkor boʻlgan ish beruvchi uchun esa uning familiyasi, ismi, otasining ismi, pasport maʼlumotlari (identifikatsiyalovchi ID-kartasi maʼlumotlari), shuningdek davlat roʻyxatidan oʻtganligi toʻgʻrisidagi guvohnomaning raqami va berilgan sanasi;\nish beruvchining mehnat shartnomasini imzolagan vakili haqidagi maʼlumotlar va, agar tashkilot yoki uning alohida boʻlinmasi ish beruvchi boʻlsa, vakilga tegishli vakolatlar berilganligining asosi;\nish beruvchi tashkilotning joylashgan yeri (pochta manzili) yoki tashkilotning alohida boʻlinmasi xodim bilan mehnat shartnomasini tuzgan ish beruvchi boʻlgan hollarda, ushbu alohida boʻlinmaning joylashgan yeri (pochta manzili) yoxud jismoniy shaxs boʻlgan ish beruvchining yashash yoki turgan joyi manzili;\nsoliq toʻlovchining identifikatsiya raqami (bundan yakka tartibdagi tadbirkorlar boʻlmagan jismoniy shaxslar boʻlgan ish beruvchilar mustasno);\ntashkilotlar yoki ularning alohida boʻlinmalari boʻlgan ish beruvchilarning, shuningdek yakka tartibdagi tadbirkorlarning bank rekvizitlari;\nish beruvchining aloqa maʼlumotlari (telefon raqamlari, elektron pochta manzili va boshqalar).\nAgar mehnat shartnomasini tuzishda ushbu moddaning birinchi, ikkinchi va uchinchi qismlarida nazarda tutilgan rekvizitlardan biror-biri shartnomaga kiritilmagan boʻlsa, bu mehnat shartnomasini tuzilmagan deb eʼtirof etish yoki uni bekor qilish uchun asos boʻlmaydi. Mehnat shartnomasi yetishmayotgan rekvizitlar bilan toʻldirilishi kerak. Bunda yetishmayotgan rekvizitlar mehnat shartnomasiga doir yozma shaklda tuziladigan qoʻshimcha kelishuv bilan belgilanadi, ushbu kelishuv mehnat shartnomasining ajralmas qismidir.\nRekvizitlar oʻzgargan taqdirda, mehnat shartnomasining tarafi ular oʻzgartirilgan paytdan eʼtiboran uch ish kuni ichida bu haqda boshqa tarafga yozma shaklda xabar qilishi kerak. [1]",
+      "answer_language": "uz-Latn",
+      "no_answer": false,
+      "citations": [
+        {
+          "doc_id": "lex:6257288",
+          "doc_title": "Oʻzbekiston Respublikasining Mehnat kodeksi",
+          "doc_type": "kodeks",
+          "url": "https://lex.uz/docs/-6257288",
+          "article": "107-modda",
+          "part": null,
+          "edition_date": "2026-10-15",
+          "doc_status": "amalda",
+          "chunk_id": "lex:6257288#uz-Latn#art-107#2026-10-15",
+          "ref": 1,
+          "quote": "Mehnat shartnomasida mehnat shartnomasi tuzilgan sana va joy, mehnat shartnomasining raqami va uning taraflarining rekvizitlari koʻrsatiladi.\nXodimning mehnat shartnomasida koʻrsatiladigan rekvizitlari quyidagilardan iborat:\nfamiliyasi, ismi va otasining ismi;\nshaxsini tasdiqlovchi hujjatlar toʻgʻrisidagi maʼlumotlar;\nyashash yoki turgan joyining manzili va u bilan bogʻlanishga doir maʼlumotlar;\njismoniy shaxsning shaxsiy identifikatsiya raqami;\nshaxsiy jamgʻarib boriladigan pensiya hisobvaragʻi raqami.\nIsh beruvchining mehnat shartnomasida koʻrsatiladigan rekvizitlari quyidagilardan iborat:\nmehnat shartnomasini tuzgan ish beruvchining nomi: tashkilotning nomi, agar ish beruvchi tashkilotning alohida boʻlinmasi boʻlsa, — ushbu boʻlinmaning nomi, ish beruvchi jismoniy shaxs boʻlgan hollarda, — jismoniy shaxs boʻlgan ish beruvchining familiyasi, ismi, otasining ismi va pasport maʼlumotlari (identifikatsiyalovchi ID-kartasi maʼlumotlari), yakka tartibdagi tadbirkor boʻlgan ish beruvchi uchun esa uning familiyasi, ismi, otasining ismi, pasport maʼlumotlari (identifikatsiyalovchi ID-kartasi maʼlumotlari), shuningdek davlat roʻyxatidan oʻtganligi toʻgʻrisidagi guvohnomaning raqami va berilgan sanasi;\nish beruvchining mehnat shartnomasini imzolagan vakili haqidagi maʼlumotlar va, agar tashkilot yoki uning alohida boʻlinmasi ish beruvchi boʻlsa, vakilga tegishli vakolatlar berilganligining asosi;\nish beruvchi tashkilotning joylashgan yeri (pochta manzili) yoki tashkilotning alohida boʻlinmasi xodim bilan mehnat shartnomasini tuzgan ish beruvchi boʻlgan hollarda, ushbu alohida boʻlinmaning joylashgan yeri (pochta manzili) yoxud jismoniy shaxs boʻlgan ish beruvchining yashash yoki turgan joyi manzili;\nsoliq toʻlovchining identifikatsiya raqami (bundan yakka tartibdagi tadbirkorlar boʻlmagan jismoniy shaxslar boʻlgan ish beruvchilar mustasno);\ntashkilotlar yoki ularning alohida boʻlinmalari boʻlgan ish beruvchilarning, shuningdek yakka tartibdagi tadbirkorlarning bank rekvizitlari;\nish beruvchining aloqa maʼlumotlari (telefon raqamlari, elektron pochta manzili va boshqalar).\nAgar mehnat shartnomasini tuzishda ushbu moddaning birinchi, ikkinchi va uchinchi qismlarida nazarda tutilgan rekvizitlardan biror-biri shartnomaga kiritilmagan boʻlsa, bu mehnat shartnomasini tuzilmagan deb eʼtirof etish yoki uni bekor qilish uchun asos boʻlmaydi. Mehnat shartnomasi yetishmayotgan rekvizitlar bilan toʻldirilishi kerak. Bunda yetishmayotgan rekvizitlar mehnat shartnomasiga doir yozma shaklda tuziladigan qoʻshimcha kelishuv bilan belgilanadi, ushbu kelishuv mehnat shartnomasining ajralmas qismidir.\nRekvizitlar oʻzgargan taqdirda, mehnat shartnomasining tarafi ular oʻzgartirilgan paytdan eʼtiboran uch ish kuni ichida bu haqda boshqa tarafga yozma shaklda xabar qilishi kerak.",
+          "source_url": "https://www.lex.uz/docs/-6257288?ONDATE=15.10.2026+01",
+          "source_anchor": "-6260179",
+          "edition_label": "15.10.2026 01"
+        }
+      ],
+      "contexts": [
+        {
+          "rank": 1,
+          "chunk_id": "lex:6257288#uz-Latn#art-107#2026-10-15",
+          "doc_id": "lex:6257288",
+          "article": "107-modda",
+          "text": "107-modda. Mehnat shartnomasining rekvizitlari\nMehnat shartnomasida mehnat shartnomasi tuzilgan sana va joy, mehnat shartnomasining raqami va uning taraflarining rekvizitlari koʻrsatiladi.\nXodimning mehnat shartnomasida koʻrsatiladigan rekvizitlari quyidagilardan iborat:\nfamiliyasi, ismi va otasining ismi;\nshaxsini tasdiqlovchi hujjatlar toʻgʻrisidagi maʼlumotlar;\nyashash yoki turgan joyining manzili va u bilan bogʻlanishga doir maʼlumotlar;\njismoniy shaxsning shaxsiy identifikatsiya raqami;\nshaxsiy jamgʻarib boriladigan pensiya hisobvaragʻi raqami.\nIsh beruvchining mehnat shartnomasida koʻrsatiladigan rekvizitlari quyidagilardan iborat:\nmehnat shartnomasini tuzgan ish beruvchining nomi: tashkilotning nomi, agar ish beruvchi tashkilotning alohida boʻlinmasi boʻlsa, — ushbu boʻlinmaning nomi, ish beruvchi jismoniy shaxs boʻlgan hollarda, — jismoniy shaxs boʻlgan ish beruvchining familiyasi, ismi, otasining ismi va pasport maʼlumotlari (identifikatsiyalovchi ID-kartasi maʼlumotlari), yakka tartibdagi tadbirkor boʻlgan ish beruvchi uchun esa uning familiyasi, ismi, otasining ismi, pasport maʼlumotlari (identifikatsiyalovchi ID-kartasi maʼlumotlari), shuningdek davlat roʻyxatidan oʻtganligi toʻgʻrisidagi guvohnomaning raqami va berilgan sanasi;\nish beruvchining mehnat shartnomasini imzolagan vakili haqidagi maʼlumotlar va, agar tashkilot yoki uning alohida boʻlinmasi ish beruvchi boʻlsa, vakilga tegishli vakolatlar berilganligining asosi;\nish beruvchi tashkilotning joylashgan yeri (pochta manzili) yoki tashkilotning alohida boʻlinmasi xodim bilan mehnat shartnomasini tuzgan ish beruvchi boʻlgan hollarda, ushbu alohida boʻlinmaning joylashgan yeri (pochta manzili) yoxud jismoniy shaxs boʻlgan ish beruvchining yashash yoki turgan joyi manzili;\nsoliq toʻlovchining identifikatsiya raqami (bundan yakka tartibdagi tadbirkorlar boʻlmagan jismoniy shaxslar boʻlgan ish beruvchilar mustasno);\ntashkilotlar yoki ularning alohida boʻlinmalari boʻlgan ish beruvchilarning, shuningdek yakka tartibdagi tadbirkorlarning bank rekvizitlari;\nish beruvchining aloqa maʼlumotlari (telefon raqamlari, elektron pochta manzili va boshqalar).\nAgar mehnat shartnomasini tuzishda ushbu moddaning birinchi, ikkinchi va uchinchi qismlarida nazarda tutilgan rekvizitlardan biror-biri shartnomaga kiritilmagan boʻlsa, bu mehnat shartnomasini tuzilmagan deb eʼtirof etish yoki uni bekor qilish uchun asos boʻlmaydi. Mehnat shartnomasi yetishmayotgan rekvizitlar bilan toʻldirilishi kerak. Bunda yetishmayotgan rekvizitlar mehnat shartnomasiga doir yozma shaklda tuziladigan qoʻshimcha kelishuv bilan belgilanadi, ushbu kelishuv mehnat shartnomasining ajralmas qismidir.\nRekvizitlar oʻzgargan taqdirda, mehnat shartnomasining tarafi ular oʻzgartirilgan paytdan eʼtiboran uch ish kuni ichida bu haqda boshqa tarafga yozma shaklda xabar qilishi kerak.",
+          "retrieval_score": 19.139662377504962,
+          "rerank_score": 60.13966237750496,
+          "used_in_answer": true
+        },
+        {
+          "rank": 2,
+          "chunk_id": "lex:6257288#uz-Latn#art-106#2026-10-15",
+          "doc_id": "lex:6257288",
+          "article": "106-modda",
+          "text": "106-modda. Mehnat shartnomasining shakli\nMehnat shartnomasi bir xil kuchga ega boʻlgan kamida ikki nusxada yozma (qogʻozda yoki elektron) shaklda tuzilib, ularning har biri taraflar tomonidan imzolanadi.\nElektron shakldagi mehnat shartnomasi qonunchilikda belgilangan tartibda “Yagona milliy mehnat tizimi” idoralararo dasturiy-apparat majmuida rasmiylashtiriladi.\nMehnat shartnomasining har bir nusxasi xodimning va ishga qabul qilish huquqiga ega boʻlgan mansabdor shaxsning imzolari bilan mustahkamlanadi.\nIsh beruvchida muhr mavjud boʻlgan taqdirda mansabdor shaxsning mehnat shartnomasining barcha nusxalaridagi imzosi muhr bilan tasdiqlanadi.\nMehnat shartnomasining bir nusxasi xodimga beriladi, boshqasi (boshqalari) ish beruvchida saqlanadi. Mehnat shartnomasining nusxasi xodim tomonidan olinganligi ish beruvchida saqlanadigan mehnat shartnomasi nusxasidagi xodim mehnat shartnomasining nusxasini olganligi toʻgʻrisidagi alohida imzosi bilan tasdiqlanadi.\nMehnat shartnomasida shartnomaning ushbu Kodeksning 107-moddasida nazarda tutilgan rekvizitlari koʻrsatiladi.\nIsh beruvchilar va xodimlarga mehnat shartnomalarini tuzishda amaliy yordam koʻrsatish maqsadida Oʻzbekiston Respublikasi Vazirlar Mahkamasi tomonidan Ijtimoiy-mehnat masalalari boʻyicha respublika uch tomonlama komissiyasi bilan kelishuvga koʻra tavsiyaviy xususiyatga ega boʻlgan mehnat shartnomalarining namunaviy shakllari ishlab chiqiladi.",
+          "retrieval_score": 14.70427040117646,
+          "rerank_score": 38.70427040117646,
+          "used_in_answer": false
+        },
+        {
+          "rank": 3,
+          "chunk_id": "lex:6257288#uz-Latn#art-110#2026-10-15",
+          "doc_id": "lex:6257288",
+          "article": "110-modda",
+          "text": "110-modda. Mehnat shartnomasining muddati\nMehnat shartnomasi:\nnomuayyan muddatga;\nuch yildan koʻp boʻlmagan muayyan muddatga (muddatli mehnat shartnomasi) tuzilishi mumkin.\nAgar mehnat shartnomasida uning amal qilish muddati shartlashilmagan boʻlsa, shartnoma nomuayyan muddatga tuzilgan deb hisoblanadi.",
+          "retrieval_score": 9.341710383990417,
+          "rerank_score": 33.34171038399042,
+          "used_in_answer": false
+        },
+        {
+          "rank": 4,
+          "chunk_id": "lex:6257288#uz-Latn#art-104#2026-10-15",
+          "doc_id": "lex:6257288",
+          "article": "104-modda",
+          "text": "104-modda. Mehnat shartnomasining mazmuni\nMehnat shartnomasiga kiritilishi shart boʻlgan shartlar quyidagilardan iborat:\nish joyi — xodim shartnomada shart qilib koʻrsatilgan mehnat vazifasiga koʻra mehnat faoliyatini amalga oshiradigan ish beruvchi (tashkilot, uning alohida boʻlinmasi yoki jismoniy shaxs), shuningdek xodim mehnat qilishi kerak boʻlgan joy;\nmehnat vazifasi — muayyan kasb, mutaxassislik, malaka yoxud lavozim boʻyicha ish, shuningdek xodimga topshiriladigan ishning aniq turi;\nishning boshlanish sanasi — xodim mehnat shartnomasida shart qilib koʻrsatilgan ishni bajarishga kirishishi kerak boʻlgan kalendar sana;\nmehnatga haq toʻlash shartlari (shu jumladan xodimning tarif stavkasi yoki maoshi miqdori, qoʻshimcha toʻlovlar, ustamalar va ragʻbatlantiruvchi toʻlovlar);\nxodim bilan muddatli mehnat shartnomasi tuzilgan taqdirda mehnat shartnomasining muddati, shuningdek ushbu Kodeksga yoki boshqa qonunlarga muvofiq muddatli shartnomani tuzish uchun asoslar;\nish vaqti va dam olish vaqti rejimi, agar bu xodim uchun ushbu rejim mazkur ish beruvchida mehnat faoliyatini amalga oshiradigan xodimlar uchun nazarda tutilgan ish vaqtining va dam olish vaqtining umumiy rejimidan farq qiladigan boʻlsa;\nish joyidagi mehnat sharoitlarining xususiyatlari koʻrsatilgan holda normal sharoitlardan farq qiladigan sharoitlardagi ish uchun kafolatlar va kompensatsiyalar, agar xodim mazkur ishga qabul qilinayotgan boʻlsa;\nzarur boʻlgan hollarda ishning xususiyatini belgilaydigan shartlar (koʻchma, sayyor, yoʻldagi, ishning boshqa xususiyati);\nmehnat toʻgʻrisidagi qonunchilikda va mehnat haqidagi boshqa huquqiy hujjatlarda nazarda tutilgan hollarda boshqa shartlar.\nAgar mehnat shartnomasini tuzish chogʻida ushbu moddaning birinchi qismida nazarda tutilgan shartlardan biror-biri shartnomaga kiritilmagan boʻlsa, bu mehnat shartnomasini tuzilmagan deb eʼtirof etish yoki uni bekor qilish uchun asos boʻlmaydi. Mehnat shartnomasi qoʻshimcha shartlar bilan toʻldirilishi kerak. Bunda qoʻshimcha shartlar mehnat shartnomasining ajralmas qismi boʻlgan, mehnat shartnomasiga doir yozma shaklda tuziladigan qoʻshimcha kelishuv bilan belgilanadi.\nMehnat shartnomasida mehnat toʻgʻrisidagi qonunchilikda va mehnat haqidagi boshqa huquqiy hujjatlarda belgilanganiga nisbatan xodimning holatini yomonlashtirmaydigan qoʻshimcha shartlar, shu jumladan quyidagi shartlar nazarda tutilishi mumkin:\nish joyini aniqlashtirish (tarkibiy boʻlinma va uning joylashgan yeri koʻrsatilgan holda) va (yoki) ish joyi toʻgʻrisida;\nishga qabul qilish chogʻidagi dastlabki sinov haqida;\nbir necha kasbda (lavozimda) ishlaganlik toʻgʻrisida;\ndavlat sirlarini va qonun bilan qoʻriqlanadigan boshqa sirni oshkor qilmaslik haqida;\nagar oʻqitish ish beruvchining mablagʻlari hisobidan olib borilgan boʻlsa, xodimning oʻqishdan keyin shartnomada belgilangan muddatdan kam boʻlmagan muddatni ishlab berish majburiyati toʻgʻrisida;\nxodimni qoʻshimcha sugʻurta qilish turlari va shartlari haqida;\nxodimga va uning oila aʼzolariga taqdim etiladigan ijtimoiy-maishiy sharoitlar toʻgʻrisida;\nxodimning ish sharoitlariga nisbatan qoʻllaniladigan xodimning va ish beruvchining mehnat toʻgʻrisidagi qonunchilikda hamda mehnat haqidagi boshqa huquqiy hujjatlarda belgilangan huquqlari va majburiyatlarini aniqlashtirish haqida.\nXodimning va ish beruvchining mehnat toʻgʻrisidagi qonunchilikda belgilangan biror-bir huquqlari va (yoki) majburiyatlarining mehnat shartnomasiga kiritilmasligi ushbu huquqlarni amalga oshirishni yoki bu majburiyatlarni bajarishni rad etish sifatida koʻrib chiqilishi mumkin emas.",
+          "retrieval_score": 7.4032581855965365,
+          "rerank_score": 31.403258185596535,
+          "used_in_answer": false
+        },
+        {
+          "rank": 5,
+          "chunk_id": "lex:6257288#uz-Latn#art-103#2026-10-15",
+          "doc_id": "lex:6257288",
+          "article": "103-modda",
+          "text": "103-modda. Mehnat shartnomasining tushunchasi va taraflari\nMehnat shartnomasi xodim va ish beruvchi oʻrtasidagi taraflarning oʻzaro huquqlari hamda majburiyatlarini belgilovchi kelishuv boʻlib, unga muvofiq xodim ish beruvchining manfaatini koʻzlab, ushbu kelishuvda belgilangan mehnat vazifasini uning rahbarligi va nazorati ostida shaxsan bajarish, ichki mehnat qoidalariga rioya etish majburiyatini, ish beruvchi esa xodimga shartlashilgan mehnat vazifasi boʻyicha ish berish, xodimga ish haqini oʻz vaqtida hamda toʻliq miqdorda toʻlash, mehnat toʻgʻrisidagi qonunchilikda, mehnat haqidagi boshqa huquqiy hujjatlarda va ushbu kelishuvda nazarda tutilgan mehnat sharoitlarini taʼminlash majburiyatini oʻz zimmasiga oladi.\nXodim va ish beruvchi mehnat shartnomasining taraflaridir.",
+          "retrieval_score": 9.123441636827268,
+          "rerank_score": 31.123441636827266,
+          "used_in_answer": false
+        }
+      ],
+      "error": null,
+      "timing": {
+        "retrieval_ms": 12.591,
+        "rerank_ms": 0,
+        "generation_ms": 0.063,
+        "total_ms": 23.186
+      }
+    }
+  ]
+}

@@ -1,0 +1,289 @@
+{
+  "dataset_sha256": "2430a56e37bafdd424939dd9cd9d521c3f4d37404be97e96f848617431925221",
+  "before": {
+    "total": 100,
+    "answerable": 90,
+    "unanswerable": 10,
+    "Hit@1": 0.8444444444444444,
+    "Hit@5": 0.8666666666666667,
+    "MRR@5": 0.8555555555555555,
+    "no_result_answerable": 0,
+    "expected_missing_top5": 12,
+    "wrong_top1_answerable": 14,
+    "no_answer_all": 9,
+    "correct_rejections": 9,
+    "false_answers_out_of_scope": 1,
+    "errors": 0,
+    "multi_all_targets_top5": 8
+  },
+  "after": {
+    "total": 100,
+    "answerable": 90,
+    "unanswerable": 10,
+    "Hit@1": 0.9333333333333333,
+    "Hit@5": 0.9666666666666667,
+    "MRR@5": 0.9472222222222222,
+    "no_result_answerable": 0,
+    "expected_missing_top5": 3,
+    "wrong_top1_answerable": 6,
+    "no_answer_all": 10,
+    "correct_rejections": 10,
+    "false_answers_out_of_scope": 0,
+    "errors": 0,
+    "multi_all_targets_top5": 13
+  },
+  "remaining_misses": [
+    {
+      "id": "q007",
+      "category": "kop_manba",
+      "question": "Xodimning huquqlari; Xodimning majburiyatlari bo‘yicha kodeks qanday qoidalarni belgilaydi?",
+      "answerable": true,
+      "status": "ok",
+      "first_relevant_rank": 4,
+      "hit1": false,
+      "hit5": true,
+      "reciprocal_rank_at5": 0.25,
+      "all_expected_in_top5": true,
+      "expected_sources": [
+        [
+          "lex:6257288",
+          "21-modda"
+        ],
+        [
+          "lex:6257288",
+          "22-modda"
+        ]
+      ],
+      "returned_sources": [
+        [
+          "lex:6257288",
+          "371-modda"
+        ],
+        [
+          "lex:6257288",
+          "355-modda"
+        ],
+        [
+          "lex:6257288",
+          "306-modda"
+        ],
+        [
+          "lex:6257288",
+          "22-modda"
+        ],
+        [
+          "lex:6257288",
+          "21-modda"
+        ]
+      ]
+    },
+    {
+      "id": "q008",
+      "category": "kop_manba",
+      "question": "Fuqarolarning huquq layoqati; Fuqaroning muomala layoqati bo‘yicha kodeks qanday qoidalarni belgilaydi?",
+      "answerable": true,
+      "status": "ok",
+      "first_relevant_rank": 2,
+      "hit1": false,
+      "hit5": true,
+      "reciprocal_rank_at5": 0.5,
+      "all_expected_in_top5": true,
+      "expected_sources": [
+        [
+          "lex:111189",
+          "17-modda"
+        ],
+        [
+          "lex:111189",
+          "22-modda"
+        ]
+      ],
+      "returned_sources": [
+        [
+          "lex:111189",
+          "23-modda"
+        ],
+        [
+          "lex:111189",
+          "22-modda"
+        ],
+        [
+          "lex:111189",
+          "31-modda"
+        ],
+        [
+          "lex:6257288",
+          "20-modda"
+        ],
+        [
+          "lex:111189",
+          "17-modda"
+        ]
+      ]
+    },
+    {
+      "id": "q012",
+      "category": "noaniq",
+      "question": "Bir yil ishlasam eng kamida necha kun dam olish ta’tili berishadi?",
+      "answerable": true,
+      "status": "ok",
+      "first_relevant_rank": null,
+      "hit1": false,
+      "hit5": false,
+      "reciprocal_rank_at5": 0,
+      "all_expected_in_top5": false,
+      "expected_sources": [
+        [
+          "lex:6257288",
+          "217-modda"
+        ]
+      ],
+      "returned_sources": [
+        [
+          "lex:6257288",
+          "516-modda"
+        ],
+        [
+          "lex:6257288",
+          "226-modda"
+        ],
+        [
+          "lex:6257288",
+          "509-modda"
+        ],
+        [
+          "lex:6257288",
+          "218-modda"
+        ],
+        [
+          "lex:6257288",
+          "216-modda"
+        ]
+      ]
+    },
+    {
+      "id": "q024",
+      "category": "noaniq",
+      "question": "Ishga yangi kirganda sinovda qancha vaqt yuraman?",
+      "answerable": true,
+      "status": "ok",
+      "first_relevant_rank": null,
+      "hit1": false,
+      "hit5": false,
+      "reciprocal_rank_at5": 0,
+      "all_expected_in_top5": false,
+      "expected_sources": [
+        [
+          "lex:6257288",
+          "130-modda"
+        ]
+      ],
+      "returned_sources": [
+        [
+          "lex:6257288",
+          "173-modda"
+        ],
+        [
+          "lex:6257288",
+          "104-modda"
+        ],
+        [
+          "lex:6257288",
+          "364-modda"
+        ],
+        [
+          "lex:6257288",
+          "227-modda"
+        ],
+        [
+          "lex:6257288",
+          "381-modda"
+        ]
+      ]
+    },
+    {
+      "id": "q044",
+      "category": "kop_manba",
+      "question": "Bitimlarning shakli; Bitimning yozma shakli bo‘yicha kodeks qanday qoidalarni belgilaydi?",
+      "answerable": true,
+      "status": "ok",
+      "first_relevant_rank": 2,
+      "hit1": false,
+      "hit5": true,
+      "reciprocal_rank_at5": 0.5,
+      "all_expected_in_top5": true,
+      "expected_sources": [
+        [
+          "lex:111189",
+          "105-modda"
+        ],
+        [
+          "lex:111189",
+          "107-modda"
+        ]
+      ],
+      "returned_sources": [
+        [
+          "lex:111189",
+          "108-modda"
+        ],
+        [
+          "lex:111189",
+          "107-modda"
+        ],
+        [
+          "lex:111189",
+          "109-modda"
+        ],
+        [
+          "lex:111189",
+          "105-modda"
+        ],
+        [
+          "lex:111189",
+          "106-modda"
+        ]
+      ]
+    },
+    {
+      "id": "q060",
+      "category": "noaniq",
+      "question": "Ta’tilni bo‘lib-bo‘lib olsam bo‘ladimi?",
+      "answerable": true,
+      "status": "ok",
+      "first_relevant_rank": null,
+      "hit1": false,
+      "hit5": false,
+      "reciprocal_rank_at5": 0,
+      "all_expected_in_top5": false,
+      "expected_sources": [
+        [
+          "lex:6257288",
+          "231-modda"
+        ]
+      ],
+      "returned_sources": [
+        [
+          "lex:6257288",
+          "241-modda"
+        ],
+        [
+          "lex:6257288",
+          "230-modda"
+        ],
+        [
+          "lex:6257288",
+          "405-modda"
+        ],
+        [
+          "lex:6257288",
+          "286-modda"
+        ],
+        [
+          "lex:6257288",
+          "401-modda"
+        ]
+      ]
+    }
+  ]
+}

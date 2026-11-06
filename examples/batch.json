@@ -1,0 +1,8 @@
+{
+  "run_id": "first-run",
+  "batch_id": "first-run-b01",
+  "batch_index": 1,
+  "total_batches": 10,
+  "options": {"top_k": 5, "return_contexts": true, "return_debug": true, "temperature": 0, "seed": 42, "as_of_date": "2026-11-06", "answer_language": "auto"},
+  "items": [{"id": "q001", "question": "Yillik asosiy mehnat ta'tilining eng kam muddati qancha?", "language": "uz-Latn"}]
+}

@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="uz">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#185b44">
+  <meta name="description" content="Savolingizga qonun manbalaridan javob toping. Lex.uz hujjatlari bo‘yicha mahalliy qidiruv.">
+  <title>Lex — qonun manbalaridan javob</title>
+  <link rel="icon" href="data:,">
+  <link rel="stylesheet" href="/assets/style.css">
+  <script src="/assets/app.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#question">Savolga o‘tish</a>
+  <aside class="sidebar" aria-label="Loyiha va qamrov">
+    <a class="brand" href="/" aria-label="Lex bosh sahifa"><span class="brand-mark">L<span>•</span></span><span>lex<span class="brand-dot">.</span></span></a>
+    <div class="sidebar-label">QONUN MANBALARIDAN JAVOB</div>
+    <button class="nav-item active" id="new-search"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5"/><path d="m16 16 4 4"/></svg>Huquqiy qidiruv<span>↗</span></button>
+    <a class="nav-item" href="#coverage"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 4h6a3 3 0 0 1 3 3v14a4 4 0 0 0-4-3H4zm16 0h-4a3 3 0 0 0-3 3"/><path d="M20 4v14h-3"/></svg>Manbalar kutubxonasi</a>
+    <div class="sidebar-scope"><span class="tiny-dot"></span><p>Ikki kodeks.<br>Uch tilda. Bir joyda.</p><small>Mehnat va fuqarolik huquqiga oid manbalar bilan boshlang.</small></div>
+    <div class="sidebar-bottom"><span class="local-icon">⌂</span><div>Mahalliy ish muhiti<small>Ma’lumot kompyuteringizda</small></div></div>
+  </aside>
+  <div class="workspace">
+    <header class="topbar"><span class="mobile-brand">lex<span>․</span></span><span class="breadcrumb">Ish maydoni <span>/</span> <strong>Huquqiy qidiruv</strong></span><div class="topbar-right"><span class="service-status" id="service-status"><i></i>Tekshirilmoqda</span><button class="connection-button" id="connect-button">APIga ulanish <span>↗</span></button></div></header>
+    <main>
+      <section class="intro" aria-labelledby="page-title"><div class="eyebrow"><span></span>LEX.UZ MANBALARI ASOSIDA</div><h1 id="page-title">Savolingiz bor.<br><em>Manbasi shu yerda.</em></h1><p>Qonunchilikka oid savolingizni yozing. Tegishli modda va uning<br class="desktop-break"> asl matnini rasmiy manbasi bilan birga toping.</p></section>
+      <section class="search-area" aria-label="Qonunchilik bo‘yicha qidiruv">
+        <form id="search-form">
+          <div class="search-card"><label class="input-label" for="question">Nimani bilmoqchisiz?</label><textarea id="question" name="question" maxlength="2000" rows="3" required placeholder="Masalan, yillik asosiy mehnat ta’tilining eng kam muddati qancha?"></textarea><div class="search-controls"><div class="select-group"><label for="language">Savol tili</label><select id="language"><option value="uz-Latn">O‘zbekcha · Lotin</option><option value="uz-Cyrl">Ўзбекча · Кирилл</option><option value="ru">Русский</option></select></div><div class="date-group"><label for="as-of-date">Tahrir sanasi</label><input id="as-of-date" type="date" required aria-describedby="date-hint"></div><button class="search-button" id="submit-button" type="submit"><span id="submit-label">Javobni topish</span><span aria-hidden="true">↗</span></button></div></div>
+          <div class="form-foot"><span id="date-hint">Sana bazadagi mavjud tahrirga mos tanlanadi.</span><span id="character-count">0 / 2 000</span></div>
+        </form>
+        <div class="examples" aria-label="Namuna savollar"><span>Sinab ko‘ring</span><button type="button" data-example="leave">Mehnat ta’tili <span>↗</span></button><button type="button" data-example="limitation">Da’vo muddati <span>↗</span></button></div>
+      </section>
+      <p id="feedback" class="feedback" role="status" aria-live="polite" hidden></p>
+      <section id="results" class="results" aria-label="Qidiruv natijasi" hidden></section>
+      <section id="coverage" class="coverage"><div class="section-heading"><div><span class="eyebrow">MANBALAR KUTUBXONASI</span><h2>Qidiruv qayerdan izlaydi?</h2></div><span class="scope-badge">Hozircha 2 ta kodeks</span></div><div class="source-grid"><article class="source-card"><div class="source-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 8h16v12H4zM8 8V4h8v4M4 12h16M10 12v3h4v-3"/></svg></div><span class="source-category">MEHNAT HUQUQI</span><h3>Mehnat kodeksi</h3><p>Mehnat munosabatlari, ta’til, ish vaqti va xodimning huquqlari.</p><div class="source-meta" id="labor-count">Lotin · Kirill · Rus</div></article><article class="source-card"><div class="source-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3v18M5 7h14M3 16l3-8 3 8m6 0 3-8 3 8M3 16c1 3 5 3 6 0m6 0c1 3 5 3 6 0M8 21h8"/></svg></div><span class="source-category">FUQAROLIK HUQUQI</span><h3>Fuqarolik kodeksi <span>· I qism</span></h3><p>Fuqarolik huquqlari, mulk, bitimlar va da’vo muddatlari.</p><div class="source-meta" id="civil-count">Lotin · Kirill · Rus</div></article></div><div class="coverage-note"><span aria-hidden="true">ⓘ</span><p id="coverage-summary">Qamrov cheklangan: faqat shu ikki kodeks. Bu butun lex.uz bazasi emas.</p></div></section>
+      <footer><span>lex. <span class="footer-divider">/</span> Qonunni manbasi bilan o‘qing.</span><span>Asl matndan qidiruv · LLM ulanmagan</span></footer>
+    </main>
+  </div>
+  <dialog id="connection-dialog" aria-labelledby="connection-title"><form id="connection-form"><div class="dialog-head"><span class="eyebrow">MAHALLIY BACKEND</span><button type="button" class="icon-button" id="close-dialog" aria-label="Yopish">×</button></div><h2 id="connection-title">Qidiruvga ulaning</h2><p>Backendni ishga tushirganda belgilangan API kalitini kiriting. Kalit faqat ushbu sahifa xotirasida turadi.</p><label for="api-key">API kaliti</label><input id="api-key" type="password" autocomplete="off" minlength="16" required placeholder="RAG_API_KEY qiymati"><p id="connection-error" class="dialog-error" role="alert" hidden></p><button class="search-button" id="authorize-button" type="submit">Ulanish <span>↗</span></button><small>Kalit lex.uz saytiga yuborilmaydi.</small></form></dialog>
+</body>
+</html>

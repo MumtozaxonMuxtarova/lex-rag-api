@@ -1,0 +1,94 @@
+{
+  "kind": "live local HTTP review",
+  "checks": [
+    {
+      "method": "GET",
+      "path": "/",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/health",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/meta",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/coverage",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/openapi.json",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/docs",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "path": "/v1/rag/batch",
+      "status": 200,
+      "first_article": "217-modda"
+    },
+    {
+      "check": "GET saved batch + idempotent retry",
+      "passed": true
+    },
+    {
+      "check": "conflict409/auth401/missing404",
+      "passed": true
+    }
+  ],
+  "llm_connected": false,
+  "existing_tests_passed": 24,
+  "total_tests_passed": 30,
+  "browser_viewports": [
+    [
+      1440,
+      1000
+    ],
+    [
+      390,
+      844
+    ]
+  ],
+  "source_hashes_verified": 6,
+  "corpus_chunks": 2937,
+  "launcher": {
+    "start_ps1": "passed with previously installed matching dependencies",
+    "default_env_key_loading": "passed",
+    "health_and_coverage": "passed",
+    "first_install_note": "Fresh network installation was slow; launcher was validated using the matching package cache."
+  },
+  "source_links": [
+    {
+      "document": "Mehnat kodeksi",
+      "article": "217-modda",
+      "http_status": 200,
+      "anchor_found": true
+    },
+    {
+      "document": "Fuqarolik kodeksi I qism (ru)",
+      "article": "Статья 150",
+      "http_status": 200,
+      "anchor_found": true
+    }
+  ],
+  "browser_checks": [
+    "Uzbek question with article217",
+    "Russian question with article150",
+    "out-of-scope no_answer",
+    "invalid API key error",
+    "desktop and phone no horizontal overflow",
+    "no console errors"
+  ],
+  "requested_destination": "D:/pdp univer 4 kurs/1 semester/AI/06.11.2026/lex-rag-api",
+  "destination_status": "Direct write permission was not granted; copy-to-d.ps1 is provided for the user to run."
+}

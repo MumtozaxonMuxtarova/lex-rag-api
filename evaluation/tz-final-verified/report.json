@@ -1,0 +1,3533 @@
+{
+  "label": "tz-final-verified",
+  "dataset_sha256": "bc9eeba49ed3706e471688263619dc345361297d6db3adf19028c5bfe69485ec",
+  "metrics": {
+    "total": 100,
+    "answerable": 90,
+    "unanswerable": 10,
+    "Hit@1": 1.0,
+    "Hit@5": 1.0,
+    "MRR@5": 1.0,
+    "no_result_answerable": 0,
+    "expected_missing_top5": 0,
+    "wrong_top1_answerable": 0,
+    "no_answer_all": 10,
+    "correct_rejections": 10,
+    "false_answers_out_of_scope": 0,
+    "errors": 0,
+    "multi_all_targets_top5": 15,
+    "Hit@5_document": 1.0,
+    "Recall@5": 1.0,
+    "gold_context_precision_at5": 0.93,
+    "exact_answer_correctness_proxy_0_2": 2.0,
+    "verbatim_quote_rate": 1.0,
+    "gold_citation_accuracy_proxy": 1.0,
+    "fabricated_sources": 0,
+    "out_of_date_citations": 0,
+    "latency_p50_ms": 29.271,
+    "latency_p95_ms": 66.763,
+    "error_rate": 0.0
+  },
+  "semantic_review_complete": false,
+  "limits": [
+    "Source-derived development dataset, not an independent benchmark.",
+    "Exact-answer, quote and gold relevance measures are automatic proxies; semantic metrics require a completed review.",
+    "Retrieval and lexical reranking are measured together in retrieval_ms; rerank_ms=0 means no separate reranker.",
+    "Server timing excludes client network overhead."
+  ],
+  "method": "Hit/MRR denominator=90 answerable questions; doc+article must both match. Multi-source hit accepts any listed relevant source; all-target coverage reported separately. MRR is truncated to the returned top5 (MRR@5).",
+  "details": [
+    {
+      "id": "q001",
+      "category": "faktik",
+      "question": "Mehnat kodeksining 4-moddasida nima belgilangan?",
+      "answerable": true,
+      "status": "ok",
+      "first_relevant_rank": 1,
+      "hit1": true,
+      "hit5": true,
+      "reciprocal_rank_at5": 1.0,
+      "all_expected_in_top5": true,
+      "document_hit5": true,
+      "recall_at5": 1.0,
+      "gold_precision_at5": 1.0,
+      "exact_answer_score": 2,
+      "citation_count": 1,
+      "verbatim_quotes": 1,
+      "gold_citations": 1,
+      "fabricated_sources": 0,
+      "out_of_date_citations": 0,
+      "total_ms": 27.331,
+      "expected_sources": [
+        [
+          "lex:6257288",
+          "4-modda"
+        ]
+      ],
+      "returned_sources": [
+        [
+          "lex:6257288",
+          "4-modda"
+        ]
+      ]
+    },
+    {
+      "id": "q002",
+      "category": "faktik",
+      "question": "Mehnat sohasidagi ijtimoiy sheriklikning darajalari bo‘yicha kodeks qanday qoidalarni belgilaydi?",
+      "answerable": true,
+      "status": "ok",
+      "first_relevant_rank": 1,
+      "hit1": true,
+      "hit5": true,
+      "reciprocal_rank_at5": 1.0,
+      "all_expected_in_top5": true,
+      "document_hit5": true,
+      "recall_at5": 1.0,
+      "gold_precision_at5": 1.0,
+      "exact_answer_score": 2,
+      "citation_count": 1,
+      "verbatim_quotes": 1,
+      "gold_citations": 1,
+      "fabricated_sources": 0,
+      "out_of_date_citations": 0,
+      "total_ms": 30.669,
+      "expected_sources": [
+        [
+          "lex:6257288",
+          "35-modda"
+        ]
+      ],
+      "returned_sources": [
+        [
+          "lex:6257288",
+          "35-modda"
+        ]
+      ]
+    },
+    {
+      "id": "q003",
+      "category": "faktik",
+      "question": "Mehnat shartnomasining muddati bo‘yicha kodeks qanday qoidalarni belgilaydi?",
+      "answerable": true,
+      "status": "ok",
+      "first_relevant_rank": 1,
+      "hit1": true,
+      "hit5": true,
+      "reciprocal_rank_at5": 1.0,
+      "all_expected_in_top5": true,
+      "document_hit5": true,
+      "recall_at5": 1.0,
+      "gold_precision_at5": 1.0,
+      "exact_answer_score": 2,
+      "citation_count": 1,
+      "verbatim_quotes": 1,
+      "gold_citations": 1,
+      "fabricated_sources": 0,
+      "out_of_date_citations": 0,
+      "total_ms": 44.207,
+      "expected_sources": [
+        [
+          "lex:6257288",
+          "110-modda"
+        ]
+      ],
+      "returned_sources": [
+        [
+          "lex:6257288",
+          "110-modda"
+        ]
+      ]
+    },
+    {
+      "id": "q004",
+      "category": "faktik",
+      "question": "Zararni qoplash bo‘yicha kodeks qanday qoidalarni belgilaydi?",
+      "answerable": true,
+      "status": "ok",
+      "first_relevant_rank": 1,
+      "hit1": true,
+      "hit5": true,
+      "reciprocal_rank_at5": 1.0,
+      "all_expected_in_top5": true,
+      "document_hit5": true,
+      "recall_at5": 1.0,
+      "gold_precision_at5": 1.0,
+      "exact_answer_score": 2,
+      "citation_count": 1,
+      "verbatim_quotes": 1,
+      "gold_citations": 1,
+      "fabricated_sources": 0,
+      "out_of_date_citations": 0,
+      "total_ms": 22.294,
+      "expected_sources": [
+        [
+          "lex:111189",
+          "14-modda"
+        ]
+      ],
+      "returned_sources": [
+        [
+          "lex:111189",
+          "14-modda"
+        ]
+      ]
+    },
+    {
+      "id": "q005",
+      "category": "raqam",
+      "question": "Har yilgi asosiy eng kam mehnat taʼtilining davomiyligi: qanday muddat, yosh yoki miqdor belgilangan?",
+      "answerable": true,
+      "status": "ok",
+      "first_relevant_rank": 1,
+      "hit1": true,
+      "hit5": true,
+      "reciprocal_rank_at5": 1.0,
+      "all_expected_in_top5": true,
+      "document_hit5": true,
+      "recall_at5": 1.0,
+      "gold_precision_at5": 1.0,
+      "exact_answer_score": 2,
+      "citation_count": 1,
+      "verbatim_quotes": 1,
+      "gold_citations": 1,
+      "fabricated_sources": 0,
+      "out_of_date_citations": 0,
+      "total_ms": 33.931,
+      "expected_sources": [
+        [
+          "lex:6257288",
+          "217-modda"
+        ]
+      ],
+      "returned_sources": [
+        [
+          "lex:6257288",
+          "217-modda"
+        ]
+      ]
+    },
+    {
+      "id": "q006",
+      "category": "raqam",
+      "question": "Har yilgi mehnat taʼtilini qismlarga boʻlish: qanday muddat, yosh yoki miqdor belgilangan?",
+      "answerable": true,
+      "status": "ok",
+      "first_relevant_rank": 1,
+      "hit1": true,
+      "hit5": true,
+      "reciprocal_rank_at5": 1.0,
+      "all_expected_in_top5": true,
+      "document_hit5": true,
+      "recall_at5": 1.0,
+      "gold_precision_at5": 1.0,
+      "exact_answer_score": 2,
+      "citation_count": 1,
+      "verbatim_quotes": 1,
+      "gold_citations": 1,
+      "fabricated_sources": 0,
+      "out_of_date_citations": 0,
+      "total_ms": 41.642,
+      "expected_sources": [
+        [
+          "lex:6257288",
+          "231-modda"
+        ]
+      ],
+      "returned_sources": [
+        [
+          "lex:6257288",
+          "231-modda"
+        ]
+      ]
+    },
+    {
+      "id": "q007",
+      "category": "kop_manba",
+      "question": "Xodimning huquqlari; Xodimning majburiyatlari bo‘yicha kodeks qanday qoidalarni belgilaydi?",
+      "answerable": true,
+      "status": "ok",
+      "first_relevant_rank": 1,
+      "hit1": true,
+      "hit5": true,
+      "reciprocal_rank_at5": 1.0,
+      "all_expected_in_top5": true,
+      "document_hit5": true,
+      "recall_at5": 1.0,
+      "gold_precision_at5": 1.0,
+      "exact_answer_score": 2,
+      "citation_count": 2,
+      "verbatim_quotes": 2,
+      "gold_citations": 2,
+      "fabricated_sources": 0,
+      "out_of_date_citations": 0,
+      "total_ms": 73.038,
+      "expected_sources": [
+        [
+          "lex:6257288",
+          "21-modda"
+        ],
+        [
+          "lex:6257288",
+          "22-modda"
+        ]
+      ],
+      "returned_sources": [
+        [
+          "lex:6257288",
+          "21-modda"
+        ],
+        [
+          "lex:6257288",
+          "22-modda"
+        ]
+      ]
+    },
+    {
+      "id": "q008",
+      "category": "kop_manba",
+      "question": "Fuqarolarning huquq layoqati; Fuqaroning muomala layoqati bo‘yicha kodeks qanday qoidalarni belgilaydi?",
+      "answerable": true,
+      "status": "ok",
+      "first_relevant_rank": 1,
+      "hit1": true,
+      "hit5": true,
+      "reciprocal_rank_at5": 1.0,
+      "all_expected_in_top5": true,
+      "document_hit5": true,
+      "recall_at5": 1.0,
+      "gold_precision_at5": 0.6666666666666666,
+      "exact_answer_score": 2,
+      "citation_count": 2,
+      "verbatim_quotes": 2,
+      "gold_citations": 2,
+      "fabricated_sources": 0,
+      "out_of_date_citations": 0,
+      "total_ms": 31.69,
+      "expected_sources": [
+        [
+          "lex:111189",
+          "17-modda"
+        ],
+        [
+          "lex:111189",
+          "22-modda"
+        ]
+      ],
+      "returned_sources": [
+        [
+          "lex:111189",
+          "17-modda"
+        ],
+        [
+          "lex:111189",
+          "22-modda"
+        ],
+        [
+          "lex:111189",
+          "31-modda"
+        ]
+      ]
+    },
+    {
+      "id": "q009",
+      "category": "tahrir",
+      "question": "2026-11-06 holatiga Notarial tasdiqlangan ishonchnomalarga tenglashtirilgan ishonchnomalar qanday tartibga solinadi?",
+      "answerable": true,
+      "status": "ok",
+      "first_relevant_rank": 1,
+      "hit1": true,
+      "hit5": true,
+      "reciprocal_rank_at5": 1.0,
+      "all_expected_in_top5": true,
+      "document_hit5": true,
+      "recall_at5": 1.0,
+      "gold_precision_at5": 1.0,
+      "exact_answer_score": 2,
+      "citation_count": 1,
+      "verbatim_quotes": 1,
+      "gold_citations": 1,
+      "fabricated_sources": 0,
+      "out_of_date_citations": 0,
+      "total_ms": 13.55,
+      "expected_sources": [
+        [
+          "lex:111189",
+          "136-modda"
+        ]
+      ],
+      "returned_sources": [
+        [
+          "lex:111189",
+          "136-modda"
+        ]
+      ]
+    },
+    {
+      "id": "q010",
+      "category": "kop_tilli",
+      "question": "Какие правила установлены по вопросу: Продолжительность ежегодного основного минимального трудового отпуска?",
+      "answerable": true,
+      "status": "ok",
+      "first_relevant_rank": 1,
+      "hit1": true,
+      "hit5": true,
+      "reciprocal_rank_at5": 1.0,
+      "all_expected_in_top5": true,
+      "document_hit5": true,
+      "recall_at5": 1.0,
+      "gold_precision_at5": 1.0,
+      "exact_answer_score": 2,
+      "citation_count": 1,
+      "verbatim_quotes": 1,
+      "gold_citations": 1,
+      "fabricated_sources": 0,
+      "out_of_date_citations": 0,
+      "total_ms": 88.839,
+      "expected_sources": [
+        [
+          "lex:6257291",
+          "Статья 217"
+        ]
+      ],
+      "returned_sources": [
+        [
+          "lex:6257291",
+          "Статья 217"
+        ]
+      ]
+    },
+    {
+      "id": "q011",
+      "category": "javobsiz",
+      "question": "Python ro‘yxatini qanday saralayman?",
+      "answerable": false,
+      "status": "no_answer",
+      "first_relevant_rank": null,
+      "hit1": false,
+      "hit5": false,
+      "reciprocal_rank_at5": 0,
+      "all_expected_in_top5": false,
+      "document_hit5": false,
+      "recall_at5": null,
+      "gold_precision_at5": 0,
+      "exact_answer_score": 2,
+      "citation_count": 0,
+      "verbatim_quotes": 0,
+      "gold_citations": 0,
+      "fabricated_sources": 0,
+      "out_of_date_citations": 0,
+      "total_ms": 13.69,
+      "expected_sources": [],
+      "returned_sources": []
+    },
+    {
+      "id": "q012",
+      "category": "noaniq",
+      "question": "Bir yil ishlasam eng kamida necha kun dam olish ta’tili berishadi?",
+      "answerable": true,
+      "status": "ok",
+      "first_relevant_rank": 1,
+      "hit1": true,
+      "hit5": true,
+      "reciprocal_rank_at5": 1.0,
+      "all_expected_in_top5": true,
+      "document_hit5": true,
+      "recall_at5": 1.0,
+      "gold_precision_at5": 0.3333333333333333,
+      "exact_answer_score": 2,
+      "citation_count": 1,
+      "verbatim_quotes": 1,
+      "gold_citations": 1,
+      "fabricated_sources": 0,
+      "out_of_date_citations": 0,
+      "total_ms": 35.899,
+      "expected_sources": [
+        [
+          "lex:6257288",
+          "217-modda"
+        ]
+      ],
+      "returned_sources": [
+        [
+          "lex:6257288",
+          "217-modda"
+        ],
+        [
+          "lex:6257288",
+          "221-modda"
+        ],
+        [
+          "lex:6257288",
+          "229-modda"
+        ]
+      ]
+    },
+    {
+      "id": "q013",
+      "category": "faktik",
+      "question": "Mehnat kodeksining 5-moddasida nima belgilangan?",
+      "answerable": true,
+      "status": "ok",
+      "first_relevant_rank": 1,
+      "hit1": true,
+      "hit5": true,
+      "reciprocal_rank_at5": 1.0,
+      "all_expected_in_top5": true,
+      "document_hit5": true,
+      "recall_at5": 1.0,
+      "gold_precision_at5": 1.0,
+      "exact_answer_score": 2,
+      "citation_count": 1,
+      "verbatim_quotes": 1,
+      "gold_citations": 1,
+      "fabricated_sources": 0,
+      "out_of_date_citations": 0,
+      "total_ms": 24.432,
+      "expected_sources": [
+        [
+          "lex:6257288",
+          "5-modda"
+        ]
+      ],
+      "returned_sources": [
+        [
+          "lex:6257288",
+          "5-modda"
+        ]
+      ]
+    },
+    {
+      "id": "q014",
+      "category": "faktik",
+      "question": "Jamoa shartnomasining tushunchasi va shakli bo‘yicha kodeks qanday qoidalarni belgilaydi?",
+      "answerable": true,
+      "status": "ok",
+      "first_relevant_rank": 1,
+      "hit1": true,
+      "hit5": true,
+      "reciprocal_rank_at5": 1.0,
+      "all_expected_in_top5": true,
+      "document_hit5": true,
+      "recall_at5": 1.0,
+      "gold_precision_at5": 1.0,
+      "exact_answer_score": 2,
+      "citation_count": 1,
+      "verbatim_quotes": 1,
+      "gold_citations": 1,
+      "fabricated_sources": 0,
+      "out_of_date_citations": 0,
+      "total_ms": 26.419,
+      "expected_sources": [
+        [
+          "lex:6257288",
+          "65-modda"
+        ]
+      ],
+      "returned_sources": [
+        [
+          "lex:6257288",
+          "65-modda"
+        ]
+      ]
+    },
+    {
+      "id": "q015",
+      "category": "faktik",
+      "question": "Xodim bilan muddatli mehnat shartnomasini tuzishning asosliligi bo‘yicha kodeks qanday qoidalarni belgilaydi?",
+      "answerable": true,
+      "status": "ok",
+      "first_relevant_rank": 1,
+      "hit1": true,
+      "hit5": true,
+      "reciprocal_rank_at5": 1.0,
+      "all_expected_in_top5": true,
+      "document_hit5": true,
+      "recall_at5": 1.0,
+      "gold_precision_at5": 1.0,
+      "exact_answer_score": 2,
+      "citation_count": 1,
+      "verbatim_quotes": 1,
+      "gold_citations": 1,
+      "fabricated_sources": 0,
+      "out_of_date_citations": 0,
+      "total_ms": 60.778,
+      "expected_sources": [
+        [
+          "lex:6257288",
+          "111-modda"
+        ]
+      ],
+      "returned_sources": [
+        [
+          "lex:6257288",
+          "111-modda"
+        ]
+      ]
+    },
+    {
+      "id": "q016",
+      "category": "faktik",
+      "question": "Fuqaro (jismoniy shaxs) tushunchasi bo‘yicha kodeks qanday qoidalarni belgilaydi?",
+      "answerable": true,
+      "status": "ok",
+      "first_relevant_rank": 1,
+      "hit1": true,
+      "hit5": true,
+      "reciprocal_rank_at5": 1.0,
+      "all_expected_in_top5": true,
+      "document_hit5": true,
+      "recall_at5": 1.0,
+      "gold_precision_at5": 1.0,
+      "exact_answer_score": 2,
+      "citation_count": 1,
+      "verbatim_quotes": 1,
+      "gold_citations": 1,
+      "fabricated_sources": 0,
+      "out_of_date_citations": 0,
+      "total_ms": 33.993,
+      "expected_sources": [
+        [
+          "lex:111189",
+          "16-modda"
+        ]
+      ],
+      "returned_sources": [
+        [
+          "lex:111189",
+          "16-modda"
+        ]
+      ]
+    },
+    {
+      "id": "q017",
+      "category": "raqam",
+      "question": "Dastlabki sinov muddati: qanday muddat, yosh yoki miqdor belgilangan?",
+      "answerable": true,
+      "status": "ok",
+      "first_relevant_rank": 1,
+      "hit1": true,
+      "hit5": true,
+      "reciprocal_rank_at5": 1.0,
+      "all_expected_in_top5": true,
+      "document_hit5": true,
+      "recall_at5": 1.0,
+      "gold_precision_at5": 1.0,
+      "exact_answer_score": 2,
+      "citation_count": 1,
+      "verbatim_quotes": 1,
+      "gold_citations": 1,
+      "fabricated_sources": 0,
+      "out_of_date_citations": 0,
+      "total_ms": 25.89,
+      "expected_sources": [
+        [
+          "lex:6257288",
+          "130-modda"
+        ]
+      ],
+      "returned_sources": [
+        [
+          "lex:6257288",
+          "130-modda"
+        ]
+      ]
+    },
+    {
+      "id": "q018",
+      "category": "raqam",
+      "question": "Umumiy daʼvo muddati: qanday muddat, yosh yoki miqdor belgilangan?",
+      "answerable": true,
+      "status": "ok",
+      "first_relevant_rank": 1,
+      "hit1": true,
+      "hit5": true,
+      "reciprocal_rank_at5": 1.0,
+      "all_expected_in_top5": true,
+      "document_hit5": true,
+      "recall_at5": 1.0,
+      "gold_precision_at5": 1.0,
+      "exact_answer_score": 2,
+      "citation_count": 1,
+      "verbatim_quotes": 1,
+      "gold_citations": 1,
+      "fabricated_sources": 0,
+      "out_of_date_citations": 0,
+      "total_ms": 27.013,
+      "expected_sources": [
+        [
+          "lex:111189",
+          "150-modda"
+        ]
+      ],
+      "returned_sources": [
+        [
+          "lex:111189",
+          "150-modda"
+        ]
+      ]
+    },
+    {
+      "id": "q019",
+      "category": "kop_manba",
+      "question": "Ish beruvchining huquqlari; Ish beruvchining mehnatga oid huquq layoqati va muomala layoqati bo‘yicha kodeks qanday qoidalarni belgilaydi?",
+      "answerable": true,
+      "status": "ok",
+      "first_relevant_rank": 1,
+      "hit1": true,
+      "hit5": true,
+      "reciprocal_rank_at5": 1.0,
+      "all_expected_in_top5": true,
+      "document_hit5": true,
+      "recall_at5": 1.0,
+      "gold_precision_at5": 1.0,
+      "exact_answer_score": 2,
+      "citation_count": 2,
+      "verbatim_quotes": 2,
+      "gold_citations": 2,
+      "fabricated_sources": 0,
+      "out_of_date_citations": 0,
+      "total_ms": 81.001,
+      "expected_sources": [
+        [
+          "lex:6257288",
+          "23-modda"
+        ],
+        [
+          "lex:6257288",
+          "24-modda"
+        ]
+      ],
+      "returned_sources": [
+        [
+          "lex:6257288",
+          "24-modda"
+        ],
+        [
+          "lex:6257288",
+          "23-modda"
+        ]
+      ]
+    },
+    {
+      "id": "q020",
+      "category": "kop_manba",
+      "question": "Oʻn toʻrt yoshdan oʻn sakkiz yoshgacha boʻlgan voyaga yetmaganlarning muomala layoqati; Oʻn toʻrt yoshga toʻlmagan voyaga yetmaganlarning muomala layoqati bo‘yicha kodeks qanday qoidalarni belgilaydi?",
+      "answerable": true,
+      "status": "ok",
+      "first_relevant_rank": 1,
+      "hit1": true,
+      "hit5": true,
+      "reciprocal_rank_at5": 1.0,
+      "all_expected_in_top5": true,
+      "document_hit5": true,
+      "recall_at5": 1.0,
+      "gold_precision_at5": 0.6666666666666666,
+      "exact_answer_score": 2,
+      "citation_count": 2,
+      "verbatim_quotes": 2,
+      "gold_citations": 2,
+      "fabricated_sources": 0,
+      "out_of_date_citations": 0,
+      "total_ms": 39.04,
+      "expected_sources": [
+        [
+          "lex:111189",
+          "27-modda"
+        ],
+        [
+          "lex:111189",
+          "29-modda"
+        ]
+      ],
+      "returned_sources": [
+        [
+          "lex:111189",
+          "27-modda"
+        ],
+        [
+          "lex:111189",
+          "29-modda"
+        ],
+        [
+          "lex:111189",
+          "118-modda"
+        ]
+      ]
+    },
+    {
+      "id": "q021",
+      "category": "tahrir",
+      "question": "2026-11-06 holatiga Daʼvo muddati joriy qilinmaydigan talablar qanday tartibga solinadi?",
+      "answerable": true,
+      "status": "ok",
+      "first_relevant_rank": 1,
+      "hit1": true,
+      "hit5": true,
+      "reciprocal_rank_at5": 1.0,
+      "all_expected_in_top5": true,
+      "document_hit5": true,
+      "recall_at5": 1.0,
+      "gold_precision_at5": 1.0,
+      "exact_answer_score": 2,
+      "citation_count": 1,
+      "verbatim_quotes": 1,
+      "gold_citations": 1,
+      "fabricated_sources": 0,
+      "out_of_date_citations": 0,
+      "total_ms": 26.212,
+      "expected_sources": [
+        [
+          "lex:111189",
+          "163-modda"
+        ]
+      ],
+      "returned_sources": [
+        [
+          "lex:111189",
+          "163-modda"
+        ]
+      ]
+    },
+    {
+      "id": "q022",
+      "category": "kop_tilli",
+      "question": "Какие правила установлены по вопросу: Нормальная продолжительность рабочего времени?",
+      "answerable": true,
+      "status": "ok",
+      "first_relevant_rank": 1,
+      "hit1": true,
+      "hit5": true,
+      "reciprocal_rank_at5": 1.0,
+      "all_expected_in_top5": true,
+      "document_hit5": true,
+      "recall_at5": 1.0,
+      "gold_precision_at5": 1.0,
+      "exact_answer_score": 2,
+      "citation_count": 1,
+      "verbatim_quotes": 1,
+      "gold_citations": 1,
+      "fabricated_sources": 0,
+      "out_of_date_citations": 0,
+      "total_ms": 21.766,
+      "expected_sources": [
+        [
+          "lex:6257291",
+          "Статья 182"
+        ]
+      ],
+      "returned_sources": [
+        [
+          "lex:6257291",
+          "Статья 182"
+        ]
+      ]
+    },
+    {
+      "id": "q023",
+      "category": "javobsiz",
+      "question": "Mars sayyorasining diametri qancha?",
+      "answerable": false,
+      "status": "no_answer",
+      "first_relevant_rank": null,
+      "hit1": false,
+      "hit5": false,
+      "reciprocal_rank_at5": 0,
+      "all_expected_in_top5": false,
+      "document_hit5": false,
+      "recall_at5": null,
+      "gold_precision_at5": 0,
+      "exact_answer_score": 2,
+      "citation_count": 0,
+      "verbatim_quotes": 0,
+      "gold_citations": 0,
+      "fabricated_sources": 0,
+      "out_of_date_citations": 0,
+      "total_ms": 11.276,
+      "expected_sources": [],
+      "returned_sources": []
+    },
+    {
+      "id": "q024",
+      "category": "noaniq",
+      "question": "Ishga yangi kirganda sinovda qancha vaqt yuraman?",
+      "answerable": true,
+      "status": "ok",
+      "first_relevant_rank": 1,
+      "hit1": true,
+      "hit5": true,
+      "reciprocal_rank_at5": 1.0,
+      "all_expected_in_top5": true,
+      "document_hit5": true,
+      "recall_at5": 1.0,
+      "gold_precision_at5": 1.0,
+      "exact_answer_score": 2,
+      "citation_count": 1,
+      "verbatim_quotes": 1,
+      "gold_citations": 1,
+      "fabricated_sources": 0,
+      "out_of_date_citations": 0,
+      "total_ms": 23.06,
+      "expected_sources": [
+        [
+          "lex:6257288",
+          "130-modda"
+        ]
+      ],
+      "returned_sources": [
+        [
+          "lex:6257288",
+          "130-modda"
+        ]
+      ]
+    },
+    {
+      "id": "q025",
+      "category": "faktik",
+      "question": "Mehnat kodeksining 9-moddasida nima belgilangan?",
+      "answerable": true,
+      "status": "ok",
+      "first_relevant_rank": 1,
+      "hit1": true,
+      "hit5": true,
+      "reciprocal_rank_at5": 1.0,
+      "all_expected_in_top5": true,
+      "document_hit5": true,
+      "recall_at5": 1.0,
+      "gold_precision_at5": 1.0,
+      "exact_answer_score": 2,
+      "citation_count": 1,
+      "verbatim_quotes": 1,
+      "gold_citations": 1,
+      "fabricated_sources": 0,
+      "out_of_date_citations": 0,
+      "total_ms": 25.054,
+      "expected_sources": [
+        [
+          "lex:6257288",
+          "9-modda"
+        ]
+      ],
+      "returned_sources": [
+        [
+          "lex:6257288",
+          "9-modda"
+        ]
+      ]
+    },
+    {
+      "id": "q026",
+      "category": "faktik",
+      "question": "Jamoa shartnomasini tuzish zarurligi toʻgʻrisida qaror qabul qilish bo‘yicha kodeks qanday qoidalarni belgilaydi?",
+      "answerable": true,
+      "status": "ok",
+      "first_relevant_rank": 1,
+      "hit1": true,
+      "hit5": true,
+      "reciprocal_rank_at5": 1.0,
+      "all_expected_in_top5": true,
+      "document_hit5": true,
+      "recall_at5": 1.0,
+      "gold_precision_at5": 1.0,
+      "exact_answer_score": 2,
+      "citation_count": 1,
+      "verbatim_quotes": 1,
+      "gold_citations": 1,
+      "fabricated_sources": 0,
+      "out_of_date_citations": 0,
+      "total_ms": 51.661,
+      "expected_sources": [
+        [
+          "lex:6257288",
+          "66-modda"
+        ]
+      ],
+      "returned_sources": [
+        [
+          "lex:6257288",
+          "66-modda"
+        ]
+      ]
+    },
+    {
+      "id": "q027",
+      "category": "faktik",
+      "question": "Xodim bilan muddatli mehnat shartnomasi tuziladigan hollar bo‘yicha kodeks qanday qoidalarni belgilaydi?",
+      "answerable": true,
+      "status": "ok",
+      "first_relevant_rank": 1,
+      "hit1": true,
+      "hit5": true,
+      "reciprocal_rank_at5": 1.0,
+      "all_expected_in_top5": true,
+      "document_hit5": true,
+      "recall_at5": 1.0,
+      "gold_precision_at5": 1.0,
+      "exact_answer_score": 2,
+      "citation_count": 1,
+      "verbatim_quotes": 1,
+      "gold_citations": 1,
+      "fabricated_sources": 0,
+      "out_of_date_citations": 0,
+      "total_ms": 60.761,
+      "expected_sources": [
+        [
+          "lex:6257288",
+          "112-modda"
+        ]
+      ],
+      "returned_sources": [
+        [
+          "lex:6257288",
+          "112-modda"
+        ]
+      ]
+    },
+    {
+      "id": "q028",
+      "category": "faktik",
+      "question": "Fuqarolarning huquq layoqati bo‘yicha kodeks qanday qoidalarni belgilaydi?",
+      "answerable": true,
+      "status": "ok",
+      "first_relevant_rank": 1,
+      "hit1": true,
+      "hit5": true,
+      "reciprocal_rank_at5": 1.0,
+      "all_expected_in_top5": true,
+      "document_hit5": true,
+      "recall_at5": 1.0,
+      "gold_precision_at5": 1.0,
+      "exact_answer_score": 2,
+      "citation_count": 1,
+      "verbatim_quotes": 1,
+      "gold_citations": 1,
+      "fabricated_sources": 0,
+      "out_of_date_citations": 0,
+      "total_ms": 29.139,
+      "expected_sources": [
+        [
+          "lex:111189",
+          "17-modda"
+        ]
+      ],
+      "returned_sources": [
+        [
+          "lex:111189",
+          "17-modda"
+        ]
+      ]
+    },
+    {
+      "id": "q029",
+      "category": "raqam",
+      "question": "Ishga qabul qilishga yoʻl qoʻyiladigan yosh: qanday muddat, yosh yoki miqdor belgilangan?",
+      "answerable": true,
+      "status": "ok",
+      "first_relevant_rank": 1,
+      "hit1": true,
+      "hit5": true,
+      "reciprocal_rank_at5": 1.0,
+      "all_expected_in_top5": true,
+      "document_hit5": true,
+      "recall_at5": 1.0,
+      "gold_precision_at5": 1.0,
+      "exact_answer_score": 2,
+      "citation_count": 1,
+      "verbatim_quotes": 1,
+      "gold_citations": 1,
+      "fabricated_sources": 0,
+      "out_of_date_citations": 0,
+      "total_ms": 36.932,
+      "expected_sources": [
+        [
+          "lex:6257288",
+          "118-modda"
+        ]
+      ],
+      "returned_sources": [
+        [
+          "lex:6257288",
+          "118-modda"
+        ]
+      ]
+    },
+    {
+      "id": "q030",
+      "category": "raqam",
+      "question": "Fuqaroning muomala layoqati: qanday muddat, yosh yoki miqdor belgilangan?",
+      "answerable": true,
+      "status": "ok",
+      "first_relevant_rank": 1,
+      "hit1": true,
+      "hit5": true,
+      "reciprocal_rank_at5": 1.0,
+      "all_expected_in_top5": true,
+      "document_hit5": true,
+      "recall_at5": 1.0,
+      "gold_precision_at5": 1.0,
+      "exact_answer_score": 2,
+      "citation_count": 1,
+      "verbatim_quotes": 1,
+      "gold_citations": 1,
+      "fabricated_sources": 0,
+      "out_of_date_citations": 0,
+      "total_ms": 23.103,
+      "expected_sources": [
+        [
+          "lex:111189",
+          "22-modda"
+        ]
+      ],
+      "returned_sources": [
+        [
+          "lex:111189",
+          "22-modda"
+        ]
+      ]
+    },
+    {
+      "id": "q031",
+      "category": "kop_manba",
+      "question": "Mehnat shartnomasining mazmuni; Mehnat shartnomasining shakli bo‘yicha kodeks qanday qoidalarni belgilaydi?",
+      "answerable": true,
+      "status": "ok",
+      "first_relevant_rank": 1,
+      "hit1": true,
+      "hit5": true,
+      "reciprocal_rank_at5": 1.0,
+      "all_expected_in_top5": true,
+      "document_hit5": true,
+      "recall_at5": 1.0,
+      "gold_precision_at5": 1.0,
+      "exact_answer_score": 2,
+      "citation_count": 2,
+      "verbatim_quotes": 2,
+      "gold_citations": 2,
+      "fabricated_sources": 0,
+      "out_of_date_citations": 0,
+      "total_ms": 42.043,
+      "expected_sources": [
+        [
+          "lex:6257288",
+          "104-modda"
+        ],
+        [
+          "lex:6257288",
+          "106-modda"
+        ]
+      ],
+      "returned_sources": [
+        [
+          "lex:6257288",
+          "104-modda"
+        ],
+        [
+          "lex:6257288",
+          "106-modda"
+        ]
+      ]
+    },
+    {
+      "id": "q032",
+      "category": "kop_manba",
+      "question": "Bitimlar tushunchasi; Bitim turlari bo‘yicha kodeks qanday qoidalarni belgilaydi?",
+      "answerable": true,
+      "status": "ok",
+      "first_relevant_rank": 1,
+      "hit1": true,
+      "hit5": true,
+      "reciprocal_rank_at5": 1.0,
+      "all_expected_in_top5": true,
+      "document_hit5": true,
+      "recall_at5": 1.0,
+      "gold_precision_at5": 1.0,
+      "exact_answer_score": 2,
+      "citation_count": 2,
+      "verbatim_quotes": 2,
+      "gold_citations": 2,
+      "fabricated_sources": 0,
+      "out_of_date_citations": 0,
+      "total_ms": 22.817,
+      "expected_sources": [
+        [
+          "lex:111189",
+          "101-modda"
+        ],
+        [
+          "lex:111189",
+          "102-modda"
+        ]
+      ],
+      "returned_sources": [
+        [
+          "lex:111189",
+          "101-modda"
+        ],
+        [
+          "lex:111189",
+          "102-modda"
+        ]
+      ]
+    },
+    {
+      "id": "q033",
+      "category": "tahrir",
+      "question": "2026-11-06 holatiga Mulkdor boʻlmagan shaxslarning ashyoviy huquqlarining mazmuni qanday tartibga solinadi?",
+      "answerable": true,
+      "status": "ok",
+      "first_relevant_rank": 1,
+      "hit1": true,
+      "hit5": true,
+      "reciprocal_rank_at5": 1.0,
+      "all_expected_in_top5": true,
+      "document_hit5": true,
+      "recall_at5": 1.0,
+      "gold_precision_at5": 1.0,
+      "exact_answer_score": 2,
+      "citation_count": 1,
+      "verbatim_quotes": 1,
+      "gold_citations": 1,
+      "fabricated_sources": 0,
+      "out_of_date_citations": 0,
+      "total_ms": 32.079,
+      "expected_sources": [
+        [
+          "lex:111189",
+          "165-modda"
+        ]
+      ],
+      "returned_sources": [
+        [
+          "lex:111189",
+          "165-modda"
+        ]
+      ]
+    },
+    {
+      "id": "q034",
+      "category": "kop_tilli",
+      "question": "Какие правила установлены по вопросу: Срок предварительного испытания?",
+      "answerable": true,
+      "status": "ok",
+      "first_relevant_rank": 1,
+      "hit1": true,
+      "hit5": true,
+      "reciprocal_rank_at5": 1.0,
+      "all_expected_in_top5": true,
+      "document_hit5": true,
+      "recall_at5": 1.0,
+      "gold_precision_at5": 1.0,
+      "exact_answer_score": 2,
+      "citation_count": 1,
+      "verbatim_quotes": 1,
+      "gold_citations": 1,
+      "fabricated_sources": 0,
+      "out_of_date_citations": 0,
+      "total_ms": 17.454,
+      "expected_sources": [
+        [
+          "lex:6257291",
+          "Статья 130"
+        ]
+      ],
+      "returned_sources": [
+        [
+          "lex:6257291",
+          "Статья 130"
+        ]
+      ]
+    },
+    {
+      "id": "q035",
+      "category": "javobsiz",
+      "question": "Toshkentda ertaga yomg‘ir yog‘adimi?",
+      "answerable": false,
+      "status": "no_answer",
+      "first_relevant_rank": null,
+      "hit1": false,
+      "hit5": false,
+      "reciprocal_rank_at5": 0,
+      "all_expected_in_top5": false,
+      "document_hit5": false,
+      "recall_at5": null,
+      "gold_precision_at5": 0,
+      "exact_answer_score": 2,
+      "citation_count": 0,
+      "verbatim_quotes": 0,
+      "gold_citations": 0,
+      "fabricated_sources": 0,
+      "out_of_date_citations": 0,
+      "total_ms": 10.006,
+      "expected_sources": [],
+      "returned_sources": []
+    },
+    {
+      "id": "q036",
+      "category": "noaniq",
+      "question": "Odatdagi ish haftasi necha soat bo‘ladi?",
+      "answerable": true,
+      "status": "ok",
+      "first_relevant_rank": 1,
+      "hit1": true,
+      "hit5": true,
+      "reciprocal_rank_at5": 1.0,
+      "all_expected_in_top5": true,
+      "document_hit5": true,
+      "recall_at5": 1.0,
+      "gold_precision_at5": 0.2,
+      "exact_answer_score": 2,
+      "citation_count": 1,
+      "verbatim_quotes": 1,
+      "gold_citations": 1,
+      "fabricated_sources": 0,
+      "out_of_date_citations": 0,
+      "total_ms": 21.99,
+      "expected_sources": [
+        [
+          "lex:6257288",
+          "182-modda"
+        ]
+      ],
+      "returned_sources": [
+        [
+          "lex:6257288",
+          "182-modda"
+        ],
+        [
+          "lex:6257288",
+          "193-modda"
+        ],
+        [
+          "lex:6257288",
+          "198-modda"
+        ],
+        [
+          "lex:6257288",
+          "189-modda"
+        ],
+        [
+          "lex:6257288",
+          "589-modda"
+        ]
+      ]
+    },
+    {
+      "id": "q037",
+      "category": "faktik",
+      "question": "Mehnat kodeksining 20-moddasida nima belgilangan?",
+      "answerable": true,
+      "status": "ok",
+      "first_relevant_rank": 1,
+      "hit1": true,
+      "hit5": true,
+      "reciprocal_rank_at5": 1.0,
+      "all_expected_in_top5": true,
+      "document_hit5": true,
+      "recall_at5": 1.0,
+      "gold_precision_at5": 1.0,
+      "exact_answer_score": 2,
+      "citation_count": 1,
+      "verbatim_quotes": 1,
+      "gold_citations": 1,
+      "fabricated_sources": 0,
+      "out_of_date_citations": 0,
+      "total_ms": 24.618,
+      "expected_sources": [
+        [
+          "lex:6257288",
+          "20-modda"
+        ]
+      ],
+      "returned_sources": [
+        [
+          "lex:6257288",
+          "20-modda"
+        ]
+      ]
+    },
+    {
+      "id": "q038",
+      "category": "faktik",
+      "question": "Tashkilot qayta tashkil etilgan taqdirda jamoa shartnomasi amal qilishining saqlanib qolishi bo‘yicha kodeks qanday qoidalarni belgilaydi?",
+      "answerable": true,
+      "status": "ok",
+      "first_relevant_rank": 1,
+      "hit1": true,
+      "hit5": true,
+      "reciprocal_rank_at5": 1.0,
+      "all_expected_in_top5": true,
+      "document_hit5": true,
+      "recall_at5": 1.0,
+      "gold_precision_at5": 1.0,
+      "exact_answer_score": 2,
+      "citation_count": 1,
+      "verbatim_quotes": 1,
+      "gold_citations": 1,
+      "fabricated_sources": 0,
+      "out_of_date_citations": 0,
+      "total_ms": 50.914,
+      "expected_sources": [
+        [
+          "lex:6257288",
+          "73-modda"
+        ]
+      ],
+      "returned_sources": [
+        [
+          "lex:6257288",
+          "73-modda"
+        ]
+      ]
+    },
+    {
+      "id": "q039",
+      "category": "faktik",
+      "question": "Xodim bilan muddatli mehnat shartnomasi tuzilishi mumkin boʻlgan hollar bo‘yicha kodeks qanday qoidalarni belgilaydi?",
+      "answerable": true,
+      "status": "ok",
+      "first_relevant_rank": 1,
+      "hit1": true,
+      "hit5": true,
+      "reciprocal_rank_at5": 1.0,
+      "all_expected_in_top5": true,
+      "document_hit5": true,
+      "recall_at5": 1.0,
+      "gold_precision_at5": 1.0,
+      "exact_answer_score": 2,
+      "citation_count": 1,
+      "verbatim_quotes": 1,
+      "gold_citations": 1,
+      "fabricated_sources": 0,
+      "out_of_date_citations": 0,
+      "total_ms": 73.277,
+      "expected_sources": [
+        [
+          "lex:6257288",
+          "113-modda"
+        ]
+      ],
+      "returned_sources": [
+        [
+          "lex:6257288",
+          "113-modda"
+        ]
+      ]
+    },
+    {
+      "id": "q040",
+      "category": "faktik",
+      "question": "Fuqarolar huquq layoqatining mazmuni bo‘yicha kodeks qanday qoidalarni belgilaydi?",
+      "answerable": true,
+      "status": "ok",
+      "first_relevant_rank": 1,
+      "hit1": true,
+      "hit5": true,
+      "reciprocal_rank_at5": 1.0,
+      "all_expected_in_top5": true,
+      "document_hit5": true,
+      "recall_at5": 1.0,
+      "gold_precision_at5": 0.5,
+      "exact_answer_score": 2,
+      "citation_count": 1,
+      "verbatim_quotes": 1,
+      "gold_citations": 1,
+      "fabricated_sources": 0,
+      "out_of_date_citations": 0,
+      "total_ms": 29.271,
+      "expected_sources": [
+        [
+          "lex:111189",
+          "18-modda"
+        ]
+      ],
+      "returned_sources": [
+        [
+          "lex:111189",
+          "18-modda"
+        ],
+        [
+          "lex:111189",
+          "17-modda"
+        ]
+      ]
+    },
+    {
+      "id": "q041",
+      "category": "raqam",
+      "question": "Ish vaqtining normal davomiyligi: qanday muddat, yosh yoki miqdor belgilangan?",
+      "answerable": true,
+      "status": "ok",
+      "first_relevant_rank": 1,
+      "hit1": true,
+      "hit5": true,
+      "reciprocal_rank_at5": 1.0,
+      "all_expected_in_top5": true,
+      "document_hit5": true,
+      "recall_at5": 1.0,
+      "gold_precision_at5": 1.0,
+      "exact_answer_score": 2,
+      "citation_count": 1,
+      "verbatim_quotes": 1,
+      "gold_citations": 1,
+      "fabricated_sources": 0,
+      "out_of_date_citations": 0,
+      "total_ms": 36.071,
+      "expected_sources": [
+        [
+          "lex:6257288",
+          "182-modda"
+        ]
+      ],
+      "returned_sources": [
+        [
+          "lex:6257288",
+          "182-modda"
+        ]
+      ]
+    },
+    {
+      "id": "q042",
+      "category": "raqam",
+      "question": "Oʻn toʻrt yoshdan oʻn sakkiz yoshgacha boʻlgan voyaga yetmaganlarning muomala layoqati: qanday muddat, yosh yoki miqdor belgilangan?",
+      "answerable": true,
+      "status": "ok",
+      "first_relevant_rank": 1,
+      "hit1": true,
+      "hit5": true,
+      "reciprocal_rank_at5": 1.0,
+      "all_expected_in_top5": true,
+      "document_hit5": true,
+      "recall_at5": 1.0,
+      "gold_precision_at5": 0.5,
+      "exact_answer_score": 2,
+      "citation_count": 1,
+      "verbatim_quotes": 1,
+      "gold_citations": 1,
+      "fabricated_sources": 0,
+      "out_of_date_citations": 0,
+      "total_ms": 34.917,
+      "expected_sources": [
+        [
+          "lex:111189",
+          "27-modda"
+        ]
+      ],
+      "returned_sources": [
+        [
+          "lex:111189",
+          "27-modda"
+        ],
+        [
+          "lex:111189",
+          "118-modda"
+        ]
+      ]
+    },
+    {
+      "id": "q043",
+      "category": "kop_manba",
+      "question": "Mehnat shartnomasining muddati; Mehnat shartnomasining muddatini belgilash usullari bo‘yicha kodeks qanday qoidalarni belgilaydi?",
+      "answerable": true,
+      "status": "ok",
+      "first_relevant_rank": 1,
+      "hit1": true,
+      "hit5": true,
+      "reciprocal_rank_at5": 1.0,
+      "all_expected_in_top5": true,
+      "document_hit5": true,
+      "recall_at5": 1.0,
+      "gold_precision_at5": 1.0,
+      "exact_answer_score": 2,
+      "citation_count": 2,
+      "verbatim_quotes": 2,
+      "gold_citations": 2,
+      "fabricated_sources": 0,
+      "out_of_date_citations": 0,
+      "total_ms": 53.039,
+      "expected_sources": [
+        [
+          "lex:6257288",
+          "110-modda"
+        ],
+        [
+          "lex:6257288",
+          "114-modda"
+        ]
+      ],
+      "returned_sources": [
+        [
+          "lex:6257288",
+          "110-modda"
+        ],
+        [
+          "lex:6257288",
+          "114-modda"
+        ]
+      ]
+    },
+    {
+      "id": "q044",
+      "category": "kop_manba",
+      "question": "Bitimlarning shakli; Bitimning yozma shakli bo‘yicha kodeks qanday qoidalarni belgilaydi?",
+      "answerable": true,
+      "status": "ok",
+      "first_relevant_rank": 1,
+      "hit1": true,
+      "hit5": true,
+      "reciprocal_rank_at5": 1.0,
+      "all_expected_in_top5": true,
+      "document_hit5": true,
+      "recall_at5": 1.0,
+      "gold_precision_at5": 0.6666666666666666,
+      "exact_answer_score": 2,
+      "citation_count": 2,
+      "verbatim_quotes": 2,
+      "gold_citations": 2,
+      "fabricated_sources": 0,
+      "out_of_date_citations": 0,
+      "total_ms": 33.419,
+      "expected_sources": [
+        [
+          "lex:111189",
+          "105-modda"
+        ],
+        [
+          "lex:111189",
+          "107-modda"
+        ]
+      ],
+      "returned_sources": [
+        [
+          "lex:111189",
+          "105-modda"
+        ],
+        [
+          "lex:111189",
+          "107-modda"
+        ],
+        [
+          "lex:111189",
+          "108-modda"
+        ]
+      ]
+    },
+    {
+      "id": "q045",
+      "category": "tahrir",
+      "question": "2026-11-06 holatiga Operativ boshqarish huquqi qanday tartibga solinadi?",
+      "answerable": true,
+      "status": "ok",
+      "first_relevant_rank": 1,
+      "hit1": true,
+      "hit5": true,
+      "reciprocal_rank_at5": 1.0,
+      "all_expected_in_top5": true,
+      "document_hit5": true,
+      "recall_at5": 1.0,
+      "gold_precision_at5": 1.0,
+      "exact_answer_score": 2,
+      "citation_count": 1,
+      "verbatim_quotes": 1,
+      "gold_citations": 1,
+      "fabricated_sources": 0,
+      "out_of_date_citations": 0,
+      "total_ms": 20.21,
+      "expected_sources": [
+        [
+          "lex:111189",
+          "178-modda"
+        ]
+      ],
+      "returned_sources": [
+        [
+          "lex:111189",
+          "178-modda"
+        ]
+      ]
+    },
+    {
+      "id": "q046",
+      "category": "kop_tilli",
+      "question": "Какие правила установлены по вопросу: Общий срок исковой давности?",
+      "answerable": true,
+      "status": "ok",
+      "first_relevant_rank": 1,
+      "hit1": true,
+      "hit5": true,
+      "reciprocal_rank_at5": 1.0,
+      "all_expected_in_top5": true,
+      "document_hit5": true,
+      "recall_at5": 1.0,
+      "gold_precision_at5": 1.0,
+      "exact_answer_score": 2,
+      "citation_count": 1,
+      "verbatim_quotes": 1,
+      "gold_citations": 1,
+      "fabricated_sources": 0,
+      "out_of_date_citations": 0,
+      "total_ms": 19.364,
+      "expected_sources": [
+        [
+          "lex:111181",
+          "Статья 150"
+        ]
+      ],
+      "returned_sources": [
+        [
+          "lex:111181",
+          "Статья 150"
+        ]
+      ]
+    },
+    {
+      "id": "q047",
+      "category": "javobsiz",
+      "question": "Palov tayyorlash uchun qancha guruch kerak?",
+      "answerable": false,
+      "status": "no_answer",
+      "first_relevant_rank": null,
+      "hit1": false,
+      "hit5": false,
+      "reciprocal_rank_at5": 0,
+      "all_expected_in_top5": false,
+      "document_hit5": false,
+      "recall_at5": null,
+      "gold_precision_at5": 0,
+      "exact_answer_score": 2,
+      "citation_count": 0,
+      "verbatim_quotes": 0,
+      "gold_citations": 0,
+      "fabricated_sources": 0,
+      "out_of_date_citations": 0,
+      "total_ms": 11.573,
+      "expected_sources": [],
+      "returned_sources": []
+    },
+    {
+      "id": "q048",
+      "category": "noaniq",
+      "question": "Da’vo qilish uchun umumiy qancha vaqtim bor?",
+      "answerable": true,
+      "status": "ok",
+      "first_relevant_rank": 1,
+      "hit1": true,
+      "hit5": true,
+      "reciprocal_rank_at5": 1.0,
+      "all_expected_in_top5": true,
+      "document_hit5": true,
+      "recall_at5": 1.0,
+      "gold_precision_at5": 1.0,
+      "exact_answer_score": 2,
+      "citation_count": 1,
+      "verbatim_quotes": 1,
+      "gold_citations": 1,
+      "fabricated_sources": 0,
+      "out_of_date_citations": 0,
+      "total_ms": 23.433,
+      "expected_sources": [
+        [
+          "lex:111189",
+          "150-modda"
+        ]
+      ],
+      "returned_sources": [
+        [
+          "lex:111189",
+          "150-modda"
+        ]
+      ]
+    },
+    {
+      "id": "q049",
+      "category": "faktik",
+      "question": "Mehnat kodeksining 21-moddasida nima belgilangan?",
+      "answerable": true,
+      "status": "ok",
+      "first_relevant_rank": 1,
+      "hit1": true,
+      "hit5": true,
+      "reciprocal_rank_at5": 1.0,
+      "all_expected_in_top5": true,
+      "document_hit5": true,
+      "recall_at5": 1.0,
+      "gold_precision_at5": 1.0,
+      "exact_answer_score": 2,
+      "citation_count": 1,
+      "verbatim_quotes": 1,
+      "gold_citations": 1,
+      "fabricated_sources": 0,
+      "out_of_date_citations": 0,
+      "total_ms": 24.336,
+      "expected_sources": [
+        [
+          "lex:6257288",
+          "21-modda"
+        ]
+      ],
+      "returned_sources": [
+        [
+          "lex:6257288",
+          "21-modda"
+        ]
+      ]
+    },
+    {
+      "id": "q050",
+      "category": "faktik",
+      "question": "Tashkilotning mulkdori oʻzgarganda jamoa shartnomasi amal qilishining saqlanib qolishi bo‘yicha kodeks qanday qoidalarni belgilaydi?",
+      "answerable": true,
+      "status": "ok",
+      "first_relevant_rank": 1,
+      "hit1": true,
+      "hit5": true,
+      "reciprocal_rank_at5": 1.0,
+      "all_expected_in_top5": true,
+      "document_hit5": true,
+      "recall_at5": 1.0,
+      "gold_precision_at5": 1.0,
+      "exact_answer_score": 2,
+      "citation_count": 1,
+      "verbatim_quotes": 1,
+      "gold_citations": 1,
+      "fabricated_sources": 0,
+      "out_of_date_citations": 0,
+      "total_ms": 55.238,
+      "expected_sources": [
+        [
+          "lex:6257288",
+          "74-modda"
+        ]
+      ],
+      "returned_sources": [
+        [
+          "lex:6257288",
+          "74-modda"
+        ]
+      ]
+    },
+    {
+      "id": "q051",
+      "category": "faktik",
+      "question": "Mehnat shartnomasida shart qilib koʻrsatilmagan ishning bajarilishini talab qilishni taqiqlash bo‘yicha kodeks qanday qoidalarni belgilaydi?",
+      "answerable": true,
+      "status": "ok",
+      "first_relevant_rank": 1,
+      "hit1": true,
+      "hit5": true,
+      "reciprocal_rank_at5": 1.0,
+      "all_expected_in_top5": true,
+      "document_hit5": true,
+      "recall_at5": 1.0,
+      "gold_precision_at5": 1.0,
+      "exact_answer_score": 2,
+      "citation_count": 1,
+      "verbatim_quotes": 1,
+      "gold_citations": 1,
+      "fabricated_sources": 0,
+      "out_of_date_citations": 0,
+      "total_ms": 57.515,
+      "expected_sources": [
+        [
+          "lex:6257288",
+          "115-modda"
+        ]
+      ],
+      "returned_sources": [
+        [
+          "lex:6257288",
+          "115-modda"
+        ]
+      ]
+    },
+    {
+      "id": "q052",
+      "category": "faktik",
+      "question": "Fuqaroning muomala layoqati bo‘yicha kodeks qanday qoidalarni belgilaydi?",
+      "answerable": true,
+      "status": "ok",
+      "first_relevant_rank": 1,
+      "hit1": true,
+      "hit5": true,
+      "reciprocal_rank_at5": 1.0,
+      "all_expected_in_top5": true,
+      "document_hit5": true,
+      "recall_at5": 1.0,
+      "gold_precision_at5": 0.5,
+      "exact_answer_score": 2,
+      "citation_count": 1,
+      "verbatim_quotes": 1,
+      "gold_citations": 1,
+      "fabricated_sources": 0,
+      "out_of_date_citations": 0,
+      "total_ms": 26.075,
+      "expected_sources": [
+        [
+          "lex:111189",
+          "22-modda"
+        ]
+      ],
+      "returned_sources": [
+        [
+          "lex:111189",
+          "22-modda"
+        ],
+        [
+          "lex:111189",
+          "31-modda"
+        ]
+      ]
+    },
+    {
+      "id": "q053",
+      "category": "raqam",
+      "question": "Har kungi ishning (smenaning) davomiyligi: qanday muddat, yosh yoki miqdor belgilangan?",
+      "answerable": true,
+      "status": "ok",
+      "first_relevant_rank": 1,
+      "hit1": true,
+      "hit5": true,
+      "reciprocal_rank_at5": 1.0,
+      "all_expected_in_top5": true,
+      "document_hit5": true,
+      "recall_at5": 1.0,
+      "gold_precision_at5": 1.0,
+      "exact_answer_score": 2,
+      "citation_count": 1,
+      "verbatim_quotes": 1,
+      "gold_citations": 1,
+      "fabricated_sources": 0,
+      "out_of_date_citations": 0,
+      "total_ms": 21.827,
+      "expected_sources": [
+        [
+          "lex:6257288",
+          "185-modda"
+        ]
+      ],
+      "returned_sources": [
+        [
+          "lex:6257288",
+          "185-modda"
+        ]
+      ]
+    },
+    {
+      "id": "q054",
+      "category": "raqam",
+      "question": "Oʻn toʻrt yoshga toʻlmagan voyaga yetmaganlarning muomala layoqati: qanday muddat, yosh yoki miqdor belgilangan?",
+      "answerable": true,
+      "status": "ok",
+      "first_relevant_rank": 1,
+      "hit1": true,
+      "hit5": true,
+      "reciprocal_rank_at5": 1.0,
+      "all_expected_in_top5": true,
+      "document_hit5": true,
+      "recall_at5": 1.0,
+      "gold_precision_at5": 0.5,
+      "exact_answer_score": 2,
+      "citation_count": 1,
+      "verbatim_quotes": 1,
+      "gold_citations": 1,
+      "fabricated_sources": 0,
+      "out_of_date_citations": 0,
+      "total_ms": 24.691,
+      "expected_sources": [
+        [
+          "lex:111189",
+          "29-modda"
+        ]
+      ],
+      "returned_sources": [
+        [
+          "lex:111189",
+          "29-modda"
+        ],
+        [
+          "lex:111189",
+          "27-modda"
+        ]
+      ]
+    },
+    {
+      "id": "q055",
+      "category": "kop_manba",
+      "question": "Ishga qabul qilishga yoʻl qoʻyiladigan yosh; Ishga qabul qilish chogʻida talab etiladigan hujjatlar bo‘yicha kodeks qanday qoidalarni belgilaydi?",
+      "answerable": true,
+      "status": "ok",
+      "first_relevant_rank": 1,
+      "hit1": true,
+      "hit5": true,
+      "reciprocal_rank_at5": 1.0,
+      "all_expected_in_top5": true,
+      "document_hit5": true,
+      "recall_at5": 1.0,
+      "gold_precision_at5": 1.0,
+      "exact_answer_score": 2,
+      "citation_count": 2,
+      "verbatim_quotes": 2,
+      "gold_citations": 2,
+      "fabricated_sources": 0,
+      "out_of_date_citations": 0,
+      "total_ms": 65.338,
+      "expected_sources": [
+        [
+          "lex:6257288",
+          "118-modda"
+        ],
+        [
+          "lex:6257288",
+          "124-modda"
+        ]
+      ],
+      "returned_sources": [
+        [
+          "lex:6257288",
+          "118-modda"
+        ],
+        [
+          "lex:6257288",
+          "124-modda"
+        ]
+      ]
+    },
+    {
+      "id": "q056",
+      "category": "kop_manba",
+      "question": "Daʼvo muddati tushunchasi; Umumiy daʼvo muddati bo‘yicha kodeks qanday qoidalarni belgilaydi?",
+      "answerable": true,
+      "status": "ok",
+      "first_relevant_rank": 1,
+      "hit1": true,
+      "hit5": true,
+      "reciprocal_rank_at5": 1.0,
+      "all_expected_in_top5": true,
+      "document_hit5": true,
+      "recall_at5": 1.0,
+      "gold_precision_at5": 1.0,
+      "exact_answer_score": 2,
+      "citation_count": 2,
+      "verbatim_quotes": 2,
+      "gold_citations": 2,
+      "fabricated_sources": 0,
+      "out_of_date_citations": 0,
+      "total_ms": 41.34,
+      "expected_sources": [
+        [
+          "lex:111189",
+          "149-modda"
+        ],
+        [
+          "lex:111189",
+          "150-modda"
+        ]
+      ],
+      "returned_sources": [
+        [
+          "lex:111189",
+          "149-modda"
+        ],
+        [
+          "lex:111189",
+          "150-modda"
+        ]
+      ]
+    },
+    {
+      "id": "q057",
+      "category": "tahrir",
+      "question": "2026-11-06 holatiga Operativ boshqarish huquqining vujudga kelishi va bekor boʻlishi qanday tartibga solinadi?",
+      "answerable": true,
+      "status": "ok",
+      "first_relevant_rank": 1,
+      "hit1": true,
+      "hit5": true,
+      "reciprocal_rank_at5": 1.0,
+      "all_expected_in_top5": true,
+      "document_hit5": true,
+      "recall_at5": 1.0,
+      "gold_precision_at5": 1.0,
+      "exact_answer_score": 2,
+      "citation_count": 1,
+      "verbatim_quotes": 1,
+      "gold_citations": 1,
+      "fabricated_sources": 0,
+      "out_of_date_citations": 0,
+      "total_ms": 32.074,
+      "expected_sources": [
+        [
+          "lex:111189",
+          "181-modda"
+        ]
+      ],
+      "returned_sources": [
+        [
+          "lex:111189",
+          "181-modda"
+        ]
+      ]
+    },
+    {
+      "id": "q058",
+      "category": "kop_tilli",
+      "question": "Какие правила установлены по вопросу: Понятие сделок?",
+      "answerable": true,
+      "status": "ok",
+      "first_relevant_rank": 1,
+      "hit1": true,
+      "hit5": true,
+      "reciprocal_rank_at5": 1.0,
+      "all_expected_in_top5": true,
+      "document_hit5": true,
+      "recall_at5": 1.0,
+      "gold_precision_at5": 1.0,
+      "exact_answer_score": 2,
+      "citation_count": 1,
+      "verbatim_quotes": 1,
+      "gold_citations": 1,
+      "fabricated_sources": 0,
+      "out_of_date_citations": 0,
+      "total_ms": 16.965,
+      "expected_sources": [
+        [
+          "lex:111181",
+          "Статья 101"
+        ]
+      ],
+      "returned_sources": [
+        [
+          "lex:111181",
+          "Статья 101"
+        ]
+      ]
+    },
+    {
+      "id": "q059",
+      "category": "javobsiz",
+      "question": "Futbol bo‘yicha jahon chempioni kim?",
+      "answerable": false,
+      "status": "no_answer",
+      "first_relevant_rank": null,
+      "hit1": false,
+      "hit5": false,
+      "reciprocal_rank_at5": 0,
+      "all_expected_in_top5": false,
+      "document_hit5": false,
+      "recall_at5": null,
+      "gold_precision_at5": 0,
+      "exact_answer_score": 2,
+      "citation_count": 0,
+      "verbatim_quotes": 0,
+      "gold_citations": 0,
+      "fabricated_sources": 0,
+      "out_of_date_citations": 0,
+      "total_ms": 10.828,
+      "expected_sources": [],
+      "returned_sources": []
+    },
+    {
+      "id": "q060",
+      "category": "noaniq",
+      "question": "Ta’tilni bo‘lib-bo‘lib olsam bo‘ladimi?",
+      "answerable": true,
+      "status": "ok",
+      "first_relevant_rank": 1,
+      "hit1": true,
+      "hit5": true,
+      "reciprocal_rank_at5": 1.0,
+      "all_expected_in_top5": true,
+      "document_hit5": true,
+      "recall_at5": 1.0,
+      "gold_precision_at5": 1.0,
+      "exact_answer_score": 2,
+      "citation_count": 1,
+      "verbatim_quotes": 1,
+      "gold_citations": 1,
+      "fabricated_sources": 0,
+      "out_of_date_citations": 0,
+      "total_ms": 22.884,
+      "expected_sources": [
+        [
+          "lex:6257288",
+          "231-modda"
+        ]
+      ],
+      "returned_sources": [
+        [
+          "lex:6257288",
+          "231-modda"
+        ]
+      ]
+    },
+    {
+      "id": "q061",
+      "category": "faktik",
+      "question": "Mehnat kodeksining 22-moddasida nima belgilangan?",
+      "answerable": true,
+      "status": "ok",
+      "first_relevant_rank": 1,
+      "hit1": true,
+      "hit5": true,
+      "reciprocal_rank_at5": 1.0,
+      "all_expected_in_top5": true,
+      "document_hit5": true,
+      "recall_at5": 1.0,
+      "gold_precision_at5": 1.0,
+      "exact_answer_score": 2,
+      "citation_count": 1,
+      "verbatim_quotes": 1,
+      "gold_citations": 1,
+      "fabricated_sources": 0,
+      "out_of_date_citations": 0,
+      "total_ms": 24.793,
+      "expected_sources": [
+        [
+          "lex:6257288",
+          "22-modda"
+        ]
+      ],
+      "returned_sources": [
+        [
+          "lex:6257288",
+          "22-modda"
+        ]
+      ]
+    },
+    {
+      "id": "q062",
+      "category": "faktik",
+      "question": "Tashkilot (uning alohida boʻlinmasi) tugatilayotganda jamoa shartnomasi amal qilishining saqlanib qolishi bo‘yicha kodeks qanday qoidalarni belgilaydi?",
+      "answerable": true,
+      "status": "ok",
+      "first_relevant_rank": 1,
+      "hit1": true,
+      "hit5": true,
+      "reciprocal_rank_at5": 1.0,
+      "all_expected_in_top5": true,
+      "document_hit5": true,
+      "recall_at5": 1.0,
+      "gold_precision_at5": 1.0,
+      "exact_answer_score": 2,
+      "citation_count": 1,
+      "verbatim_quotes": 1,
+      "gold_citations": 1,
+      "fabricated_sources": 0,
+      "out_of_date_citations": 0,
+      "total_ms": 55.883,
+      "expected_sources": [
+        [
+          "lex:6257288",
+          "75-modda"
+        ]
+      ],
+      "returned_sources": [
+        [
+          "lex:6257288",
+          "75-modda"
+        ]
+      ]
+    },
+    {
+      "id": "q063",
+      "category": "faktik",
+      "question": "Fuqarolik qonunchiligining asosiy negizlari bo‘yicha kodeks qanday qoidalarni belgilaydi?",
+      "answerable": true,
+      "status": "ok",
+      "first_relevant_rank": 1,
+      "hit1": true,
+      "hit5": true,
+      "reciprocal_rank_at5": 1.0,
+      "all_expected_in_top5": true,
+      "document_hit5": true,
+      "recall_at5": 1.0,
+      "gold_precision_at5": 1.0,
+      "exact_answer_score": 2,
+      "citation_count": 1,
+      "verbatim_quotes": 1,
+      "gold_citations": 1,
+      "fabricated_sources": 0,
+      "out_of_date_citations": 0,
+      "total_ms": 20.835,
+      "expected_sources": [
+        [
+          "lex:111189",
+          "1-modda"
+        ]
+      ],
+      "returned_sources": [
+        [
+          "lex:111189",
+          "1-modda"
+        ]
+      ]
+    },
+    {
+      "id": "q064",
+      "category": "raqam",
+      "question": "Ishlanmaydigan bayram kunlari arafasidagi ishning davomiyligi: qanday muddat, yosh yoki miqdor belgilangan?",
+      "answerable": true,
+      "status": "ok",
+      "first_relevant_rank": 1,
+      "hit1": true,
+      "hit5": true,
+      "reciprocal_rank_at5": 1.0,
+      "all_expected_in_top5": true,
+      "document_hit5": true,
+      "recall_at5": 1.0,
+      "gold_precision_at5": 1.0,
+      "exact_answer_score": 2,
+      "citation_count": 1,
+      "verbatim_quotes": 1,
+      "gold_citations": 1,
+      "fabricated_sources": 0,
+      "out_of_date_citations": 0,
+      "total_ms": 22.794,
+      "expected_sources": [
+        [
+          "lex:6257288",
+          "187-modda"
+        ]
+      ],
+      "returned_sources": [
+        [
+          "lex:6257288",
+          "187-modda"
+        ]
+      ]
+    },
+    {
+      "id": "q065",
+      "category": "kop_manba",
+      "question": "Ishga qabul qilish chogʻidagi dastlabki sinov; Dastlabki sinov muddati bo‘yicha kodeks qanday qoidalarni belgilaydi?",
+      "answerable": true,
+      "status": "ok",
+      "first_relevant_rank": 1,
+      "hit1": true,
+      "hit5": true,
+      "reciprocal_rank_at5": 1.0,
+      "all_expected_in_top5": true,
+      "document_hit5": true,
+      "recall_at5": 1.0,
+      "gold_precision_at5": 1.0,
+      "exact_answer_score": 2,
+      "citation_count": 2,
+      "verbatim_quotes": 2,
+      "gold_citations": 2,
+      "fabricated_sources": 0,
+      "out_of_date_citations": 0,
+      "total_ms": 42.111,
+      "expected_sources": [
+        [
+          "lex:6257288",
+          "129-modda"
+        ],
+        [
+          "lex:6257288",
+          "130-modda"
+        ]
+      ],
+      "returned_sources": [
+        [
+          "lex:6257288",
+          "129-modda"
+        ],
+        [
+          "lex:6257288",
+          "130-modda"
+        ]
+      ]
+    },
+    {
+      "id": "q066",
+      "category": "tahrir",
+      "question": "2026-11-06 holatiga Mehnat toʻgʻrisidagi qonunchilik qanday tartibga solinadi?",
+      "answerable": true,
+      "status": "ok",
+      "first_relevant_rank": 1,
+      "hit1": true,
+      "hit5": true,
+      "reciprocal_rank_at5": 1.0,
+      "all_expected_in_top5": true,
+      "document_hit5": true,
+      "recall_at5": 1.0,
+      "gold_precision_at5": 1.0,
+      "exact_answer_score": 2,
+      "citation_count": 1,
+      "verbatim_quotes": 1,
+      "gold_citations": 1,
+      "fabricated_sources": 0,
+      "out_of_date_citations": 0,
+      "total_ms": 36.678,
+      "expected_sources": [
+        [
+          "lex:6257288",
+          "10-modda"
+        ]
+      ],
+      "returned_sources": [
+        [
+          "lex:6257288",
+          "10-modda"
+        ]
+      ]
+    },
+    {
+      "id": "q067",
+      "category": "kop_tilli",
+      "question": "Ҳар йилги асосий энг кам меҳнат таътилининг давомийлиги бўйича қандай қоида белгиланган?",
+      "answerable": true,
+      "status": "ok",
+      "first_relevant_rank": 1,
+      "hit1": true,
+      "hit5": true,
+      "reciprocal_rank_at5": 1.0,
+      "all_expected_in_top5": true,
+      "document_hit5": true,
+      "recall_at5": 1.0,
+      "gold_precision_at5": 1.0,
+      "exact_answer_score": 2,
+      "citation_count": 1,
+      "verbatim_quotes": 1,
+      "gold_citations": 1,
+      "fabricated_sources": 0,
+      "out_of_date_citations": 0,
+      "total_ms": 35.662,
+      "expected_sources": [
+        [
+          "lex:6257288",
+          "217-modda"
+        ]
+      ],
+      "returned_sources": [
+        [
+          "lex:6257288",
+          "217-modda"
+        ]
+      ]
+    },
+    {
+      "id": "q068",
+      "category": "javobsiz",
+      "question": "Telefon ekranining yorqinligini qanday o‘zgartiraman?",
+      "answerable": false,
+      "status": "no_answer",
+      "first_relevant_rank": null,
+      "hit1": false,
+      "hit5": false,
+      "reciprocal_rank_at5": 0,
+      "all_expected_in_top5": false,
+      "document_hit5": false,
+      "recall_at5": null,
+      "gold_precision_at5": 0,
+      "exact_answer_score": 2,
+      "citation_count": 0,
+      "verbatim_quotes": 0,
+      "gold_citations": 0,
+      "fabricated_sources": 0,
+      "out_of_date_citations": 0,
+      "total_ms": 11.35,
+      "expected_sources": [],
+      "returned_sources": []
+    },
+    {
+      "id": "q069",
+      "category": "faktik",
+      "question": "Mehnat kodeksining 23-moddasida nima belgilangan?",
+      "answerable": true,
+      "status": "ok",
+      "first_relevant_rank": 1,
+      "hit1": true,
+      "hit5": true,
+      "reciprocal_rank_at5": 1.0,
+      "all_expected_in_top5": true,
+      "document_hit5": true,
+      "recall_at5": 1.0,
+      "gold_precision_at5": 1.0,
+      "exact_answer_score": 2,
+      "citation_count": 1,
+      "verbatim_quotes": 1,
+      "gold_citations": 1,
+      "fabricated_sources": 0,
+      "out_of_date_citations": 0,
+      "total_ms": 25.228,
+      "expected_sources": [
+        [
+          "lex:6257288",
+          "23-modda"
+        ]
+      ],
+      "returned_sources": [
+        [
+          "lex:6257288",
+          "23-modda"
+        ]
+      ]
+    },
+    {
+      "id": "q070",
+      "category": "faktik",
+      "question": "Jamoa shartnomasi amal qilishining boshqa hollarda saqlanib qolishi bo‘yicha kodeks qanday qoidalarni belgilaydi?",
+      "answerable": true,
+      "status": "ok",
+      "first_relevant_rank": 1,
+      "hit1": true,
+      "hit5": true,
+      "reciprocal_rank_at5": 1.0,
+      "all_expected_in_top5": true,
+      "document_hit5": true,
+      "recall_at5": 1.0,
+      "gold_precision_at5": 1.0,
+      "exact_answer_score": 2,
+      "citation_count": 1,
+      "verbatim_quotes": 1,
+      "gold_citations": 1,
+      "fabricated_sources": 0,
+      "out_of_date_citations": 0,
+      "total_ms": 60.518,
+      "expected_sources": [
+        [
+          "lex:6257288",
+          "76-modda"
+        ]
+      ],
+      "returned_sources": [
+        [
+          "lex:6257288",
+          "76-modda"
+        ]
+      ]
+    },
+    {
+      "id": "q071",
+      "category": "faktik",
+      "question": "Fuqarolik qonunchiligi bilan tartibga solinadigan munosabatlar bo‘yicha kodeks qanday qoidalarni belgilaydi?",
+      "answerable": true,
+      "status": "ok",
+      "first_relevant_rank": 1,
+      "hit1": true,
+      "hit5": true,
+      "reciprocal_rank_at5": 1.0,
+      "all_expected_in_top5": true,
+      "document_hit5": true,
+      "recall_at5": 1.0,
+      "gold_precision_at5": 0.5,
+      "exact_answer_score": 2,
+      "citation_count": 1,
+      "verbatim_quotes": 1,
+      "gold_citations": 1,
+      "fabricated_sources": 0,
+      "out_of_date_citations": 0,
+      "total_ms": 24.076,
+      "expected_sources": [
+        [
+          "lex:111189",
+          "2-modda"
+        ]
+      ],
+      "returned_sources": [
+        [
+          "lex:111189",
+          "2-modda"
+        ],
+        [
+          "lex:6257288",
+          "1-modda"
+        ]
+      ]
+    },
+    {
+      "id": "q072",
+      "category": "raqam",
+      "question": "Tungi vaqtdagi ishning davomiyligi: qanday muddat, yosh yoki miqdor belgilangan?",
+      "answerable": true,
+      "status": "ok",
+      "first_relevant_rank": 1,
+      "hit1": true,
+      "hit5": true,
+      "reciprocal_rank_at5": 1.0,
+      "all_expected_in_top5": true,
+      "document_hit5": true,
+      "recall_at5": 1.0,
+      "gold_precision_at5": 1.0,
+      "exact_answer_score": 2,
+      "citation_count": 1,
+      "verbatim_quotes": 1,
+      "gold_citations": 1,
+      "fabricated_sources": 0,
+      "out_of_date_citations": 0,
+      "total_ms": 22.464,
+      "expected_sources": [
+        [
+          "lex:6257288",
+          "188-modda"
+        ]
+      ],
+      "returned_sources": [
+        [
+          "lex:6257288",
+          "188-modda"
+        ]
+      ]
+    },
+    {
+      "id": "q073",
+      "category": "kop_manba",
+      "question": "Ish vaqtining tushunchasi va turlari; Ish vaqtining normal davomiyligi bo‘yicha kodeks qanday qoidalarni belgilaydi?",
+      "answerable": true,
+      "status": "ok",
+      "first_relevant_rank": 1,
+      "hit1": true,
+      "hit5": true,
+      "reciprocal_rank_at5": 1.0,
+      "all_expected_in_top5": true,
+      "document_hit5": true,
+      "recall_at5": 1.0,
+      "gold_precision_at5": 0.6666666666666666,
+      "exact_answer_score": 2,
+      "citation_count": 2,
+      "verbatim_quotes": 2,
+      "gold_citations": 2,
+      "fabricated_sources": 0,
+      "out_of_date_citations": 0,
+      "total_ms": 74.119,
+      "expected_sources": [
+        [
+          "lex:6257288",
+          "181-modda"
+        ],
+        [
+          "lex:6257288",
+          "182-modda"
+        ]
+      ],
+      "returned_sources": [
+        [
+          "lex:6257288",
+          "181-modda"
+        ],
+        [
+          "lex:6257288",
+          "182-modda"
+        ],
+        [
+          "lex:6257288",
+          "198-modda"
+        ]
+      ]
+    },
+    {
+      "id": "q074",
+      "category": "tahrir",
+      "question": "2026-11-06 holatiga Mehnat shartnomasi alohida asoslarga koʻra bekor qilinganda oʻrtacha oylik ish haqini ishga joylashtirish davrida saqlab qolish kafolatlari qanday tartibga solinadi?",
+      "answerable": true,
+      "status": "ok",
+      "first_relevant_rank": 1,
+      "hit1": true,
+      "hit5": true,
+      "reciprocal_rank_at5": 1.0,
+      "all_expected_in_top5": true,
+      "document_hit5": true,
+      "recall_at5": 1.0,
+      "gold_precision_at5": 1.0,
+      "exact_answer_score": 2,
+      "citation_count": 1,
+      "verbatim_quotes": 1,
+      "gold_citations": 1,
+      "fabricated_sources": 0,
+      "out_of_date_citations": 0,
+      "total_ms": 62.663,
+      "expected_sources": [
+        [
+          "lex:6257288",
+          "100-modda"
+        ]
+      ],
+      "returned_sources": [
+        [
+          "lex:6257288",
+          "100-modda"
+        ]
+      ]
+    },
+    {
+      "id": "q075",
+      "category": "kop_tilli",
+      "question": "Иш вақтининг нормал давомийлиги бўйича қандай қоида белгиланган?",
+      "answerable": true,
+      "status": "ok",
+      "first_relevant_rank": 1,
+      "hit1": true,
+      "hit5": true,
+      "reciprocal_rank_at5": 1.0,
+      "all_expected_in_top5": true,
+      "document_hit5": true,
+      "recall_at5": 1.0,
+      "gold_precision_at5": 1.0,
+      "exact_answer_score": 2,
+      "citation_count": 1,
+      "verbatim_quotes": 1,
+      "gold_citations": 1,
+      "fabricated_sources": 0,
+      "out_of_date_citations": 0,
+      "total_ms": 44.903,
+      "expected_sources": [
+        [
+          "lex:6257288",
+          "182-modda"
+        ]
+      ],
+      "returned_sources": [
+        [
+          "lex:6257288",
+          "182-modda"
+        ]
+      ]
+    },
+    {
+      "id": "q076",
+      "category": "javobsiz",
+      "question": "Uchburchak yuzasining matematik formulasi qanday?",
+      "answerable": false,
+      "status": "no_answer",
+      "first_relevant_rank": null,
+      "hit1": false,
+      "hit5": false,
+      "reciprocal_rank_at5": 0,
+      "all_expected_in_top5": false,
+      "document_hit5": false,
+      "recall_at5": null,
+      "gold_precision_at5": 0,
+      "exact_answer_score": 2,
+      "citation_count": 0,
+      "verbatim_quotes": 0,
+      "gold_citations": 0,
+      "fabricated_sources": 0,
+      "out_of_date_citations": 0,
+      "total_ms": 17.62,
+      "expected_sources": [],
+      "returned_sources": []
+    },
+    {
+      "id": "q077",
+      "category": "faktik",
+      "question": "Mehnat kodeksining 24-moddasida nima belgilangan?",
+      "answerable": true,
+      "status": "ok",
+      "first_relevant_rank": 1,
+      "hit1": true,
+      "hit5": true,
+      "reciprocal_rank_at5": 1.0,
+      "all_expected_in_top5": true,
+      "document_hit5": true,
+      "recall_at5": 1.0,
+      "gold_precision_at5": 1.0,
+      "exact_answer_score": 2,
+      "citation_count": 1,
+      "verbatim_quotes": 1,
+      "gold_citations": 1,
+      "fabricated_sources": 0,
+      "out_of_date_citations": 0,
+      "total_ms": 30.849,
+      "expected_sources": [
+        [
+          "lex:6257288",
+          "24-modda"
+        ]
+      ],
+      "returned_sources": [
+        [
+          "lex:6257288",
+          "24-modda"
+        ]
+      ]
+    },
+    {
+      "id": "q078",
+      "category": "faktik",
+      "question": "Mehnat shartnomasining mazmuni bo‘yicha kodeks qanday qoidalarni belgilaydi?",
+      "answerable": true,
+      "status": "ok",
+      "first_relevant_rank": 1,
+      "hit1": true,
+      "hit5": true,
+      "reciprocal_rank_at5": 1.0,
+      "all_expected_in_top5": true,
+      "document_hit5": true,
+      "recall_at5": 1.0,
+      "gold_precision_at5": 1.0,
+      "exact_answer_score": 2,
+      "citation_count": 1,
+      "verbatim_quotes": 1,
+      "gold_citations": 1,
+      "fabricated_sources": 0,
+      "out_of_date_citations": 0,
+      "total_ms": 31.341,
+      "expected_sources": [
+        [
+          "lex:6257288",
+          "104-modda"
+        ]
+      ],
+      "returned_sources": [
+        [
+          "lex:6257288",
+          "104-modda"
+        ]
+      ]
+    },
+    {
+      "id": "q079",
+      "category": "faktik",
+      "question": "Fuqarolik huquq va burchlarining vujudga kelish asoslari bo‘yicha kodeks qanday qoidalarni belgilaydi?",
+      "answerable": true,
+      "status": "ok",
+      "first_relevant_rank": 1,
+      "hit1": true,
+      "hit5": true,
+      "reciprocal_rank_at5": 1.0,
+      "all_expected_in_top5": true,
+      "document_hit5": true,
+      "recall_at5": 1.0,
+      "gold_precision_at5": 1.0,
+      "exact_answer_score": 2,
+      "citation_count": 1,
+      "verbatim_quotes": 1,
+      "gold_citations": 1,
+      "fabricated_sources": 0,
+      "out_of_date_citations": 0,
+      "total_ms": 34.256,
+      "expected_sources": [
+        [
+          "lex:111189",
+          "8-modda"
+        ]
+      ],
+      "returned_sources": [
+        [
+          "lex:111189",
+          "8-modda"
+        ]
+      ]
+    },
+    {
+      "id": "q080",
+      "category": "raqam",
+      "question": "Ish vaqtidan tashqari ishlarning eng koʻp davomiyligi: qanday muddat, yosh yoki miqdor belgilangan?",
+      "answerable": true,
+      "status": "ok",
+      "first_relevant_rank": 1,
+      "hit1": true,
+      "hit5": true,
+      "reciprocal_rank_at5": 1.0,
+      "all_expected_in_top5": true,
+      "document_hit5": true,
+      "recall_at5": 1.0,
+      "gold_precision_at5": 1.0,
+      "exact_answer_score": 2,
+      "citation_count": 1,
+      "verbatim_quotes": 1,
+      "gold_citations": 1,
+      "fabricated_sources": 0,
+      "out_of_date_citations": 0,
+      "total_ms": 44.511,
+      "expected_sources": [
+        [
+          "lex:6257288",
+          "190-modda"
+        ]
+      ],
+      "returned_sources": [
+        [
+          "lex:6257288",
+          "190-modda"
+        ]
+      ]
+    },
+    {
+      "id": "q081",
+      "category": "kop_manba",
+      "question": "Har kungi ishning (smenaning) davomiyligi; Toʻliqsiz ish vaqti bo‘yicha kodeks qanday qoidalarni belgilaydi?",
+      "answerable": true,
+      "status": "ok",
+      "first_relevant_rank": 1,
+      "hit1": true,
+      "hit5": true,
+      "reciprocal_rank_at5": 1.0,
+      "all_expected_in_top5": true,
+      "document_hit5": true,
+      "recall_at5": 1.0,
+      "gold_precision_at5": 1.0,
+      "exact_answer_score": 2,
+      "citation_count": 2,
+      "verbatim_quotes": 2,
+      "gold_citations": 2,
+      "fabricated_sources": 0,
+      "out_of_date_citations": 0,
+      "total_ms": 44.208,
+      "expected_sources": [
+        [
+          "lex:6257288",
+          "185-modda"
+        ],
+        [
+          "lex:6257288",
+          "186-modda"
+        ]
+      ],
+      "returned_sources": [
+        [
+          "lex:6257288",
+          "185-modda"
+        ],
+        [
+          "lex:6257288",
+          "186-modda"
+        ]
+      ]
+    },
+    {
+      "id": "q082",
+      "category": "tahrir",
+      "question": "2026-11-06 holatiga Mehnat shartnomasining shakli qanday tartibga solinadi?",
+      "answerable": true,
+      "status": "ok",
+      "first_relevant_rank": 1,
+      "hit1": true,
+      "hit5": true,
+      "reciprocal_rank_at5": 1.0,
+      "all_expected_in_top5": true,
+      "document_hit5": true,
+      "recall_at5": 1.0,
+      "gold_precision_at5": 1.0,
+      "exact_answer_score": 2,
+      "citation_count": 1,
+      "verbatim_quotes": 1,
+      "gold_citations": 1,
+      "fabricated_sources": 0,
+      "out_of_date_citations": 0,
+      "total_ms": 24.922,
+      "expected_sources": [
+        [
+          "lex:6257288",
+          "106-modda"
+        ]
+      ],
+      "returned_sources": [
+        [
+          "lex:6257288",
+          "106-modda"
+        ]
+      ]
+    },
+    {
+      "id": "q083",
+      "category": "kop_tilli",
+      "question": "Дастлабки синов муддати бўйича қандай қоида белгиланган?",
+      "answerable": true,
+      "status": "ok",
+      "first_relevant_rank": 1,
+      "hit1": true,
+      "hit5": true,
+      "reciprocal_rank_at5": 1.0,
+      "all_expected_in_top5": true,
+      "document_hit5": true,
+      "recall_at5": 1.0,
+      "gold_precision_at5": 1.0,
+      "exact_answer_score": 2,
+      "citation_count": 1,
+      "verbatim_quotes": 1,
+      "gold_citations": 1,
+      "fabricated_sources": 0,
+      "out_of_date_citations": 0,
+      "total_ms": 18.065,
+      "expected_sources": [
+        [
+          "lex:6257288",
+          "130-modda"
+        ]
+      ],
+      "returned_sources": [
+        [
+          "lex:6257288",
+          "130-modda"
+        ]
+      ]
+    },
+    {
+      "id": "q084",
+      "category": "javobsiz",
+      "question": "Suv molekulasida nechta vodorod atomi bor?",
+      "answerable": false,
+      "status": "no_answer",
+      "first_relevant_rank": null,
+      "hit1": false,
+      "hit5": false,
+      "reciprocal_rank_at5": 0,
+      "all_expected_in_top5": false,
+      "document_hit5": false,
+      "recall_at5": null,
+      "gold_precision_at5": 0,
+      "exact_answer_score": 2,
+      "citation_count": 0,
+      "verbatim_quotes": 0,
+      "gold_citations": 0,
+      "fabricated_sources": 0,
+      "out_of_date_citations": 0,
+      "total_ms": 11.614,
+      "expected_sources": [],
+      "returned_sources": []
+    },
+    {
+      "id": "q085",
+      "category": "faktik",
+      "question": "Mehnat kodeksining 33-moddasida nima belgilangan?",
+      "answerable": true,
+      "status": "ok",
+      "first_relevant_rank": 1,
+      "hit1": true,
+      "hit5": true,
+      "reciprocal_rank_at5": 1.0,
+      "all_expected_in_top5": true,
+      "document_hit5": true,
+      "recall_at5": 1.0,
+      "gold_precision_at5": 1.0,
+      "exact_answer_score": 2,
+      "citation_count": 1,
+      "verbatim_quotes": 1,
+      "gold_citations": 1,
+      "fabricated_sources": 0,
+      "out_of_date_citations": 0,
+      "total_ms": 24.661,
+      "expected_sources": [
+        [
+          "lex:6257288",
+          "33-modda"
+        ]
+      ],
+      "returned_sources": [
+        [
+          "lex:6257288",
+          "33-modda"
+        ]
+      ]
+    },
+    {
+      "id": "q086",
+      "category": "faktik",
+      "question": "Mehnat shartnomasi shartlarining haqiqiy emasligi bo‘yicha kodeks qanday qoidalarni belgilaydi?",
+      "answerable": true,
+      "status": "ok",
+      "first_relevant_rank": 1,
+      "hit1": true,
+      "hit5": true,
+      "reciprocal_rank_at5": 1.0,
+      "all_expected_in_top5": true,
+      "document_hit5": true,
+      "recall_at5": 1.0,
+      "gold_precision_at5": 0.5,
+      "exact_answer_score": 2,
+      "citation_count": 1,
+      "verbatim_quotes": 1,
+      "gold_citations": 1,
+      "fabricated_sources": 0,
+      "out_of_date_citations": 0,
+      "total_ms": 48.579,
+      "expected_sources": [
+        [
+          "lex:6257288",
+          "105-modda"
+        ]
+      ],
+      "returned_sources": [
+        [
+          "lex:6257288",
+          "105-modda"
+        ],
+        [
+          "lex:6257288",
+          "17-modda"
+        ]
+      ]
+    },
+    {
+      "id": "q087",
+      "category": "faktik",
+      "question": "Fuqarolik huquqlarini sud orqali himoya qilish bo‘yicha kodeks qanday qoidalarni belgilaydi?",
+      "answerable": true,
+      "status": "ok",
+      "first_relevant_rank": 1,
+      "hit1": true,
+      "hit5": true,
+      "reciprocal_rank_at5": 1.0,
+      "all_expected_in_top5": true,
+      "document_hit5": true,
+      "recall_at5": 1.0,
+      "gold_precision_at5": 1.0,
+      "exact_answer_score": 2,
+      "citation_count": 1,
+      "verbatim_quotes": 1,
+      "gold_citations": 1,
+      "fabricated_sources": 0,
+      "out_of_date_citations": 0,
+      "total_ms": 41.375,
+      "expected_sources": [
+        [
+          "lex:111189",
+          "10-modda"
+        ]
+      ],
+      "returned_sources": [
+        [
+          "lex:111189",
+          "10-modda"
+        ]
+      ]
+    },
+    {
+      "id": "q088",
+      "category": "raqam",
+      "question": "Birinchi ish yili uchun har yilgi mehnat taʼtilini berish tartibi: qanday muddat, yosh yoki miqdor belgilangan?",
+      "answerable": true,
+      "status": "ok",
+      "first_relevant_rank": 1,
+      "hit1": true,
+      "hit5": true,
+      "reciprocal_rank_at5": 1.0,
+      "all_expected_in_top5": true,
+      "document_hit5": true,
+      "recall_at5": 1.0,
+      "gold_precision_at5": 1.0,
+      "exact_answer_score": 2,
+      "citation_count": 1,
+      "verbatim_quotes": 1,
+      "gold_citations": 1,
+      "fabricated_sources": 0,
+      "out_of_date_citations": 0,
+      "total_ms": 49.391,
+      "expected_sources": [
+        [
+          "lex:6257288",
+          "227-modda"
+        ]
+      ],
+      "returned_sources": [
+        [
+          "lex:6257288",
+          "227-modda"
+        ]
+      ]
+    },
+    {
+      "id": "q089",
+      "category": "kop_manba",
+      "question": "Har yilgi asosiy eng kam mehnat taʼtilining davomiyligi; Har yilgi asosiy uzaytirilgan taʼtil bo‘yicha kodeks qanday qoidalarni belgilaydi?",
+      "answerable": true,
+      "status": "ok",
+      "first_relevant_rank": 1,
+      "hit1": true,
+      "hit5": true,
+      "reciprocal_rank_at5": 1.0,
+      "all_expected_in_top5": true,
+      "document_hit5": true,
+      "recall_at5": 1.0,
+      "gold_precision_at5": 1.0,
+      "exact_answer_score": 2,
+      "citation_count": 2,
+      "verbatim_quotes": 2,
+      "gold_citations": 2,
+      "fabricated_sources": 0,
+      "out_of_date_citations": 0,
+      "total_ms": 42.19,
+      "expected_sources": [
+        [
+          "lex:6257288",
+          "217-modda"
+        ],
+        [
+          "lex:6257288",
+          "218-modda"
+        ]
+      ],
+      "returned_sources": [
+        [
+          "lex:6257288",
+          "217-modda"
+        ],
+        [
+          "lex:6257288",
+          "218-modda"
+        ]
+      ]
+    },
+    {
+      "id": "q090",
+      "category": "tahrir",
+      "question": "2026-11-06 holatiga Mehnat shartnomasining rekvizitlari qanday tartibga solinadi?",
+      "answerable": true,
+      "status": "ok",
+      "first_relevant_rank": 1,
+      "hit1": true,
+      "hit5": true,
+      "reciprocal_rank_at5": 1.0,
+      "all_expected_in_top5": true,
+      "document_hit5": true,
+      "recall_at5": 1.0,
+      "gold_precision_at5": 1.0,
+      "exact_answer_score": 2,
+      "citation_count": 1,
+      "verbatim_quotes": 1,
+      "gold_citations": 1,
+      "fabricated_sources": 0,
+      "out_of_date_citations": 0,
+      "total_ms": 19.506,
+      "expected_sources": [
+        [
+          "lex:6257288",
+          "107-modda"
+        ]
+      ],
+      "returned_sources": [
+        [
+          "lex:6257288",
+          "107-modda"
+        ]
+      ]
+    },
+    {
+      "id": "q091",
+      "category": "kop_tilli",
+      "question": "Умумий даъво муддати бўйича қандай қоида белгиланган?",
+      "answerable": true,
+      "status": "ok",
+      "first_relevant_rank": 1,
+      "hit1": true,
+      "hit5": true,
+      "reciprocal_rank_at5": 1.0,
+      "all_expected_in_top5": true,
+      "document_hit5": true,
+      "recall_at5": 1.0,
+      "gold_precision_at5": 1.0,
+      "exact_answer_score": 2,
+      "citation_count": 1,
+      "verbatim_quotes": 1,
+      "gold_citations": 1,
+      "fabricated_sources": 0,
+      "out_of_date_citations": 0,
+      "total_ms": 22.478,
+      "expected_sources": [
+        [
+          "lex:111189",
+          "150-modda"
+        ]
+      ],
+      "returned_sources": [
+        [
+          "lex:111189",
+          "150-modda"
+        ]
+      ]
+    },
+    {
+      "id": "q092",
+      "category": "javobsiz",
+      "question": "Git dasturida yangi branch qanday ochiladi?",
+      "answerable": false,
+      "status": "no_answer",
+      "first_relevant_rank": null,
+      "hit1": false,
+      "hit5": false,
+      "reciprocal_rank_at5": 0,
+      "all_expected_in_top5": false,
+      "document_hit5": false,
+      "recall_at5": null,
+      "gold_precision_at5": 0,
+      "exact_answer_score": 2,
+      "citation_count": 0,
+      "verbatim_quotes": 0,
+      "gold_citations": 0,
+      "fabricated_sources": 0,
+      "out_of_date_citations": 0,
+      "total_ms": 11.062,
+      "expected_sources": [],
+      "returned_sources": []
+    },
+    {
+      "id": "q093",
+      "category": "faktik",
+      "question": "Mehnat kodeksining 34-moddasida nima belgilangan?",
+      "answerable": true,
+      "status": "ok",
+      "first_relevant_rank": 1,
+      "hit1": true,
+      "hit5": true,
+      "reciprocal_rank_at5": 1.0,
+      "all_expected_in_top5": true,
+      "document_hit5": true,
+      "recall_at5": 1.0,
+      "gold_precision_at5": 1.0,
+      "exact_answer_score": 2,
+      "citation_count": 1,
+      "verbatim_quotes": 1,
+      "gold_citations": 1,
+      "fabricated_sources": 0,
+      "out_of_date_citations": 0,
+      "total_ms": 25.622,
+      "expected_sources": [
+        [
+          "lex:6257288",
+          "34-modda"
+        ]
+      ],
+      "returned_sources": [
+        [
+          "lex:6257288",
+          "34-modda"
+        ]
+      ]
+    },
+    {
+      "id": "q094",
+      "category": "faktik",
+      "question": "Mehnat shartnomasining shakli bo‘yicha kodeks qanday qoidalarni belgilaydi?",
+      "answerable": true,
+      "status": "ok",
+      "first_relevant_rank": 1,
+      "hit1": true,
+      "hit5": true,
+      "reciprocal_rank_at5": 1.0,
+      "all_expected_in_top5": true,
+      "document_hit5": true,
+      "recall_at5": 1.0,
+      "gold_precision_at5": 1.0,
+      "exact_answer_score": 2,
+      "citation_count": 1,
+      "verbatim_quotes": 1,
+      "gold_citations": 1,
+      "fabricated_sources": 0,
+      "out_of_date_citations": 0,
+      "total_ms": 32.921,
+      "expected_sources": [
+        [
+          "lex:6257288",
+          "106-modda"
+        ]
+      ],
+      "returned_sources": [
+        [
+          "lex:6257288",
+          "106-modda"
+        ]
+      ]
+    },
+    {
+      "id": "q095",
+      "category": "faktik",
+      "question": "Fuqarolik huquqlarini himoya qilish usullari bo‘yicha kodeks qanday qoidalarni belgilaydi?",
+      "answerable": true,
+      "status": "ok",
+      "first_relevant_rank": 1,
+      "hit1": true,
+      "hit5": true,
+      "reciprocal_rank_at5": 1.0,
+      "all_expected_in_top5": true,
+      "document_hit5": true,
+      "recall_at5": 1.0,
+      "gold_precision_at5": 1.0,
+      "exact_answer_score": 2,
+      "citation_count": 1,
+      "verbatim_quotes": 1,
+      "gold_citations": 1,
+      "fabricated_sources": 0,
+      "out_of_date_citations": 0,
+      "total_ms": 50.874,
+      "expected_sources": [
+        [
+          "lex:111189",
+          "11-modda"
+        ]
+      ],
+      "returned_sources": [
+        [
+          "lex:111189",
+          "11-modda"
+        ]
+      ]
+    },
+    {
+      "id": "q096",
+      "category": "raqam",
+      "question": "Ikkinchi va keyingi ish yillari uchun har yilgi mehnat taʼtilini berish tartibi: qanday muddat, yosh yoki miqdor belgilangan?",
+      "answerable": true,
+      "status": "ok",
+      "first_relevant_rank": 1,
+      "hit1": true,
+      "hit5": true,
+      "reciprocal_rank_at5": 1.0,
+      "all_expected_in_top5": true,
+      "document_hit5": true,
+      "recall_at5": 1.0,
+      "gold_precision_at5": 1.0,
+      "exact_answer_score": 2,
+      "citation_count": 1,
+      "verbatim_quotes": 1,
+      "gold_citations": 1,
+      "fabricated_sources": 0,
+      "out_of_date_citations": 0,
+      "total_ms": 63.268,
+      "expected_sources": [
+        [
+          "lex:6257288",
+          "228-modda"
+        ]
+      ],
+      "returned_sources": [
+        [
+          "lex:6257288",
+          "228-modda"
+        ]
+      ]
+    },
+    {
+      "id": "q097",
+      "category": "kop_manba",
+      "question": "Har yilgi mehnat taʼtillarining davomiyligini hisoblab chiqarish; Har yilgi asosiy va qoʻshimcha mehnat taʼtillarini jamlash tartibi bo‘yicha kodeks qanday qoidalarni belgilaydi?",
+      "answerable": true,
+      "status": "ok",
+      "first_relevant_rank": 1,
+      "hit1": true,
+      "hit5": true,
+      "reciprocal_rank_at5": 1.0,
+      "all_expected_in_top5": true,
+      "document_hit5": true,
+      "recall_at5": 1.0,
+      "gold_precision_at5": 0.5,
+      "exact_answer_score": 2,
+      "citation_count": 2,
+      "verbatim_quotes": 2,
+      "gold_citations": 2,
+      "fabricated_sources": 0,
+      "out_of_date_citations": 0,
+      "total_ms": 65.825,
+      "expected_sources": [
+        [
+          "lex:6257288",
+          "221-modda"
+        ],
+        [
+          "lex:6257288",
+          "222-modda"
+        ]
+      ],
+      "returned_sources": [
+        [
+          "lex:6257288",
+          "221-modda"
+        ],
+        [
+          "lex:6257288",
+          "222-modda"
+        ],
+        [
+          "lex:6257288",
+          "224-modda"
+        ],
+        [
+          "lex:6257288",
+          "223-modda"
+        ]
+      ]
+    },
+    {
+      "id": "q098",
+      "category": "tahrir",
+      "question": "2026-11-06 holatiga Mehnat toʻgʻrisidagi qonunchilikning amal qilish sohasi qanday tartibga solinadi?",
+      "answerable": true,
+      "status": "ok",
+      "first_relevant_rank": 1,
+      "hit1": true,
+      "hit5": true,
+      "reciprocal_rank_at5": 1.0,
+      "all_expected_in_top5": true,
+      "document_hit5": true,
+      "recall_at5": 1.0,
+      "gold_precision_at5": 1.0,
+      "exact_answer_score": 2,
+      "citation_count": 1,
+      "verbatim_quotes": 1,
+      "gold_citations": 1,
+      "fabricated_sources": 0,
+      "out_of_date_citations": 0,
+      "total_ms": 66.763,
+      "expected_sources": [
+        [
+          "lex:6257288",
+          "11-modda"
+        ]
+      ],
+      "returned_sources": [
+        [
+          "lex:6257288",
+          "11-modda"
+        ]
+      ]
+    },
+    {
+      "id": "q099",
+      "category": "kop_tilli",
+      "question": "Битимлар тушунчаси бўйича қандай қоида белгиланган?",
+      "answerable": true,
+      "status": "ok",
+      "first_relevant_rank": 1,
+      "hit1": true,
+      "hit5": true,
+      "reciprocal_rank_at5": 1.0,
+      "all_expected_in_top5": true,
+      "document_hit5": true,
+      "recall_at5": 1.0,
+      "gold_precision_at5": 1.0,
+      "exact_answer_score": 2,
+      "citation_count": 1,
+      "verbatim_quotes": 1,
+      "gold_citations": 1,
+      "fabricated_sources": 0,
+      "out_of_date_citations": 0,
+      "total_ms": 26.211,
+      "expected_sources": [
+        [
+          "lex:111189",
+          "101-modda"
+        ]
+      ],
+      "returned_sources": [
+        [
+          "lex:111189",
+          "101-modda"
+        ]
+      ]
+    },
+    {
+      "id": "q100",
+      "category": "javobsiz",
+      "question": "Saturnning nechta tabiiy yo‘ldoshi bor?",
+      "answerable": false,
+      "status": "no_answer",
+      "first_relevant_rank": null,
+      "hit1": false,
+      "hit5": false,
+      "reciprocal_rank_at5": 0,
+      "all_expected_in_top5": false,
+      "document_hit5": false,
+      "recall_at5": null,
+      "gold_precision_at5": 0,
+      "exact_answer_score": 2,
+      "citation_count": 0,
+      "verbatim_quotes": 0,
+      "gold_citations": 0,
+      "fabricated_sources": 0,
+      "out_of_date_citations": 0,
+      "total_ms": 16.498,
+      "expected_sources": [],
+      "returned_sources": []
+    }
+  ]
+}

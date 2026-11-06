@@ -1,0 +1,638 @@
+{
+  "snapshot_date": "2026-11-06",
+  "history_since": "2025-01-01",
+  "documents": [
+    {
+      "doc_id": "lex:6257288",
+      "title": "Oʻzbekiston Respublikasining Mehnat kodeksi",
+      "language": "uz-Latn",
+      "edition_date": "2024-09-21",
+      "articles": 581,
+      "source_url": "https://www.lex.uz/docs/-6257288?ONDATE=21.09.2024",
+      "source_sha256": "cfe699c96026d82bab88b96e48cba929324617ad3ab2f03c524feb857fd81837",
+      "raw_file": "-6257288-uz-Latn-2024-09-21.html"
+    },
+    {
+      "doc_id": "lex:6257288",
+      "title": "Oʻzbekiston Respublikasining Mehnat kodeksi",
+      "language": "uz-Latn",
+      "edition_date": "2025-02-14",
+      "articles": 581,
+      "source_url": "https://www.lex.uz/docs/-6257288?ONDATE=14.02.2025",
+      "source_sha256": "326af5f43a5c1aeb36dcb2a9d64cd08f6959b31198f67c0c3ef81a84962e3219",
+      "raw_file": "-6257288-uz-Latn-2025-02-14.html"
+    },
+    {
+      "doc_id": "lex:6257288",
+      "title": "Oʻzbekiston Respublikasining Mehnat kodeksi",
+      "language": "uz-Latn",
+      "edition_date": "2025-09-25",
+      "articles": 581,
+      "source_url": "https://www.lex.uz/docs/-6257288?ONDATE=25.09.2025",
+      "source_sha256": "96ef2687962842dfa2141af8243302fbe4e0d7656d3c4f9fba8cdc17081863e2",
+      "raw_file": "-6257288-uz-Latn-2025-09-25.html"
+    },
+    {
+      "doc_id": "lex:6257288",
+      "title": "Oʻzbekiston Respublikasining Mehnat kodeksi",
+      "language": "uz-Latn",
+      "edition_date": "2025-11-12",
+      "articles": 581,
+      "source_url": "https://www.lex.uz/docs/-6257288?ONDATE=12.11.2025",
+      "source_sha256": "ec72be4bfd29b284ef656b323fc3251d5209cec2c7fb8812f55d237b5ec04c7c",
+      "raw_file": "-6257288-uz-Latn-2025-11-12.html"
+    },
+    {
+      "doc_id": "lex:6257288",
+      "title": "Oʻzbekiston Respublikasining Mehnat kodeksi",
+      "language": "uz-Latn",
+      "edition_date": "2025-12-30",
+      "articles": 581,
+      "source_url": "https://www.lex.uz/docs/-6257288?ONDATE=30.12.2025",
+      "source_sha256": "a0cc528f72cc73d408aa5c4046d71f133cd9776042bef950e3828dd8b9448f21",
+      "raw_file": "-6257288-uz-Latn-2025-12-30.html"
+    },
+    {
+      "doc_id": "lex:6257288",
+      "title": "Oʻzbekiston Respublikasining Mehnat kodeksi",
+      "language": "uz-Latn",
+      "edition_date": "2026-01-01",
+      "articles": 581,
+      "source_url": "https://www.lex.uz/docs/-6257288?ONDATE=01.01.2026",
+      "source_sha256": "73b81e7029ce4ef13b82e75da0138046f75607b5ad2dc9d2fc5b90b5b2816caf",
+      "raw_file": "-6257288-uz-Latn-2026-01-01.html"
+    },
+    {
+      "doc_id": "lex:6257288",
+      "title": "Oʻzbekiston Respublikasining Mehnat kodeksi",
+      "language": "uz-Latn",
+      "edition_date": "2026-07-25",
+      "articles": 581,
+      "source_url": "https://www.lex.uz/docs/-6257288?ONDATE=25.07.2026",
+      "source_sha256": "048623c19fbd3b8660768c5eb91dc87f8f189e008151211974ddaa125988cc7c",
+      "raw_file": "-6257288-uz-Latn-2026-07-25.html"
+    },
+    {
+      "doc_id": "lex:6257288",
+      "title": "Oʻzbekiston Respublikasining Mehnat kodeksi",
+      "language": "uz-Latn",
+      "edition_date": "2026-09-12",
+      "articles": 593,
+      "source_url": "https://www.lex.uz/docs/-6257288?ONDATE=12.09.2026",
+      "source_sha256": "06dd483da7740c244514d036a44abdfe126deecb52d48eee26e8b8073ec49f7a",
+      "raw_file": "-6257288-uz-Latn-2026-09-12.html"
+    },
+    {
+      "doc_id": "lex:6257288",
+      "title": "Oʻzbekiston Respublikasining Mehnat kodeksi",
+      "language": "uz-Latn",
+      "edition_date": "2026-10-15",
+      "articles": 593,
+      "source_url": "https://www.lex.uz/docs/-6257288?ONDATE=15.10.2026+01",
+      "source_sha256": "6e457effccd226058d33839eb89eee0902e85e3a30b27e6e0e43bb68b3acbed1",
+      "raw_file": "-6257288-uz-Latn-2026-10-15.html"
+    },
+    {
+      "doc_id": "lex:6257288",
+      "title": "Ўзбекистон Республикасининг Меҳнат кодекси",
+      "language": "uz-Cyrl",
+      "edition_date": "2024-09-21",
+      "articles": 581,
+      "source_url": "https://www.lex.uz/docs/6257288?ONDATE=21.09.2024",
+      "source_sha256": "e4462409b42aa33c51ff44a915423a22eb1c43039256f602b10dbfb8b78e3c35",
+      "raw_file": "6257288-uz-Cyrl-2024-09-21.html"
+    },
+    {
+      "doc_id": "lex:6257288",
+      "title": "Ўзбекистон Республикасининг Меҳнат кодекси",
+      "language": "uz-Cyrl",
+      "edition_date": "2025-02-14",
+      "articles": 581,
+      "source_url": "https://www.lex.uz/docs/6257288?ONDATE=14.02.2025",
+      "source_sha256": "26684b5ffe21c0ef235b3e9086a10b7006c0a21107a2b8012d3639e56e640ed4",
+      "raw_file": "6257288-uz-Cyrl-2025-02-14.html"
+    },
+    {
+      "doc_id": "lex:6257288",
+      "title": "Ўзбекистон Республикасининг Меҳнат кодекси",
+      "language": "uz-Cyrl",
+      "edition_date": "2025-09-25",
+      "articles": 581,
+      "source_url": "https://www.lex.uz/docs/6257288?ONDATE=25.09.2025",
+      "source_sha256": "7c4ce17693effcafe2165e8d11d0c050bb8930896a6aad36b75e8c722f2c7234",
+      "raw_file": "6257288-uz-Cyrl-2025-09-25.html"
+    },
+    {
+      "doc_id": "lex:6257288",
+      "title": "Ўзбекистон Республикасининг Меҳнат кодекси",
+      "language": "uz-Cyrl",
+      "edition_date": "2025-11-12",
+      "articles": 581,
+      "source_url": "https://www.lex.uz/docs/6257288?ONDATE=12.11.2025",
+      "source_sha256": "5a7b9c0bf2e7a8a89aef6dabb76d27b570f59bec94116cbefe8955b369e5f9b3",
+      "raw_file": "6257288-uz-Cyrl-2025-11-12.html"
+    },
+    {
+      "doc_id": "lex:6257288",
+      "title": "Ўзбекистон Республикасининг Меҳнат кодекси",
+      "language": "uz-Cyrl",
+      "edition_date": "2025-12-30",
+      "articles": 581,
+      "source_url": "https://www.lex.uz/docs/6257288?ONDATE=30.12.2025",
+      "source_sha256": "13336dafd0ef057731a27fafd243924ffddae07926651fb09ebd9067fdf303e7",
+      "raw_file": "6257288-uz-Cyrl-2025-12-30.html"
+    },
+    {
+      "doc_id": "lex:6257288",
+      "title": "Ўзбекистон Республикасининг Меҳнат кодекси",
+      "language": "uz-Cyrl",
+      "edition_date": "2026-01-01",
+      "articles": 581,
+      "source_url": "https://www.lex.uz/docs/6257288?ONDATE=01.01.2026",
+      "source_sha256": "0fbc931c3bb7ffba74c1e67e7b1b12fe0b7cdebb79345002a20db925508ef347",
+      "raw_file": "6257288-uz-Cyrl-2026-01-01.html"
+    },
+    {
+      "doc_id": "lex:6257288",
+      "title": "Ўзбекистон Республикасининг Меҳнат кодекси",
+      "language": "uz-Cyrl",
+      "edition_date": "2026-07-25",
+      "articles": 581,
+      "source_url": "https://www.lex.uz/docs/6257288?ONDATE=25.07.2026",
+      "source_sha256": "35520f018a3e872aab8ea67332af9d21b9b394e2f4cb616465bb0e8c4264e1b3",
+      "raw_file": "6257288-uz-Cyrl-2026-07-25.html"
+    },
+    {
+      "doc_id": "lex:6257288",
+      "title": "Ўзбекистон Республикасининг Меҳнат кодекси",
+      "language": "uz-Cyrl",
+      "edition_date": "2026-09-12",
+      "articles": 593,
+      "source_url": "https://www.lex.uz/docs/6257288?ONDATE=12.09.2026",
+      "source_sha256": "b7f60dc35bb7cc0f569481569623f7acb86b27784a4c8a6269208081a461f38c",
+      "raw_file": "6257288-uz-Cyrl-2026-09-12.html"
+    },
+    {
+      "doc_id": "lex:6257288",
+      "title": "Ўзбекистон Республикасининг Меҳнат кодекси",
+      "language": "uz-Cyrl",
+      "edition_date": "2026-10-15",
+      "articles": 593,
+      "source_url": "https://www.lex.uz/docs/6257288?ONDATE=15.10.2026+01",
+      "source_sha256": "604a7163be59b82a185f748581e3862e519d35ff3fdb917b317160321c4f7e3f",
+      "raw_file": "6257288-uz-Cyrl-2026-10-15.html"
+    },
+    {
+      "doc_id": "lex:6257291",
+      "title": "Трудовой кодекс Республики Узбекистан",
+      "language": "ru",
+      "edition_date": "2024-09-21",
+      "articles": 581,
+      "source_url": "https://www.lex.uz/docs/6257291?ONDATE=21.09.2024",
+      "source_sha256": "6a79928780400d359b0f7201b84225cb1de878e25e5a8ae7234d0a4e2eae0096",
+      "raw_file": "6257291-ru-2024-09-21.html"
+    },
+    {
+      "doc_id": "lex:6257291",
+      "title": "Трудовой кодекс Республики Узбекистан",
+      "language": "ru",
+      "edition_date": "2025-02-14",
+      "articles": 581,
+      "source_url": "https://www.lex.uz/docs/6257291?ONDATE=14.02.2025",
+      "source_sha256": "2df581a4bdbd3550cdc193b1f424f080f4a0bb794667d63eece4bcc7c3d28ac7",
+      "raw_file": "6257291-ru-2025-02-14.html"
+    },
+    {
+      "doc_id": "lex:6257291",
+      "title": "Трудовой кодекс Республики Узбекистан",
+      "language": "ru",
+      "edition_date": "2025-09-25",
+      "articles": 581,
+      "source_url": "https://www.lex.uz/docs/6257291?ONDATE=25.09.2025",
+      "source_sha256": "5c941f4b1304a1f43f17e0201e43949db061cb2a5c7d8d99774fd55df4e50594",
+      "raw_file": "6257291-ru-2025-09-25.html"
+    },
+    {
+      "doc_id": "lex:6257291",
+      "title": "Трудовой кодекс Республики Узбекистан",
+      "language": "ru",
+      "edition_date": "2025-11-12",
+      "articles": 581,
+      "source_url": "https://www.lex.uz/docs/6257291?ONDATE=12.11.2025",
+      "source_sha256": "bbd58e1b471a2d72ef190dad8c736606f6921ca8c05a06cd6781c8c752d4f05a",
+      "raw_file": "6257291-ru-2025-11-12.html"
+    },
+    {
+      "doc_id": "lex:6257291",
+      "title": "Трудовой кодекс Республики Узбекистан",
+      "language": "ru",
+      "edition_date": "2025-12-30",
+      "articles": 581,
+      "source_url": "https://www.lex.uz/docs/6257291?ONDATE=30.12.2025",
+      "source_sha256": "96902b4a6d3074fc3452040e1b4126a338039b07bd0e072d282e4cb57101762e",
+      "raw_file": "6257291-ru-2025-12-30.html"
+    },
+    {
+      "doc_id": "lex:6257291",
+      "title": "Трудовой кодекс Республики Узбекистан",
+      "language": "ru",
+      "edition_date": "2026-01-01",
+      "articles": 581,
+      "source_url": "https://www.lex.uz/docs/6257291?ONDATE=01.01.2026",
+      "source_sha256": "ad32869786fe0cb17ee718ea92b2e1baf91004726c6c1e4fedfebdd7e02b02f1",
+      "raw_file": "6257291-ru-2026-01-01.html"
+    },
+    {
+      "doc_id": "lex:6257291",
+      "title": "Трудовой кодекс Республики Узбекистан",
+      "language": "ru",
+      "edition_date": "2026-07-25",
+      "articles": 581,
+      "source_url": "https://www.lex.uz/docs/6257291?ONDATE=25.07.2026",
+      "source_sha256": "ad8ced8c2fab17e16603317eb27c3791a8aa7d193b63a1ea281da8d9df324b39",
+      "raw_file": "6257291-ru-2026-07-25.html"
+    },
+    {
+      "doc_id": "lex:6257291",
+      "title": "Трудовой кодекс Республики Узбекистан",
+      "language": "ru",
+      "edition_date": "2026-09-12",
+      "articles": 593,
+      "source_url": "https://www.lex.uz/docs/6257291?ONDATE=12.09.2026",
+      "source_sha256": "c82ebb891fbf915f91c26cba07fd69af0b1c11bf62a31b30a773c1c0f973d899",
+      "raw_file": "6257291-ru-2026-09-12.html"
+    },
+    {
+      "doc_id": "lex:6257291",
+      "title": "Трудовой кодекс Республики Узбекистан",
+      "language": "ru",
+      "edition_date": "2026-10-15",
+      "articles": 593,
+      "source_url": "https://www.lex.uz/docs/6257291?ONDATE=15.10.2026+01",
+      "source_sha256": "d6299ea9886ccc6e130f874bb5db3ad64c115961f5977388d3012677cfb5985d",
+      "raw_file": "6257291-ru-2026-10-15.html"
+    },
+    {
+      "doc_id": "lex:111189",
+      "title": "Oʻzbekiston Respublikasining Fuqarolik kodeksi (birinchi qism)",
+      "language": "uz-Latn",
+      "edition_date": "2024-12-06",
+      "articles": 392,
+      "source_url": "https://www.lex.uz/docs/-111189?ONDATE=06.12.2024",
+      "source_sha256": "93ca1b0f13d4f9f398d9d48f02c5e9c90ba66976ffe411e7f2366bcb6bc90cc9",
+      "raw_file": "-111189-uz-Latn-2024-12-06.html"
+    },
+    {
+      "doc_id": "lex:111189",
+      "title": "Oʻzbekiston Respublikasining Fuqarolik kodeksi (birinchi qism)",
+      "language": "uz-Latn",
+      "edition_date": "2025-02-12",
+      "articles": 392,
+      "source_url": "https://www.lex.uz/docs/-111189?ONDATE=12.02.2025",
+      "source_sha256": "eeebc1aadc9bada896ef760daaf9f18d16697771886d28096fc6fee52c5d1023",
+      "raw_file": "-111189-uz-Latn-2025-02-12.html"
+    },
+    {
+      "doc_id": "lex:111189",
+      "title": "Oʻzbekiston Respublikasining Fuqarolik kodeksi (birinchi qism)",
+      "language": "uz-Latn",
+      "edition_date": "2025-02-19",
+      "articles": 392,
+      "source_url": "https://www.lex.uz/docs/-111189?ONDATE=19.02.2025",
+      "source_sha256": "00a1dae8b1f728f70ba37fd0b0e3ced1196ac1cfa3bfdc0b4f9a908374a3a8c1",
+      "raw_file": "-111189-uz-Latn-2025-02-19.html"
+    },
+    {
+      "doc_id": "lex:111189",
+      "title": "Oʻzbekiston Respublikasining Fuqarolik kodeksi (birinchi qism)",
+      "language": "uz-Latn",
+      "edition_date": "2025-04-22",
+      "articles": 392,
+      "source_url": "https://www.lex.uz/docs/-111189?ONDATE=22.04.2025",
+      "source_sha256": "5296e302f479590d55f93236448a85071022449ff5f710d3013148e802aacf63",
+      "raw_file": "-111189-uz-Latn-2025-04-22.html"
+    },
+    {
+      "doc_id": "lex:111189",
+      "title": "Oʻzbekiston Respublikasining Fuqarolik kodeksi (birinchi qism)",
+      "language": "uz-Latn",
+      "edition_date": "2025-05-08",
+      "articles": 386,
+      "source_url": "https://www.lex.uz/docs/-111189?ONDATE=08.05.2025",
+      "source_sha256": "6011382542e34e4f534501d23e52b388dec75aae26117d6328da8beea071ce14",
+      "raw_file": "-111189-uz-Latn-2025-05-08.html"
+    },
+    {
+      "doc_id": "lex:111189",
+      "title": "Oʻzbekiston Respublikasining Fuqarolik kodeksi (birinchi qism)",
+      "language": "uz-Latn",
+      "edition_date": "2025-09-25",
+      "articles": 386,
+      "source_url": "https://www.lex.uz/docs/-111189?ONDATE=25.09.2025",
+      "source_sha256": "ecc40442e4bf06c130512eb7c02886e2001303ad0cea3eb26dc2cf9491086dc3",
+      "raw_file": "-111189-uz-Latn-2025-09-25.html"
+    },
+    {
+      "doc_id": "lex:111189",
+      "title": "Oʻzbekiston Respublikasining Fuqarolik kodeksi (birinchi qism)",
+      "language": "uz-Latn",
+      "edition_date": "2025-12-25",
+      "articles": 386,
+      "source_url": "https://www.lex.uz/docs/-111189?ONDATE=25.12.2025",
+      "source_sha256": "a2fcb2e6ccf4588de0d1b6695df0c760cb6f5bb746df4bccdc7a799d5910f01e",
+      "raw_file": "-111189-uz-Latn-2025-12-25.html"
+    },
+    {
+      "doc_id": "lex:111189",
+      "title": "Oʻzbekiston Respublikasining Fuqarolik kodeksi (birinchi qism)",
+      "language": "uz-Latn",
+      "edition_date": "2025-12-26",
+      "articles": 386,
+      "source_url": "https://www.lex.uz/docs/-111189?ONDATE=26.12.2025",
+      "source_sha256": "4330781c5536ea2aa2801ad52b363ccedd10c8adedb39a6041202e36737cc341",
+      "raw_file": "-111189-uz-Latn-2025-12-26.html"
+    },
+    {
+      "doc_id": "lex:111189",
+      "title": "Oʻzbekiston Respublikasining Fuqarolik kodeksi (birinchi qism)",
+      "language": "uz-Latn",
+      "edition_date": "2025-12-30",
+      "articles": 386,
+      "source_url": "https://www.lex.uz/docs/-111189?ONDATE=30.12.2025",
+      "source_sha256": "293628833e7453a26bf86b3ff6dc7a621344d1229686ba83bc5aa1462bf0d643",
+      "raw_file": "-111189-uz-Latn-2025-12-30.html"
+    },
+    {
+      "doc_id": "lex:111189",
+      "title": "Oʻzbekiston Respublikasining Fuqarolik kodeksi (birinchi qism)",
+      "language": "uz-Latn",
+      "edition_date": "2026-06-29",
+      "articles": 386,
+      "source_url": "https://www.lex.uz/docs/-111189?ONDATE=29.06.2026",
+      "source_sha256": "867e9e281d187ddadb8e3e53c57073529073bc65000f8014bd8ccc5ca18d768a",
+      "raw_file": "-111189-uz-Latn-2026-06-29.html"
+    },
+    {
+      "doc_id": "lex:111189",
+      "title": "Oʻzbekiston Respublikasining Fuqarolik kodeksi (birinchi qism)",
+      "language": "uz-Latn",
+      "edition_date": "2026-07-25",
+      "articles": 386,
+      "source_url": "https://www.lex.uz/docs/-111189?ONDATE=25.07.2026",
+      "source_sha256": "3998a1e34fea50fa5513557ecc665f548d91b1bed0b4bee9e330f9f1255a0d53",
+      "raw_file": "-111189-uz-Latn-2026-07-25.html"
+    },
+    {
+      "doc_id": "lex:111189",
+      "title": "Oʻzbekiston Respublikasining Fuqarolik kodeksi (birinchi qism)",
+      "language": "uz-Latn",
+      "edition_date": "2026-09-12",
+      "articles": 386,
+      "source_url": "https://www.lex.uz/docs/-111189?ONDATE=12.09.2026+01",
+      "source_sha256": "cbfb1128fca000f4bac787ca73965738a5a049aa2b4c4bb73dc3f5c19cd27d41",
+      "raw_file": "-111189-uz-Latn-2026-09-12.html"
+    },
+    {
+      "doc_id": "lex:111189",
+      "title": "Ўзбекистон Республикасининг Фуқаролик кодекси (биринчи қисм)",
+      "language": "uz-Cyrl",
+      "edition_date": "2024-12-06",
+      "articles": 392,
+      "source_url": "https://www.lex.uz/docs/111189?ONDATE=06.12.2024",
+      "source_sha256": "26113ad127fc766e9489190313afb8abbcc82e59ac7711a8b23e9131ef4bc7fb",
+      "raw_file": "111189-uz-Cyrl-2024-12-06.html"
+    },
+    {
+      "doc_id": "lex:111189",
+      "title": "Ўзбекистон Республикасининг Фуқаролик кодекси (биринчи қисм)",
+      "language": "uz-Cyrl",
+      "edition_date": "2025-02-12",
+      "articles": 392,
+      "source_url": "https://www.lex.uz/docs/111189?ONDATE=12.02.2025",
+      "source_sha256": "e0b304191e56bb8e530c236829d1c1fdb3b315de7897d76185a6e599218556da",
+      "raw_file": "111189-uz-Cyrl-2025-02-12.html"
+    },
+    {
+      "doc_id": "lex:111189",
+      "title": "Ўзбекистон Республикасининг Фуқаролик кодекси (биринчи қисм)",
+      "language": "uz-Cyrl",
+      "edition_date": "2025-02-19",
+      "articles": 392,
+      "source_url": "https://www.lex.uz/docs/111189?ONDATE=19.02.2025",
+      "source_sha256": "fef0e5b1a0c257f19f48ee8d6871d50038bbe4a73788cc3ce0b6f29b0247482e",
+      "raw_file": "111189-uz-Cyrl-2025-02-19.html"
+    },
+    {
+      "doc_id": "lex:111189",
+      "title": "Ўзбекистон Республикасининг Фуқаролик кодекси (биринчи қисм)",
+      "language": "uz-Cyrl",
+      "edition_date": "2025-04-22",
+      "articles": 392,
+      "source_url": "https://www.lex.uz/docs/111189?ONDATE=22.04.2025",
+      "source_sha256": "1f04568a435b30f4a43c7cbb49fd23a4a1e029e7e863c194349795c348e808b9",
+      "raw_file": "111189-uz-Cyrl-2025-04-22.html"
+    },
+    {
+      "doc_id": "lex:111189",
+      "title": "Ўзбекистон Республикасининг Фуқаролик кодекси (биринчи қисм)",
+      "language": "uz-Cyrl",
+      "edition_date": "2025-05-08",
+      "articles": 386,
+      "source_url": "https://www.lex.uz/docs/111189?ONDATE=08.05.2025",
+      "source_sha256": "c66bc5f8db4581bc97e178f17864adfd361587519041a3944dbfb2f2d457b690",
+      "raw_file": "111189-uz-Cyrl-2025-05-08.html"
+    },
+    {
+      "doc_id": "lex:111189",
+      "title": "Ўзбекистон Республикасининг Фуқаролик кодекси (биринчи қисм)",
+      "language": "uz-Cyrl",
+      "edition_date": "2025-09-25",
+      "articles": 386,
+      "source_url": "https://www.lex.uz/docs/111189?ONDATE=25.09.2025",
+      "source_sha256": "dfd5614eb23d1fcb155687ceaff00d94af9936199f2c2e5a70733170c519e904",
+      "raw_file": "111189-uz-Cyrl-2025-09-25.html"
+    },
+    {
+      "doc_id": "lex:111189",
+      "title": "Ўзбекистон Республикасининг Фуқаролик кодекси (биринчи қисм)",
+      "language": "uz-Cyrl",
+      "edition_date": "2025-12-25",
+      "articles": 386,
+      "source_url": "https://www.lex.uz/docs/111189?ONDATE=25.12.2025",
+      "source_sha256": "58cd5a5f4f7a18209beb1f25488b238ea2f964eb3501e7311e27f16574e797f1",
+      "raw_file": "111189-uz-Cyrl-2025-12-25.html"
+    },
+    {
+      "doc_id": "lex:111189",
+      "title": "Ўзбекистон Республикасининг Фуқаролик кодекси (биринчи қисм)",
+      "language": "uz-Cyrl",
+      "edition_date": "2025-12-26",
+      "articles": 386,
+      "source_url": "https://www.lex.uz/docs/111189?ONDATE=26.12.2025",
+      "source_sha256": "c4b81fbe3ec613c09307cfdc5917056abb56302baf44a0e6d2dde3de4ba82bef",
+      "raw_file": "111189-uz-Cyrl-2025-12-26.html"
+    },
+    {
+      "doc_id": "lex:111189",
+      "title": "Ўзбекистон Республикасининг Фуқаролик кодекси (биринчи қисм)",
+      "language": "uz-Cyrl",
+      "edition_date": "2025-12-30",
+      "articles": 386,
+      "source_url": "https://www.lex.uz/docs/111189?ONDATE=30.12.2025",
+      "source_sha256": "afb10d07838e2e4b52615d4d15e0760a61af0926df1e38cbba529584f85ec59d",
+      "raw_file": "111189-uz-Cyrl-2025-12-30.html"
+    },
+    {
+      "doc_id": "lex:111189",
+      "title": "Ўзбекистон Республикасининг Фуқаролик кодекси (биринчи қисм)",
+      "language": "uz-Cyrl",
+      "edition_date": "2026-06-29",
+      "articles": 386,
+      "source_url": "https://www.lex.uz/docs/111189?ONDATE=29.06.2026",
+      "source_sha256": "103a9d779f034ebaa84b85ab48882d0b75875a32e25852267e0406e5936005d6",
+      "raw_file": "111189-uz-Cyrl-2026-06-29.html"
+    },
+    {
+      "doc_id": "lex:111189",
+      "title": "Ўзбекистон Республикасининг Фуқаролик кодекси (биринчи қисм)",
+      "language": "uz-Cyrl",
+      "edition_date": "2026-07-25",
+      "articles": 386,
+      "source_url": "https://www.lex.uz/docs/111189?ONDATE=25.07.2026",
+      "source_sha256": "5d857c467cbbf67a25f993583c7414afebb71c199e725654f4c4e6e4ceaccf2d",
+      "raw_file": "111189-uz-Cyrl-2026-07-25.html"
+    },
+    {
+      "doc_id": "lex:111189",
+      "title": "Ўзбекистон Республикасининг Фуқаролик кодекси (биринчи қисм)",
+      "language": "uz-Cyrl",
+      "edition_date": "2026-09-12",
+      "articles": 386,
+      "source_url": "https://www.lex.uz/docs/111189?ONDATE=12.09.2026+01",
+      "source_sha256": "27b4b3fd4a28e2c61ec47e41761d1da21237ebb9cfec672a1075da111f34ee7c",
+      "raw_file": "111189-uz-Cyrl-2026-09-12.html"
+    },
+    {
+      "doc_id": "lex:111181",
+      "title": "Гражданский кодекс Республики Узбекистан (часть первая)",
+      "language": "ru",
+      "edition_date": "2024-12-06",
+      "articles": 392,
+      "source_url": "https://www.lex.uz/docs/111181?ONDATE=06.12.2024",
+      "source_sha256": "72fb32280b56d84771b135430bd09207caee3c014189261ca7c1969d07a2fc4a",
+      "raw_file": "111181-ru-2024-12-06.html"
+    },
+    {
+      "doc_id": "lex:111181",
+      "title": "Гражданский кодекс Республики Узбекистан (часть первая)",
+      "language": "ru",
+      "edition_date": "2025-02-12",
+      "articles": 392,
+      "source_url": "https://www.lex.uz/docs/111181?ONDATE=12.02.2025",
+      "source_sha256": "52cfbd94f9d5991d8e8cf8f28d3b4b2aa4172c699cb6a8f6eee0725841a86bb8",
+      "raw_file": "111181-ru-2025-02-12.html"
+    },
+    {
+      "doc_id": "lex:111181",
+      "title": "Гражданский кодекс Республики Узбекистан (часть первая)",
+      "language": "ru",
+      "edition_date": "2025-02-19",
+      "articles": 392,
+      "source_url": "https://www.lex.uz/docs/111181?ONDATE=19.02.2025",
+      "source_sha256": "2f06c271469bfe1aad89c89e6ef13f1e5d09c542282436be2159e0a024bbdc64",
+      "raw_file": "111181-ru-2025-02-19.html"
+    },
+    {
+      "doc_id": "lex:111181",
+      "title": "Гражданский кодекс Республики Узбекистан (часть первая)",
+      "language": "ru",
+      "edition_date": "2025-04-22",
+      "articles": 392,
+      "source_url": "https://www.lex.uz/docs/111181?ONDATE=22.04.2025",
+      "source_sha256": "cf3f18918a72572ea09b7b5eddb85c5c50a4eed98eecfc530ea40f45d2001126",
+      "raw_file": "111181-ru-2025-04-22.html"
+    },
+    {
+      "doc_id": "lex:111181",
+      "title": "Гражданский кодекс Республики Узбекистан (часть первая)",
+      "language": "ru",
+      "edition_date": "2025-05-08",
+      "articles": 386,
+      "source_url": "https://www.lex.uz/docs/111181?ONDATE=08.05.2025",
+      "source_sha256": "aa66c83cce8312f4d3fba18c18e5fe3897792cd2bbed011862d0f517d4775446",
+      "raw_file": "111181-ru-2025-05-08.html"
+    },
+    {
+      "doc_id": "lex:111181",
+      "title": "Гражданский кодекс Республики Узбекистан (часть первая)",
+      "language": "ru",
+      "edition_date": "2025-09-25",
+      "articles": 386,
+      "source_url": "https://www.lex.uz/docs/111181?ONDATE=25.09.2025",
+      "source_sha256": "24bcfb6e32aede2f9d3eced8d0c12a4d0e258db278a798ca6fb1d67c0e8d9722",
+      "raw_file": "111181-ru-2025-09-25.html"
+    },
+    {
+      "doc_id": "lex:111181",
+      "title": "Гражданский кодекс Республики Узбекистан (часть первая)",
+      "language": "ru",
+      "edition_date": "2025-12-25",
+      "articles": 386,
+      "source_url": "https://www.lex.uz/docs/111181?ONDATE=25.12.2025",
+      "source_sha256": "b1c8eac6156735c3ee503bb1eb56ac2cd816fe57d1169680931c8c9c06e331f9",
+      "raw_file": "111181-ru-2025-12-25.html"
+    },
+    {
+      "doc_id": "lex:111181",
+      "title": "Гражданский кодекс Республики Узбекистан (часть первая)",
+      "language": "ru",
+      "edition_date": "2025-12-26",
+      "articles": 386,
+      "source_url": "https://www.lex.uz/docs/111181?ONDATE=26.12.2025",
+      "source_sha256": "3d52562120884ea07c59023408b1904df2226aeb96acc404aa96ddf71cb2028e",
+      "raw_file": "111181-ru-2025-12-26.html"
+    },
+    {
+      "doc_id": "lex:111181",
+      "title": "Гражданский кодекс Республики Узбекистан (часть первая)",
+      "language": "ru",
+      "edition_date": "2025-12-30",
+      "articles": 386,
+      "source_url": "https://www.lex.uz/docs/111181?ONDATE=30.12.2025",
+      "source_sha256": "f79b4d6cbf89b808843115a90f52d458abb25966124612723d1f0c7b5f06874a",
+      "raw_file": "111181-ru-2025-12-30.html"
+    },
+    {
+      "doc_id": "lex:111181",
+      "title": "Гражданский кодекс Республики Узбекистан (часть первая)",
+      "language": "ru",
+      "edition_date": "2026-06-29",
+      "articles": 386,
+      "source_url": "https://www.lex.uz/docs/111181?ONDATE=29.06.2026",
+      "source_sha256": "7da13889214b1b507c1fafd733b6a768af4fa93575ef3e1d0751d5edbd06b19b",
+      "raw_file": "111181-ru-2026-06-29.html"
+    },
+    {
+      "doc_id": "lex:111181",
+      "title": "Гражданский кодекс Республики Узбекистан (часть первая)",
+      "language": "ru",
+      "edition_date": "2026-07-25",
+      "articles": 386,
+      "source_url": "https://www.lex.uz/docs/111181?ONDATE=25.07.2026",
+      "source_sha256": "80eb68670909dfe1959389661196a987c0fb41e66efffcd5758478c59113fb6e",
+      "raw_file": "111181-ru-2026-07-25.html"
+    },
+    {
+      "doc_id": "lex:111181",
+      "title": "Гражданский кодекс Республики Узбекистан (часть первая)",
+      "language": "ru",
+      "edition_date": "2026-09-12",
+      "articles": 386,
+      "source_url": "https://www.lex.uz/docs/111181?ONDATE=12.09.2026",
+      "source_sha256": "58d0a9f562e4b2ab81d7a1d1099fbe9bc3f081d652da6ab0af163c7ca60139af",
+      "raw_file": "111181-ru-2026-09-12.html"
+    }
+  ],
+  "total_chunks": 29727,
+  "corpus_sha256": "f7713de8144eee76fa69d8410a80b60040cb94ca206b9e533b0ed9cc0ca744e4"
+}

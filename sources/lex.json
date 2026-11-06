@@ -1,0 +1,8 @@
+[
+  {"id": -6257288, "language": "uz-Latn", "min_articles": 570, "translation_group": "labour-code"},
+  {"id": 6257288, "language": "uz-Cyrl", "min_articles": 570, "translation_group": "labour-code"},
+  {"id": 6257291, "language": "ru", "min_articles": 570, "translation_group": "labour-code"},
+  {"id": -111189, "language": "uz-Latn", "min_articles": 350, "translation_group": "civil-code-i"},
+  {"id": 111189, "language": "uz-Cyrl", "min_articles": 350, "translation_group": "civil-code-i"},
+  {"id": 111181, "language": "ru", "min_articles": 350, "translation_group": "civil-code-i"}
+]

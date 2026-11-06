@@ -1,0 +1,67 @@
+{
+  "snapshot_date": "2026-11-06",
+  "documents": [
+    {
+      "doc_id": "lex:6257288",
+      "title": "Oʻzbekiston Respublikasining Mehnat kodeksi",
+      "language": "uz-Latn",
+      "edition_date": "2026-10-15",
+      "articles": 593,
+      "source_url": "https://www.lex.uz/docs/-6257288",
+      "source_sha256": "dfea934bf9116100c779d607a5d28954b9ee4fbbabd4ccc8e3a1cc8c7419746e",
+      "raw_file": "-6257288-uz-Latn-2026-10-15.html"
+    },
+    {
+      "doc_id": "lex:6257288",
+      "title": "Ўзбекистон Республикасининг Меҳнат кодекси",
+      "language": "uz-Cyrl",
+      "edition_date": "2026-10-15",
+      "articles": 593,
+      "source_url": "https://www.lex.uz/docs/6257288",
+      "source_sha256": "12d910887ffceb649ed878d5da6b99cadbc00081f339568a4f8995b9837e61dc",
+      "raw_file": "6257288-uz-Cyrl-2026-10-15.html"
+    },
+    {
+      "doc_id": "lex:6257291",
+      "title": "Трудовой кодекс Республики Узбекистан",
+      "language": "ru",
+      "edition_date": "2026-10-15",
+      "articles": 593,
+      "source_url": "https://www.lex.uz/docs/6257291",
+      "source_sha256": "5c65128223c6799ec7300fb354d736eb01de39dfa17fc84e4ff79b7be46bc92c",
+      "raw_file": "6257291-ru-2026-10-15.html"
+    },
+    {
+      "doc_id": "lex:111189",
+      "title": "Oʻzbekiston Respublikasining Fuqarolik kodeksi (birinchi qism)",
+      "language": "uz-Latn",
+      "edition_date": "2026-09-12",
+      "articles": 386,
+      "source_url": "https://www.lex.uz/docs/-111189",
+      "source_sha256": "05041065f25b9ad328678b1cf38e8f100f5cb34488cb7b9d48099c3063430e7d",
+      "raw_file": "-111189-uz-Latn-2026-09-12.html"
+    },
+    {
+      "doc_id": "lex:111189",
+      "title": "Ўзбекистон Республикасининг Фуқаролик кодекси (биринчи қисм)",
+      "language": "uz-Cyrl",
+      "edition_date": "2026-09-12",
+      "articles": 386,
+      "source_url": "https://www.lex.uz/docs/111189",
+      "source_sha256": "51b734ee6e14090cb91144261c417d877d62aefae8ee7fd1c9c28730d822b38d",
+      "raw_file": "111189-uz-Cyrl-2026-09-12.html"
+    },
+    {
+      "doc_id": "lex:111181",
+      "title": "Гражданский кодекс Республики Узбекистан (часть первая)",
+      "language": "ru",
+      "edition_date": "2026-09-12",
+      "articles": 386,
+      "source_url": "https://www.lex.uz/docs/111181",
+      "source_sha256": "67c52c58ce33e7bdefae77a49ae97efdf8a2cf7b2c8a32f9d23d18616aac3d91",
+      "raw_file": "111181-ru-2026-09-12.html"
+    }
+  ],
+  "total_chunks": 2937,
+  "corpus_sha256": "1cc8a2d267bb4899fc87b4a3d6df27ffc8dba02c14d5c5a40b35226eea5410b5"
+}

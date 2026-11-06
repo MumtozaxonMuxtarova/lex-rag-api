@@ -1,0 +1,516 @@
+{
+  "run_id": "tz-auto-language",
+  "batch_id": "tz-auto-language-b05",
+  "status": "completed",
+  "system": {
+    "pipeline_version": "0.4.0",
+    "llm_model": null,
+    "embedding_model": null,
+    "reranker": "lexical-title-v2",
+    "query_rewriter": "uz-colloquial-rules-v1",
+    "implementation_version": "10c2276d53aa682d",
+    "index_version": "f7713de8144eee76",
+    "lex_snapshot_date": "2026-11-06",
+    "mode": "bm25-multisource-extractive",
+    "documents": 6,
+    "chunks": 29727,
+    "translation_map_version": "f4467e667a7fd4d1"
+  },
+  "timing": {
+    "received_at": "2026-11-06T01:20:34.531636+00:00",
+    "completed_at": "2026-11-06T01:20:34.833086+00:00",
+    "total_ms": 300.976
+  },
+  "summary": {
+    "total": 10,
+    "ok": 9,
+    "no_answer": 1,
+    "error": 0
+  },
+  "results": [
+    {
+      "id": "q041",
+      "status": "ok",
+      "answer": "Xodim uchun ish vaqtining normal davomiyligi besh kunlik yoki olti kunlik ish haftasida haftasiga qirq soatdan ortiq boʻlishi mumkin emas. [1]",
+      "answer_language": "uz-Latn",
+      "no_answer": false,
+      "citations": [
+        {
+          "doc_id": "lex:6257288",
+          "doc_title": "Oʻzbekiston Respublikasining Mehnat kodeksi",
+          "doc_type": "kodeks",
+          "url": "https://lex.uz/docs/-6257288",
+          "article": "182-modda",
+          "part": null,
+          "edition_date": "2026-10-15",
+          "doc_status": "amalda",
+          "chunk_id": "lex:6257288#uz-Latn#art-182#2026-10-15",
+          "ref": 1,
+          "quote": "Xodim uchun ish vaqtining normal davomiyligi besh kunlik yoki olti kunlik ish haftasida haftasiga qirq soatdan ortiq boʻlishi mumkin emas.",
+          "source_url": "https://www.lex.uz/docs/-6257288?ONDATE=15.10.2026+01",
+          "source_anchor": "-6262333",
+          "edition_label": "15.10.2026 01"
+        }
+      ],
+      "contexts": [
+        {
+          "rank": 1,
+          "chunk_id": "lex:6257288#uz-Latn#art-182#2026-10-15",
+          "doc_id": "lex:6257288",
+          "article": "182-modda",
+          "text": "182-modda. Ish vaqtining normal davomiyligi\nXodim uchun ish vaqtining normal davomiyligi besh kunlik yoki olti kunlik ish haftasida haftasiga qirq soatdan ortiq boʻlishi mumkin emas.",
+          "retrieval_score": 19.143372116621492,
+          "rerank_score": 95.14337211662149,
+          "used_in_answer": true
+        }
+      ],
+      "error": null,
+      "timing": {
+        "retrieval_ms": 24.649,
+        "rerank_ms": 0,
+        "generation_ms": 0.024,
+        "total_ms": 39.235
+      }
+    },
+    {
+      "id": "q042",
+      "status": "ok",
+      "answer": "Oʻn toʻrt yoshdan oʻn sakkiz yoshgacha boʻlgan voyaga yetmaganlar, ushbu moddaning ikkinchi qismida sanab oʻtilganlardan tashqari, bitimlarni oʻz ota-onalari, farzandlikka oluvchilari yoki homiylarining yozma roziligi bilan tuzadilar. Bunday voyaga yetmagan shaxs tomonidan tuzilgan bitim keyinchalik shaxsning ota-onasi, farzandlikka oluvchilari yoki homiysi yozma ravishda maʼqullaganidan soʻng, u ham haqiqiy hisoblanadi.\nOʻn toʻrt yoshdan oʻn sakkiz yoshgacha boʻlgan voyaga yetmaganlar ota-onalari, farzandlikka oluvchilar va homiylarining roziligisiz quyidagilarni mustaqil ravishda amalga oshirishga haqli:\n1) oʻz ish haqi, stipendiyasi va boshqa daromadlarini tasarruf etish;\n2) fan, adabiyot yoki sanʼat asarining, ixtironing yoxud oʻz intellektual faoliyatining qonun bilan qoʻriqlanadigan boshqa natijasi muallifi huquqini amalga oshirish;\n3) qonunga muvofiq kredit muassasalariga omonatlar qoʻyish va ularni tasarruf etish;\n4) ushbu Kodeks 29-moddasining ikkinchi qismida nazarda tutilgan mayda maishiy bitimlarni hamda boshqa bitimlarni tuzish.\nOʻn toʻrt yoshdan oʻn sakkiz yoshgacha boʻlgan voyaga yetmaganlar ushbu moddaning birinchi va ikkinchi qismlariga muvofiq oʻzlari tuzgan bitimlar boʻyicha mustaqil ravishda mulkiy javobgar boʻladilar. Bunday voyaga yetmaganlar oʻzlari yetkazgan zarar uchun ushbu Kodeksga muvofiq javobgar boʻladilar.\nYetarli asoslar mavjud boʻlganida sud ota-onalar, farzandlikka oluvchilar yoki homiyning yoxud vasiylik va homiylik organining iltimosnomasiga muvofiq oʻn toʻrt yoshdan oʻn sakkiz yoshgacha boʻlgan voyaga yetmaganning oʻz ish haqi, stipendiyasi yoki boshqa daromadlarini mustaqil tasarruf etish huquqini cheklab qoʻyishi yoki bu huquqdan mahrum qilishi mumkin, bunday voyaga yetmagan shaxs ushbu Kodeks 22-moddasining ikkinchi qismiga yoki 28-moddasiga muvofiq toʻla hajmda muomala layoqatiga ega boʻlgan hollar bundan mustasno. [1]",
+      "answer_language": "uz-Latn",
+      "no_answer": false,
+      "citations": [
+        {
+          "doc_id": "lex:111189",
+          "doc_title": "Oʻzbekiston Respublikasining Fuqarolik kodeksi (birinchi qism)",
+          "doc_type": "kodeks",
+          "url": "https://lex.uz/docs/-111189",
+          "article": "27-modda",
+          "part": null,
+          "edition_date": "2026-09-12",
+          "doc_status": "amalda",
+          "chunk_id": "lex:111189#uz-Latn#art-27#2026-09-12",
+          "ref": 1,
+          "quote": "Oʻn toʻrt yoshdan oʻn sakkiz yoshgacha boʻlgan voyaga yetmaganlar, ushbu moddaning ikkinchi qismida sanab oʻtilganlardan tashqari, bitimlarni oʻz ota-onalari, farzandlikka oluvchilari yoki homiylarining yozma roziligi bilan tuzadilar. Bunday voyaga yetmagan shaxs tomonidan tuzilgan bitim keyinchalik shaxsning ota-onasi, farzandlikka oluvchilari yoki homiysi yozma ravishda maʼqullaganidan soʻng, u ham haqiqiy hisoblanadi.\nOʻn toʻrt yoshdan oʻn sakkiz yoshgacha boʻlgan voyaga yetmaganlar ota-onalari, farzandlikka oluvchilar va homiylarining roziligisiz quyidagilarni mustaqil ravishda amalga oshirishga haqli:\n1) oʻz ish haqi, stipendiyasi va boshqa daromadlarini tasarruf etish;\n2) fan, adabiyot yoki sanʼat asarining, ixtironing yoxud oʻz intellektual faoliyatining qonun bilan qoʻriqlanadigan boshqa natijasi muallifi huquqini amalga oshirish;\n3) qonunga muvofiq kredit muassasalariga omonatlar qoʻyish va ularni tasarruf etish;\n4) ushbu Kodeks 29-moddasining ikkinchi qismida nazarda tutilgan mayda maishiy bitimlarni hamda boshqa bitimlarni tuzish.\nOʻn toʻrt yoshdan oʻn sakkiz yoshgacha boʻlgan voyaga yetmaganlar ushbu moddaning birinchi va ikkinchi qismlariga muvofiq oʻzlari tuzgan bitimlar boʻyicha mustaqil ravishda mulkiy javobgar boʻladilar. Bunday voyaga yetmaganlar oʻzlari yetkazgan zarar uchun ushbu Kodeksga muvofiq javobgar boʻladilar.\nYetarli asoslar mavjud boʻlganida sud ota-onalar, farzandlikka oluvchilar yoki homiyning yoxud vasiylik va homiylik organining iltimosnomasiga muvofiq oʻn toʻrt yoshdan oʻn sakkiz yoshgacha boʻlgan voyaga yetmaganning oʻz ish haqi, stipendiyasi yoki boshqa daromadlarini mustaqil tasarruf etish huquqini cheklab qoʻyishi yoki bu huquqdan mahrum qilishi mumkin, bunday voyaga yetmagan shaxs ushbu Kodeks 22-moddasining ikkinchi qismiga yoki 28-moddasiga muvofiq toʻla hajmda muomala layoqatiga ega boʻlgan hollar bundan mustasno.",
+          "source_url": "https://www.lex.uz/docs/-111189?ONDATE=12.09.2026+01",
+          "source_anchor": "-151117",
+          "edition_label": "12.09.2026 01"
+        }
+      ],
+      "contexts": [
+        {
+          "rank": 1,
+          "chunk_id": "lex:111189#uz-Latn#art-27#2026-09-12",
+          "doc_id": "lex:111189",
+          "article": "27-modda",
+          "text": "27-modda. Oʻn toʻrt yoshdan oʻn sakkiz yoshgacha boʻlgan voyaga yetmaganlarning muomala layoqati\nOʻn toʻrt yoshdan oʻn sakkiz yoshgacha boʻlgan voyaga yetmaganlar, ushbu moddaning ikkinchi qismida sanab oʻtilganlardan tashqari, bitimlarni oʻz ota-onalari, farzandlikka oluvchilari yoki homiylarining yozma roziligi bilan tuzadilar. Bunday voyaga yetmagan shaxs tomonidan tuzilgan bitim keyinchalik shaxsning ota-onasi, farzandlikka oluvchilari yoki homiysi yozma ravishda maʼqullaganidan soʻng, u ham haqiqiy hisoblanadi.\nOʻn toʻrt yoshdan oʻn sakkiz yoshgacha boʻlgan voyaga yetmaganlar ota-onalari, farzandlikka oluvchilar va homiylarining roziligisiz quyidagilarni mustaqil ravishda amalga oshirishga haqli:\n1) oʻz ish haqi, stipendiyasi va boshqa daromadlarini tasarruf etish;\n2) fan, adabiyot yoki sanʼat asarining, ixtironing yoxud oʻz intellektual faoliyatining qonun bilan qoʻriqlanadigan boshqa natijasi muallifi huquqini amalga oshirish;\n3) qonunga muvofiq kredit muassasalariga omonatlar qoʻyish va ularni tasarruf etish;\n4) ushbu Kodeks 29-moddasining ikkinchi qismida nazarda tutilgan mayda maishiy bitimlarni hamda boshqa bitimlarni tuzish.\nOʻn toʻrt yoshdan oʻn sakkiz yoshgacha boʻlgan voyaga yetmaganlar ushbu moddaning birinchi va ikkinchi qismlariga muvofiq oʻzlari tuzgan bitimlar boʻyicha mustaqil ravishda mulkiy javobgar boʻladilar. Bunday voyaga yetmaganlar oʻzlari yetkazgan zarar uchun ushbu Kodeksga muvofiq javobgar boʻladilar.\nYetarli asoslar mavjud boʻlganida sud ota-onalar, farzandlikka oluvchilar yoki homiyning yoxud vasiylik va homiylik organining iltimosnomasiga muvofiq oʻn toʻrt yoshdan oʻn sakkiz yoshgacha boʻlgan voyaga yetmaganning oʻz ish haqi, stipendiyasi yoki boshqa daromadlarini mustaqil tasarruf etish huquqini cheklab qoʻyishi yoki bu huquqdan mahrum qilishi mumkin, bunday voyaga yetmagan shaxs ushbu Kodeks 22-moddasining ikkinchi qismiga yoki 28-moddasiga muvofiq toʻla hajmda muomala layoqatiga ega boʻlgan hollar bundan mustasno.",
+          "retrieval_score": 65.64293415989681,
+          "rerank_score": 231.6429341598968,
+          "used_in_answer": true
+        },
+        {
+          "rank": 2,
+          "chunk_id": "lex:111189#uz-Latn#art-118#2026-09-12",
+          "doc_id": "lex:111189",
+          "article": "118-modda",
+          "text": "118-modda. Oʻn toʻrt yoshdan oʻn sakkiz yoshgacha boʻlgan voyaga yetmagan shaxs tomonidan tuzilgan bitimning haqiqiy emasligi\nOʻn toʻrt yoshdan oʻn sakkiz yoshgacha boʻlgan voyaga yetmagan shaxs tomonidan ushbu Kodeksning 27-moddasiga muvofiq uning ota-onasi, farzandlikka oluvchilari yoki homiysining roziligi talab qilinadigan hollarda ularning roziligisiz tuzilgan bitim ota-onasi, farzandlikka oluvchilari yoki homiysining daʼvosi boʻyicha sud tomonidan haqiqiy emas deb topilishi mumkin. Agar bunday bitim haqiqiy emas deb topilsa, ushbu Kodeks 117-moddasining ikkinchi qismida nazarda tutilgan qoidalar qoʻllaniladi.\nBu moddaning qoidalari ushbu Kodeks 22-moddasining ikkinchi qismi va 28-moddasida nazarda tutilgan hollarda toʻla muomala layoqatiga ega boʻlgan voyaga yetmaganlarga nisbatan tadbiq etilmaydi.",
+          "retrieval_score": 60.787969420484075,
+          "rerank_score": 164.78796942048407,
+          "used_in_answer": false
+        }
+      ],
+      "error": null,
+      "timing": {
+        "retrieval_ms": 28.056,
+        "rerank_ms": 0,
+        "generation_ms": 0.033,
+        "total_ms": 38.844
+      }
+    },
+    {
+      "id": "q043",
+      "status": "ok",
+      "answer": "Mehnat shartnomasi:\nnomuayyan muddatga;\nuch yildan koʻp boʻlmagan muayyan muddatga (muddatli mehnat shartnomasi) tuzilishi mumkin.\nAgar mehnat shartnomasida uning amal qilish muddati shartlashilmagan boʻlsa, shartnoma nomuayyan muddatga tuzilgan deb hisoblanadi. [1]\n\nMuddatli mehnat shartnomasida uning muddati quyidagilar orqali belgilanishi mumkin:\nmehnat shartnomasi muddatining umumiy davomiyligini kunlarda, oylarda, yillarda koʻrsatish;\nmehnat shartnomasi boʻyicha ish boshlanadigan kalendar sanani va mehnat shartnomasining muddati tugaydigan kalendar sanani koʻrsatish;\nyuz berishi bilan mehnat shartnomasining muddati tugaydigan hodisani aniqlash (obyektni foydalanishga topshirish, oʻrniga ishlab turish vaqtiga boshqa xodim bilan muddatli mehnat shartnomasi tuzilgan vaqtincha yoʻq boʻlgan xodimning ishga chiqishi va boshqalar). [2]",
+      "answer_language": "uz-Latn",
+      "no_answer": false,
+      "citations": [
+        {
+          "doc_id": "lex:6257288",
+          "doc_title": "Oʻzbekiston Respublikasining Mehnat kodeksi",
+          "doc_type": "kodeks",
+          "url": "https://lex.uz/docs/-6257288",
+          "article": "110-modda",
+          "part": null,
+          "edition_date": "2026-10-15",
+          "doc_status": "amalda",
+          "chunk_id": "lex:6257288#uz-Latn#art-110#2026-10-15",
+          "ref": 1,
+          "quote": "Mehnat shartnomasi:\nnomuayyan muddatga;\nuch yildan koʻp boʻlmagan muayyan muddatga (muddatli mehnat shartnomasi) tuzilishi mumkin.\nAgar mehnat shartnomasida uning amal qilish muddati shartlashilmagan boʻlsa, shartnoma nomuayyan muddatga tuzilgan deb hisoblanadi.",
+          "source_url": "https://www.lex.uz/docs/-6257288?ONDATE=15.10.2026+01",
+          "source_anchor": "-6260215",
+          "edition_label": "15.10.2026 01"
+        },
+        {
+          "doc_id": "lex:6257288",
+          "doc_title": "Oʻzbekiston Respublikasining Mehnat kodeksi",
+          "doc_type": "kodeks",
+          "url": "https://lex.uz/docs/-6257288",
+          "article": "114-modda",
+          "part": null,
+          "edition_date": "2026-10-15",
+          "doc_status": "amalda",
+          "chunk_id": "lex:6257288#uz-Latn#art-114#2026-10-15",
+          "ref": 2,
+          "quote": "Muddatli mehnat shartnomasida uning muddati quyidagilar orqali belgilanishi mumkin:\nmehnat shartnomasi muddatining umumiy davomiyligini kunlarda, oylarda, yillarda koʻrsatish;\nmehnat shartnomasi boʻyicha ish boshlanadigan kalendar sanani va mehnat shartnomasining muddati tugaydigan kalendar sanani koʻrsatish;\nyuz berishi bilan mehnat shartnomasining muddati tugaydigan hodisani aniqlash (obyektni foydalanishga topshirish, oʻrniga ishlab turish vaqtiga boshqa xodim bilan muddatli mehnat shartnomasi tuzilgan vaqtincha yoʻq boʻlgan xodimning ishga chiqishi va boshqalar).",
+          "source_url": "https://www.lex.uz/docs/-6257288?ONDATE=15.10.2026+01",
+          "source_anchor": "-6260278",
+          "edition_label": "15.10.2026 01"
+        }
+      ],
+      "contexts": [
+        {
+          "rank": 1,
+          "chunk_id": "lex:6257288#uz-Latn#art-110#2026-10-15",
+          "doc_id": "lex:6257288",
+          "article": "110-modda",
+          "text": "110-modda. Mehnat shartnomasining muddati\nMehnat shartnomasi:\nnomuayyan muddatga;\nuch yildan koʻp boʻlmagan muayyan muddatga (muddatli mehnat shartnomasi) tuzilishi mumkin.\nAgar mehnat shartnomasida uning amal qilish muddati shartlashilmagan boʻlsa, shartnoma nomuayyan muddatga tuzilgan deb hisoblanadi.",
+          "retrieval_score": 13.079091451236266,
+          "rerank_score": 74.07909145123627,
+          "used_in_answer": true
+        },
+        {
+          "rank": 2,
+          "chunk_id": "lex:6257288#uz-Latn#art-114#2026-10-15",
+          "doc_id": "lex:6257288",
+          "article": "114-modda",
+          "text": "114-modda. Mehnat shartnomasining muddatini belgilash usullari\nMuddatli mehnat shartnomasida uning muddati quyidagilar orqali belgilanishi mumkin:\nmehnat shartnomasi muddatining umumiy davomiyligini kunlarda, oylarda, yillarda koʻrsatish;\nmehnat shartnomasi boʻyicha ish boshlanadigan kalendar sanani va mehnat shartnomasining muddati tugaydigan kalendar sanani koʻrsatish;\nyuz berishi bilan mehnat shartnomasining muddati tugaydigan hodisani aniqlash (obyektni foydalanishga topshirish, oʻrniga ishlab turish vaqtiga boshqa xodim bilan muddatli mehnat shartnomasi tuzilgan vaqtincha yoʻq boʻlgan xodimning ishga chiqishi va boshqalar).",
+          "retrieval_score": 25.715362861616697,
+          "rerank_score": 116.7153628616167,
+          "used_in_answer": true
+        }
+      ],
+      "error": null,
+      "timing": {
+        "retrieval_ms": 41.556,
+        "rerank_ms": 0,
+        "generation_ms": 0.039,
+        "total_ms": 50.792
+      }
+    },
+    {
+      "id": "q044",
+      "status": "ok",
+      "answer": "Bitimlar ogʻzaki yoki yozma (oddiy yoki notarial tasdiqlangan) shaklda tuziladi.\nSukut saqlash qonunchilikda yoki taraflarning kelishuvida nazarda tutilgan hollarda bitim tuzishga boʻlgan xohish-irodaning ifodasi hisoblanadi. [1]\n\nYozma shaklda tuzilgan bitimni, agar ish muomalasi odatlaridan boshqacha tartib kelib chiqmasa, taraflar yoki ularning vakillari imzolashi kerak.\nAgar qonunchilikka yoki ishtirokchilardan birining talablariga zid boʻlmasa, bitim tuzish chogʻida imzodan faksimile usulida nusxa koʻchirish vositalaridan foydalanilishiga yoʻl qoʻyiladi.\nIkki taraflama bitimlar har birini berayotgan taraf imzolaydigan hujjatlarni oʻzaro ayirboshlash yoʻli bilan tuzilishi mumkin.\nXatlar, telegrammalar, telefonogrammalar, teletaypogrammalar, fakslar yoki subyektlarni va ular xohish-irodasining mazmunini ifodalaydigan boshqa hujjatlarni oʻzaro ayirboshlash, agar qonunchilikda yoki taraflarning kelishuvida boshqacha tartib nazarda tutilgan boʻlmasa, yozma shaklda tuzilgan bitimga tenglashtiriladi.\nQonunchilikda va taraflarning kelishuvida bitim shakli mos kelishi shart boʻlgan qoʻshimcha talablar (muayyan shakldagi blankada tuzilishi, muhr bosib (muhr mavjud boʻlgan taqdirda) tasdiqlanishi va boshqalar) belgilab qoʻyilishi va bu talablarga rioya etmaslik oqibatlari nazarda tutilishi mumkin.\nAgar fuqaro jismoniy kamchiligi, kasalligi yoki savodsizligi tufayli bitimni shaxsan oʻzi imzolay olmasa, uning iltimosiga binoan bitimni boshqa fuqaro imzolashi mumkin. Boshqa fuqaroning imzosi notarius yoki bunday notarial harakatni amalga oshirish huquqiga ega boʻlgan boshqa mansabdor shaxs tomonidan guvohlantirilib, bitim tuzuvchi uni shaxsan oʻzi imzolay olmasligining sabablari koʻrsatilishi shart.\nYozma shaklda tuzilgan bitimni bajargan taraf ikkinchi tarafdan ijroni tasdiqlovchi hujjat talab qilishga haqli. Ogʻzaki tadbirkorlik bitimini bajargan taraf ham ana shunday huquqqa ega, tuzilgan vaqtning oʻzidayoq bajariladigan bitimlar bundan mustasno. [2]",
+      "answer_language": "uz-Latn",
+      "no_answer": false,
+      "citations": [
+        {
+          "doc_id": "lex:111189",
+          "doc_title": "Oʻzbekiston Respublikasining Fuqarolik kodeksi (birinchi qism)",
+          "doc_type": "kodeks",
+          "url": "https://lex.uz/docs/-111189",
+          "article": "105-modda",
+          "part": null,
+          "edition_date": "2026-09-12",
+          "doc_status": "amalda",
+          "chunk_id": "lex:111189#uz-Latn#art-105#2026-09-12",
+          "ref": 1,
+          "quote": "Bitimlar ogʻzaki yoki yozma (oddiy yoki notarial tasdiqlangan) shaklda tuziladi.\nSukut saqlash qonunchilikda yoki taraflarning kelishuvida nazarda tutilgan hollarda bitim tuzishga boʻlgan xohish-irodaning ifodasi hisoblanadi.",
+          "source_url": "https://www.lex.uz/docs/-111189?ONDATE=12.09.2026+01",
+          "source_anchor": "-153212",
+          "edition_label": "12.09.2026 01"
+        },
+        {
+          "doc_id": "lex:111189",
+          "doc_title": "Oʻzbekiston Respublikasining Fuqarolik kodeksi (birinchi qism)",
+          "doc_type": "kodeks",
+          "url": "https://lex.uz/docs/-111189",
+          "article": "107-modda",
+          "part": null,
+          "edition_date": "2026-09-12",
+          "doc_status": "amalda",
+          "chunk_id": "lex:111189#uz-Latn#art-107#2026-09-12",
+          "ref": 2,
+          "quote": "Yozma shaklda tuzilgan bitimni, agar ish muomalasi odatlaridan boshqacha tartib kelib chiqmasa, taraflar yoki ularning vakillari imzolashi kerak.\nAgar qonunchilikka yoki ishtirokchilardan birining talablariga zid boʻlmasa, bitim tuzish chogʻida imzodan faksimile usulida nusxa koʻchirish vositalaridan foydalanilishiga yoʻl qoʻyiladi.\nIkki taraflama bitimlar har birini berayotgan taraf imzolaydigan hujjatlarni oʻzaro ayirboshlash yoʻli bilan tuzilishi mumkin.\nXatlar, telegrammalar, telefonogrammalar, teletaypogrammalar, fakslar yoki subyektlarni va ular xohish-irodasining mazmunini ifodalaydigan boshqa hujjatlarni oʻzaro ayirboshlash, agar qonunchilikda yoki taraflarning kelishuvida boshqacha tartib nazarda tutilgan boʻlmasa, yozma shaklda tuzilgan bitimga tenglashtiriladi.\nQonunchilikda va taraflarning kelishuvida bitim shakli mos kelishi shart boʻlgan qoʻshimcha talablar (muayyan shakldagi blankada tuzilishi, muhr bosib (muhr mavjud boʻlgan taqdirda) tasdiqlanishi va boshqalar) belgilab qoʻyilishi va bu talablarga rioya etmaslik oqibatlari nazarda tutilishi mumkin.\nAgar fuqaro jismoniy kamchiligi, kasalligi yoki savodsizligi tufayli bitimni shaxsan oʻzi imzolay olmasa, uning iltimosiga binoan bitimni boshqa fuqaro imzolashi mumkin. Boshqa fuqaroning imzosi notarius yoki bunday notarial harakatni amalga oshirish huquqiga ega boʻlgan boshqa mansabdor shaxs tomonidan guvohlantirilib, bitim tuzuvchi uni shaxsan oʻzi imzolay olmasligining sabablari koʻrsatilishi shart.\nYozma shaklda tuzilgan bitimni bajargan taraf ikkinchi tarafdan ijroni tasdiqlovchi hujjat talab qilishga haqli. Ogʻzaki tadbirkorlik bitimini bajargan taraf ham ana shunday huquqqa ega, tuzilgan vaqtning oʻzidayoq bajariladigan bitimlar bundan mustasno.",
+          "source_url": "https://www.lex.uz/docs/-111189?ONDATE=12.09.2026+01",
+          "source_anchor": "-153361",
+          "edition_label": "12.09.2026 01"
+        }
+      ],
+      "contexts": [
+        {
+          "rank": 1,
+          "chunk_id": "lex:111189#uz-Latn#art-105#2026-09-12",
+          "doc_id": "lex:111189",
+          "article": "105-modda",
+          "text": "105-modda. Bitimlarning shakli\nBitimlar ogʻzaki yoki yozma (oddiy yoki notarial tasdiqlangan) shaklda tuziladi.\nSukut saqlash qonunchilikda yoki taraflarning kelishuvida nazarda tutilgan hollarda bitim tuzishga boʻlgan xohish-irodaning ifodasi hisoblanadi.",
+          "retrieval_score": 11.759155540535518,
+          "rerank_score": 57.75915554053552,
+          "used_in_answer": true
+        },
+        {
+          "rank": 2,
+          "chunk_id": "lex:111189#uz-Latn#art-107#2026-09-12",
+          "doc_id": "lex:111189",
+          "article": "107-modda",
+          "text": "107-modda. Bitimning yozma shakli\nYozma shaklda tuzilgan bitimni, agar ish muomalasi odatlaridan boshqacha tartib kelib chiqmasa, taraflar yoki ularning vakillari imzolashi kerak.\nAgar qonunchilikka yoki ishtirokchilardan birining talablariga zid boʻlmasa, bitim tuzish chogʻida imzodan faksimile usulida nusxa koʻchirish vositalaridan foydalanilishiga yoʻl qoʻyiladi.\nIkki taraflama bitimlar har birini berayotgan taraf imzolaydigan hujjatlarni oʻzaro ayirboshlash yoʻli bilan tuzilishi mumkin.\nXatlar, telegrammalar, telefonogrammalar, teletaypogrammalar, fakslar yoki subyektlarni va ular xohish-irodasining mazmunini ifodalaydigan boshqa hujjatlarni oʻzaro ayirboshlash, agar qonunchilikda yoki taraflarning kelishuvida boshqacha tartib nazarda tutilgan boʻlmasa, yozma shaklda tuzilgan bitimga tenglashtiriladi.\nQonunchilikda va taraflarning kelishuvida bitim shakli mos kelishi shart boʻlgan qoʻshimcha talablar (muayyan shakldagi blankada tuzilishi, muhr bosib (muhr mavjud boʻlgan taqdirda) tasdiqlanishi va boshqalar) belgilab qoʻyilishi va bu talablarga rioya etmaslik oqibatlari nazarda tutilishi mumkin.\nAgar fuqaro jismoniy kamchiligi, kasalligi yoki savodsizligi tufayli bitimni shaxsan oʻzi imzolay olmasa, uning iltimosiga binoan bitimni boshqa fuqaro imzolashi mumkin. Boshqa fuqaroning imzosi notarius yoki bunday notarial harakatni amalga oshirish huquqiga ega boʻlgan boshqa mansabdor shaxs tomonidan guvohlantirilib, bitim tuzuvchi uni shaxsan oʻzi imzolay olmasligining sabablari koʻrsatilishi shart.\nYozma shaklda tuzilgan bitimni bajargan taraf ikkinchi tarafdan ijroni tasdiqlovchi hujjat talab qilishga haqli. Ogʻzaki tadbirkorlik bitimini bajargan taraf ham ana shunday huquqqa ega, tuzilgan vaqtning oʻzidayoq bajariladigan bitimlar bundan mustasno.",
+          "retrieval_score": 15.685270644140605,
+          "rerank_score": 76.6852706441406,
+          "used_in_answer": true
+        },
+        {
+          "rank": 3,
+          "chunk_id": "lex:111189#uz-Latn#art-108#2026-09-12",
+          "doc_id": "lex:111189",
+          "article": "108-modda",
+          "text": "108-modda. Bitimning oddiy yozma shakli\nNotarial tasdiqlanishi talab etiladigan bitimlardan tashqari, quyidagi bitimlar oddiy yozma shaklda tuziladi:\n1) yuridik shaxslarning oʻzaro va fuqarolar bilan bitimlari;\n2) fuqarolar oʻrtasidagi belgilangan bazaviy hisoblash miqdorining oʻn baravaridan ortiq summadagi bitimlar, qonunda belgilangan hollarda esa — bitim summasidan qatʼi nazar, boshqa bitimlar.\nUshbu Kodeksning 106-moddasiga muvofiq ogʻzaki tuzilishi mumkin boʻlgan bitimlar uchun oddiy yozma shaklga rioya etish talab qilinmaydi.",
+          "retrieval_score": 19.134637033643997,
+          "rerank_score": 58.134637033644,
+          "used_in_answer": false
+        }
+      ],
+      "error": null,
+      "timing": {
+        "retrieval_ms": 20.777,
+        "rerank_ms": 0,
+        "generation_ms": 0.037,
+        "total_ms": 33.22
+      }
+    },
+    {
+      "id": "q045",
+      "status": "ok",
+      "answer": "Davlat muassasasi oʻziga biriktirib qoʻyilgan mol-mulkka nisbatan qonunda belgilangan doirada, oʻz faoliyatining maqsadlariga, mulkdorning topshiriqlariga hamda mol-mulkning vazifasiga muvofiq holda egalik qilish, undan foydalanish va uni tasarruf etish huquqlarini amalga oshiradi.\nDavlat muassasasiga biriktirib qoʻyilgan mol-mulkning egasi ortiqcha, foydalanilmayotgan yoki nooʻrin foydalanilayotgan mol-mulkni olib qoʻyish hamda uni oʻzi xohlagan tarzda tasarruf etishga haqli. [1]",
+      "answer_language": "uz-Latn",
+      "no_answer": false,
+      "citations": [
+        {
+          "doc_id": "lex:111189",
+          "doc_title": "Oʻzbekiston Respublikasining Fuqarolik kodeksi (birinchi qism)",
+          "doc_type": "kodeks",
+          "url": "https://lex.uz/docs/-111189",
+          "article": "178-modda",
+          "part": null,
+          "edition_date": "2026-09-12",
+          "doc_status": "amalda",
+          "chunk_id": "lex:111189#uz-Latn#art-178#2026-09-12",
+          "ref": 1,
+          "quote": "Davlat muassasasi oʻziga biriktirib qoʻyilgan mol-mulkka nisbatan qonunda belgilangan doirada, oʻz faoliyatining maqsadlariga, mulkdorning topshiriqlariga hamda mol-mulkning vazifasiga muvofiq holda egalik qilish, undan foydalanish va uni tasarruf etish huquqlarini amalga oshiradi.\nDavlat muassasasiga biriktirib qoʻyilgan mol-mulkning egasi ortiqcha, foydalanilmayotgan yoki nooʻrin foydalanilayotgan mol-mulkni olib qoʻyish hamda uni oʻzi xohlagan tarzda tasarruf etishga haqli.",
+          "source_url": "https://www.lex.uz/docs/-111189?ONDATE=12.09.2026+01",
+          "source_anchor": "-153888",
+          "edition_label": "12.09.2026 01"
+        }
+      ],
+      "contexts": [
+        {
+          "rank": 1,
+          "chunk_id": "lex:111189#uz-Latn#art-178#2026-09-12",
+          "doc_id": "lex:111189",
+          "article": "178-modda",
+          "text": "178-modda. Operativ boshqarish huquqi\nDavlat muassasasi oʻziga biriktirib qoʻyilgan mol-mulkka nisbatan qonunda belgilangan doirada, oʻz faoliyatining maqsadlariga, mulkdorning topshiriqlariga hamda mol-mulkning vazifasiga muvofiq holda egalik qilish, undan foydalanish va uni tasarruf etish huquqlarini amalga oshiradi.\nDavlat muassasasiga biriktirib qoʻyilgan mol-mulkning egasi ortiqcha, foydalanilmayotgan yoki nooʻrin foydalanilayotgan mol-mulkni olib qoʻyish hamda uni oʻzi xohlagan tarzda tasarruf etishga haqli.",
+          "retrieval_score": 18.39399571615128,
+          "rerank_score": 79.39399571615128,
+          "used_in_answer": true
+        }
+      ],
+      "error": null,
+      "timing": {
+        "retrieval_ms": 6.603,
+        "rerank_ms": 0,
+        "generation_ms": 0.033,
+        "total_ms": 18.27
+      }
+    },
+    {
+      "id": "q046",
+      "status": "ok",
+      "answer": "Общий срок исковой давности — три года. [1]",
+      "answer_language": "ru",
+      "no_answer": false,
+      "citations": [
+        {
+          "doc_id": "lex:111181",
+          "doc_title": "Гражданский кодекс Республики Узбекистан (часть первая)",
+          "doc_type": "kodeks",
+          "url": "https://lex.uz/docs/111181",
+          "article": "Статья 150",
+          "part": null,
+          "edition_date": "2026-09-12",
+          "doc_status": "amalda",
+          "chunk_id": "lex:111181#ru#art-150#2026-09-12",
+          "ref": 1,
+          "quote": "Общий срок исковой давности — три года.",
+          "source_url": "https://www.lex.uz/docs/111181?ONDATE=12.09.2026",
+          "source_anchor": "160038",
+          "edition_label": "12.09.2026"
+        }
+      ],
+      "contexts": [
+        {
+          "rank": 1,
+          "chunk_id": "lex:111181#ru#art-150#2026-09-12",
+          "doc_id": "lex:111181",
+          "article": "Статья 150",
+          "text": "Статья 150. Общий срок исковой давности\nОбщий срок исковой давности — три года.",
+          "retrieval_score": 41.640712009074264,
+          "rerank_score": 121.64071200907426,
+          "used_in_answer": true
+        }
+      ],
+      "error": null,
+      "timing": {
+        "retrieval_ms": 4.344,
+        "rerank_ms": 0,
+        "generation_ms": 0.022,
+        "total_ms": 15.545
+      }
+    },
+    {
+      "id": "q047",
+      "status": "no_answer",
+      "answer": null,
+      "answer_language": "uz-Latn",
+      "no_answer": true,
+      "citations": [],
+      "contexts": [],
+      "error": null,
+      "timing": {
+        "retrieval_ms": 0.774,
+        "rerank_ms": 0,
+        "generation_ms": 0.008,
+        "total_ms": 12.894
+      }
+    },
+    {
+      "id": "q048",
+      "status": "ok",
+      "answer": "Umumiy daʼvo muddati — uch yil. [1]",
+      "answer_language": "uz-Latn",
+      "no_answer": false,
+      "citations": [
+        {
+          "doc_id": "lex:111189",
+          "doc_title": "Oʻzbekiston Respublikasining Fuqarolik kodeksi (birinchi qism)",
+          "doc_type": "kodeks",
+          "url": "https://lex.uz/docs/-111189",
+          "article": "150-modda",
+          "part": null,
+          "edition_date": "2026-09-12",
+          "doc_status": "amalda",
+          "chunk_id": "lex:111189#uz-Latn#art-150#2026-09-12",
+          "ref": 1,
+          "quote": "Umumiy daʼvo muddati — uch yil.",
+          "source_url": "https://www.lex.uz/docs/-111189?ONDATE=12.09.2026+01",
+          "source_anchor": "-153702",
+          "edition_label": "12.09.2026 01"
+        }
+      ],
+      "contexts": [
+        {
+          "rank": 1,
+          "chunk_id": "lex:111189#uz-Latn#art-150#2026-09-12",
+          "doc_id": "lex:111189",
+          "article": "150-modda",
+          "text": "150-modda. Umumiy daʼvo muddati\nUmumiy daʼvo muddati — uch yil.",
+          "retrieval_score": 13.555444858682788,
+          "rerank_score": 41.55544485868279,
+          "used_in_answer": true
+        }
+      ],
+      "error": null,
+      "timing": {
+        "retrieval_ms": 12.721,
+        "rerank_ms": 0,
+        "generation_ms": 0.026,
+        "total_ms": 22.217
+      }
+    },
+    {
+      "id": "q049",
+      "status": "ok",
+      "answer": "Xodim quyidagi huquqlarga ega:\nushbu Kodeksda va boshqa qonunlarda belgilangan tartibda hamda shartlarda mehnat shartnomasini tuzish, oʻzgartirish va bekor qilish;\nmehnat shartnomasida shartlashilgan ish bilan ish beruvchi tomonidan taʼminlanish;\nmehnatni muhofaza qilish talablariga mos keladigan ish joyiga ega boʻlish;\noʻz malakasiga, mehnatning murakkabligiga, bajarilgan ishning miqdori va sifatiga muvofiq oʻz vaqtida hamda toʻliq hajmda ish haqi olish;\nish vaqti davomiyligining chegarasini, ayrim kasblardagi va toifalardagi xodimlar uchun qisqartirilgan ish vaqtini belgilash, har haftalik dam olish kunlari, ishlanmaydigan bayram kunlari, shuningdek yillik mehnat taʼtillari berish orqali taʼminlanadigan dam olish;\nxavfsizlik va gigiyena talablariga javob beradigan mehnat sharoitlariga ega boʻlish, shuningdek ish joyidagi mehnat sharoitlari va mehnatni muhofaza qilish talablari toʻgʻrisida toʻliq va ishonchli axborot olish;\nmehnat toʻgʻrisidagi qonunchilikka, mehnat haqidagi boshqa huquqiy hujjatlarga, mehnat shartnomasiga muvofiq kasbga tayyorlash, qayta tayyorlash va malakasini oshirish;\noʻz mehnat huquqlari, erkinliklari va qonuniy manfaatlarini ifodalash hamda himoya qilish uchun kasaba uyushmalariga va boshqa tashkilotlarga birlashish;\njamoa kelishuvlari va jamoa shartnomasi, shuningdek ular shartlarining bajarilishi toʻgʻrisida axborot olish, shu jumladan oʻz vakillari orqali olish;\nmehnat toʻgʻrisidagi qonunchilikda belgilangan tartibda xodimga mehnat vazifalarini bajarishi munosabati bilan yetkazilgan moddiy zararning oʻrnini qoplash va maʼnaviy ziyonni kompensatsiya qilish;\noʻz mehnat huquqlari, erkinliklari va qonuniy manfaatlarini qonun bilan taqiqlanmagan barcha usullar bilan himoya qilish;\nmehnat nizolarini ushbu Kodeksda, boshqa qonunlarda belgilangan tartibda hal qilish.\nXodim mehnat toʻgʻrisidagi qonunchilikka, mehnat toʻgʻrisidagi boshqa huquqiy hujjatlarga va mehnat shartnomasiga muvofiq boshqa huquqlarga ham ega boʻlishi mumkin. [1]",
+      "answer_language": "uz-Latn",
+      "no_answer": false,
+      "citations": [
+        {
+          "doc_id": "lex:6257288",
+          "doc_title": "Oʻzbekiston Respublikasining Mehnat kodeksi",
+          "doc_type": "kodeks",
+          "url": "https://lex.uz/docs/-6257288",
+          "article": "21-modda",
+          "part": null,
+          "edition_date": "2026-10-15",
+          "doc_status": "amalda",
+          "chunk_id": "lex:6257288#uz-Latn#art-21#2026-10-15",
+          "ref": 1,
+          "quote": "Xodim quyidagi huquqlarga ega:\nushbu Kodeksda va boshqa qonunlarda belgilangan tartibda hamda shartlarda mehnat shartnomasini tuzish, oʻzgartirish va bekor qilish;\nmehnat shartnomasida shartlashilgan ish bilan ish beruvchi tomonidan taʼminlanish;\nmehnatni muhofaza qilish talablariga mos keladigan ish joyiga ega boʻlish;\noʻz malakasiga, mehnatning murakkabligiga, bajarilgan ishning miqdori va sifatiga muvofiq oʻz vaqtida hamda toʻliq hajmda ish haqi olish;\nish vaqti davomiyligining chegarasini, ayrim kasblardagi va toifalardagi xodimlar uchun qisqartirilgan ish vaqtini belgilash, har haftalik dam olish kunlari, ishlanmaydigan bayram kunlari, shuningdek yillik mehnat taʼtillari berish orqali taʼminlanadigan dam olish;\nxavfsizlik va gigiyena talablariga javob beradigan mehnat sharoitlariga ega boʻlish, shuningdek ish joyidagi mehnat sharoitlari va mehnatni muhofaza qilish talablari toʻgʻrisida toʻliq va ishonchli axborot olish;\nmehnat toʻgʻrisidagi qonunchilikka, mehnat haqidagi boshqa huquqiy hujjatlarga, mehnat shartnomasiga muvofiq kasbga tayyorlash, qayta tayyorlash va malakasini oshirish;\noʻz mehnat huquqlari, erkinliklari va qonuniy manfaatlarini ifodalash hamda himoya qilish uchun kasaba uyushmalariga va boshqa tashkilotlarga birlashish;\njamoa kelishuvlari va jamoa shartnomasi, shuningdek ular shartlarining bajarilishi toʻgʻrisida axborot olish, shu jumladan oʻz vakillari orqali olish;\nmehnat toʻgʻrisidagi qonunchilikda belgilangan tartibda xodimga mehnat vazifalarini bajarishi munosabati bilan yetkazilgan moddiy zararning oʻrnini qoplash va maʼnaviy ziyonni kompensatsiya qilish;\noʻz mehnat huquqlari, erkinliklari va qonuniy manfaatlarini qonun bilan taqiqlanmagan barcha usullar bilan himoya qilish;\nmehnat nizolarini ushbu Kodeksda, boshqa qonunlarda belgilangan tartibda hal qilish.\nXodim mehnat toʻgʻrisidagi qonunchilikka, mehnat toʻgʻrisidagi boshqa huquqiy hujjatlarga va mehnat shartnomasiga muvofiq boshqa huquqlarga ham ega boʻlishi mumkin.",
+          "source_url": "https://www.lex.uz/docs/-6257288?ONDATE=15.10.2026+01",
+          "source_anchor": "-6257916",
+          "edition_label": "15.10.2026 01"
+        }
+      ],
+      "contexts": [
+        {
+          "rank": 1,
+          "chunk_id": "lex:6257288#uz-Latn#art-21#2026-10-15",
+          "doc_id": "lex:6257288",
+          "article": "21-modda",
+          "text": "21-modda. Xodimning huquqlari\nXodim quyidagi huquqlarga ega:\nushbu Kodeksda va boshqa qonunlarda belgilangan tartibda hamda shartlarda mehnat shartnomasini tuzish, oʻzgartirish va bekor qilish;\nmehnat shartnomasida shartlashilgan ish bilan ish beruvchi tomonidan taʼminlanish;\nmehnatni muhofaza qilish talablariga mos keladigan ish joyiga ega boʻlish;\noʻz malakasiga, mehnatning murakkabligiga, bajarilgan ishning miqdori va sifatiga muvofiq oʻz vaqtida hamda toʻliq hajmda ish haqi olish;\nish vaqti davomiyligining chegarasini, ayrim kasblardagi va toifalardagi xodimlar uchun qisqartirilgan ish vaqtini belgilash, har haftalik dam olish kunlari, ishlanmaydigan bayram kunlari, shuningdek yillik mehnat taʼtillari berish orqali taʼminlanadigan dam olish;\nxavfsizlik va gigiyena talablariga javob beradigan mehnat sharoitlariga ega boʻlish, shuningdek ish joyidagi mehnat sharoitlari va mehnatni muhofaza qilish talablari toʻgʻrisida toʻliq va ishonchli axborot olish;\nmehnat toʻgʻrisidagi qonunchilikka, mehnat haqidagi boshqa huquqiy hujjatlarga, mehnat shartnomasiga muvofiq kasbga tayyorlash, qayta tayyorlash va malakasini oshirish;\noʻz mehnat huquqlari, erkinliklari va qonuniy manfaatlarini ifodalash hamda himoya qilish uchun kasaba uyushmalariga va boshqa tashkilotlarga birlashish;\njamoa kelishuvlari va jamoa shartnomasi, shuningdek ular shartlarining bajarilishi toʻgʻrisida axborot olish, shu jumladan oʻz vakillari orqali olish;\nmehnat toʻgʻrisidagi qonunchilikda belgilangan tartibda xodimga mehnat vazifalarini bajarishi munosabati bilan yetkazilgan moddiy zararning oʻrnini qoplash va maʼnaviy ziyonni kompensatsiya qilish;\noʻz mehnat huquqlari, erkinliklari va qonuniy manfaatlarini qonun bilan taqiqlanmagan barcha usullar bilan himoya qilish;\nmehnat nizolarini ushbu Kodeksda, boshqa qonunlarda belgilangan tartibda hal qilish.\nXodim mehnat toʻgʻrisidagi qonunchilikka, mehnat toʻgʻrisidagi boshqa huquqiy hujjatlarga va mehnat shartnomasiga muvofiq boshqa huquqlarga ham ega boʻlishi mumkin.",
+          "retrieval_score": 13.770936710570858,
+          "rerank_score": 39.77093671057086,
+          "used_in_answer": true
+        }
+      ],
+      "error": null,
+      "timing": {
+        "retrieval_ms": 13.842,
+        "rerank_ms": 0,
+        "generation_ms": 0.027,
+        "total_ms": 26.159
+      }
+    },
+    {
+      "id": "q050",
+      "status": "ok",
+      "answer": "Tashkilotning mulkdori oʻzgarganda jamoa shartnomasining amal qilishi olti oy mobaynida saqlab qolinadi. Bu davrda taraflarning yangi jamoa shartnomasini tuzish yoxud amaldagisini saqlab qolish, unga oʻzgartish va (yoki) qoʻshimchalar kiritish haqida muzokaralar boshlashga haqli.\nJamoa shartnomasini qayta koʻrib chiqish chogʻida avvalgi jamoa shartnomasida xodimlar uchun nazarda tutilgan imtiyozlarni saqlab qolish mumkinligi haqidagi va boshqa shartlarni bajarish toʻgʻrisidagi masala koʻrib chiqiladi. [1]",
+      "answer_language": "uz-Latn",
+      "no_answer": false,
+      "citations": [
+        {
+          "doc_id": "lex:6257288",
+          "doc_title": "Oʻzbekiston Respublikasining Mehnat kodeksi",
+          "doc_type": "kodeks",
+          "url": "https://lex.uz/docs/-6257288",
+          "article": "74-modda",
+          "part": null,
+          "edition_date": "2026-10-15",
+          "doc_status": "amalda",
+          "chunk_id": "lex:6257288#uz-Latn#art-74#2026-10-15",
+          "ref": 1,
+          "quote": "Tashkilotning mulkdori oʻzgarganda jamoa shartnomasining amal qilishi olti oy mobaynida saqlab qolinadi. Bu davrda taraflarning yangi jamoa shartnomasini tuzish yoxud amaldagisini saqlab qolish, unga oʻzgartish va (yoki) qoʻshimchalar kiritish haqida muzokaralar boshlashga haqli.\nJamoa shartnomasini qayta koʻrib chiqish chogʻida avvalgi jamoa shartnomasida xodimlar uchun nazarda tutilgan imtiyozlarni saqlab qolish mumkinligi haqidagi va boshqa shartlarni bajarish toʻgʻrisidagi masala koʻrib chiqiladi.",
+          "source_url": "https://www.lex.uz/docs/-6257288?ONDATE=15.10.2026+01",
+          "source_anchor": "-6259004",
+          "edition_label": "15.10.2026 01"
+        }
+      ],
+      "contexts": [
+        {
+          "rank": 1,
+          "chunk_id": "lex:6257288#uz-Latn#art-74#2026-10-15",
+          "doc_id": "lex:6257288",
+          "article": "74-modda",
+          "text": "74-modda. Tashkilotning mulkdori oʻzgarganda jamoa shartnomasi amal qilishining saqlanib qolishi\nTashkilotning mulkdori oʻzgarganda jamoa shartnomasining amal qilishi olti oy mobaynida saqlab qolinadi. Bu davrda taraflarning yangi jamoa shartnomasini tuzish yoxud amaldagisini saqlab qolish, unga oʻzgartish va (yoki) qoʻshimchalar kiritish haqida muzokaralar boshlashga haqli.\nJamoa shartnomasini qayta koʻrib chiqish chogʻida avvalgi jamoa shartnomasida xodimlar uchun nazarda tutilgan imtiyozlarni saqlab qolish mumkinligi haqidagi va boshqa shartlarni bajarish toʻgʻrisidagi masala koʻrib chiqiladi.",
+          "retrieval_score": 48.41474948787019,
+          "rerank_score": 199.41474948787018,
+          "used_in_answer": true
+        }
+      ],
+      "error": null,
+      "timing": {
+        "retrieval_ms": 32.48,
+        "rerank_ms": 0,
+        "generation_ms": 0.027,
+        "total_ms": 43.565
+      }
+    }
+  ]
+}

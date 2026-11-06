@@ -1,0 +1,534 @@
+{
+  "run_id": "tz-release",
+  "batch_id": "tz-release-b01",
+  "status": "completed",
+  "system": {
+    "pipeline_version": "0.4.0",
+    "llm_model": null,
+    "embedding_model": null,
+    "reranker": "lexical-title-v2",
+    "query_rewriter": "uz-colloquial-rules-v1",
+    "implementation_version": "10c2276d53aa682d",
+    "index_version": "f7713de8144eee76",
+    "lex_snapshot_date": "2026-11-06",
+    "mode": "bm25-multisource-extractive",
+    "documents": 6,
+    "chunks": 29727,
+    "translation_map_version": "f4467e667a7fd4d1"
+  },
+  "timing": {
+    "received_at": "2026-11-06T01:24:49.398008+00:00",
+    "completed_at": "2026-11-06T01:24:49.699785+00:00",
+    "total_ms": 301.684
+  },
+  "summary": {
+    "total": 10,
+    "ok": 10,
+    "no_answer": 0,
+    "error": 0
+  },
+  "results": [
+    {
+      "id": "q001",
+      "status": "ok",
+      "answer": "Har kim mehnat huquqlarini amalga oshirish va himoya qilishda teng imkoniyatlarga ega.\nMehnat va mashgʻulotlar sohasida kamsitish taqiqlanadi. Jinsi, yoshi, irqi, millati, tili, ijtimoiy kelib chiqishi, qarindoshlarida sudlanganlikning mavjudligi, mulkiy holati va mansab mavqeyi, yashash joyi, dinga boʻlgan munosabati, eʼtiqodi, jamoat birlashmalariga mansubligi, shuningdek xodimlarning ishchanlik sifatlari va mehnati natijalari bilan bogʻliq boʻlmagan boshqa jihatlariga qarab mehnat va mashgʻulotlar sohasida biror-bir toʻgʻridan-toʻgʻri yoki bilvosita cheklovlar belgilash, xuddi shuningdek biror-bir toʻgʻridan-toʻgʻri yoki bilvosita imtiyozlar berish kamsitishdir.\nMehnat va mashgʻulotlar sohasida xodimlarning huquqlarini mehnatning muayyan turiga xos boʻlgan talablar yoki yuqoriroq ijtimoiy himoyaga muhtoj boʻlgan shaxslar (oilaviy vazifalarni bajarish bilan band boʻlgan shaxslar, voyaga yetmaganlar, nogironligi boʻlgan shaxslar, homilador ayollar va boshqalar) toʻgʻrisidagi alohida gʻamxoʻrlik bilan bogʻliq holda asoslangan tarzda farqlash, istisno etish, ularga afzallik berish, shuningdek ularni cheklash kamsitish deb hisoblanmaydi.\nAyrim toifadagi xodimlar mehnatini huquqiy jihatdan tartibga solish borasidagi asoslangan farqlar xodimning ish beruvchi bilan mehnat aloqasi xususiyatiga, mehnat faoliyati amalga oshiriladigan joyga, xodim mehnatining shart-sharoitlari va xususiyatiga, ish beruvchining huquqiy maqomiga, baʼzi tarmoqlar va kasblardagi xodimlar mehnatining oʻziga xos xususiyatlariga, organizmning psixofiziologik xususiyatlariga, oilaviy vazifalarning mavjudligiga hamda boshqa obyektiv holatlarga bogʻliq boʻlishi mumkin.\nMehnat va (yoki) mashgʻulotlar sohasida oʻzini kamsitilgan deb hisoblagan shaxs kamsitilish fakti ustidan belgilangan tartibda shikoyat qilishi, shu jumladan kamsitishni bartaraf etish hamda oʻziga yetkazilgan moddiy zararning oʻrnini qoplash va maʼnaviy ziyonning kompensatsiya qilinishi toʻgʻrisidagi ariza bilan sudga murojaat qilishi mumkin. [1]",
+      "answer_language": "uz-Latn",
+      "no_answer": false,
+      "citations": [
+        {
+          "doc_id": "lex:6257288",
+          "doc_title": "Oʻzbekiston Respublikasining Mehnat kodeksi",
+          "doc_type": "kodeks",
+          "url": "https://lex.uz/docs/-6257288",
+          "article": "4-modda",
+          "part": null,
+          "edition_date": "2026-10-15",
+          "doc_status": "amalda",
+          "chunk_id": "lex:6257288#uz-Latn#art-4#2026-10-15",
+          "ref": 1,
+          "quote": "Har kim mehnat huquqlarini amalga oshirish va himoya qilishda teng imkoniyatlarga ega.\nMehnat va mashgʻulotlar sohasida kamsitish taqiqlanadi. Jinsi, yoshi, irqi, millati, tili, ijtimoiy kelib chiqishi, qarindoshlarida sudlanganlikning mavjudligi, mulkiy holati va mansab mavqeyi, yashash joyi, dinga boʻlgan munosabati, eʼtiqodi, jamoat birlashmalariga mansubligi, shuningdek xodimlarning ishchanlik sifatlari va mehnati natijalari bilan bogʻliq boʻlmagan boshqa jihatlariga qarab mehnat va mashgʻulotlar sohasida biror-bir toʻgʻridan-toʻgʻri yoki bilvosita cheklovlar belgilash, xuddi shuningdek biror-bir toʻgʻridan-toʻgʻri yoki bilvosita imtiyozlar berish kamsitishdir.\nMehnat va mashgʻulotlar sohasida xodimlarning huquqlarini mehnatning muayyan turiga xos boʻlgan talablar yoki yuqoriroq ijtimoiy himoyaga muhtoj boʻlgan shaxslar (oilaviy vazifalarni bajarish bilan band boʻlgan shaxslar, voyaga yetmaganlar, nogironligi boʻlgan shaxslar, homilador ayollar va boshqalar) toʻgʻrisidagi alohida gʻamxoʻrlik bilan bogʻliq holda asoslangan tarzda farqlash, istisno etish, ularga afzallik berish, shuningdek ularni cheklash kamsitish deb hisoblanmaydi.\nAyrim toifadagi xodimlar mehnatini huquqiy jihatdan tartibga solish borasidagi asoslangan farqlar xodimning ish beruvchi bilan mehnat aloqasi xususiyatiga, mehnat faoliyati amalga oshiriladigan joyga, xodim mehnatining shart-sharoitlari va xususiyatiga, ish beruvchining huquqiy maqomiga, baʼzi tarmoqlar va kasblardagi xodimlar mehnatining oʻziga xos xususiyatlariga, organizmning psixofiziologik xususiyatlariga, oilaviy vazifalarning mavjudligiga hamda boshqa obyektiv holatlarga bogʻliq boʻlishi mumkin.\nMehnat va (yoki) mashgʻulotlar sohasida oʻzini kamsitilgan deb hisoblagan shaxs kamsitilish fakti ustidan belgilangan tartibda shikoyat qilishi, shu jumladan kamsitishni bartaraf etish hamda oʻziga yetkazilgan moddiy zararning oʻrnini qoplash va maʼnaviy ziyonning kompensatsiya qilinishi toʻgʻrisidagi ariza bilan sudga murojaat qilishi mumkin.",
+          "source_url": "https://www.lex.uz/docs/-6257288?ONDATE=15.10.2026+01",
+          "source_anchor": "-6257599",
+          "edition_label": "15.10.2026 01"
+        }
+      ],
+      "contexts": [
+        {
+          "rank": 1,
+          "chunk_id": "lex:6257288#uz-Latn#art-4#2026-10-15",
+          "doc_id": "lex:6257288",
+          "article": "4-modda",
+          "text": "4-modda. Mehnat huquqlarining tengligi, mehnat va mashgʻulotlar sohasida kamsitishni taqiqlash prinsipi\nHar kim mehnat huquqlarini amalga oshirish va himoya qilishda teng imkoniyatlarga ega.\nMehnat va mashgʻulotlar sohasida kamsitish taqiqlanadi. Jinsi, yoshi, irqi, millati, tili, ijtimoiy kelib chiqishi, qarindoshlarida sudlanganlikning mavjudligi, mulkiy holati va mansab mavqeyi, yashash joyi, dinga boʻlgan munosabati, eʼtiqodi, jamoat birlashmalariga mansubligi, shuningdek xodimlarning ishchanlik sifatlari va mehnati natijalari bilan bogʻliq boʻlmagan boshqa jihatlariga qarab mehnat va mashgʻulotlar sohasida biror-bir toʻgʻridan-toʻgʻri yoki bilvosita cheklovlar belgilash, xuddi shuningdek biror-bir toʻgʻridan-toʻgʻri yoki bilvosita imtiyozlar berish kamsitishdir.\nMehnat va mashgʻulotlar sohasida xodimlarning huquqlarini mehnatning muayyan turiga xos boʻlgan talablar yoki yuqoriroq ijtimoiy himoyaga muhtoj boʻlgan shaxslar (oilaviy vazifalarni bajarish bilan band boʻlgan shaxslar, voyaga yetmaganlar, nogironligi boʻlgan shaxslar, homilador ayollar va boshqalar) toʻgʻrisidagi alohida gʻamxoʻrlik bilan bogʻliq holda asoslangan tarzda farqlash, istisno etish, ularga afzallik berish, shuningdek ularni cheklash kamsitish deb hisoblanmaydi.\nAyrim toifadagi xodimlar mehnatini huquqiy jihatdan tartibga solish borasidagi asoslangan farqlar xodimning ish beruvchi bilan mehnat aloqasi xususiyatiga, mehnat faoliyati amalga oshiriladigan joyga, xodim mehnatining shart-sharoitlari va xususiyatiga, ish beruvchining huquqiy maqomiga, baʼzi tarmoqlar va kasblardagi xodimlar mehnatining oʻziga xos xususiyatlariga, organizmning psixofiziologik xususiyatlariga, oilaviy vazifalarning mavjudligiga hamda boshqa obyektiv holatlarga bogʻliq boʻlishi mumkin.\nMehnat va (yoki) mashgʻulotlar sohasida oʻzini kamsitilgan deb hisoblagan shaxs kamsitilish fakti ustidan belgilangan tartibda shikoyat qilishi, shu jumladan kamsitishni bartaraf etish hamda oʻziga yetkazilgan moddiy zararning oʻrnini qoplash va maʼnaviy ziyonning kompensatsiya qilinishi toʻgʻrisidagi ariza bilan sudga murojaat qilishi mumkin.",
+          "retrieval_score": 8.269322607335276,
+          "rerank_score": 39.269322607335276,
+          "used_in_answer": true
+        }
+      ],
+      "error": null,
+      "timing": {
+        "retrieval_ms": 14.208,
+        "rerank_ms": 0,
+        "generation_ms": 0.029,
+        "total_ms": 22.142
+      }
+    },
+    {
+      "id": "q002",
+      "status": "ok",
+      "answer": "Mehnat sohasidagi ijtimoiy sheriklik:\nboshlangʻich darajada (tashkilotda yoki jismoniy shaxs boʻlgan ish beruvchida);\nhududiy darajada;\ntarmoq darajasida;\nrespublika darajasida amalga oshiriladi. [1]",
+      "answer_language": "uz-Latn",
+      "no_answer": false,
+      "citations": [
+        {
+          "doc_id": "lex:6257288",
+          "doc_title": "Oʻzbekiston Respublikasining Mehnat kodeksi",
+          "doc_type": "kodeks",
+          "url": "https://lex.uz/docs/-6257288",
+          "article": "35-modda",
+          "part": null,
+          "edition_date": "2026-10-15",
+          "doc_status": "amalda",
+          "chunk_id": "lex:6257288#uz-Latn#art-35#2026-10-15",
+          "ref": 1,
+          "quote": "Mehnat sohasidagi ijtimoiy sheriklik:\nboshlangʻich darajada (tashkilotda yoki jismoniy shaxs boʻlgan ish beruvchida);\nhududiy darajada;\ntarmoq darajasida;\nrespublika darajasida amalga oshiriladi.",
+          "source_url": "https://www.lex.uz/docs/-6257288?ONDATE=15.10.2026+01",
+          "source_anchor": "-6258314",
+          "edition_label": "15.10.2026 01"
+        }
+      ],
+      "contexts": [
+        {
+          "rank": 1,
+          "chunk_id": "lex:6257288#uz-Latn#art-35#2026-10-15",
+          "doc_id": "lex:6257288",
+          "article": "35-modda",
+          "text": "35-modda. Mehnat sohasidagi ijtimoiy sheriklikning darajalari\nMehnat sohasidagi ijtimoiy sheriklik:\nboshlangʻich darajada (tashkilotda yoki jismoniy shaxs boʻlgan ish beruvchida);\nhududiy darajada;\ntarmoq darajasida;\nrespublika darajasida amalga oshiriladi.",
+          "retrieval_score": 32.253114485661726,
+          "rerank_score": 123.25311448566173,
+          "used_in_answer": true
+        }
+      ],
+      "error": null,
+      "timing": {
+        "retrieval_ms": 15.739,
+        "rerank_ms": 0,
+        "generation_ms": 0.026,
+        "total_ms": 24.948
+      }
+    },
+    {
+      "id": "q003",
+      "status": "ok",
+      "answer": "Mehnat shartnomasi:\nnomuayyan muddatga;\nuch yildan koʻp boʻlmagan muayyan muddatga (muddatli mehnat shartnomasi) tuzilishi mumkin.\nAgar mehnat shartnomasida uning amal qilish muddati shartlashilmagan boʻlsa, shartnoma nomuayyan muddatga tuzilgan deb hisoblanadi. [1]",
+      "answer_language": "uz-Latn",
+      "no_answer": false,
+      "citations": [
+        {
+          "doc_id": "lex:6257288",
+          "doc_title": "Oʻzbekiston Respublikasining Mehnat kodeksi",
+          "doc_type": "kodeks",
+          "url": "https://lex.uz/docs/-6257288",
+          "article": "110-modda",
+          "part": null,
+          "edition_date": "2026-10-15",
+          "doc_status": "amalda",
+          "chunk_id": "lex:6257288#uz-Latn#art-110#2026-10-15",
+          "ref": 1,
+          "quote": "Mehnat shartnomasi:\nnomuayyan muddatga;\nuch yildan koʻp boʻlmagan muayyan muddatga (muddatli mehnat shartnomasi) tuzilishi mumkin.\nAgar mehnat shartnomasida uning amal qilish muddati shartlashilmagan boʻlsa, shartnoma nomuayyan muddatga tuzilgan deb hisoblanadi.",
+          "source_url": "https://www.lex.uz/docs/-6257288?ONDATE=15.10.2026+01",
+          "source_anchor": "-6260215",
+          "edition_label": "15.10.2026 01"
+        }
+      ],
+      "contexts": [
+        {
+          "rank": 1,
+          "chunk_id": "lex:6257288#uz-Latn#art-110#2026-10-15",
+          "doc_id": "lex:6257288",
+          "article": "110-modda",
+          "text": "110-modda. Mehnat shartnomasining muddati\nMehnat shartnomasi:\nnomuayyan muddatga;\nuch yildan koʻp boʻlmagan muayyan muddatga (muddatli mehnat shartnomasi) tuzilishi mumkin.\nAgar mehnat shartnomasida uning amal qilish muddati shartlashilmagan boʻlsa, shartnoma nomuayyan muddatga tuzilgan deb hisoblanadi.",
+          "retrieval_score": 13.079091451236266,
+          "rerank_score": 74.07909145123627,
+          "used_in_answer": true
+        }
+      ],
+      "error": null,
+      "timing": {
+        "retrieval_ms": 25.767,
+        "rerank_ms": 0,
+        "generation_ms": 0.023,
+        "total_ms": 33.644
+      }
+    },
+    {
+      "id": "q004",
+      "status": "ok",
+      "answer": "Agar qonun yoki shartnomada zararni kamroq miqdorda toʻlash nazarda tutilmagan boʻlsa, huquqi buzilgan shaxs oʻziga yetkazilgan zararning toʻla qoplanishini talab qilishi mumkin.\nZarar deganda, huquqi buzilgan shaxsning buzilgan huquqini tiklash uchun qilgan yoki qilishi lozim boʻlgan xarajatlari, uning mol-mulki yoʻqolishi yoki shikastlanishi (haqiqiy zarar), shuningdek bu shaxs oʻz huquqlari buzilmaganida odatdagi fuqarolik muomalasi sharoitida olishi mumkin boʻlgan, lekin ololmay qolgan daromadlari (boy berilgan foyda) tushuniladi.\nAgar huquqni buzgan shaxs buning natijasida daromad olgan boʻlsa, huquqi buzilgan shaxs boshqa zarar bilan bir qatorda boy berilgan foyda bunday daromaddan kam boʻlmagan miqdorda toʻlanishini talab qilishga haqli. [1]",
+      "answer_language": "uz-Latn",
+      "no_answer": false,
+      "citations": [
+        {
+          "doc_id": "lex:111189",
+          "doc_title": "Oʻzbekiston Respublikasining Fuqarolik kodeksi (birinchi qism)",
+          "doc_type": "kodeks",
+          "url": "https://lex.uz/docs/-111189",
+          "article": "14-modda",
+          "part": null,
+          "edition_date": "2026-09-12",
+          "doc_status": "amalda",
+          "chunk_id": "lex:111189#uz-Latn#art-14#2026-09-12",
+          "ref": 1,
+          "quote": "Agar qonun yoki shartnomada zararni kamroq miqdorda toʻlash nazarda tutilmagan boʻlsa, huquqi buzilgan shaxs oʻziga yetkazilgan zararning toʻla qoplanishini talab qilishi mumkin.\nZarar deganda, huquqi buzilgan shaxsning buzilgan huquqini tiklash uchun qilgan yoki qilishi lozim boʻlgan xarajatlari, uning mol-mulki yoʻqolishi yoki shikastlanishi (haqiqiy zarar), shuningdek bu shaxs oʻz huquqlari buzilmaganida odatdagi fuqarolik muomalasi sharoitida olishi mumkin boʻlgan, lekin ololmay qolgan daromadlari (boy berilgan foyda) tushuniladi.\nAgar huquqni buzgan shaxs buning natijasida daromad olgan boʻlsa, huquqi buzilgan shaxs boshqa zarar bilan bir qatorda boy berilgan foyda bunday daromaddan kam boʻlmagan miqdorda toʻlanishini talab qilishga haqli.",
+          "source_url": "https://www.lex.uz/docs/-111189?ONDATE=12.09.2026+01",
+          "source_anchor": "-150438",
+          "edition_label": "12.09.2026 01"
+        }
+      ],
+      "contexts": [
+        {
+          "rank": 1,
+          "chunk_id": "lex:111189#uz-Latn#art-14#2026-09-12",
+          "doc_id": "lex:111189",
+          "article": "14-modda",
+          "text": "14-modda. Zararni qoplash\nAgar qonun yoki shartnomada zararni kamroq miqdorda toʻlash nazarda tutilmagan boʻlsa, huquqi buzilgan shaxs oʻziga yetkazilgan zararning toʻla qoplanishini talab qilishi mumkin.\nZarar deganda, huquqi buzilgan shaxsning buzilgan huquqini tiklash uchun qilgan yoki qilishi lozim boʻlgan xarajatlari, uning mol-mulki yoʻqolishi yoki shikastlanishi (haqiqiy zarar), shuningdek bu shaxs oʻz huquqlari buzilmaganida odatdagi fuqarolik muomalasi sharoitida olishi mumkin boʻlgan, lekin ololmay qolgan daromadlari (boy berilgan foyda) tushuniladi.\nAgar huquqni buzgan shaxs buning natijasida daromad olgan boʻlsa, huquqi buzilgan shaxs boshqa zarar bilan bir qatorda boy berilgan foyda bunday daromaddan kam boʻlmagan miqdorda toʻlanishini talab qilishga haqli.",
+          "retrieval_score": 10.84317639500102,
+          "rerank_score": 56.843176395001024,
+          "used_in_answer": true
+        }
+      ],
+      "error": null,
+      "timing": {
+        "retrieval_ms": 12.141,
+        "rerank_ms": 0,
+        "generation_ms": 0.024,
+        "total_ms": 21.459
+      }
+    },
+    {
+      "id": "q005",
+      "status": "ok",
+      "answer": "Har yilgi asosiy eng kam mehnat taʼtilining davomiyligi yigirma bir kalendar kunni tashkil etadi. [1]",
+      "answer_language": "uz-Latn",
+      "no_answer": false,
+      "citations": [
+        {
+          "doc_id": "lex:6257288",
+          "doc_title": "Oʻzbekiston Respublikasining Mehnat kodeksi",
+          "doc_type": "kodeks",
+          "url": "https://lex.uz/docs/-6257288",
+          "article": "217-modda",
+          "part": null,
+          "edition_date": "2026-10-15",
+          "doc_status": "amalda",
+          "chunk_id": "lex:6257288#uz-Latn#art-217#2026-10-15",
+          "ref": 1,
+          "quote": "Har yilgi asosiy eng kam mehnat taʼtilining davomiyligi yigirma bir kalendar kunni tashkil etadi.",
+          "source_url": "https://www.lex.uz/docs/-6257288?ONDATE=15.10.2026+01",
+          "source_anchor": "-6263022",
+          "edition_label": "15.10.2026 01"
+        }
+      ],
+      "contexts": [
+        {
+          "rank": 1,
+          "chunk_id": "lex:6257288#uz-Latn#art-217#2026-10-15",
+          "doc_id": "lex:6257288",
+          "article": "217-modda",
+          "text": "217-modda. Har yilgi asosiy eng kam mehnat taʼtilining davomiyligi\nHar yilgi asosiy eng kam mehnat taʼtilining davomiyligi yigirma bir kalendar kunni tashkil etadi.",
+          "retrieval_score": 31.755409834130486,
+          "rerank_score": 137.7554098341305,
+          "used_in_answer": true
+        }
+      ],
+      "error": null,
+      "timing": {
+        "retrieval_ms": 17.871,
+        "rerank_ms": 0,
+        "generation_ms": 0.024,
+        "total_ms": 25.946
+      }
+    },
+    {
+      "id": "q006",
+      "status": "ok",
+      "answer": "Xodim va ish beruvchi oʻrtasidagi kelishuvga koʻra har yilgi mehnat taʼtili qismlarga boʻlinishi mumkin. Bunda ushbu taʼtilning hech boʻlmaganda bir qismi oʻn toʻrt kalendar kundan kam boʻlmasligi kerak. [1]",
+      "answer_language": "uz-Latn",
+      "no_answer": false,
+      "citations": [
+        {
+          "doc_id": "lex:6257288",
+          "doc_title": "Oʻzbekiston Respublikasining Mehnat kodeksi",
+          "doc_type": "kodeks",
+          "url": "https://lex.uz/docs/-6257288",
+          "article": "231-modda",
+          "part": null,
+          "edition_date": "2026-10-15",
+          "doc_status": "amalda",
+          "chunk_id": "lex:6257288#uz-Latn#art-231#2026-10-15",
+          "ref": 1,
+          "quote": "Xodim va ish beruvchi oʻrtasidagi kelishuvga koʻra har yilgi mehnat taʼtili qismlarga boʻlinishi mumkin. Bunda ushbu taʼtilning hech boʻlmaganda bir qismi oʻn toʻrt kalendar kundan kam boʻlmasligi kerak.",
+          "source_url": "https://www.lex.uz/docs/-6257288?ONDATE=15.10.2026+01",
+          "source_anchor": "-6263190",
+          "edition_label": "15.10.2026 01"
+        }
+      ],
+      "contexts": [
+        {
+          "rank": 1,
+          "chunk_id": "lex:6257288#uz-Latn#art-231#2026-10-15",
+          "doc_id": "lex:6257288",
+          "article": "231-modda",
+          "text": "231-modda. Har yilgi mehnat taʼtilini qismlarga boʻlish\nXodim va ish beruvchi oʻrtasidagi kelishuvga koʻra har yilgi mehnat taʼtili qismlarga boʻlinishi mumkin. Bunda ushbu taʼtilning hech boʻlmaganda bir qismi oʻn toʻrt kalendar kundan kam boʻlmasligi kerak.",
+          "retrieval_score": 23.215538903120304,
+          "rerank_score": 114.2155389031203,
+          "used_in_answer": true
+        }
+      ],
+      "error": null,
+      "timing": {
+        "retrieval_ms": 25.313,
+        "rerank_ms": 0,
+        "generation_ms": 0.034,
+        "total_ms": 34.118
+      }
+    },
+    {
+      "id": "q007",
+      "status": "ok",
+      "answer": "Xodim quyidagi huquqlarga ega:\nushbu Kodeksda va boshqa qonunlarda belgilangan tartibda hamda shartlarda mehnat shartnomasini tuzish, oʻzgartirish va bekor qilish;\nmehnat shartnomasida shartlashilgan ish bilan ish beruvchi tomonidan taʼminlanish;\nmehnatni muhofaza qilish talablariga mos keladigan ish joyiga ega boʻlish;\noʻz malakasiga, mehnatning murakkabligiga, bajarilgan ishning miqdori va sifatiga muvofiq oʻz vaqtida hamda toʻliq hajmda ish haqi olish;\nish vaqti davomiyligining chegarasini, ayrim kasblardagi va toifalardagi xodimlar uchun qisqartirilgan ish vaqtini belgilash, har haftalik dam olish kunlari, ishlanmaydigan bayram kunlari, shuningdek yillik mehnat taʼtillari berish orqali taʼminlanadigan dam olish;\nxavfsizlik va gigiyena talablariga javob beradigan mehnat sharoitlariga ega boʻlish, shuningdek ish joyidagi mehnat sharoitlari va mehnatni muhofaza qilish talablari toʻgʻrisida toʻliq va ishonchli axborot olish;\nmehnat toʻgʻrisidagi qonunchilikka, mehnat haqidagi boshqa huquqiy hujjatlarga, mehnat shartnomasiga muvofiq kasbga tayyorlash, qayta tayyorlash va malakasini oshirish;\noʻz mehnat huquqlari, erkinliklari va qonuniy manfaatlarini ifodalash hamda himoya qilish uchun kasaba uyushmalariga va boshqa tashkilotlarga birlashish;\njamoa kelishuvlari va jamoa shartnomasi, shuningdek ular shartlarining bajarilishi toʻgʻrisida axborot olish, shu jumladan oʻz vakillari orqali olish;\nmehnat toʻgʻrisidagi qonunchilikda belgilangan tartibda xodimga mehnat vazifalarini bajarishi munosabati bilan yetkazilgan moddiy zararning oʻrnini qoplash va maʼnaviy ziyonni kompensatsiya qilish;\noʻz mehnat huquqlari, erkinliklari va qonuniy manfaatlarini qonun bilan taqiqlanmagan barcha usullar bilan himoya qilish;\nmehnat nizolarini ushbu Kodeksda, boshqa qonunlarda belgilangan tartibda hal qilish.\nXodim mehnat toʻgʻrisidagi qonunchilikka, mehnat toʻgʻrisidagi boshqa huquqiy hujjatlarga va mehnat shartnomasiga muvofiq boshqa huquqlarga ham ega boʻlishi mumkin. [1]\n\nXodim:\nmehnat toʻgʻrisidagi qonunchilikka va mehnat haqidagi boshqa huquqiy hujjatlarga, mehnat shartnomalari shartlariga rioya etishi;\nmehnat shartnomasi bilan oʻz zimmasiga yuklatilgan mehnat majburiyatlarini vijdonan bajarishi;\nichki mehnat tartibiga rioya etishi;\nmehnat intizomiga rioya etishi;\nbelgilangan mehnat normalarini bajarishi;\nmehnatni muhofaza qilish talablariga, texnologiya intizomiga, mehnat xavfsizligi va ishlab chiqarish sanitariyasi qoidalariga rioya etishi;\nish beruvchining mol-mulkiga (shu jumladan uchinchi shaxslarning ish beruvchida turgan mol-mulkiga, agar ish beruvchi ushbu mol-mulkning but saqlanishi uchun javobgar boʻlsa) nisbatan ehtiyotkorona munosabatda boʻlishi;\nish beruvchiga yetkazilgan moddiy zararning oʻrnini ushbu Kodeksda belgilangan tartibda va doirada qoplashi;\ninsonlarning hayoti va sogʻligʻiga, ish beruvchining mol-mulki (shu jumladan uchinchi shaxslarning ish beruvchida boʻlgan mol-mulkiga, agar ish beruvchi ushbu mol-mulkning but saqlanishi uchun javobgar boʻlsa) but saqlanishiga tahdid soladigan vaziyat yuzaga kelganligi toʻgʻrisida ish beruvchiga yoki bevosita rahbarga darhol xabar qilishi;\nboshqa xodimlarning oʻz mehnat majburiyatlarini bajarishiga toʻsqinlik qiluvchi harakatlarni sodir etmasligi shart.\nXodimning zimmasida mehnat toʻgʻrisidagi qonunchilikka, mehnat toʻgʻrisidagi boshqa huquqiy hujjatlarga va mehnat shartnomasiga muvofiq boshqa majburiyatlar ham boʻlishi mumkin. [2]",
+      "answer_language": "uz-Latn",
+      "no_answer": false,
+      "citations": [
+        {
+          "doc_id": "lex:6257288",
+          "doc_title": "Oʻzbekiston Respublikasining Mehnat kodeksi",
+          "doc_type": "kodeks",
+          "url": "https://lex.uz/docs/-6257288",
+          "article": "21-modda",
+          "part": null,
+          "edition_date": "2026-10-15",
+          "doc_status": "amalda",
+          "chunk_id": "lex:6257288#uz-Latn#art-21#2026-10-15",
+          "ref": 1,
+          "quote": "Xodim quyidagi huquqlarga ega:\nushbu Kodeksda va boshqa qonunlarda belgilangan tartibda hamda shartlarda mehnat shartnomasini tuzish, oʻzgartirish va bekor qilish;\nmehnat shartnomasida shartlashilgan ish bilan ish beruvchi tomonidan taʼminlanish;\nmehnatni muhofaza qilish talablariga mos keladigan ish joyiga ega boʻlish;\noʻz malakasiga, mehnatning murakkabligiga, bajarilgan ishning miqdori va sifatiga muvofiq oʻz vaqtida hamda toʻliq hajmda ish haqi olish;\nish vaqti davomiyligining chegarasini, ayrim kasblardagi va toifalardagi xodimlar uchun qisqartirilgan ish vaqtini belgilash, har haftalik dam olish kunlari, ishlanmaydigan bayram kunlari, shuningdek yillik mehnat taʼtillari berish orqali taʼminlanadigan dam olish;\nxavfsizlik va gigiyena talablariga javob beradigan mehnat sharoitlariga ega boʻlish, shuningdek ish joyidagi mehnat sharoitlari va mehnatni muhofaza qilish talablari toʻgʻrisida toʻliq va ishonchli axborot olish;\nmehnat toʻgʻrisidagi qonunchilikka, mehnat haqidagi boshqa huquqiy hujjatlarga, mehnat shartnomasiga muvofiq kasbga tayyorlash, qayta tayyorlash va malakasini oshirish;\noʻz mehnat huquqlari, erkinliklari va qonuniy manfaatlarini ifodalash hamda himoya qilish uchun kasaba uyushmalariga va boshqa tashkilotlarga birlashish;\njamoa kelishuvlari va jamoa shartnomasi, shuningdek ular shartlarining bajarilishi toʻgʻrisida axborot olish, shu jumladan oʻz vakillari orqali olish;\nmehnat toʻgʻrisidagi qonunchilikda belgilangan tartibda xodimga mehnat vazifalarini bajarishi munosabati bilan yetkazilgan moddiy zararning oʻrnini qoplash va maʼnaviy ziyonni kompensatsiya qilish;\noʻz mehnat huquqlari, erkinliklari va qonuniy manfaatlarini qonun bilan taqiqlanmagan barcha usullar bilan himoya qilish;\nmehnat nizolarini ushbu Kodeksda, boshqa qonunlarda belgilangan tartibda hal qilish.\nXodim mehnat toʻgʻrisidagi qonunchilikka, mehnat toʻgʻrisidagi boshqa huquqiy hujjatlarga va mehnat shartnomasiga muvofiq boshqa huquqlarga ham ega boʻlishi mumkin.",
+          "source_url": "https://www.lex.uz/docs/-6257288?ONDATE=15.10.2026+01",
+          "source_anchor": "-6257916",
+          "edition_label": "15.10.2026 01"
+        },
+        {
+          "doc_id": "lex:6257288",
+          "doc_title": "Oʻzbekiston Respublikasining Mehnat kodeksi",
+          "doc_type": "kodeks",
+          "url": "https://lex.uz/docs/-6257288",
+          "article": "22-modda",
+          "part": null,
+          "edition_date": "2026-10-15",
+          "doc_status": "amalda",
+          "chunk_id": "lex:6257288#uz-Latn#art-22#2026-10-15",
+          "ref": 2,
+          "quote": "Xodim:\nmehnat toʻgʻrisidagi qonunchilikka va mehnat haqidagi boshqa huquqiy hujjatlarga, mehnat shartnomalari shartlariga rioya etishi;\nmehnat shartnomasi bilan oʻz zimmasiga yuklatilgan mehnat majburiyatlarini vijdonan bajarishi;\nichki mehnat tartibiga rioya etishi;\nmehnat intizomiga rioya etishi;\nbelgilangan mehnat normalarini bajarishi;\nmehnatni muhofaza qilish talablariga, texnologiya intizomiga, mehnat xavfsizligi va ishlab chiqarish sanitariyasi qoidalariga rioya etishi;\nish beruvchining mol-mulkiga (shu jumladan uchinchi shaxslarning ish beruvchida turgan mol-mulkiga, agar ish beruvchi ushbu mol-mulkning but saqlanishi uchun javobgar boʻlsa) nisbatan ehtiyotkorona munosabatda boʻlishi;\nish beruvchiga yetkazilgan moddiy zararning oʻrnini ushbu Kodeksda belgilangan tartibda va doirada qoplashi;\ninsonlarning hayoti va sogʻligʻiga, ish beruvchining mol-mulki (shu jumladan uchinchi shaxslarning ish beruvchida boʻlgan mol-mulkiga, agar ish beruvchi ushbu mol-mulkning but saqlanishi uchun javobgar boʻlsa) but saqlanishiga tahdid soladigan vaziyat yuzaga kelganligi toʻgʻrisida ish beruvchiga yoki bevosita rahbarga darhol xabar qilishi;\nboshqa xodimlarning oʻz mehnat majburiyatlarini bajarishiga toʻsqinlik qiluvchi harakatlarni sodir etmasligi shart.\nXodimning zimmasida mehnat toʻgʻrisidagi qonunchilikka, mehnat toʻgʻrisidagi boshqa huquqiy hujjatlarga va mehnat shartnomasiga muvofiq boshqa majburiyatlar ham boʻlishi mumkin.",
+          "source_url": "https://www.lex.uz/docs/-6257288?ONDATE=15.10.2026+01",
+          "source_anchor": "-6257931",
+          "edition_label": "15.10.2026 01"
+        }
+      ],
+      "contexts": [
+        {
+          "rank": 1,
+          "chunk_id": "lex:6257288#uz-Latn#art-21#2026-10-15",
+          "doc_id": "lex:6257288",
+          "article": "21-modda",
+          "text": "21-modda. Xodimning huquqlari\nXodim quyidagi huquqlarga ega:\nushbu Kodeksda va boshqa qonunlarda belgilangan tartibda hamda shartlarda mehnat shartnomasini tuzish, oʻzgartirish va bekor qilish;\nmehnat shartnomasida shartlashilgan ish bilan ish beruvchi tomonidan taʼminlanish;\nmehnatni muhofaza qilish talablariga mos keladigan ish joyiga ega boʻlish;\noʻz malakasiga, mehnatning murakkabligiga, bajarilgan ishning miqdori va sifatiga muvofiq oʻz vaqtida hamda toʻliq hajmda ish haqi olish;\nish vaqti davomiyligining chegarasini, ayrim kasblardagi va toifalardagi xodimlar uchun qisqartirilgan ish vaqtini belgilash, har haftalik dam olish kunlari, ishlanmaydigan bayram kunlari, shuningdek yillik mehnat taʼtillari berish orqali taʼminlanadigan dam olish;\nxavfsizlik va gigiyena talablariga javob beradigan mehnat sharoitlariga ega boʻlish, shuningdek ish joyidagi mehnat sharoitlari va mehnatni muhofaza qilish talablari toʻgʻrisida toʻliq va ishonchli axborot olish;\nmehnat toʻgʻrisidagi qonunchilikka, mehnat haqidagi boshqa huquqiy hujjatlarga, mehnat shartnomasiga muvofiq kasbga tayyorlash, qayta tayyorlash va malakasini oshirish;\noʻz mehnat huquqlari, erkinliklari va qonuniy manfaatlarini ifodalash hamda himoya qilish uchun kasaba uyushmalariga va boshqa tashkilotlarga birlashish;\njamoa kelishuvlari va jamoa shartnomasi, shuningdek ular shartlarining bajarilishi toʻgʻrisida axborot olish, shu jumladan oʻz vakillari orqali olish;\nmehnat toʻgʻrisidagi qonunchilikda belgilangan tartibda xodimga mehnat vazifalarini bajarishi munosabati bilan yetkazilgan moddiy zararning oʻrnini qoplash va maʼnaviy ziyonni kompensatsiya qilish;\noʻz mehnat huquqlari, erkinliklari va qonuniy manfaatlarini qonun bilan taqiqlanmagan barcha usullar bilan himoya qilish;\nmehnat nizolarini ushbu Kodeksda, boshqa qonunlarda belgilangan tartibda hal qilish.\nXodim mehnat toʻgʻrisidagi qonunchilikka, mehnat toʻgʻrisidagi boshqa huquqiy hujjatlarga va mehnat shartnomasiga muvofiq boshqa huquqlarga ham ega boʻlishi mumkin.",
+          "retrieval_score": 5.123204578191663,
+          "rerank_score": 51.12320457819166,
+          "used_in_answer": true
+        },
+        {
+          "rank": 2,
+          "chunk_id": "lex:6257288#uz-Latn#art-22#2026-10-15",
+          "doc_id": "lex:6257288",
+          "article": "22-modda",
+          "text": "22-modda. Xodimning majburiyatlari\nXodim:\nmehnat toʻgʻrisidagi qonunchilikka va mehnat haqidagi boshqa huquqiy hujjatlarga, mehnat shartnomalari shartlariga rioya etishi;\nmehnat shartnomasi bilan oʻz zimmasiga yuklatilgan mehnat majburiyatlarini vijdonan bajarishi;\nichki mehnat tartibiga rioya etishi;\nmehnat intizomiga rioya etishi;\nbelgilangan mehnat normalarini bajarishi;\nmehnatni muhofaza qilish talablariga, texnologiya intizomiga, mehnat xavfsizligi va ishlab chiqarish sanitariyasi qoidalariga rioya etishi;\nish beruvchining mol-mulkiga (shu jumladan uchinchi shaxslarning ish beruvchida turgan mol-mulkiga, agar ish beruvchi ushbu mol-mulkning but saqlanishi uchun javobgar boʻlsa) nisbatan ehtiyotkorona munosabatda boʻlishi;\nish beruvchiga yetkazilgan moddiy zararning oʻrnini ushbu Kodeksda belgilangan tartibda va doirada qoplashi;\ninsonlarning hayoti va sogʻligʻiga, ish beruvchining mol-mulki (shu jumladan uchinchi shaxslarning ish beruvchida boʻlgan mol-mulkiga, agar ish beruvchi ushbu mol-mulkning but saqlanishi uchun javobgar boʻlsa) but saqlanishiga tahdid soladigan vaziyat yuzaga kelganligi toʻgʻrisida ish beruvchiga yoki bevosita rahbarga darhol xabar qilishi;\nboshqa xodimlarning oʻz mehnat majburiyatlarini bajarishiga toʻsqinlik qiluvchi harakatlarni sodir etmasligi shart.\nXodimning zimmasida mehnat toʻgʻrisidagi qonunchilikka, mehnat toʻgʻrisidagi boshqa huquqiy hujjatlarga va mehnat shartnomasiga muvofiq boshqa majburiyatlar ham boʻlishi mumkin.",
+          "retrieval_score": 7.098131384275156,
+          "rerank_score": 53.098131384275156,
+          "used_in_answer": true
+        }
+      ],
+      "error": null,
+      "timing": {
+        "retrieval_ms": 43.539,
+        "rerank_ms": 0,
+        "generation_ms": 0.03,
+        "total_ms": 52.049
+      }
+    },
+    {
+      "id": "q008",
+      "status": "ok",
+      "answer": "Barcha fuqarolarning fuqarolik huquq va burchlariga ega boʻlish layoqati (huquq layoqati) teng ravishda eʼtirof etiladi.\nFuqaroning huquq layoqati u tugʻilgan paytdan eʼtiboran vujudga keladi va vafot etishi bilan tugaydi. [1]\n\nFuqaroning oʻz harakatlari bilan fuqarolik huquqlariga ega boʻlish va ularni amalga oshirish, oʻzi uchun fuqarolik burchlarini vujudga keltirish va ularni bajarish layoqati (muomala layoqati) u voyaga yetgach, yaʼni oʻn sakkiz yoshga toʻlgach toʻla hajmda vujudga keladi.\nVoyaga yetgunga qadar qonuniy asosda nikohdan oʻtgan fuqaro nikohdan oʻtgan vaqtdan eʼtiboran toʻla hajmda muomala layoqatiga ega boʻladi.\nNikoh tuzish natijasida ega boʻlingan muomala layoqati oʻn sakkiz yoshga toʻlmasdan turib nikoh bekor qilingan taqdirda ham toʻla saqlanib qoladi.\nNikoh haqiqiy emas deb topilganida sud voyaga yetmagan er (xotin) sud belgilagan paytdan boshlab toʻla muomala layoqatini yoʻqotganligi haqida qaror qabul qilishi mumkin. [2]",
+      "answer_language": "uz-Latn",
+      "no_answer": false,
+      "citations": [
+        {
+          "doc_id": "lex:111189",
+          "doc_title": "Oʻzbekiston Respublikasining Fuqarolik kodeksi (birinchi qism)",
+          "doc_type": "kodeks",
+          "url": "https://lex.uz/docs/-111189",
+          "article": "17-modda",
+          "part": null,
+          "edition_date": "2026-09-12",
+          "doc_status": "amalda",
+          "chunk_id": "lex:111189#uz-Latn#art-17#2026-09-12",
+          "ref": 1,
+          "quote": "Barcha fuqarolarning fuqarolik huquq va burchlariga ega boʻlish layoqati (huquq layoqati) teng ravishda eʼtirof etiladi.\nFuqaroning huquq layoqati u tugʻilgan paytdan eʼtiboran vujudga keladi va vafot etishi bilan tugaydi.",
+          "source_url": "https://www.lex.uz/docs/-111189?ONDATE=12.09.2026+01",
+          "source_anchor": "-150449",
+          "edition_label": "12.09.2026 01"
+        },
+        {
+          "doc_id": "lex:111189",
+          "doc_title": "Oʻzbekiston Respublikasining Fuqarolik kodeksi (birinchi qism)",
+          "doc_type": "kodeks",
+          "url": "https://lex.uz/docs/-111189",
+          "article": "22-modda",
+          "part": null,
+          "edition_date": "2026-09-12",
+          "doc_status": "amalda",
+          "chunk_id": "lex:111189#uz-Latn#art-22#2026-09-12",
+          "ref": 2,
+          "quote": "Fuqaroning oʻz harakatlari bilan fuqarolik huquqlariga ega boʻlish va ularni amalga oshirish, oʻzi uchun fuqarolik burchlarini vujudga keltirish va ularni bajarish layoqati (muomala layoqati) u voyaga yetgach, yaʼni oʻn sakkiz yoshga toʻlgach toʻla hajmda vujudga keladi.\nVoyaga yetgunga qadar qonuniy asosda nikohdan oʻtgan fuqaro nikohdan oʻtgan vaqtdan eʼtiboran toʻla hajmda muomala layoqatiga ega boʻladi.\nNikoh tuzish natijasida ega boʻlingan muomala layoqati oʻn sakkiz yoshga toʻlmasdan turib nikoh bekor qilingan taqdirda ham toʻla saqlanib qoladi.\nNikoh haqiqiy emas deb topilganida sud voyaga yetmagan er (xotin) sud belgilagan paytdan boshlab toʻla muomala layoqatini yoʻqotganligi haqida qaror qabul qilishi mumkin.",
+          "source_url": "https://www.lex.uz/docs/-111189?ONDATE=12.09.2026+01",
+          "source_anchor": "-151077",
+          "edition_label": "12.09.2026 01"
+        }
+      ],
+      "contexts": [
+        {
+          "rank": 1,
+          "chunk_id": "lex:111189#uz-Latn#art-17#2026-09-12",
+          "doc_id": "lex:111189",
+          "article": "17-modda",
+          "text": "17-modda. Fuqarolarning huquq layoqati\nBarcha fuqarolarning fuqarolik huquq va burchlariga ega boʻlish layoqati (huquq layoqati) teng ravishda eʼtirof etiladi.\nFuqaroning huquq layoqati u tugʻilgan paytdan eʼtiboran vujudga keladi va vafot etishi bilan tugaydi.",
+          "retrieval_score": 18.644886616972993,
+          "rerank_score": 79.644886616973,
+          "used_in_answer": true
+        },
+        {
+          "rank": 2,
+          "chunk_id": "lex:111189#uz-Latn#art-22#2026-09-12",
+          "doc_id": "lex:111189",
+          "article": "22-modda",
+          "text": "22-modda. Fuqaroning muomala layoqati\nFuqaroning oʻz harakatlari bilan fuqarolik huquqlariga ega boʻlish va ularni amalga oshirish, oʻzi uchun fuqarolik burchlarini vujudga keltirish va ularni bajarish layoqati (muomala layoqati) u voyaga yetgach, yaʼni oʻn sakkiz yoshga toʻlgach toʻla hajmda vujudga keladi.\nVoyaga yetgunga qadar qonuniy asosda nikohdan oʻtgan fuqaro nikohdan oʻtgan vaqtdan eʼtiboran toʻla hajmda muomala layoqatiga ega boʻladi.\nNikoh tuzish natijasida ega boʻlingan muomala layoqati oʻn sakkiz yoshga toʻlmasdan turib nikoh bekor qilingan taqdirda ham toʻla saqlanib qoladi.\nNikoh haqiqiy emas deb topilganida sud voyaga yetmagan er (xotin) sud belgilagan paytdan boshlab toʻla muomala layoqatini yoʻqotganligi haqida qaror qabul qilishi mumkin.",
+          "retrieval_score": 21.52182468657191,
+          "rerank_score": 82.5218246865719,
+          "used_in_answer": true
+        },
+        {
+          "rank": 3,
+          "chunk_id": "lex:111189#uz-Latn#art-31#2026-09-12",
+          "doc_id": "lex:111189",
+          "article": "31-modda",
+          "text": "31-modda. Fuqaroning muomala layoqatini cheklash\nSpirtli ichimliklarni yoki giyohvandlik vositalarini suiisteʼmol qilish natijasida oʻz oilasini ogʻir moddiy ahvolga solib qoʻyayotgan fuqaroning muomala layoqati sud tomonidan fuqarolik protsessual qonunchiligida belgilangan tartibda cheklab qoʻyilishi mumkin. Unga homiylik belgilanadi. Bunday fuqaro mayda maishiy bitimlarni mustaqil tuzish huquqiga ega. U boshqa bitimlarni homiyning roziligi bilangina tuzishi, shuningdek ish haqi, pensiya va boshqa daromadlar olishi hamda ularni tasarruf etishi mumkin. Biroq bunday fuqaro oʻzi tuzgan bitimlar boʻyicha va yetkazgan zarari uchun mustaqil ravishda mulkiy javobgar boʻladi.\nFuqaroning muomala layoqati cheklanishiga sabab boʻlgan asoslar bekor boʻlsa, sud uning muomala layoqatini cheklashni bekor qiladi. Fuqaroga belgilangan homiylik sud qarori asosida bekor qilinadi.",
+          "retrieval_score": 21.325721731854838,
+          "rerank_score": 60.32572173185484,
+          "used_in_answer": false
+        }
+      ],
+      "error": null,
+      "timing": {
+        "retrieval_ms": 15.174,
+        "rerank_ms": 0,
+        "generation_ms": 0.024,
+        "total_ms": 23.308
+      }
+    },
+    {
+      "id": "q009",
+      "status": "ok",
+      "answer": "Quyidagilar notarial tasdiqlangan ishonchnomalarga tenglashtiriladi:\ngospitallarda, sanatoriylarda va boshqa harbiy-davolash muassasalarida davolanayotgan harbiy xizmatchilarning hamda boshqa shaxslarning shu muassasalarning boshliqlari, ularning tibbiy qism boʻyicha oʻrinbosarlari, katta va navbatchi shifokorlari tomonidan tasdiqlangan ishonchnomalari, avtomototransport vositalarini boshqarish va tasarruf etish haqidagi ishonchnomalar bundan mustasno;\nharbiy xizmatchilarning, harbiy qismlar, qoʻshilmalar, muassasalar hamda harbiy oʻquv yurtlari joylashgan, notarial idoralar va notarial harakatlarni amalga oshiruvchi boshqa organlar boʻlmagan punktlarda esa — ishchi va xizmatchilarning, ular oilalarining va harbiy xizmatchilar oila aʼzolarining shu qism, qoʻshilma, muassasa va oʻquv yurtlarining komandirlari (boshliqlari) tomonidan tasdiqlangan ishonchnomalari, avtomototransport vositalarini boshqarish va tasarruf etish haqidagi ishonchnomalar bundan mustasno;\nozodlikdan mahrum qilish joylarida boʻlgan yoki qamoqda saqlanayotgan shaxslarning tegishli muassasalar boshliqlari tomonidan tasdiqlangan ishonchnomalari, avtomototransport vositalarini boshqarish va tasarruf etish haqidagi ishonchnomalar bundan mustasno.\ntazyiq va zoʻravonlikdan jabrlangan xotin-qizlarning bank kartasini tiklash uchun tijorat banklariga murojaat qilish toʻgʻrisida “Inson” ijtimoiy xizmatlar markazi direktori tomonidan tasdiqlangan ishonchnomalari. [1]",
+      "answer_language": "uz-Latn",
+      "no_answer": false,
+      "citations": [
+        {
+          "doc_id": "lex:111189",
+          "doc_title": "Oʻzbekiston Respublikasining Fuqarolik kodeksi (birinchi qism)",
+          "doc_type": "kodeks",
+          "url": "https://lex.uz/docs/-111189",
+          "article": "136-modda",
+          "part": null,
+          "edition_date": "2026-09-12",
+          "doc_status": "amalda",
+          "chunk_id": "lex:111189#uz-Latn#art-136#2026-09-12",
+          "ref": 1,
+          "quote": "Quyidagilar notarial tasdiqlangan ishonchnomalarga tenglashtiriladi:\ngospitallarda, sanatoriylarda va boshqa harbiy-davolash muassasalarida davolanayotgan harbiy xizmatchilarning hamda boshqa shaxslarning shu muassasalarning boshliqlari, ularning tibbiy qism boʻyicha oʻrinbosarlari, katta va navbatchi shifokorlari tomonidan tasdiqlangan ishonchnomalari, avtomototransport vositalarini boshqarish va tasarruf etish haqidagi ishonchnomalar bundan mustasno;\nharbiy xizmatchilarning, harbiy qismlar, qoʻshilmalar, muassasalar hamda harbiy oʻquv yurtlari joylashgan, notarial idoralar va notarial harakatlarni amalga oshiruvchi boshqa organlar boʻlmagan punktlarda esa — ishchi va xizmatchilarning, ular oilalarining va harbiy xizmatchilar oila aʼzolarining shu qism, qoʻshilma, muassasa va oʻquv yurtlarining komandirlari (boshliqlari) tomonidan tasdiqlangan ishonchnomalari, avtomototransport vositalarini boshqarish va tasarruf etish haqidagi ishonchnomalar bundan mustasno;\nozodlikdan mahrum qilish joylarida boʻlgan yoki qamoqda saqlanayotgan shaxslarning tegishli muassasalar boshliqlari tomonidan tasdiqlangan ishonchnomalari, avtomototransport vositalarini boshqarish va tasarruf etish haqidagi ishonchnomalar bundan mustasno.\ntazyiq va zoʻravonlikdan jabrlangan xotin-qizlarning bank kartasini tiklash uchun tijorat banklariga murojaat qilish toʻgʻrisida “Inson” ijtimoiy xizmatlar markazi direktori tomonidan tasdiqlangan ishonchnomalari.",
+          "source_url": "https://www.lex.uz/docs/-111189?ONDATE=12.09.2026+01",
+          "source_anchor": "-153580",
+          "edition_label": "12.09.2026 01"
+        }
+      ],
+      "contexts": [
+        {
+          "rank": 1,
+          "chunk_id": "lex:111189#uz-Latn#art-136#2026-09-12",
+          "doc_id": "lex:111189",
+          "article": "136-modda",
+          "text": "136-modda. Notarial tasdiqlangan ishonchnomalarga tenglashtirilgan ishonchnomalar\nQuyidagilar notarial tasdiqlangan ishonchnomalarga tenglashtiriladi:\ngospitallarda, sanatoriylarda va boshqa harbiy-davolash muassasalarida davolanayotgan harbiy xizmatchilarning hamda boshqa shaxslarning shu muassasalarning boshliqlari, ularning tibbiy qism boʻyicha oʻrinbosarlari, katta va navbatchi shifokorlari tomonidan tasdiqlangan ishonchnomalari, avtomototransport vositalarini boshqarish va tasarruf etish haqidagi ishonchnomalar bundan mustasno;\nharbiy xizmatchilarning, harbiy qismlar, qoʻshilmalar, muassasalar hamda harbiy oʻquv yurtlari joylashgan, notarial idoralar va notarial harakatlarni amalga oshiruvchi boshqa organlar boʻlmagan punktlarda esa — ishchi va xizmatchilarning, ular oilalarining va harbiy xizmatchilar oila aʼzolarining shu qism, qoʻshilma, muassasa va oʻquv yurtlarining komandirlari (boshliqlari) tomonidan tasdiqlangan ishonchnomalari, avtomototransport vositalarini boshqarish va tasarruf etish haqidagi ishonchnomalar bundan mustasno;\nozodlikdan mahrum qilish joylarida boʻlgan yoki qamoqda saqlanayotgan shaxslarning tegishli muassasalar boshliqlari tomonidan tasdiqlangan ishonchnomalari, avtomototransport vositalarini boshqarish va tasarruf etish haqidagi ishonchnomalar bundan mustasno.\ntazyiq va zoʻravonlikdan jabrlangan xotin-qizlarning bank kartasini tiklash uchun tijorat banklariga murojaat qilish toʻgʻrisida “Inson” ijtimoiy xizmatlar markazi direktori tomonidan tasdiqlangan ishonchnomalari.",
+          "retrieval_score": 34.01536013634196,
+          "rerank_score": 110.01536013634197,
+          "used_in_answer": true
+        }
+      ],
+      "error": null,
+      "timing": {
+        "retrieval_ms": 1.568,
+        "rerank_ms": 0,
+        "generation_ms": 0.021,
+        "total_ms": 9.839
+      }
+    },
+    {
+      "id": "q010",
+      "status": "ok",
+      "answer": "Продолжительность ежегодного основного минимального трудового отпуска составляет двадцать один календарный день. [1]",
+      "answer_language": "ru",
+      "no_answer": false,
+      "citations": [
+        {
+          "doc_id": "lex:6257291",
+          "doc_title": "Трудовой кодекс Республики Узбекистан",
+          "doc_type": "kodeks",
+          "url": "https://lex.uz/docs/6257291",
+          "article": "Статья 217",
+          "part": null,
+          "edition_date": "2026-10-15",
+          "doc_status": "amalda",
+          "chunk_id": "lex:6257291#ru#art-217#2026-10-15",
+          "ref": 1,
+          "quote": "Продолжительность ежегодного основного минимального трудового отпуска составляет двадцать один календарный день.",
+          "source_url": "https://www.lex.uz/docs/6257291?ONDATE=15.10.2026+01",
+          "source_anchor": "6263232",
+          "edition_label": "15.10.2026 01"
+        }
+      ],
+      "contexts": [
+        {
+          "rank": 1,
+          "chunk_id": "lex:6257291#ru#art-217#2026-10-15",
+          "doc_id": "lex:6257291",
+          "article": "Статья 217",
+          "text": "Статья 217. Продолжительность ежегодного основного минимального трудового отпуска\nПродолжительность ежегодного основного минимального трудового отпуска составляет двадцать один календарный день.",
+          "retrieval_score": 47.023277700268544,
+          "rerank_score": 153.02327770026855,
+          "used_in_answer": true
+        }
+      ],
+      "error": null,
+      "timing": {
+        "retrieval_ms": 45.824,
+        "rerank_ms": 0,
+        "generation_ms": 0.024,
+        "total_ms": 53.995
+      }
+    }
+  ]
+}

@@ -1,0 +1,780 @@
+{
+  "run_id": "tz-final-http",
+  "batch_id": "tz-final-http-b08",
+  "status": "completed",
+  "system": {
+    "pipeline_version": "0.4.0",
+    "llm_model": null,
+    "embedding_model": null,
+    "reranker": "lexical-title-v2",
+    "query_rewriter": "uz-colloquial-rules-v1",
+    "implementation_version": "7c04e361977c5e6b",
+    "index_version": "f7713de8144eee76",
+    "lex_snapshot_date": "2026-11-06",
+    "mode": "bm25-multisource-extractive",
+    "documents": 6,
+    "chunks": 29727,
+    "translation_map_version": "f4467e667a7fd4d1"
+  },
+  "timing": {
+    "received_at": "2026-11-06T01:11:29.493509+00:00",
+    "completed_at": "2026-11-06T01:11:29.931534+00:00",
+    "total_ms": 437.269
+  },
+  "summary": {
+    "total": 10,
+    "ok": 9,
+    "no_answer": 1,
+    "error": 0
+  },
+  "results": [
+    {
+      "id": "q071",
+      "status": "ok",
+      "answer": "Fuqarolik qonunchiligi fuqarolik muomalasi ishtirokchilarining huquqiy holatini, mulk huquqi va boshqa ashyoviy huquqlarning, intellektual faoliyat natijalariga boʻlgan huquqlarning vujudga kelish asoslarini hamda ularni amalga oshirish tartibini belgilaydi, shartnoma majburiyatlari va oʻzga majburiyatlarni, shuningdek boshqa mulkiy hamda u bilan bogʻliq shaxsiy nomulkiy munosabatlarni tartibga soladi.\nFuqarolar, yuridik shaxslar va davlat fuqarolik qonunchiligi bilan tartibga solinadigan munosabatlarning ishtirokchilari boʻladilar.\nAgar qonunda boshqacha tartib nazarda tutilgan boʻlmasa, fuqarolik qonunchiligida belgilab qoʻyilgan qoidalar chet ellik fuqarolar, fuqaroligi boʻlmagan shaxslar hamda chet ellik yuridik shaxslar ishtirokidagi munosabatlarga qoʻllaniladi.\nShaxsiy nomulkiy munosabatlar va mulkiy munosabatlar bilan bogʻliq boʻlmagan shaxsiy munosabatlar, agar qonunlarda boshqacha tartib nazarda tutilgan boʻlmasa yoki bu munosabatlarning mohiyatidan oʻzgacha hol anglashilmasa, fuqarolik qonunchiligi bilan tartibga solinadi.\nUshbu moddaning birinchi qismida koʻrsatilgan belgilarga javob beradigan oilaviy munosabatlarga, mehnat munosabatlariga hamda tabiiy resurslardan foydalanish va atrof-muhitni muhofaza qilish boʻyicha munosabatlarga, shuningdek banklarni sanatsiya qilish va tugatish bilan bogʻliq munosabatlarga nisbatan fuqarolik qonunchiligi bu munosabatlar maxsus qonun hujjatlari bilan tartibga solinmaydigan hollarda qoʻllaniladi.\nBir tarafning ikkinchi tarafga maʼmuriy boʻysunishiga asoslangan mulkiy munosabatlarga, shu jumladan soliq, moliyaviy va boshqa maʼmuriy munosabatlarga nisbatan fuqarolik qonunchiligi qoʻllanilmaydi, bundan qonunchilikda nazarda tutilgan hollar mustasno. [1]",
+      "answer_language": "uz-Latn",
+      "no_answer": false,
+      "citations": [
+        {
+          "doc_id": "lex:111189",
+          "doc_title": "Oʻzbekiston Respublikasining Fuqarolik kodeksi (birinchi qism)",
+          "doc_type": "kodeks",
+          "url": "https://lex.uz/docs/-111189",
+          "article": "2-modda",
+          "part": null,
+          "edition_date": "2026-09-12",
+          "doc_status": "amalda",
+          "chunk_id": "lex:111189#uz-Latn#art-2#2026-09-12",
+          "ref": 1,
+          "quote": "Fuqarolik qonunchiligi fuqarolik muomalasi ishtirokchilarining huquqiy holatini, mulk huquqi va boshqa ashyoviy huquqlarning, intellektual faoliyat natijalariga boʻlgan huquqlarning vujudga kelish asoslarini hamda ularni amalga oshirish tartibini belgilaydi, shartnoma majburiyatlari va oʻzga majburiyatlarni, shuningdek boshqa mulkiy hamda u bilan bogʻliq shaxsiy nomulkiy munosabatlarni tartibga soladi.\nFuqarolar, yuridik shaxslar va davlat fuqarolik qonunchiligi bilan tartibga solinadigan munosabatlarning ishtirokchilari boʻladilar.\nAgar qonunda boshqacha tartib nazarda tutilgan boʻlmasa, fuqarolik qonunchiligida belgilab qoʻyilgan qoidalar chet ellik fuqarolar, fuqaroligi boʻlmagan shaxslar hamda chet ellik yuridik shaxslar ishtirokidagi munosabatlarga qoʻllaniladi.\nShaxsiy nomulkiy munosabatlar va mulkiy munosabatlar bilan bogʻliq boʻlmagan shaxsiy munosabatlar, agar qonunlarda boshqacha tartib nazarda tutilgan boʻlmasa yoki bu munosabatlarning mohiyatidan oʻzgacha hol anglashilmasa, fuqarolik qonunchiligi bilan tartibga solinadi.\nUshbu moddaning birinchi qismida koʻrsatilgan belgilarga javob beradigan oilaviy munosabatlarga, mehnat munosabatlariga hamda tabiiy resurslardan foydalanish va atrof-muhitni muhofaza qilish boʻyicha munosabatlarga, shuningdek banklarni sanatsiya qilish va tugatish bilan bogʻliq munosabatlarga nisbatan fuqarolik qonunchiligi bu munosabatlar maxsus qonun hujjatlari bilan tartibga solinmaydigan hollarda qoʻllaniladi.\nBir tarafning ikkinchi tarafga maʼmuriy boʻysunishiga asoslangan mulkiy munosabatlarga, shu jumladan soliq, moliyaviy va boshqa maʼmuriy munosabatlarga nisbatan fuqarolik qonunchiligi qoʻllanilmaydi, bundan qonunchilikda nazarda tutilgan hollar mustasno.",
+          "source_url": "https://www.lex.uz/docs/-111189?ONDATE=12.09.2026+01",
+          "source_anchor": "-5443907",
+          "edition_label": "12.09.2026 01"
+        }
+      ],
+      "contexts": [
+        {
+          "rank": 1,
+          "chunk_id": "lex:111189#uz-Latn#art-2#2026-09-12",
+          "doc_id": "lex:111189",
+          "article": "2-modda",
+          "text": "2-modda. Fuqarolik qonunchiligi bilan tartibga solinadigan munosabatlar\nFuqarolik qonunchiligi fuqarolik muomalasi ishtirokchilarining huquqiy holatini, mulk huquqi va boshqa ashyoviy huquqlarning, intellektual faoliyat natijalariga boʻlgan huquqlarning vujudga kelish asoslarini hamda ularni amalga oshirish tartibini belgilaydi, shartnoma majburiyatlari va oʻzga majburiyatlarni, shuningdek boshqa mulkiy hamda u bilan bogʻliq shaxsiy nomulkiy munosabatlarni tartibga soladi.\nFuqarolar, yuridik shaxslar va davlat fuqarolik qonunchiligi bilan tartibga solinadigan munosabatlarning ishtirokchilari boʻladilar.\nAgar qonunda boshqacha tartib nazarda tutilgan boʻlmasa, fuqarolik qonunchiligida belgilab qoʻyilgan qoidalar chet ellik fuqarolar, fuqaroligi boʻlmagan shaxslar hamda chet ellik yuridik shaxslar ishtirokidagi munosabatlarga qoʻllaniladi.\nShaxsiy nomulkiy munosabatlar va mulkiy munosabatlar bilan bogʻliq boʻlmagan shaxsiy munosabatlar, agar qonunlarda boshqacha tartib nazarda tutilgan boʻlmasa yoki bu munosabatlarning mohiyatidan oʻzgacha hol anglashilmasa, fuqarolik qonunchiligi bilan tartibga solinadi.\nUshbu moddaning birinchi qismida koʻrsatilgan belgilarga javob beradigan oilaviy munosabatlarga, mehnat munosabatlariga hamda tabiiy resurslardan foydalanish va atrof-muhitni muhofaza qilish boʻyicha munosabatlarga, shuningdek banklarni sanatsiya qilish va tugatish bilan bogʻliq munosabatlarga nisbatan fuqarolik qonunchiligi bu munosabatlar maxsus qonun hujjatlari bilan tartibga solinmaydigan hollarda qoʻllaniladi.\nBir tarafning ikkinchi tarafga maʼmuriy boʻysunishiga asoslangan mulkiy munosabatlarga, shu jumladan soliq, moliyaviy va boshqa maʼmuriy munosabatlarga nisbatan fuqarolik qonunchiligi qoʻllanilmaydi, bundan qonunchilikda nazarda tutilgan hollar mustasno.",
+          "retrieval_score": 30.488152219698208,
+          "rerank_score": 106.48815221969821,
+          "used_in_answer": true
+        },
+        {
+          "rank": 2,
+          "chunk_id": "lex:6257288#uz-Latn#art-1#2026-10-15",
+          "doc_id": "lex:6257288",
+          "article": "1-modda",
+          "text": "1-modda. Ushbu Kodeks bilan tartibga solinadigan munosabatlar\nUshbu Kodeks xodimlar, ish beruvchilar va davlat manfaatlarining muvozanatini taʼminlash hamda ularni muvofiqlashtirish asosida yakka tartibdagi mehnatga oid munosabatlarni va ular bilan bevosita bogʻliq boʻlgan ijtimoiy munosabatlarni tartibga soladi.",
+          "retrieval_score": 19.450070635655273,
+          "rerank_score": 80.45007063565527,
+          "used_in_answer": false
+        },
+        {
+          "rank": 3,
+          "chunk_id": "lex:111189#uz-Latn#art-3#2026-09-12",
+          "doc_id": "lex:111189",
+          "article": "3-modda",
+          "text": "3-modda. Fuqarolik qonunchiligi hujjatlari\nFuqarolik qonunchiligi ushbu Kodeksdan, ushbu Kodeks 2-moddasining birinchi, toʻrtinchi va beshinchi qismlarida koʻrsatilgan munosabatlarni tartibga soluvchi boshqa qonunlar hamda qonunchilik hujjatlaridan iborat.\nOʻzbekiston Respublikasining Konstitutsiyaviy Qonuni bilan maxsus huquqiy rejim oʻrnatilgan hududda fuqarolik-huquqiy munosabatlar ushbu Kodeksda belgilanganidan boshqacha qoidalar bilan tartibga solinadi.\nBoshqa qonunlar va qonunchilik hujjatlaridagi fuqarolik qonunchiligi normalari ushbu Kodeksga mos boʻlishi shart, bundan maxsus huquqiy rejim oʻrnatadigan Oʻzbekiston Respublikasining Konstitutsiyaviy Qonuni bilan belgilangan hollar mustasno.\nVazirliklar, idoralar va boshqa davlat organlari ushbu Kodeksda, boshqa qonunlar hamda qonunchilik hujjatlarida nazarda tutilgan hollarda va doirada fuqarolik munosabatlarini tartibga soluvchi hujjatlar chiqarishi mumkin.",
+          "retrieval_score": 23.636592243957942,
+          "rerank_score": 47.63659224395794,
+          "used_in_answer": false
+        },
+        {
+          "rank": 4,
+          "chunk_id": "lex:111189#uz-Latn#art-79#2026-09-12",
+          "doc_id": "lex:111189",
+          "article": "79-modda",
+          "text": "79-modda. Davlatning fuqarolik-huquqiy munosabatlarda ishtirok etishi\nDavlat fuqarolik qonunchiligi bilan tartibga solinadigan munosabatlarda ularning boshqa ishtirokchilari bilan baravar asoslarda ishtirok etadi.\nFuqarolik qonunchiligi bilan tartibga solinadigan munosabatlarda davlat nomidan davlat hokimiyati va boshqaruvi organlari hamda ular maxsus vakil qilgan boshqa organlar ishtirok etadilar.\nDavlat oʻzining fuqarolik-huquqiy majburiyatlari boʻyicha oʻz mulki boʻlgan mablagʻlari bilan javob beradi.",
+          "retrieval_score": 28.80657178044802,
+          "rerank_score": 46.806571780448024,
+          "used_in_answer": false
+        },
+        {
+          "rank": 5,
+          "chunk_id": "lex:111189#uz-Latn#art-1#2026-09-12",
+          "doc_id": "lex:111189",
+          "article": "1-modda",
+          "text": "1-modda. Fuqarolik qonunchiligining asosiy negizlari\nFuqarolik qonunchiligi ular tomonidan tartibga solinadigan munosabatlar ishtirokchilarining tengligini eʼtirof etishga, mulkning daxlsizligiga, shartnomaning erkinligiga, xususiy ishlarga biron-bir kishining oʻzboshimchalik bilan aralashishiga yoʻl qoʻyilmasligiga, fuqarolik huquqlari toʻsqinliksiz amalga oshirilishini, buzilgan huquqlar tiklanishini, ularning sud orqali himoya qilinishini taʼminlash zarurligiga asoslanadi.\nFuqarolar (jismoniy shaxslar) va yuridik shaxslar oʻz fuqarolik huquqlariga oʻz erklariga muvofiq ega boʻladilar va bu huquqlarini oʻz manfaatlarini koʻzlab amalga oshiradilar. Ular shartnoma asosida oʻz huquq va burchlarini belgilashda va qonunchilikka zid boʻlmagan har qanday shartnoma shartlarini aniqlashda erkindirlar.\nTovarlar, xizmatlar va moliyaviy mablagʻlar Oʻzbekiston Respublikasining butun hududida erkin harakatda boʻladi.\nXavfsizlikni taʼminlash, insonlarning hayoti va sogʻligʻini himoya qilish, tabiatni va madaniy meros obyektlarini muhofaza qilish uchun zarur boʻlsa, tovarlar va xizmatlar harakatda boʻlishini cheklash qonunchilikka muvofiq joriy etilishi mumkin.",
+          "retrieval_score": 22.52742887615685,
+          "rerank_score": 44.52742887615685,
+          "used_in_answer": false
+        }
+      ],
+      "error": null,
+      "timing": {
+        "retrieval_ms": 13.054,
+        "rerank_ms": 0,
+        "generation_ms": 0.042,
+        "total_ms": 23.719
+      }
+    },
+    {
+      "id": "q072",
+      "status": "ok",
+      "answer": "Soat 22-00 dan to soat 6-00 gacha boʻlgan vaqt tungi vaqt hisoblanadi.\nAgar xodim uchun belgilangan har kungi ish (smena) davomiyligining kamida yarmi tungi vaqtga toʻgʻri kelsa, tungi vaqtdagi ishning davomiyligi ish haftasining davomiyligi tegishli ravishda qisqartirilgan, keyinchalik ishlab berilmagan holda bir soatga qisqartiriladi.\nAgar jamoa shartnomasida boshqacha qoida nazarda tutilmagan boʻlsa, ish vaqtining qisqartirilgan davomiyligi belgilangan xodimlar uchun, shuningdek tungi vaqtda ishlashga maxsus qabul qilingan xodimlar uchun tungi vaqtdagi ishning (smenaning) davomiyligi qisqartirilmaydi.\nMehnat sharoitlariga koʻra zarur boʻlgan hollarda, shuningdek olti kunlik ish haftasidagi smenali ishlarda tungi vaqtdagi ishning davomiyligi kunduzgi vaqtdagi ishning davomiyligi bilan tenglashtiriladi. Mazkur ishlar roʻyxati jamoa shartnomasida, agar u tuzilmagan boʻlsa, ish beruvchi tomonidan kasaba uyushmasi qoʻmitasi bilan kelishuvga koʻra belgilanishi mumkin.\nXodimlarni tungi vaqtdagi ishga jalb etish ushbu Kodeks 396-moddasining ikkinchi qismida, 417-moddaning birinchi qismida va 428-moddasida belgilangan cheklovlarga rioya etilgan holda amalga oshiriladi.\nTungi vaqtdagi mehnatga haq toʻlash ushbu Kodeksning 264-moddasiga muvofiq amalga oshiriladi. [1]",
+      "answer_language": "uz-Latn",
+      "no_answer": false,
+      "citations": [
+        {
+          "doc_id": "lex:6257288",
+          "doc_title": "Oʻzbekiston Respublikasining Mehnat kodeksi",
+          "doc_type": "kodeks",
+          "url": "https://lex.uz/docs/-6257288",
+          "article": "188-modda",
+          "part": null,
+          "edition_date": "2026-10-15",
+          "doc_status": "amalda",
+          "chunk_id": "lex:6257288#uz-Latn#art-188#2026-10-15",
+          "ref": 1,
+          "quote": "Soat 22-00 dan to soat 6-00 gacha boʻlgan vaqt tungi vaqt hisoblanadi.\nAgar xodim uchun belgilangan har kungi ish (smena) davomiyligining kamida yarmi tungi vaqtga toʻgʻri kelsa, tungi vaqtdagi ishning davomiyligi ish haftasining davomiyligi tegishli ravishda qisqartirilgan, keyinchalik ishlab berilmagan holda bir soatga qisqartiriladi.\nAgar jamoa shartnomasida boshqacha qoida nazarda tutilmagan boʻlsa, ish vaqtining qisqartirilgan davomiyligi belgilangan xodimlar uchun, shuningdek tungi vaqtda ishlashga maxsus qabul qilingan xodimlar uchun tungi vaqtdagi ishning (smenaning) davomiyligi qisqartirilmaydi.\nMehnat sharoitlariga koʻra zarur boʻlgan hollarda, shuningdek olti kunlik ish haftasidagi smenali ishlarda tungi vaqtdagi ishning davomiyligi kunduzgi vaqtdagi ishning davomiyligi bilan tenglashtiriladi. Mazkur ishlar roʻyxati jamoa shartnomasida, agar u tuzilmagan boʻlsa, ish beruvchi tomonidan kasaba uyushmasi qoʻmitasi bilan kelishuvga koʻra belgilanishi mumkin.\nXodimlarni tungi vaqtdagi ishga jalb etish ushbu Kodeks 396-moddasining ikkinchi qismida, 417-moddaning birinchi qismida va 428-moddasida belgilangan cheklovlarga rioya etilgan holda amalga oshiriladi.\nTungi vaqtdagi mehnatga haq toʻlash ushbu Kodeksning 264-moddasiga muvofiq amalga oshiriladi.",
+          "source_url": "https://www.lex.uz/docs/-6257288?ONDATE=15.10.2026+01",
+          "source_anchor": "-6262398",
+          "edition_label": "15.10.2026 01"
+        }
+      ],
+      "contexts": [
+        {
+          "rank": 1,
+          "chunk_id": "lex:6257288#uz-Latn#art-188#2026-10-15",
+          "doc_id": "lex:6257288",
+          "article": "188-modda",
+          "text": "188-modda. Tungi vaqtdagi ishning davomiyligi\nSoat 22-00 dan to soat 6-00 gacha boʻlgan vaqt tungi vaqt hisoblanadi.\nAgar xodim uchun belgilangan har kungi ish (smena) davomiyligining kamida yarmi tungi vaqtga toʻgʻri kelsa, tungi vaqtdagi ishning davomiyligi ish haftasining davomiyligi tegishli ravishda qisqartirilgan, keyinchalik ishlab berilmagan holda bir soatga qisqartiriladi.\nAgar jamoa shartnomasida boshqacha qoida nazarda tutilmagan boʻlsa, ish vaqtining qisqartirilgan davomiyligi belgilangan xodimlar uchun, shuningdek tungi vaqtda ishlashga maxsus qabul qilingan xodimlar uchun tungi vaqtdagi ishning (smenaning) davomiyligi qisqartirilmaydi.\nMehnat sharoitlariga koʻra zarur boʻlgan hollarda, shuningdek olti kunlik ish haftasidagi smenali ishlarda tungi vaqtdagi ishning davomiyligi kunduzgi vaqtdagi ishning davomiyligi bilan tenglashtiriladi. Mazkur ishlar roʻyxati jamoa shartnomasida, agar u tuzilmagan boʻlsa, ish beruvchi tomonidan kasaba uyushmasi qoʻmitasi bilan kelishuvga koʻra belgilanishi mumkin.\nXodimlarni tungi vaqtdagi ishga jalb etish ushbu Kodeks 396-moddasining ikkinchi qismida, 417-moddaning birinchi qismida va 428-moddasida belgilangan cheklovlarga rioya etilgan holda amalga oshiriladi.\nTungi vaqtdagi mehnatga haq toʻlash ushbu Kodeksning 264-moddasiga muvofiq amalga oshiriladi.",
+          "retrieval_score": 32.16976382216492,
+          "rerank_score": 108.16976382216492,
+          "used_in_answer": true
+        },
+        {
+          "rank": 2,
+          "chunk_id": "lex:6257288#uz-Latn#art-264#2026-10-15",
+          "doc_id": "lex:6257288",
+          "article": "264-modda",
+          "text": "264-modda. Tungi vaqtdagi mehnat uchun haq toʻlash\nQuyidagi hollarda tungi vaqtdagi mehnat uchun haq toʻlash kamida bir yarim baravar miqdorida amalga oshiriladi:\nmehnatga haq toʻlashning vaqtbay tizimida — tungi vaqtdagi ishning har bir soati uchun 1,5 yoki undan ortiq koeffitsiyentni qoʻllagan holda;\nmehnatga haq toʻlashning ishbay tizimida — tegishli razryadga (malakaga) ega boʻlgan vaqtbay ishlovchining soatlik tarif stavkasining (maoshining) ellik foizi yoki undan ortiq miqdorida ishbay ish haqi va qoʻshimcha toʻlov toʻliq toʻlanadi.\nTungi vaqtdagi ish uchun oshirilgan miqdorda haq toʻlash tarif stavkalariga (maoshlarga) kiritilmaydi.\nTungi vaqtdagi, shuningdek koʻp smenali rejimdagi ish uchun ish haqiga doir qoʻshimcha toʻlovning aniq miqdori jamoa shartnomasida, ish beruvchi tomonidan kasaba uyushmasi qoʻmitasi bilan kelishuvga koʻra qabul qilinadigan ichki hujjatlarda yoxud mehnat shartnomasida belgilanadi.",
+          "retrieval_score": 29.411417481840743,
+          "rerank_score": 49.41141748184074,
+          "used_in_answer": false
+        },
+        {
+          "rank": 3,
+          "chunk_id": "lex:6257288#uz-Latn#art-245#2026-10-15",
+          "doc_id": "lex:6257288",
+          "article": "245-modda",
+          "text": "245-modda. Mehnatga haq toʻlashning eng kam miqdorini belgilash\nMehnatga haq toʻlashning eng kam miqdori Oʻzbekiston Respublikasi Prezidenti tomonidan insonning munosib turmush darajasini taʼminlash zarurati hamda Ijtimoiy-mehnat masalalari boʻyicha respublika uch tomonlama komissiyasi tomonidan ishlab chiqilgan takliflar hisobga olingan holda Oʻzbekiston Respublikasining butun hududida bir vaqtning oʻzida belgilanadi hamda tashkiliy-huquqiy shakllaridan, mulkchilik shakllaridan va idoraviy boʻysunuvidan qatʼi nazar, barcha ish beruvchilar uchun majburiydir.\nIsh vaqtining oylik normasini ishlab bergan va mehnat shartnomasida belgilangan mehnat vazifasini bajargan xodimning mehnatiga haq toʻlashning oylik miqdori qonunchilikda belgilangan mehnatga haq toʻlashning eng kam miqdoridan kam boʻlishi mumkin emas.\nOʻz mehnat majburiyatlarini bajargan xodimning mehnatiga soatbay haq toʻlashning eng kam miqdori tegishli kalendar yilda olti kunlik ish haftasidagi ish soatlarining oʻrtacha oylik miqdoriga boʻlingan, bir oyda mehnatga haq toʻlashning qonunchilikda belgilangan eng kam miqdoridan kam boʻlishi mumkin emas.\nMehnatga haq toʻlash tizimida nazarda tutilgan mukofotlar, ish haqiga ustamalar, boshqa ragʻbatlantiruvchi toʻlovlar, shuningdek ish vaqtidan tashqari ish, dam olish kunlaridagi va ishlanmaydigan bayram kunlaridagi ish, tungi vaqtdagi ish uchun toʻlovlar, tuman koeffitsiyentlariga doir toʻlovlar hamda boshqa kompensatsiyaga oid va ijtimoiy toʻlovlar mehnatga haq toʻlashning eng kam miqdoriga kiritilmaydi.",
+          "retrieval_score": 13.507417933733493,
+          "rerank_score": 14.507417933733493,
+          "used_in_answer": false
+        },
+        {
+          "rank": 4,
+          "chunk_id": "lex:6257288#uz-Latn#art-397#2026-10-15",
+          "doc_id": "lex:6257288",
+          "article": "397-modda",
+          "text": "397-modda. Uch yoshga toʻlmagan bolaning ota-onasidan birining (vasiysining) qisqartirilgan ish vaqti davomiyligiga boʻlgan huquqi\nUch yoshga toʻlmagan bolaning budjetdan moliyalashtiriladigan tashkilotlarda ishlaydigan ota-onasidan biriga (vasiysiga) haftasiga oʻttiz besh soatdan oshmaydigan ish vaqti davomiyligi belgilanadi.\nIsh vaqtining qisqartirilgan davomiyligida ushbu moddaning birinchi qismida koʻrsatilgan xodimlar mehnatiga haq toʻlash har kungi toʻliq ish davomiyligida ishlaydigan xodimlar uchun belgilangan miqdorda amalga oshiriladi.\nUch yoshga toʻlmagan bolaning budjetdan moliyalashtirilmaydigan ish beruvchilarda ishlaydigan ota-onasidan biriga, vasiysiga qisqartirilgan ish vaqti davomiyligi jamoa kelishuvlarida, shuningdek jamoa shartnomasida yoki ish beruvchi tomonidan kasaba uyushmasi qoʻmitasi bilan kelishilgan holda qabul qilinadigan ichki hujjatlarda belgilanishi mumkin.",
+          "retrieval_score": 12.03248761449692,
+          "rerank_score": 14.032487614496922,
+          "used_in_answer": false
+        },
+        {
+          "rank": 5,
+          "chunk_id": "lex:6257288#uz-Latn#art-118#2026-10-15",
+          "doc_id": "lex:6257288",
+          "article": "118-modda",
+          "text": "118-modda. Ishga qabul qilishga yoʻl qoʻyiladigan yosh\nIshga qabul qilishga ushbu Kodeksning 20-moddasiga muvofiq shaxslar mehnatga oid huquq layoqatiga va muomala layoqatiga ega boʻlishi bilan, oʻn olti yoshdan yoʻl qoʻyiladi.\nYoshlarni mehnatga tayyorlash uchun umumiy oʻrta, oʻrta maxsus, professional taʼlim tashkilotlarining oʻquvchilarini ularning sogʻligʻiga hamda maʼnaviy kamol topishiga ziyon yetkazmaydigan, oʻqitish jarayonini buzmaydigan yengil mehnatni oʻqishdan boʻsh vaqtida bajarishi uchun ishga qabul qilishga — ular oʻn besh yoshga toʻlishi bilan ota-onadan birining (ota-onasining oʻrnini bosuvchi shaxsning) yozma roziligi bilan yoʻl qoʻyiladi.\nMadaniy-tomosha tashkilotlarida, televideniye, radioeshittirish tashkilotlarida va boshqa ommaviy axborot vositalarida, shuningdek professional sportchilar bilan ota-onaning har ikkisining (ota-ona oʻrnini bosuvchi shaxsning) roziligi hamda vasiylik va homiylik organining ruxsati bilan, sogʻligʻiga va maʼnaviy kamol topishiga ziyon yetkazmasdan asarlarni yaratish va (yoki) ijro etishda (koʻrgazmaga qoʻyishda) ishtirok etish uchun oʻn besh yoshga toʻlmagan shaxslar bilan mehnat shartnomasini tuzishga yoʻl qoʻyiladi. Koʻrsatilgan yoshga toʻlgan shaxslar qabul qilinishi mumkin boʻlgan ishlar, kasblar, lavozimlar roʻyxatlari Oʻzbekiston Respublikasi Vazirlar Mahkamasi tomonidan Ijtimoiy-mehnat masalalari boʻyicha uch tomonlama respublika komissiyasi bilan kelishilgan holda tasdiqlanadi. Bunday holda xodimning nomidan mehnat shartnomasini uning ota-onasi (ota-onasining oʻrnini bosuvchi shaxs) imzolaydi. Vasiylik va homiylik organining ruxsatnomasida har kunlik ishning eng koʻp yoʻl qoʻyiladigan davomiyligi hamda ish bajarilishi mumkin boʻlgan boshqa shartlar koʻrsatiladi.\nOʻn sakkiz yoshga toʻlmagan shaxslarni ishga qabul qilish va ularning mehnatini qoʻllash ushbu Kodeksning 411 — 422-moddalarida nazarda tutilgan talablarga rioya etilgan holda amalga oshiriladi.",
+          "retrieval_score": 10.083307987163554,
+          "rerank_score": 11.083307987163554,
+          "used_in_answer": false
+        }
+      ],
+      "error": null,
+      "timing": {
+        "retrieval_ms": 11.861,
+        "rerank_ms": 0,
+        "generation_ms": 0.041,
+        "total_ms": 22.985
+      }
+    },
+    {
+      "id": "q073",
+      "status": "ok",
+      "answer": "Xodim ichki mehnat tartib qoidalariga, smenalarga boʻlinib ishlash (ish) jadvallariga, boshqa ichki hujjatlarga yoki mehnat shartnomasi shartlariga muvofiq mehnat majburiyatlarini qaysi vaqt mobaynida bajarishi kerak boʻlsa, oʻsha vaqt ish vaqtidir.\nIsh vaqtiga quyidagilar kiradi:\nxodim mehnat majburiyatlarini haqiqatda bajargan vaqt;\nushbu Kodeksda nazarda tutilgan vaqt davrlari (xodimning aybisiz bekor turib qolingan vaqt, texnologiya hamda ishlab chiqarish va mehnatni tashkil etish bilan bogʻliq boʻlgan tanaffuslar, bolani ovqatlantirish uchun tanaffuslar va boshqalar), shuningdek mehnat toʻgʻrisidagi qonunchilikda hamda mehnat haqidagi boshqa huquqiy hujjatlarda nazarda tutilgan boshqa vaqt davrlari, shu jumladan asosiy va tayyorgarlik-yakuniy ishlarni bajarish vaqti (kiyim, materiallar, asbob-uskunalar olish, texnika, hujjatlar bilan tanishish, ish oʻrnini tayyorlash va tozalash, tayyor mahsulotni topshirish va boshqalar).\nIsh vaqtining turlari quyidagilardan iboratdir:\nish vaqtining normal davomiyligi;\nish vaqtining qisqartirilgan davomiyligi;\ntoʻliqsiz ish vaqti. [1]\n\nXodim uchun ish vaqtining normal davomiyligi besh kunlik yoki olti kunlik ish haftasida haftasiga qirq soatdan ortiq boʻlishi mumkin emas. [2]",
+      "answer_language": "uz-Latn",
+      "no_answer": false,
+      "citations": [
+        {
+          "doc_id": "lex:6257288",
+          "doc_title": "Oʻzbekiston Respublikasining Mehnat kodeksi",
+          "doc_type": "kodeks",
+          "url": "https://lex.uz/docs/-6257288",
+          "article": "181-modda",
+          "part": null,
+          "edition_date": "2026-10-15",
+          "doc_status": "amalda",
+          "chunk_id": "lex:6257288#uz-Latn#art-181#2026-10-15",
+          "ref": 1,
+          "quote": "Xodim ichki mehnat tartib qoidalariga, smenalarga boʻlinib ishlash (ish) jadvallariga, boshqa ichki hujjatlarga yoki mehnat shartnomasi shartlariga muvofiq mehnat majburiyatlarini qaysi vaqt mobaynida bajarishi kerak boʻlsa, oʻsha vaqt ish vaqtidir.\nIsh vaqtiga quyidagilar kiradi:\nxodim mehnat majburiyatlarini haqiqatda bajargan vaqt;\nushbu Kodeksda nazarda tutilgan vaqt davrlari (xodimning aybisiz bekor turib qolingan vaqt, texnologiya hamda ishlab chiqarish va mehnatni tashkil etish bilan bogʻliq boʻlgan tanaffuslar, bolani ovqatlantirish uchun tanaffuslar va boshqalar), shuningdek mehnat toʻgʻrisidagi qonunchilikda hamda mehnat haqidagi boshqa huquqiy hujjatlarda nazarda tutilgan boshqa vaqt davrlari, shu jumladan asosiy va tayyorgarlik-yakuniy ishlarni bajarish vaqti (kiyim, materiallar, asbob-uskunalar olish, texnika, hujjatlar bilan tanishish, ish oʻrnini tayyorlash va tozalash, tayyor mahsulotni topshirish va boshqalar).\nIsh vaqtining turlari quyidagilardan iboratdir:\nish vaqtining normal davomiyligi;\nish vaqtining qisqartirilgan davomiyligi;\ntoʻliqsiz ish vaqti.",
+          "source_url": "https://www.lex.uz/docs/-6257288?ONDATE=15.10.2026+01",
+          "source_anchor": "-6262088",
+          "edition_label": "15.10.2026 01"
+        },
+        {
+          "doc_id": "lex:6257288",
+          "doc_title": "Oʻzbekiston Respublikasining Mehnat kodeksi",
+          "doc_type": "kodeks",
+          "url": "https://lex.uz/docs/-6257288",
+          "article": "182-modda",
+          "part": null,
+          "edition_date": "2026-10-15",
+          "doc_status": "amalda",
+          "chunk_id": "lex:6257288#uz-Latn#art-182#2026-10-15",
+          "ref": 2,
+          "quote": "Xodim uchun ish vaqtining normal davomiyligi besh kunlik yoki olti kunlik ish haftasida haftasiga qirq soatdan ortiq boʻlishi mumkin emas.",
+          "source_url": "https://www.lex.uz/docs/-6257288?ONDATE=15.10.2026+01",
+          "source_anchor": "-6262333",
+          "edition_label": "15.10.2026 01"
+        }
+      ],
+      "contexts": [
+        {
+          "rank": 1,
+          "chunk_id": "lex:6257288#uz-Latn#art-181#2026-10-15",
+          "doc_id": "lex:6257288",
+          "article": "181-modda",
+          "text": "181-modda. Ish vaqtining tushunchasi va turlari\nXodim ichki mehnat tartib qoidalariga, smenalarga boʻlinib ishlash (ish) jadvallariga, boshqa ichki hujjatlarga yoki mehnat shartnomasi shartlariga muvofiq mehnat majburiyatlarini qaysi vaqt mobaynida bajarishi kerak boʻlsa, oʻsha vaqt ish vaqtidir.\nIsh vaqtiga quyidagilar kiradi:\nxodim mehnat majburiyatlarini haqiqatda bajargan vaqt;\nushbu Kodeksda nazarda tutilgan vaqt davrlari (xodimning aybisiz bekor turib qolingan vaqt, texnologiya hamda ishlab chiqarish va mehnatni tashkil etish bilan bogʻliq boʻlgan tanaffuslar, bolani ovqatlantirish uchun tanaffuslar va boshqalar), shuningdek mehnat toʻgʻrisidagi qonunchilikda hamda mehnat haqidagi boshqa huquqiy hujjatlarda nazarda tutilgan boshqa vaqt davrlari, shu jumladan asosiy va tayyorgarlik-yakuniy ishlarni bajarish vaqti (kiyim, materiallar, asbob-uskunalar olish, texnika, hujjatlar bilan tanishish, ish oʻrnini tayyorlash va tozalash, tayyor mahsulotni topshirish va boshqalar).\nIsh vaqtining turlari quyidagilardan iboratdir:\nish vaqtining normal davomiyligi;\nish vaqtining qisqartirilgan davomiyligi;\ntoʻliqsiz ish vaqti.",
+          "retrieval_score": 19.21292890851614,
+          "rerank_score": 95.21292890851615,
+          "used_in_answer": true
+        },
+        {
+          "rank": 2,
+          "chunk_id": "lex:6257288#uz-Latn#art-182#2026-10-15",
+          "doc_id": "lex:6257288",
+          "article": "182-modda",
+          "text": "182-modda. Ish vaqtining normal davomiyligi\nXodim uchun ish vaqtining normal davomiyligi besh kunlik yoki olti kunlik ish haftasida haftasiga qirq soatdan ortiq boʻlishi mumkin emas.",
+          "retrieval_score": 19.143372116621492,
+          "rerank_score": 95.14337211662149,
+          "used_in_answer": true
+        },
+        {
+          "rank": 3,
+          "chunk_id": "lex:6257288#uz-Latn#art-198#2026-10-15",
+          "doc_id": "lex:6257288",
+          "article": "198-modda",
+          "text": "198-modda. Ish vaqtini hisobga olish tushunchasi va turlari\nIsh vaqtini hisobga olish ishga chiqishlarni tegishli hisobga olish davri uchun ish vaqtining belgilangan normasi xodimlar tomonidan bajarilishi ustidan nazorat qilinishini taʼminlash maqsadida qayd etish orqali har bir xodim tomonidan haqiqatda ishlab berilgan vaqtni aniqlashdir.\nHisobga olish davrining davomiyligiga qarab ish vaqtini hisobga olishning quyidagi turlari nazarda tutilishi mumkin:\nkunlik hisobga olish, bunda hisobga olish davri bir kunga teng boʻladi. Kunlik hisobga olishda xodim har bir ish kuni davomida bir xil miqdordagi ish soatida mehnat qiladi va har kuni ish vaqtining belgilangan normasini bajaradi;\nhaftalik hisobga olish, bunda hisobga olish davri bir haftaga teng boʻladi. Ish vaqtini haftalik hisobga olishda, basharti hafta ichidagi ish vaqtining belgilangan normasiga rioya etilsa, kunlik ishning davomiyligi har xil boʻlishi mumkin, biroq ushbu Kodeksning 185-moddasida belgilanganidan ortiq boʻlmasligi kerak;\njamlab hisobga olish, bunda xodim ish vaqtining normasini ishlab berishi kerak boʻlgan hisobga olish davri bir haftadan oshadi. Ish vaqtini jamlab hisobga olishda kunlik yoki haftalik ishning davomiyligi ushbu Kodeksning 199-moddasida koʻrsatilgan doirada ish kunining yoki ish haftasining soatlari normasidan chetga chiqishi mumkin. Shu munosabat bilan muayyan kalendar davrlarda yuzaga keladigan ortiqcha ishlash yoki kamroq ishlash hisobga olish davri uchun soatlar summasi ushbu davrdagi ish vaqtining normasiga teng boʻladigan tarzda muvozanatlashtirilishi kerak.\nHisobga olish davri uchun ish soatlari normasi tegishli toifadagi xodimlar uchun belgilangan ish vaqtining kunlik (kunlik hisobga olishda) yoki haftalik (haftalik va jamlab hisobga olishda) davomiyligidan kelib chiqqan holda aniqlanadi. Toʻliqsiz ish kunida (smenada) va (yoki) toʻliqsiz ish haftasida ishlaydigan xodimlar uchun hisobga olish davridagi ish soatlarining normal soni tegishincha kamaytiriladi.",
+          "retrieval_score": 17.008641393246357,
+          "rerank_score": 69.00864139324636,
+          "used_in_answer": false
+        },
+        {
+          "rank": 4,
+          "chunk_id": "lex:6257288#uz-Latn#art-183#2026-10-15",
+          "doc_id": "lex:6257288",
+          "article": "183-modda",
+          "text": "183-modda. Ish vaqtining qisqartirilgan davomiyligi\nAyrim toifadagi xodimlar uchun ularning yoshi, sogʻligʻining holati, mehnat shartlari, mehnat vazifalarining oʻziga xos xususiyatlari va boshqa holatlar hisobga olingan holda qonunchilikka hamda mehnat haqidagi boshqa huquqiy hujjatlarga, shuningdek mehnat shartnomasi shartlariga muvofiq mehnatga toʻlanadigan haqni kamaytirmasdan ish vaqtining qisqartirilgan davomiyligi belgilanadi.\nIsh vaqtining qisqartirilgan davomiyligi quyidagilarga majburiy tartibda belgilanadi:\noʻn sakkiz yoshga toʻlmagan xodimlarga (ushbu Kodeksning 415-moddasi);\nI va II guruh nogironligi boʻlgan xodimlarga (ushbu Kodeks 427-moddasining birinchi qismi);\nnoqulay mehnat sharoitlaridagi ishlarda band boʻlgan xodimlarga (ushbu Kodeksning 477-moddasi);\nishi yuqori darajadagi ruhiy, aqliy, asabiy zoʻriqish bilan bogʻliq boʻlgan tibbiyot xodimlariga, pedagoglarga va boshqa toifadagi xodimlarga (ushbu Kodeksning 184-moddasi);\nuch yoshgacha boʻlgan bolaning budjetdan moliyalashtiriladigan tashkilotlarda ishlaydigan ota-onasidan biriga (vasiysiga) (ushbu Kodeks 397-moddasining birinchi qismi).",
+          "retrieval_score": 12.370356859933723,
+          "rerank_score": 51.37035685993372,
+          "used_in_answer": false
+        },
+        {
+          "rank": 5,
+          "chunk_id": "lex:6257288#uz-Latn#art-201#2026-10-15",
+          "doc_id": "lex:6257288",
+          "article": "201-modda",
+          "text": "201-modda. Dam olish vaqti tushunchasi va turlari\nDam olish vaqti xodim mehnat majburiyatlarini bajarishdan ozod boʻlgan va oʻz ixtiyoriga koʻra foydalanishi mumkin boʻlgan vaqtdir.\nDam olish vaqtining turlari quyidagilardan iborat:\nish kuni (smena) davomidagi tanaffuslar;\nhar kungi (smenalar oraligʻidagi) dam olish;\ndam olish kunlari (har haftalik uzluksiz dam olish);\nishlanmaydigan bayram kunlari;\nhar yilgi asosiy va qoʻshimcha mehnat taʼtillari;\nxodimning istagiga koʻra dam olish kunida yoki ishlanmaydigan bayram kunida ishlaganlik uchun kompensatsiya sifatida taqdim etiladigan ishdan boʻsh boʻlgan qoʻshimcha kunlar, shuningdek qon va uning tarkibiy qismlari topshirilgan har bir kundan keyin donorlarga beriladigan dam olish kuni.",
+          "retrieval_score": 18.130822161849537,
+          "rerank_score": 55.13082216184954,
+          "used_in_answer": false
+        }
+      ],
+      "error": null,
+      "timing": {
+        "retrieval_ms": 55.941,
+        "rerank_ms": 0,
+        "generation_ms": 0.042,
+        "total_ms": 67.689
+      }
+    },
+    {
+      "id": "q074",
+      "status": "ok",
+      "answer": "Mehnat shartnomasi quyidagi asoslar boʻyicha bekor qilingan taqdirda, ish qidirish davrida oʻrtacha oylik ish haqining ishdan boʻshatish nafaqasi hisobga olingan holda, biroq koʻpi bilan ikki oyga saqlanib qolishi xodimlar uchun kafolatlanadi:\nxodim yangi mehnat shartlari asosida ishlashni davom ettirishni rad etganligi;\nxodim ish beruvchi bilan birga ishlash uchun boshqa joyga koʻchishni rad etganligi;\nxodim sogʻligʻining holatiga koʻra tibbiy xulosaga muvofiq sogʻligʻining holati boʻyicha oʻziga qarshi koʻrsatma mavjud boʻlmagan boshqa ishga oʻtishni rad etganligi yoki ish beruvchida tegishli ish mavjud emasligi;\ntexnologiyaning, ishlab chiqarish va mehnatni tashkil etishning oʻzgarishi sababli tashkilot xodimlarining soni yoki shtati oʻzgarganligi, ishlar (mahsulot, xizmatlar) hajmining qisqarganligi;\ntashkilotning (uning alohida boʻlinmasining) oʻz taʼsischilari (ishtirokchilari) qaroriga koʻra tugatilganligi yoxud taʼsis hujjatlari bilan shunga vakolatli boʻlgan yuridik shaxs organining qaroriga koʻra tugatilganligi;\nbajarayotgan ishiga malakasi yetarli emasligi oqibatida noloyiq ekanligi;\nshu ishni ilgari bajarib kelgan xodimning ishga tiklanganligi;\nsudning tashkilotni tugatish toʻgʻrisidagi qarori qonuniy kuchga kirganligi.\nUshbu moddaning birinchi qismida nazarda tutilgan kafolatlar tashkilot rahbari, uning oʻrinbosarlari, bosh buxgalter bilan, tashkilotda bosh buxgalter lavozimi mavjud boʻlmagan taqdirda esa bosh buxgalter vazifalarini amalga oshiruvchi xodim (bundan buyon matnda bosh buxgalter deb yuritiladi) bilan tuzilgan mehnat shartnomasi mulkdorning almashishi sababli bekor qilingan hollarga nisbatan ham tatbiq etiladi, bundan banklar sanatsiya qilingan taqdirda mehnat shartnomasining bekor qilinishi mustasno.\nUshbu moddaning birinchi qismida ayrim toifadagi xodimlar uchun nazarda tutilgan kafolatlarni taqdim etishning oʻziga xos xususiyatlari ushbu Kodeks 494-moddasining beshinchi qismiga, 506-moddasining toʻrtinchi qismiga, 511-moddasining yettinchi qismiga, 518-moddasining yettinchi qismiga muvofiq belgilanadi.\nAgar ushbu moddaning birinchi va ikkinchi qismlarida koʻrsatilgan xodimlar mehnat shartnomasi bekor qilinganidan keyin oʻttiz kalendar kun ichida mahalliy mehnat organida ish qidirayotgan shaxslar sifatida roʻyxatdan oʻtgan boʻlsa, ular mahalliy mehnat organi tomonidan berilgan maʼlumotnoma boʻyicha uchinchi oy uchun ham avvalgi ish joyidan oʻrtacha oylik ish haqini olish huquqiga ega boʻladi.\nUshbu moddaning birinchi va ikkinchi qismlarida koʻrsatilgan xodimlarga uch oylik davr tugagach maqbul keladigan ish topib berilmagan taqdirda, ular ishsiz deb eʼtirof etiladi.\nIsh beruvchi toʻlovga qobiliyatsiz deb topilgan taqdirda, u bilan mehnatga oid munosabatlarda boʻlgan xodimlar ish haqi va oʻziga tegishli boshqa toʻlovlar xususida boshqa barcha kreditorlarning talablariga nisbatan imtiyozli huquqdan foydalanadi.\nTugatilayotgan tashkilotlarda mablagʻlar mavjud boʻlmagan taqdirda, ushbu moddaning birinchi qismida koʻrsatilgan xodimlarga kompensatsiyalarni toʻlash Oʻzbekiston Respublikasi Bandlikka koʻmaklashish davlat jamgʻarmasining mablagʻlari hisobidan amalga oshiriladi. [1]",
+      "answer_language": "uz-Latn",
+      "no_answer": false,
+      "citations": [
+        {
+          "doc_id": "lex:6257288",
+          "doc_title": "Oʻzbekiston Respublikasining Mehnat kodeksi",
+          "doc_type": "kodeks",
+          "url": "https://lex.uz/docs/-6257288",
+          "article": "100-modda",
+          "part": null,
+          "edition_date": "2026-10-15",
+          "doc_status": "amalda",
+          "chunk_id": "lex:6257288#uz-Latn#art-100#2026-10-15",
+          "ref": 1,
+          "quote": "Mehnat shartnomasi quyidagi asoslar boʻyicha bekor qilingan taqdirda, ish qidirish davrida oʻrtacha oylik ish haqining ishdan boʻshatish nafaqasi hisobga olingan holda, biroq koʻpi bilan ikki oyga saqlanib qolishi xodimlar uchun kafolatlanadi:\nxodim yangi mehnat shartlari asosida ishlashni davom ettirishni rad etganligi;\nxodim ish beruvchi bilan birga ishlash uchun boshqa joyga koʻchishni rad etganligi;\nxodim sogʻligʻining holatiga koʻra tibbiy xulosaga muvofiq sogʻligʻining holati boʻyicha oʻziga qarshi koʻrsatma mavjud boʻlmagan boshqa ishga oʻtishni rad etganligi yoki ish beruvchida tegishli ish mavjud emasligi;\ntexnologiyaning, ishlab chiqarish va mehnatni tashkil etishning oʻzgarishi sababli tashkilot xodimlarining soni yoki shtati oʻzgarganligi, ishlar (mahsulot, xizmatlar) hajmining qisqarganligi;\ntashkilotning (uning alohida boʻlinmasining) oʻz taʼsischilari (ishtirokchilari) qaroriga koʻra tugatilganligi yoxud taʼsis hujjatlari bilan shunga vakolatli boʻlgan yuridik shaxs organining qaroriga koʻra tugatilganligi;\nbajarayotgan ishiga malakasi yetarli emasligi oqibatida noloyiq ekanligi;\nshu ishni ilgari bajarib kelgan xodimning ishga tiklanganligi;\nsudning tashkilotni tugatish toʻgʻrisidagi qarori qonuniy kuchga kirganligi.\nUshbu moddaning birinchi qismida nazarda tutilgan kafolatlar tashkilot rahbari, uning oʻrinbosarlari, bosh buxgalter bilan, tashkilotda bosh buxgalter lavozimi mavjud boʻlmagan taqdirda esa bosh buxgalter vazifalarini amalga oshiruvchi xodim (bundan buyon matnda bosh buxgalter deb yuritiladi) bilan tuzilgan mehnat shartnomasi mulkdorning almashishi sababli bekor qilingan hollarga nisbatan ham tatbiq etiladi, bundan banklar sanatsiya qilingan taqdirda mehnat shartnomasining bekor qilinishi mustasno.\nUshbu moddaning birinchi qismida ayrim toifadagi xodimlar uchun nazarda tutilgan kafolatlarni taqdim etishning oʻziga xos xususiyatlari ushbu Kodeks 494-moddasining beshinchi qismiga, 506-moddasining toʻrtinchi qismiga, 511-moddasining yettinchi qismiga, 518-moddasining yettinchi qismiga muvofiq belgilanadi.\nAgar ushbu moddaning birinchi va ikkinchi qismlarida koʻrsatilgan xodimlar mehnat shartnomasi bekor qilinganidan keyin oʻttiz kalendar kun ichida mahalliy mehnat organida ish qidirayotgan shaxslar sifatida roʻyxatdan oʻtgan boʻlsa, ular mahalliy mehnat organi tomonidan berilgan maʼlumotnoma boʻyicha uchinchi oy uchun ham avvalgi ish joyidan oʻrtacha oylik ish haqini olish huquqiga ega boʻladi.\nUshbu moddaning birinchi va ikkinchi qismlarida koʻrsatilgan xodimlarga uch oylik davr tugagach maqbul keladigan ish topib berilmagan taqdirda, ular ishsiz deb eʼtirof etiladi.\nIsh beruvchi toʻlovga qobiliyatsiz deb topilgan taqdirda, u bilan mehnatga oid munosabatlarda boʻlgan xodimlar ish haqi va oʻziga tegishli boshqa toʻlovlar xususida boshqa barcha kreditorlarning talablariga nisbatan imtiyozli huquqdan foydalanadi.\nTugatilayotgan tashkilotlarda mablagʻlar mavjud boʻlmagan taqdirda, ushbu moddaning birinchi qismida koʻrsatilgan xodimlarga kompensatsiyalarni toʻlash Oʻzbekiston Respublikasi Bandlikka koʻmaklashish davlat jamgʻarmasining mablagʻlari hisobidan amalga oshiriladi.",
+          "source_url": "https://www.lex.uz/docs/-6257288?ONDATE=15.10.2026+01",
+          "source_anchor": "-6260007",
+          "edition_label": "15.10.2026 01"
+        }
+      ],
+      "contexts": [
+        {
+          "rank": 1,
+          "chunk_id": "lex:6257288#uz-Latn#art-100#2026-10-15",
+          "doc_id": "lex:6257288",
+          "article": "100-modda",
+          "text": "100-modda. Mehnat shartnomasi alohida asoslarga koʻra bekor qilinganda oʻrtacha oylik ish haqini ishga joylashtirish davrida saqlab qolish kafolatlari\nMehnat shartnomasi quyidagi asoslar boʻyicha bekor qilingan taqdirda, ish qidirish davrida oʻrtacha oylik ish haqining ishdan boʻshatish nafaqasi hisobga olingan holda, biroq koʻpi bilan ikki oyga saqlanib qolishi xodimlar uchun kafolatlanadi:\nxodim yangi mehnat shartlari asosida ishlashni davom ettirishni rad etganligi;\nxodim ish beruvchi bilan birga ishlash uchun boshqa joyga koʻchishni rad etganligi;\nxodim sogʻligʻining holatiga koʻra tibbiy xulosaga muvofiq sogʻligʻining holati boʻyicha oʻziga qarshi koʻrsatma mavjud boʻlmagan boshqa ishga oʻtishni rad etganligi yoki ish beruvchida tegishli ish mavjud emasligi;\ntexnologiyaning, ishlab chiqarish va mehnatni tashkil etishning oʻzgarishi sababli tashkilot xodimlarining soni yoki shtati oʻzgarganligi, ishlar (mahsulot, xizmatlar) hajmining qisqarganligi;\ntashkilotning (uning alohida boʻlinmasining) oʻz taʼsischilari (ishtirokchilari) qaroriga koʻra tugatilganligi yoxud taʼsis hujjatlari bilan shunga vakolatli boʻlgan yuridik shaxs organining qaroriga koʻra tugatilganligi;\nbajarayotgan ishiga malakasi yetarli emasligi oqibatida noloyiq ekanligi;\nshu ishni ilgari bajarib kelgan xodimning ishga tiklanganligi;\nsudning tashkilotni tugatish toʻgʻrisidagi qarori qonuniy kuchga kirganligi.\nUshbu moddaning birinchi qismida nazarda tutilgan kafolatlar tashkilot rahbari, uning oʻrinbosarlari, bosh buxgalter bilan, tashkilotda bosh buxgalter lavozimi mavjud boʻlmagan taqdirda esa bosh buxgalter vazifalarini amalga oshiruvchi xodim (bundan buyon matnda bosh buxgalter deb yuritiladi) bilan tuzilgan mehnat shartnomasi mulkdorning almashishi sababli bekor qilingan hollarga nisbatan ham tatbiq etiladi, bundan banklar sanatsiya qilingan taqdirda mehnat shartnomasining bekor qilinishi mustasno.\nUshbu moddaning birinchi qismida ayrim toifadagi xodimlar uchun nazarda tutilgan kafolatlarni taqdim etishning oʻziga xos xususiyatlari ushbu Kodeks 494-moddasining beshinchi qismiga, 506-moddasining toʻrtinchi qismiga, 511-moddasining yettinchi qismiga, 518-moddasining yettinchi qismiga muvofiq belgilanadi.\nAgar ushbu moddaning birinchi va ikkinchi qismlarida koʻrsatilgan xodimlar mehnat shartnomasi bekor qilinganidan keyin oʻttiz kalendar kun ichida mahalliy mehnat organida ish qidirayotgan shaxslar sifatida roʻyxatdan oʻtgan boʻlsa, ular mahalliy mehnat organi tomonidan berilgan maʼlumotnoma boʻyicha uchinchi oy uchun ham avvalgi ish joyidan oʻrtacha oylik ish haqini olish huquqiga ega boʻladi.\nUshbu moddaning birinchi va ikkinchi qismlarida koʻrsatilgan xodimlarga uch oylik davr tugagach maqbul keladigan ish topib berilmagan taqdirda, ular ishsiz deb eʼtirof etiladi.\nIsh beruvchi toʻlovga qobiliyatsiz deb topilgan taqdirda, u bilan mehnatga oid munosabatlarda boʻlgan xodimlar ish haqi va oʻziga tegishli boshqa toʻlovlar xususida boshqa barcha kreditorlarning talablariga nisbatan imtiyozli huquqdan foydalanadi.\nTugatilayotgan tashkilotlarda mablagʻlar mavjud boʻlmagan taqdirda, ushbu moddaning birinchi qismida koʻrsatilgan xodimlarga kompensatsiyalarni toʻlash Oʻzbekiston Respublikasi Bandlikka koʻmaklashish davlat jamgʻarmasining mablagʻlari hisobidan amalga oshiriladi.",
+          "retrieval_score": 57.77616394733458,
+          "rerank_score": 313.77616394733457,
+          "used_in_answer": true
+        },
+        {
+          "rank": 2,
+          "chunk_id": "lex:6257288#uz-Latn#art-144#2026-10-15",
+          "doc_id": "lex:6257288",
+          "article": "144-modda",
+          "text": "144-modda. Ish beruvchi uchun majburiy boʻlgan, xodim bilan tuzilgan mehnat shartnomasi alohida asoslarga koʻra bekor qilinganda xodimni boshqa ishga oʻtkazish\nAgar mehnat shartnomasida belgilangan mehnat vazifasiga doir ishni xolisona sabablarga koʻra davom ettirish imkoni boʻlmasa, ish beruvchi xodimga uning mutaxassisligi va malakasiga muvofiq keladigan boshqa ishga oʻtkazishni, bunday ish boʻlmagan taqdirda esa ish beruvchida mavjud boʻlgan boshqa ishni taklif etishi shart.\nXodim bilan tuzilgan mehnat shartnomasi ushbu Kodeks 143-moddasining ikkinchi qismida, 161-moddasi ikkinchi qismining 2 va 3-bandlarida, 168-moddasi birinchi qismining 2, 4, 5 va 9-bandlarida, 489-moddasi birinchi qismining 1-bandida nazarda tutilgan asoslarga koʻra bekor qilingan taqdirda, ushbu moddaning birinchi qismida nazarda tutilgan majburiyat ish beruvchining zimmasiga yuklatiladi.\nUshbu Kodeks 168-moddasi birinchi qismining 4 yoki 5-bandiga koʻra xodim bilan tuzilgan mehnat shartnomasi bekor qilingan taqdirda, xodimni boshqa ishga oʻtkazish tegishincha mazkur Kodeks 168-moddasining beshinchi yoki oltinchi qismi talablari hisobga olingan holda amalga oshiriladi.\nXodim malakasi yetarli boʻlmaganligi sababli bajarayotgan ishiga (egallab turgan lavozimiga) muvofiq boʻlmagan taqdirda, ish beruvchi xodimga xodimning mutaxassisligiga mos keladigan, birmuncha kam malaka talab etiladigan ishni, bunday ish mavjud boʻlmaganda esa ish beruvchida mavjud boʻlgan boshqa ishni taklif etishi shart.\nAgar tibbiy xulosaga muvofiq xodimga mehnat shartnomasida shart qilib koʻrsatilgan ishni bajarishga qarshi koʻrsatma boʻlsa, ish beruvchi xodimni tibbiy xulosaga mos keladigan boshqa ishga oʻtkazishni taklif etishi kerak. Bunda xodimga oʻzida mavjud boʻlgan mutaxassislik va malaka boʻyicha ish taklif etilishi, ish beruvchida bunday ish mavjud boʻlmagan taqdirda esa boshqa ish taklif etilishi kerak.\nAgar ish beruvchida ushbu moddaning ikkinchi qismida nazarda tutilgan asoslarga koʻra xodim bilan tuzilgan mehnat shartnomasi bekor qilinganda uni oʻtkazish mumkin boʻlgan doimiy xususiyatga ega ish mavjud boʻlmasa, biroq muddatli mehnat shartnomasi boʻyicha bajarilishi mumkin boʻlgan ish mavjud boʻlsa, ish beruvchi xodimga shunday ishga oʻtishni taklif etishi shart. Bunday holda xodimni muddatli mehnat shartnomasi boʻyicha boshqa ishga oʻtkazish amalga oshiriladi.\nMehnat shartnomasini ushbu moddaning ikkinchi qismida sanab oʻtilgan asoslarga koʻra bekor qilishga quyidagi hollarda yoʻl qoʻyiladi:\nxodim ushbu moddaning birinchi — beshinchi qismlarida nazarda tutilgan talablarga rioya etilgan holda ish beruvchi taklif etgan boshqa ishga oʻtishni rad etganda;\nish beruvchida boʻsh (vakant) oʻrinlar yoki xodim sogʻligʻi holati boʻyicha qarshi koʻrsatma boʻlmagan ish mavjud boʻlmaganda;\nxodim ushbu ishni bajarish uchun zarur boʻlgan malaka talablariga muvofiq emasligi sababli uni boshqa ishga oʻtkazish mumkin boʻlmaganda.",
+          "retrieval_score": 26.888346039853715,
+          "rerank_score": 143.88834603985373,
+          "used_in_answer": false
+        },
+        {
+          "rank": 3,
+          "chunk_id": "lex:6257288#uz-Latn#art-102#2026-10-15",
+          "doc_id": "lex:6257288",
+          "article": "102-modda",
+          "text": "102-modda. Ish beruvchi alohida asoslar boʻyicha mehnat shartnomasini bekor qilgan xodimlarni qayta ishga qabul qilish tartibi\nDavlat organlaridagi yoki xodimlarning vakillik organlaridagi saylab qoʻyiladigan lavozimlarga saylanganligi tufayli ishdan ozod qilingan shaxslarga ularning saylab qoʻyiladigan lavozimdagi vakolatlari tugagandan keyin avvalgi ishi (lavozimi) beriladi, bunday ish (lavozim) mavjud boʻlmaganda esa boshqa teng ish (lavozim) beriladi.\nOʻzbekiston Respublikasi Oliy Majlisining Qonunchilik palatasi deputatlarini va Senatida doimiy asosda ishlagan Senat aʼzolarini vakolatlari muddati tugaganidan keyin, shuningdek Oʻzbekiston Respublikasi Oliy Majlisining Qonunchilik palatasi va Senati tarqatib yuborilgan taqdirda ishga joylashtirish “Oʻzbekiston Respublikasi Oliy Majlisi Qonunchilik palatasi deputatining va Senati aʼzosining maqomi toʻgʻrisida”gi Oʻzbekiston Respublikasi Qonunining 16-moddasida belgilangan tartibda amalga oshiriladi.\nHarbiy xizmatga chaqirilgan (kirgan) xodim zaxiraga boʻshatilganidan yoki isteʼfoga chiqarilganidan keyin, agar u ishga joylashish masalasi boʻyicha ish beruvchiga Oʻzbekiston Respublikasi Qurolli Kuchlari safidan, Oʻzbekiston Respublikasi Ichki ishlar vazirligi, Davlat xavfsizlik xizmati, Milliy gvardiyasi va Favqulodda vaziyatlar vazirligi qoʻshinlaridan boʻshatilgan kundan eʼtiboran uch oydan kechiktirmay murojaat qilgan boʻlsa, avvalgi ish joyida ishga joylashishda ustuvor huquqqa ega boʻladi.\nHarbiy xizmatga chaqirilgan (kirgan), lekin keyinchalik zaxiraga boʻshatilgan yoki isteʼfoga chiqarilgan xodim, agar u harbiy xizmatga chaqirilgan (kirgan) kundan eʼtiboran koʻpi bilan uch oy oʻtgan boʻlsa, avvalgi ish joyiga (lavozimiga) qaytish huquqiga ega.\nTashkilot qayta tashkil etilganda harbiy xizmatdan boʻshatilgan shaxslarni ishga joylashtirishni tashkilotning huquqiy vorisi, tashkilot tugatilganda esa mahalliy mehnat organi amalga oshiradi.\nXodimlarga ushbu moddaning birinchi, ikkinchi va uchinchi qismlarida koʻrsatilgan kafolatlarni berish imkoni boʻlmagan hollarda mahalliy mehnat organi ularni ishga joylashtirishni, zarur boʻlganda esa ularni bepul kasbga tayyorlash, qayta tayyorlash va ularning malakasini oshirishni taʼminlaydi.\nIsh beruvchi ushbu Kodeks 161-moddasi ikkinchi qismining 2-bandiga koʻra ilgari oʻzi bilan mehnat shartnomasi bekor qilingan xodimlarni, basharti xodim bilan tuzilgan mehnat shartnomasi bekor qilingan kundan eʼtiboran olti oy ichida tashkilotda xodim ilgari egallagan oʻsha mutaxassislik va malaka boʻyicha boʻsh (vakant) ish oʻrinlari paydo boʻlgan boʻlsa, ishga qabul qilishi shart.",
+          "retrieval_score": 31.08228659232357,
+          "rerank_score": 120.08228659232356,
+          "used_in_answer": false
+        },
+        {
+          "rank": 4,
+          "chunk_id": "lex:6257288#uz-Latn#art-163#2026-10-15",
+          "doc_id": "lex:6257288",
+          "article": "163-modda",
+          "text": "163-modda. Mehnat shartnomasini ish beruvchining tashabbusiga koʻra bekor qilishni taqiqlash\nMehnat shartnomasini:\n1) ushbu Kodeksda yoki boshqa qonunlarda nazarda tutilmagan asoslar boʻyicha;\n2) ushbu Kodeksning mehnat va mashgʻulotlar sohasida kamsitishni taqiqlash talabini buzadigan;\n3) xodimning vaqtincha mehnatga qobiliyatsizlik davrlarida, u mehnat toʻgʻrisidagi qonunchilikda va mehnat haqidagi boshqa huquqiy hujjatlarda, mehnat shartnomasida nazarda tutilgan taʼtillarda boʻlgan davrlarda;\n4) xodim davlat yoki jamoat majburiyatlarini bajarganligi munosabati bilan ishdan ozod etilgan davrda;\n5) xodim xizmat safarida boʻlgan davrda;\n6) homilador ayollar (ushbu Kodeks 408-moddasi) va uch yoshgacha bolasi boʻlgan xodimlar (ushbu Kodeks 409-moddasi) uchun kafolatlar berishni nazarda tutadigan talablarga rioya qilmasdan ish beruvchining tashabbusiga koʻra bekor qilish taqiqlanadi.\nUshbu Kodeksning 147-moddasiga muvofiq xodim boshqa ish beruvchiga vaqtincha xizmat safariga yuborilgan davrda avvalgi ish joyi boʻyicha tuzilgan mehnat shartnomasini bekor qilish taqiqlanadi.\nMehnat shartnomasini ish beruvchining tashabbusiga koʻra bekor qilish uchun ushbu modda birinchi qismining 3 — 6-bandlarida nazarda tutilgan cheklovlar tashkilot (uning alohida boʻlinmasi) oʻz muassislarining (ishtirokchilarining) yoki taʼsis hujjatlari bilan bunga vakolat berilgan yuridik shaxs organining qaroriga binoan tugatilganligi munosabati bilan mehnat shartnomasi bekor qilinganda yoxud yakka tartibdagi tadbirkor tomonidan faoliyat tugatilganda qoʻllanilmaydi.",
+          "retrieval_score": 26.967407372258368,
+          "rerank_score": 89.96740737225836,
+          "used_in_answer": false
+        },
+        {
+          "rank": 5,
+          "chunk_id": "lex:6257288#uz-Latn#art-97#2026-10-15",
+          "doc_id": "lex:6257288",
+          "article": "97-modda",
+          "text": "97-modda. Ish beruvchining bandlik va ishga joylashtirish sohasidagi majburiyatlari\nIsh beruvchining zimmasida bandlik va ishga joylashtirish sohasida quyidagi majburiyatlar boʻladi:\nushbu Kodeksning 166-moddasiga muvofiq xodimlarni ishdan boʻshatish toʻgʻrisida axborot taqdim etish;\nushbu Kodeksning 119-moddasining birinchi va ikkinchi qismlariga muvofiq ishga qabul qilishni qonunga xilof ravishda rad etishga yoʻl qoʻymaslik;\nushbu Kodeksning 99-moddasiga muvofiq ish oʻrinlarining belgilangan eng kam soni hisobiga shaxslarni ishga joylashtirish;\nushbu Kodeksning 165-moddasiga muvofiq xodimlarni mehnat shartnomasini bekor qilish toʻgʻrisida ogohlantirish;\nushbu Kodeksning 144-moddasiga muvofiq xodimning ish oʻrnini boshqa ishga oʻtkazish tartibida saqlash choralarini koʻrish;\nmehnat shartnomasi ushbu Kodeksning 100-moddasi birinchi, ikkinchi va uchinchi qismlariga muvofiq alohida asoslarga koʻra bekor qilinganda oʻrtacha oylik ish haqini ishga joylashtirish davrida saqlab qolish;\ntaklif etilgan shaxslarga ushbu Kodeksning 101-moddasiga muvofiq kafolatlar berish;\noʻzi bilan tuzilgan mehnat shartnomasi ushbu Kodeksning 102-moddasiga muvofiq alohida asoslarga koʻra bekor qilingan xodimlarni qayta ishga qabul qilish;\njamoa kelishuvlariga va jamoa shartnomasiga muvofiq qoʻshimcha kafolatlar berish.\nIsh beruvchining zimmasida bandlik va ishga joylashtirish sohasida qonunchilikka muvofiq boshqa majburiyatlar ham boʻlishi mumkin.",
+          "retrieval_score": 53.6106482194105,
+          "rerank_score": 86.6106482194105,
+          "used_in_answer": false
+        }
+      ],
+      "error": null,
+      "timing": {
+        "retrieval_ms": 53.576,
+        "rerank_ms": 0,
+        "generation_ms": 0.069,
+        "total_ms": 64.932
+      }
+    },
+    {
+      "id": "q075",
+      "status": "ok",
+      "answer": "Ходим учун иш вақтининг нормал давомийлиги беш кунлик ёки олти кунлик иш ҳафтасида ҳафтасига қирқ соатдан ортиқ бўлиши мумкин эмас. [1]",
+      "answer_language": "uz-Cyrl",
+      "no_answer": false,
+      "citations": [
+        {
+          "doc_id": "lex:6257288",
+          "doc_title": "Ўзбекистон Республикасининг Меҳнат кодекси",
+          "doc_type": "kodeks",
+          "url": "https://lex.uz/docs/6257288",
+          "article": "182-modda",
+          "part": null,
+          "edition_date": "2026-10-15",
+          "doc_status": "amalda",
+          "chunk_id": "lex:6257288#uz-Cyrl#art-182#2026-10-15",
+          "ref": 1,
+          "quote": "Ходим учун иш вақтининг нормал давомийлиги беш кунлик ёки олти кунлик иш ҳафтасида ҳафтасига қирқ соатдан ортиқ бўлиши мумкин эмас.",
+          "source_url": "https://www.lex.uz/docs/6257288?ONDATE=15.10.2026+01",
+          "source_anchor": "6262333",
+          "edition_label": "15.10.2026 01"
+        }
+      ],
+      "contexts": [
+        {
+          "rank": 1,
+          "chunk_id": "lex:6257288#uz-Cyrl#art-182#2026-10-15",
+          "doc_id": "lex:6257288",
+          "article": "182-modda",
+          "text": "182-модда. Иш вақтининг нормал давомийлиги\nХодим учун иш вақтининг нормал давомийлиги беш кунлик ёки олти кунлик иш ҳафтасида ҳафтасига қирқ соатдан ортиқ бўлиши мумкин эмас.",
+          "retrieval_score": 19.143372116621492,
+          "rerank_score": 95.14337211662149,
+          "used_in_answer": true
+        },
+        {
+          "rank": 2,
+          "chunk_id": "lex:6257288#uz-Cyrl#art-183#2026-10-15",
+          "doc_id": "lex:6257288",
+          "article": "183-modda",
+          "text": "183-модда. Иш вақтининг қисқартирилган давомийлиги\nАйрим тоифадаги ходимлар учун уларнинг ёши, соғлиғининг ҳолати, меҳнат шартлари, меҳнат вазифаларининг ўзига хос хусусиятлари ва бошқа ҳолатлар ҳисобга олинган ҳолда қонунчиликка ҳамда меҳнат ҳақидаги бошқа ҳуқуқий ҳужжатларга, шунингдек меҳнат шартномаси шартларига мувофиқ меҳнатга тўланадиган ҳақни камайтирмасдан иш вақтининг қисқартирилган давомийлиги белгиланади.\nИш вақтининг қисқартирилган давомийлиги қуйидагиларга мажбурий тартибда белгиланади:\nўн саккиз ёшга тўлмаган ходимларга (ушбу Кодекснинг 415-моддаси);\nI ва II гуруҳ ногиронлиги бўлган ходимларга (ушбу Кодекс 427-моддасининг биринчи қисми);\nноқулай меҳнат шароитларидаги ишларда банд бўлган ходимларга (ушбу Кодекснинг 477-моддаси);\nиши юқори даражадаги руҳий, ақлий, асабий зўриқиш билан боғлиқ бўлган тиббиёт ходимларига, педагогларга ва бошқа тоифадаги ходимларга (ушбу Кодекснинг 184-моддаси);\nуч ёшгача бўлган боланинг бюджетдан молиялаштириладиган ташкилотларда ишлайдиган ота-онасидан бирига (васийсига) (ушбу Кодекс 397-моддасининг биринчи қисми).",
+          "retrieval_score": 9.16356473093691,
+          "rerank_score": 48.16356473093691,
+          "used_in_answer": false
+        },
+        {
+          "rank": 3,
+          "chunk_id": "lex:6257288#uz-Cyrl#art-190#2026-10-15",
+          "doc_id": "lex:6257288",
+          "article": "190-modda",
+          "text": "190-модда. Иш вақтидан ташқари ишларнинг энг кўп давомийлиги\nИш вақтидан ташқари ишнинг давомийлиги ходим учун сурункасига икки кун давомида тўрт соатдан (меҳнат шароитлари ноқулай бўлган ишларда — бир кунда икки соатдан) ошмаслиги керак.\nИш берувчи ходимнинг иш вақтидан ташқари ишининг давомийлиги аниқ ҳисобга олинишини таъминлаши шарт.",
+          "retrieval_score": 10.224830480256655,
+          "rerank_score": 45.22483048025666,
+          "used_in_answer": false
+        },
+        {
+          "rank": 4,
+          "chunk_id": "lex:6257288#uz-Cyrl#art-415#2026-10-15",
+          "doc_id": "lex:6257288",
+          "article": "415-modda",
+          "text": "415-модда. Ўн саккиз ёшгача бўлган ходимлар учун қисқартирилган иш вақти давомийлиги\nИш вақтининг давомийлиги ўн олтидан ўн саккиз ёшгача бўлган ходимлар учун ҳафтасига ўттиз олти соатдан ошмайдиган, ўн бешдан ўн олти ёшгача бўлган шахслар учун эса ҳафтасига йигирма тўрт соатдан ошмайдиган қилиб белгиланади.\nЎқув йили давомида ўқишдан бўш вақтида ишлаётган ўқувчиларнинг иш вақти давомийлиги ушбу модданинг биринчи қисмида тегишли ёшдаги шахслар учун назарда тутилган иш вақти энг кўп давомийлигининг ярмидан ошиши мумкин эмас.",
+          "retrieval_score": 10.095669448701399,
+          "rerank_score": 39.0956694487014,
+          "used_in_answer": false
+        },
+        {
+          "rank": 5,
+          "chunk_id": "lex:6257288#uz-Cyrl#art-427#2026-10-15",
+          "doc_id": "lex:6257288",
+          "article": "427-modda",
+          "text": "427-модда. I ва II гуруҳ ногиронлиги бўлган ходимлар учун иш вақтининг қисқартирилган давомийлиги\nI ва II гуруҳ ногиронлиги бўлган ходимлар учун иш вақтининг давомийлиги ҳафтасига ўттиз олти соатдан ошмайдиган қилиб белгиланади.\nI ва II гуруҳ ногиронлиги бўлган ходимлар учун кунлик ишнинг (сменанинг) давомийлиги тиббий-ижтимоий эксперт комиссиясининг тавсияларига мувофиқ белгиланади, лекин олти кунлик иш ҳафтасида — олти соатдан, беш кунлик иш ҳафтасида — етти соату ўттиз дақиқадан ортиб кетмаслиги керак.",
+          "retrieval_score": 9.694996136791872,
+          "rerank_score": 38.69499613679187,
+          "used_in_answer": false
+        }
+      ],
+      "error": null,
+      "timing": {
+        "retrieval_ms": 51.751,
+        "rerank_ms": 0,
+        "generation_ms": 0.056,
+        "total_ms": 63.142
+      }
+    },
+    {
+      "id": "q076",
+      "status": "no_answer",
+      "answer": null,
+      "answer_language": "uz-Latn",
+      "no_answer": true,
+      "citations": [],
+      "contexts": [],
+      "error": null,
+      "timing": {
+        "retrieval_ms": 0.259,
+        "rerank_ms": 0,
+        "generation_ms": 0.019,
+        "total_ms": 18.672
+      }
+    },
+    {
+      "id": "q077",
+      "status": "ok",
+      "answer": "Ish beruvchi quyidagi huquqlarga ega:\nushbu Kodeksda, boshqa qonunlarda nazarda tutilgan tartibda va shartlar asosida xodimlar bilan mehnat shartnomalarini tuzish, oʻzgartirish hamda bekor qilish;\njamoa muzokaralari tashabbusi bilan chiqish va jamoa shartnomalarini tuzish;\nxodimlarni halol samarali mehnati uchun ragʻbatlantirish;\nxodimlardan oʻz mehnat majburiyatlarini bajarishini va ish beruvchining mol-mulkiga (shu jumladan uchinchi shaxslarning ish beruvchida boʻlgan mol-mulkiga, agar ish beruvchi ushbu mol-mulkning but saqlanishi uchun javobgar boʻlsa) ehtiyotkorona munosabatda boʻlishini, ichki mehnat tartibiga rioya etishini talab qilish;\nxodimlarni ushbu Kodeksda belgilangan tartibda intizomiy javobgarlikka tortish;\nxodimlarni ular tomonidan ham ish beruvchiga bevosita yetkazilgan, ham boshqa shaxslarga yetkazilgan zararning oʻrnini qoplash natijasida ish beruvchida yuzaga kelgan toʻgʻridan-toʻgʻri haqiqiy zarar uchun moddiy javobgarlikka tortish;\nichki hujjatlarni qabul qilish (bundan yakka tartibdagi tadbirkor boʻlmagan, jismoniy shaxs boʻlgan ish beruvchilar mustasno);\noʻz manfaatlarini ifodalash va himoya qilish maqsadida ish beruvchilar birlashmalarini tashkil etish hamda ularga aʼzo boʻlish.\nIsh beruvchi mehnat toʻgʻrisidagi qonunchilikka, mehnat toʻgʻrisidagi boshqa huquqiy hujjatlarga va mehnat shartnomasiga muvofiq boshqa huquqlarga ham ega boʻlishi mumkin. [1]",
+      "answer_language": "uz-Latn",
+      "no_answer": false,
+      "citations": [
+        {
+          "doc_id": "lex:6257288",
+          "doc_title": "Oʻzbekiston Respublikasining Mehnat kodeksi",
+          "doc_type": "kodeks",
+          "url": "https://lex.uz/docs/-6257288",
+          "article": "24-modda",
+          "part": null,
+          "edition_date": "2026-10-15",
+          "doc_status": "amalda",
+          "chunk_id": "lex:6257288#uz-Latn#art-24#2026-10-15",
+          "ref": 1,
+          "quote": "Ish beruvchi quyidagi huquqlarga ega:\nushbu Kodeksda, boshqa qonunlarda nazarda tutilgan tartibda va shartlar asosida xodimlar bilan mehnat shartnomalarini tuzish, oʻzgartirish hamda bekor qilish;\njamoa muzokaralari tashabbusi bilan chiqish va jamoa shartnomalarini tuzish;\nxodimlarni halol samarali mehnati uchun ragʻbatlantirish;\nxodimlardan oʻz mehnat majburiyatlarini bajarishini va ish beruvchining mol-mulkiga (shu jumladan uchinchi shaxslarning ish beruvchida boʻlgan mol-mulkiga, agar ish beruvchi ushbu mol-mulkning but saqlanishi uchun javobgar boʻlsa) ehtiyotkorona munosabatda boʻlishini, ichki mehnat tartibiga rioya etishini talab qilish;\nxodimlarni ushbu Kodeksda belgilangan tartibda intizomiy javobgarlikka tortish;\nxodimlarni ular tomonidan ham ish beruvchiga bevosita yetkazilgan, ham boshqa shaxslarga yetkazilgan zararning oʻrnini qoplash natijasida ish beruvchida yuzaga kelgan toʻgʻridan-toʻgʻri haqiqiy zarar uchun moddiy javobgarlikka tortish;\nichki hujjatlarni qabul qilish (bundan yakka tartibdagi tadbirkor boʻlmagan, jismoniy shaxs boʻlgan ish beruvchilar mustasno);\noʻz manfaatlarini ifodalash va himoya qilish maqsadida ish beruvchilar birlashmalarini tashkil etish hamda ularga aʼzo boʻlish.\nIsh beruvchi mehnat toʻgʻrisidagi qonunchilikka, mehnat toʻgʻrisidagi boshqa huquqiy hujjatlarga va mehnat shartnomasiga muvofiq boshqa huquqlarga ham ega boʻlishi mumkin.",
+          "source_url": "https://www.lex.uz/docs/-6257288?ONDATE=15.10.2026+01",
+          "source_anchor": "-6257964",
+          "edition_label": "15.10.2026 01"
+        }
+      ],
+      "contexts": [
+        {
+          "rank": 1,
+          "chunk_id": "lex:6257288#uz-Latn#art-24#2026-10-15",
+          "doc_id": "lex:6257288",
+          "article": "24-modda",
+          "text": "24-modda. Ish beruvchining huquqlari\nIsh beruvchi quyidagi huquqlarga ega:\nushbu Kodeksda, boshqa qonunlarda nazarda tutilgan tartibda va shartlar asosida xodimlar bilan mehnat shartnomalarini tuzish, oʻzgartirish hamda bekor qilish;\njamoa muzokaralari tashabbusi bilan chiqish va jamoa shartnomalarini tuzish;\nxodimlarni halol samarali mehnati uchun ragʻbatlantirish;\nxodimlardan oʻz mehnat majburiyatlarini bajarishini va ish beruvchining mol-mulkiga (shu jumladan uchinchi shaxslarning ish beruvchida boʻlgan mol-mulkiga, agar ish beruvchi ushbu mol-mulkning but saqlanishi uchun javobgar boʻlsa) ehtiyotkorona munosabatda boʻlishini, ichki mehnat tartibiga rioya etishini talab qilish;\nxodimlarni ushbu Kodeksda belgilangan tartibda intizomiy javobgarlikka tortish;\nxodimlarni ular tomonidan ham ish beruvchiga bevosita yetkazilgan, ham boshqa shaxslarga yetkazilgan zararning oʻrnini qoplash natijasida ish beruvchida yuzaga kelgan toʻgʻridan-toʻgʻri haqiqiy zarar uchun moddiy javobgarlikka tortish;\nichki hujjatlarni qabul qilish (bundan yakka tartibdagi tadbirkor boʻlmagan, jismoniy shaxs boʻlgan ish beruvchilar mustasno);\noʻz manfaatlarini ifodalash va himoya qilish maqsadida ish beruvchilar birlashmalarini tashkil etish hamda ularga aʼzo boʻlish.\nIsh beruvchi mehnat toʻgʻrisidagi qonunchilikka, mehnat toʻgʻrisidagi boshqa huquqiy hujjatlarga va mehnat shartnomasiga muvofiq boshqa huquqlarga ham ega boʻlishi mumkin.",
+          "retrieval_score": 15.162477784588846,
+          "rerank_score": 39.162477784588845,
+          "used_in_answer": true
+        }
+      ],
+      "error": null,
+      "timing": {
+        "retrieval_ms": 17.713,
+        "rerank_ms": 0,
+        "generation_ms": 0.05,
+        "total_ms": 35.216
+      }
+    },
+    {
+      "id": "q078",
+      "status": "ok",
+      "answer": "Mehnat shartnomasiga kiritilishi shart boʻlgan shartlar quyidagilardan iborat:\nish joyi — xodim shartnomada shart qilib koʻrsatilgan mehnat vazifasiga koʻra mehnat faoliyatini amalga oshiradigan ish beruvchi (tashkilot, uning alohida boʻlinmasi yoki jismoniy shaxs), shuningdek xodim mehnat qilishi kerak boʻlgan joy;\nmehnat vazifasi — muayyan kasb, mutaxassislik, malaka yoxud lavozim boʻyicha ish, shuningdek xodimga topshiriladigan ishning aniq turi;\nishning boshlanish sanasi — xodim mehnat shartnomasida shart qilib koʻrsatilgan ishni bajarishga kirishishi kerak boʻlgan kalendar sana;\nmehnatga haq toʻlash shartlari (shu jumladan xodimning tarif stavkasi yoki maoshi miqdori, qoʻshimcha toʻlovlar, ustamalar va ragʻbatlantiruvchi toʻlovlar);\nxodim bilan muddatli mehnat shartnomasi tuzilgan taqdirda mehnat shartnomasining muddati, shuningdek ushbu Kodeksga yoki boshqa qonunlarga muvofiq muddatli shartnomani tuzish uchun asoslar;\nish vaqti va dam olish vaqti rejimi, agar bu xodim uchun ushbu rejim mazkur ish beruvchida mehnat faoliyatini amalga oshiradigan xodimlar uchun nazarda tutilgan ish vaqtining va dam olish vaqtining umumiy rejimidan farq qiladigan boʻlsa;\nish joyidagi mehnat sharoitlarining xususiyatlari koʻrsatilgan holda normal sharoitlardan farq qiladigan sharoitlardagi ish uchun kafolatlar va kompensatsiyalar, agar xodim mazkur ishga qabul qilinayotgan boʻlsa;\nzarur boʻlgan hollarda ishning xususiyatini belgilaydigan shartlar (koʻchma, sayyor, yoʻldagi, ishning boshqa xususiyati);\nmehnat toʻgʻrisidagi qonunchilikda va mehnat haqidagi boshqa huquqiy hujjatlarda nazarda tutilgan hollarda boshqa shartlar.\nAgar mehnat shartnomasini tuzish chogʻida ushbu moddaning birinchi qismida nazarda tutilgan shartlardan biror-biri shartnomaga kiritilmagan boʻlsa, bu mehnat shartnomasini tuzilmagan deb eʼtirof etish yoki uni bekor qilish uchun asos boʻlmaydi. Mehnat shartnomasi qoʻshimcha shartlar bilan toʻldirilishi kerak. Bunda qoʻshimcha shartlar mehnat shartnomasining ajralmas qismi boʻlgan, mehnat shartnomasiga doir yozma shaklda tuziladigan qoʻshimcha kelishuv bilan belgilanadi.\nMehnat shartnomasida mehnat toʻgʻrisidagi qonunchilikda va mehnat haqidagi boshqa huquqiy hujjatlarda belgilanganiga nisbatan xodimning holatini yomonlashtirmaydigan qoʻshimcha shartlar, shu jumladan quyidagi shartlar nazarda tutilishi mumkin:\nish joyini aniqlashtirish (tarkibiy boʻlinma va uning joylashgan yeri koʻrsatilgan holda) va (yoki) ish joyi toʻgʻrisida;\nishga qabul qilish chogʻidagi dastlabki sinov haqida;\nbir necha kasbda (lavozimda) ishlaganlik toʻgʻrisida;\ndavlat sirlarini va qonun bilan qoʻriqlanadigan boshqa sirni oshkor qilmaslik haqida;\nagar oʻqitish ish beruvchining mablagʻlari hisobidan olib borilgan boʻlsa, xodimning oʻqishdan keyin shartnomada belgilangan muddatdan kam boʻlmagan muddatni ishlab berish majburiyati toʻgʻrisida;\nxodimni qoʻshimcha sugʻurta qilish turlari va shartlari haqida;\nxodimga va uning oila aʼzolariga taqdim etiladigan ijtimoiy-maishiy sharoitlar toʻgʻrisida;\nxodimning ish sharoitlariga nisbatan qoʻllaniladigan xodimning va ish beruvchining mehnat toʻgʻrisidagi qonunchilikda hamda mehnat haqidagi boshqa huquqiy hujjatlarda belgilangan huquqlari va majburiyatlarini aniqlashtirish haqida.\nXodimning va ish beruvchining mehnat toʻgʻrisidagi qonunchilikda belgilangan biror-bir huquqlari va (yoki) majburiyatlarining mehnat shartnomasiga kiritilmasligi ushbu huquqlarni amalga oshirishni yoki bu majburiyatlarni bajarishni rad etish sifatida koʻrib chiqilishi mumkin emas. [1]",
+      "answer_language": "uz-Latn",
+      "no_answer": false,
+      "citations": [
+        {
+          "doc_id": "lex:6257288",
+          "doc_title": "Oʻzbekiston Respublikasining Mehnat kodeksi",
+          "doc_type": "kodeks",
+          "url": "https://lex.uz/docs/-6257288",
+          "article": "104-modda",
+          "part": null,
+          "edition_date": "2026-10-15",
+          "doc_status": "amalda",
+          "chunk_id": "lex:6257288#uz-Latn#art-104#2026-10-15",
+          "ref": 1,
+          "quote": "Mehnat shartnomasiga kiritilishi shart boʻlgan shartlar quyidagilardan iborat:\nish joyi — xodim shartnomada shart qilib koʻrsatilgan mehnat vazifasiga koʻra mehnat faoliyatini amalga oshiradigan ish beruvchi (tashkilot, uning alohida boʻlinmasi yoki jismoniy shaxs), shuningdek xodim mehnat qilishi kerak boʻlgan joy;\nmehnat vazifasi — muayyan kasb, mutaxassislik, malaka yoxud lavozim boʻyicha ish, shuningdek xodimga topshiriladigan ishning aniq turi;\nishning boshlanish sanasi — xodim mehnat shartnomasida shart qilib koʻrsatilgan ishni bajarishga kirishishi kerak boʻlgan kalendar sana;\nmehnatga haq toʻlash shartlari (shu jumladan xodimning tarif stavkasi yoki maoshi miqdori, qoʻshimcha toʻlovlar, ustamalar va ragʻbatlantiruvchi toʻlovlar);\nxodim bilan muddatli mehnat shartnomasi tuzilgan taqdirda mehnat shartnomasining muddati, shuningdek ushbu Kodeksga yoki boshqa qonunlarga muvofiq muddatli shartnomani tuzish uchun asoslar;\nish vaqti va dam olish vaqti rejimi, agar bu xodim uchun ushbu rejim mazkur ish beruvchida mehnat faoliyatini amalga oshiradigan xodimlar uchun nazarda tutilgan ish vaqtining va dam olish vaqtining umumiy rejimidan farq qiladigan boʻlsa;\nish joyidagi mehnat sharoitlarining xususiyatlari koʻrsatilgan holda normal sharoitlardan farq qiladigan sharoitlardagi ish uchun kafolatlar va kompensatsiyalar, agar xodim mazkur ishga qabul qilinayotgan boʻlsa;\nzarur boʻlgan hollarda ishning xususiyatini belgilaydigan shartlar (koʻchma, sayyor, yoʻldagi, ishning boshqa xususiyati);\nmehnat toʻgʻrisidagi qonunchilikda va mehnat haqidagi boshqa huquqiy hujjatlarda nazarda tutilgan hollarda boshqa shartlar.\nAgar mehnat shartnomasini tuzish chogʻida ushbu moddaning birinchi qismida nazarda tutilgan shartlardan biror-biri shartnomaga kiritilmagan boʻlsa, bu mehnat shartnomasini tuzilmagan deb eʼtirof etish yoki uni bekor qilish uchun asos boʻlmaydi. Mehnat shartnomasi qoʻshimcha shartlar bilan toʻldirilishi kerak. Bunda qoʻshimcha shartlar mehnat shartnomasining ajralmas qismi boʻlgan, mehnat shartnomasiga doir yozma shaklda tuziladigan qoʻshimcha kelishuv bilan belgilanadi.\nMehnat shartnomasida mehnat toʻgʻrisidagi qonunchilikda va mehnat haqidagi boshqa huquqiy hujjatlarda belgilanganiga nisbatan xodimning holatini yomonlashtirmaydigan qoʻshimcha shartlar, shu jumladan quyidagi shartlar nazarda tutilishi mumkin:\nish joyini aniqlashtirish (tarkibiy boʻlinma va uning joylashgan yeri koʻrsatilgan holda) va (yoki) ish joyi toʻgʻrisida;\nishga qabul qilish chogʻidagi dastlabki sinov haqida;\nbir necha kasbda (lavozimda) ishlaganlik toʻgʻrisida;\ndavlat sirlarini va qonun bilan qoʻriqlanadigan boshqa sirni oshkor qilmaslik haqida;\nagar oʻqitish ish beruvchining mablagʻlari hisobidan olib borilgan boʻlsa, xodimning oʻqishdan keyin shartnomada belgilangan muddatdan kam boʻlmagan muddatni ishlab berish majburiyati toʻgʻrisida;\nxodimni qoʻshimcha sugʻurta qilish turlari va shartlari haqida;\nxodimga va uning oila aʼzolariga taqdim etiladigan ijtimoiy-maishiy sharoitlar toʻgʻrisida;\nxodimning ish sharoitlariga nisbatan qoʻllaniladigan xodimning va ish beruvchining mehnat toʻgʻrisidagi qonunchilikda hamda mehnat haqidagi boshqa huquqiy hujjatlarda belgilangan huquqlari va majburiyatlarini aniqlashtirish haqida.\nXodimning va ish beruvchining mehnat toʻgʻrisidagi qonunchilikda belgilangan biror-bir huquqlari va (yoki) majburiyatlarining mehnat shartnomasiga kiritilmasligi ushbu huquqlarni amalga oshirishni yoki bu majburiyatlarni bajarishni rad etish sifatida koʻrib chiqilishi mumkin emas.",
+          "source_url": "https://www.lex.uz/docs/-6257288?ONDATE=15.10.2026+01",
+          "source_anchor": "-6260140",
+          "edition_label": "15.10.2026 01"
+        }
+      ],
+      "contexts": [
+        {
+          "rank": 1,
+          "chunk_id": "lex:6257288#uz-Latn#art-104#2026-10-15",
+          "doc_id": "lex:6257288",
+          "article": "104-modda",
+          "text": "104-modda. Mehnat shartnomasining mazmuni\nMehnat shartnomasiga kiritilishi shart boʻlgan shartlar quyidagilardan iborat:\nish joyi — xodim shartnomada shart qilib koʻrsatilgan mehnat vazifasiga koʻra mehnat faoliyatini amalga oshiradigan ish beruvchi (tashkilot, uning alohida boʻlinmasi yoki jismoniy shaxs), shuningdek xodim mehnat qilishi kerak boʻlgan joy;\nmehnat vazifasi — muayyan kasb, mutaxassislik, malaka yoxud lavozim boʻyicha ish, shuningdek xodimga topshiriladigan ishning aniq turi;\nishning boshlanish sanasi — xodim mehnat shartnomasida shart qilib koʻrsatilgan ishni bajarishga kirishishi kerak boʻlgan kalendar sana;\nmehnatga haq toʻlash shartlari (shu jumladan xodimning tarif stavkasi yoki maoshi miqdori, qoʻshimcha toʻlovlar, ustamalar va ragʻbatlantiruvchi toʻlovlar);\nxodim bilan muddatli mehnat shartnomasi tuzilgan taqdirda mehnat shartnomasining muddati, shuningdek ushbu Kodeksga yoki boshqa qonunlarga muvofiq muddatli shartnomani tuzish uchun asoslar;\nish vaqti va dam olish vaqti rejimi, agar bu xodim uchun ushbu rejim mazkur ish beruvchida mehnat faoliyatini amalga oshiradigan xodimlar uchun nazarda tutilgan ish vaqtining va dam olish vaqtining umumiy rejimidan farq qiladigan boʻlsa;\nish joyidagi mehnat sharoitlarining xususiyatlari koʻrsatilgan holda normal sharoitlardan farq qiladigan sharoitlardagi ish uchun kafolatlar va kompensatsiyalar, agar xodim mazkur ishga qabul qilinayotgan boʻlsa;\nzarur boʻlgan hollarda ishning xususiyatini belgilaydigan shartlar (koʻchma, sayyor, yoʻldagi, ishning boshqa xususiyati);\nmehnat toʻgʻrisidagi qonunchilikda va mehnat haqidagi boshqa huquqiy hujjatlarda nazarda tutilgan hollarda boshqa shartlar.\nAgar mehnat shartnomasini tuzish chogʻida ushbu moddaning birinchi qismida nazarda tutilgan shartlardan biror-biri shartnomaga kiritilmagan boʻlsa, bu mehnat shartnomasini tuzilmagan deb eʼtirof etish yoki uni bekor qilish uchun asos boʻlmaydi. Mehnat shartnomasi qoʻshimcha shartlar bilan toʻldirilishi kerak. Bunda qoʻshimcha shartlar mehnat shartnomasining ajralmas qismi boʻlgan, mehnat shartnomasiga doir yozma shaklda tuziladigan qoʻshimcha kelishuv bilan belgilanadi.\nMehnat shartnomasida mehnat toʻgʻrisidagi qonunchilikda va mehnat haqidagi boshqa huquqiy hujjatlarda belgilanganiga nisbatan xodimning holatini yomonlashtirmaydigan qoʻshimcha shartlar, shu jumladan quyidagi shartlar nazarda tutilishi mumkin:\nish joyini aniqlashtirish (tarkibiy boʻlinma va uning joylashgan yeri koʻrsatilgan holda) va (yoki) ish joyi toʻgʻrisida;\nishga qabul qilish chogʻidagi dastlabki sinov haqida;\nbir necha kasbda (lavozimda) ishlaganlik toʻgʻrisida;\ndavlat sirlarini va qonun bilan qoʻriqlanadigan boshqa sirni oshkor qilmaslik haqida;\nagar oʻqitish ish beruvchining mablagʻlari hisobidan olib borilgan boʻlsa, xodimning oʻqishdan keyin shartnomada belgilangan muddatdan kam boʻlmagan muddatni ishlab berish majburiyati toʻgʻrisida;\nxodimni qoʻshimcha sugʻurta qilish turlari va shartlari haqida;\nxodimga va uning oila aʼzolariga taqdim etiladigan ijtimoiy-maishiy sharoitlar toʻgʻrisida;\nxodimning ish sharoitlariga nisbatan qoʻllaniladigan xodimning va ish beruvchining mehnat toʻgʻrisidagi qonunchilikda hamda mehnat haqidagi boshqa huquqiy hujjatlarda belgilangan huquqlari va majburiyatlarini aniqlashtirish haqida.\nXodimning va ish beruvchining mehnat toʻgʻrisidagi qonunchilikda belgilangan biror-bir huquqlari va (yoki) majburiyatlarining mehnat shartnomasiga kiritilmasligi ushbu huquqlarni amalga oshirishni yoki bu majburiyatlarni bajarishni rad etish sifatida koʻrib chiqilishi mumkin emas.",
+          "retrieval_score": 12.643746167903053,
+          "rerank_score": 73.64374616790306,
+          "used_in_answer": true
+        },
+        {
+          "rank": 2,
+          "chunk_id": "lex:6257288#uz-Latn#art-374#2026-10-15",
+          "doc_id": "lex:6257288",
+          "article": "374-modda",
+          "text": "374-modda. Ishlab chiqarish taʼlimi shartnomasining mazmuni\nIshlab chiqarish taʼlimi shartnomasida quyidagilar koʻrsatilishi kerak:\ntaraflarning nomi;\noʻquvchi tomonidan olinadigan aniq malaka;\nish beruvchining oʻquvchiga ishlab chiqarish taʼlimini oʻtash uchun zarur shart-sharoitlarni taʼminlash majburiyati;\noʻquvchining ishlab chiqarish taʼlimini oʻtash va olingan malakaga muvofiq ish beruvchi bilan tuzilgan mehnat shartnomasi boʻyicha ishlab chiqarish taʼlimi shartnomasida belgilangan muddat davomida ishlab berish majburiyati;\nishlab chiqarish taʼlimining muddati;\noʻqish davrida mehnatga haq toʻlash miqdori;\ntaraflarning rekvizitlari.\nIshlab chiqarish taʼlimi shartnomasida taraflarning kelishuvi bilan belgilangan boshqa shartlar ham boʻlishi mumkin.\nIshlab chiqarish taʼlimi shartnomasida belgilangan, ish beruvchi bilan tuzilgan mehnat shartnomasi boʻyicha ishlab berish muddati ishlab chiqarish taʼlimi muddatiga hamda ish beruvchining uni oʻtkazishga doir chiqimlariga mutanosib boʻlishi va har qanday holda ham ushbu Kodeksning 110-moddasi birinchi qismining uchinchi xatboshisiga muvofiq belgilangan muddatli mehnat shartnomasining eng koʻp davridan oshib ketmasligi kerak.",
+          "retrieval_score": 16.260924838524605,
+          "rerank_score": 36.2609248385246,
+          "used_in_answer": false
+        },
+        {
+          "rank": 3,
+          "chunk_id": "lex:6257288#uz-Latn#art-67#2026-10-15",
+          "doc_id": "lex:6257288",
+          "article": "67-modda",
+          "text": "67-modda. Jamoa shartnomasining mazmuni va tuzilishi\nJamoa shartnomasining mazmunini va tuzilishini uning taraflari belgilaydi.\nJamoa shartnomasiga ish beruvchining va xodimlarning quyidagi masalalar boʻyicha oʻzaro majburiyatlari kiritilishi mumkin:\nmehnatga haq toʻlash shakli, tizimi va miqdori, pul mukofotlari, nafaqalar, kompensatsiyalar, qoʻshimcha toʻlovlar;\nnarxlarning oʻzgarishidan, inflyatsiya darajasidan, jamoa shartnomasida belgilangan koʻrsatkichlarning bajarilishidan kelib chiqqan holda mehnatga haq toʻlashni tartibga solish mexanizmi;\nxodimlarning bandligi, ularni qayta tayyorlash, ularning malakasini oshirish, ularni ishdan boʻshatish shartlari;\nish vaqti va dam olish vaqtining, taʼtillarning davomiyligi;\nxodimlarning, shu jumladan ayollarning, nogironligi boʻlgan shaxslarning va oʻn sakkiz yoshga toʻlmagan shaxslarning mehnat sharoitlari hamda mehnat muhofazasini yaxshilash, ekologik xavfsizlikni taʼminlash;\ntashkilotni, idoraga qarashli uy-joyni xususiylashtirish chogʻida xodimlarning manfaatlarini hisobga olish;\nishni taʼlim bilan qoʻshib olib borayotgan xodimlar uchun imtiyozlar;\nixtiyoriy tibbiy va ijtimoiy sugʻurta;\nish beruvchi tomonidan xodimlarning shaxsiy jamgʻarib boriladigan pensiya hisobvaraqlariga qoʻshimcha badallar kiritish miqdorlari va muddatlari;\njamoa shartnomasining bajarilishi ustidan nazorat qilish, taraflarning javobgarligi, kasaba uyushmasi qoʻmitasi faoliyat koʻrsatishi uchun normal sharoitlar bilan taʼminlash.\nTashkilotning iqtisodiy imkoniyatlari hisobga olingan holda, jamoa shartnomasida boshqa shartlar, shu jumladan mehnat toʻgʻrisidagi qonunchilikda va mehnat haqidagi boshqa huquqiy hujjatlarda belgilangan normalar hamda qoidalarga nisbatan imtiyozliroq mehnat shartlari va ijtimoiy-iqtisodiy shartlar (qoʻshimcha taʼtillar, pensiyalarga ustamalar, muddatidan oldin pensiyaga chiqish, transport va xizmat safari xarajatlarini kompensatsiya qilish, xodimlarni ishlab chiqarishda hamda ularning farzandlarini umumiy oʻrta taʼlim tashkilotlarida va maktabgacha taʼlim tashkilotlarida bepul yoki qisman haq toʻlanadigan tarzda ovqatlantirish, uyali aloqa, Internet jahon axborot tarmogʻi uchun haq toʻlash, oliy taʼlim tashkilotlarida oʻqitish uchun ssudalar toʻlash va haq toʻlash, boshqa qoʻshimcha imtiyozlar va kompensatsiyalar) ham boʻlishi mumkin.\nAgar qonunchilikda qoidalar jamoa shartnomasida albatta mustahkamlab qoʻyilishi shartligi toʻgʻrisidagi toʻgʻridan-toʻgʻri koʻrsatma mavjud boʻlsa, ushbu qoidalar jamoa shartnomasiga kiritiladi.",
+          "retrieval_score": 13.517095672548335,
+          "rerank_score": 35.517095672548336,
+          "used_in_answer": false
+        },
+        {
+          "rank": 4,
+          "chunk_id": "lex:6257288#uz-Latn#art-106#2026-10-15",
+          "doc_id": "lex:6257288",
+          "article": "106-modda",
+          "text": "106-modda. Mehnat shartnomasining shakli\nMehnat shartnomasi bir xil kuchga ega boʻlgan kamida ikki nusxada yozma (qogʻozda yoki elektron) shaklda tuzilib, ularning har biri taraflar tomonidan imzolanadi.\nElektron shakldagi mehnat shartnomasi qonunchilikda belgilangan tartibda “Yagona milliy mehnat tizimi” idoralararo dasturiy-apparat majmuida rasmiylashtiriladi.\nMehnat shartnomasining har bir nusxasi xodimning va ishga qabul qilish huquqiga ega boʻlgan mansabdor shaxsning imzolari bilan mustahkamlanadi.\nIsh beruvchida muhr mavjud boʻlgan taqdirda mansabdor shaxsning mehnat shartnomasining barcha nusxalaridagi imzosi muhr bilan tasdiqlanadi.\nMehnat shartnomasining bir nusxasi xodimga beriladi, boshqasi (boshqalari) ish beruvchida saqlanadi. Mehnat shartnomasining nusxasi xodim tomonidan olinganligi ish beruvchida saqlanadigan mehnat shartnomasi nusxasidagi xodim mehnat shartnomasining nusxasini olganligi toʻgʻrisidagi alohida imzosi bilan tasdiqlanadi.\nMehnat shartnomasida shartnomaning ushbu Kodeksning 107-moddasida nazarda tutilgan rekvizitlari koʻrsatiladi.\nIsh beruvchilar va xodimlarga mehnat shartnomalarini tuzishda amaliy yordam koʻrsatish maqsadida Oʻzbekiston Respublikasi Vazirlar Mahkamasi tomonidan Ijtimoiy-mehnat masalalari boʻyicha respublika uch tomonlama komissiyasi bilan kelishuvga koʻra tavsiyaviy xususiyatga ega boʻlgan mehnat shartnomalarining namunaviy shakllari ishlab chiqiladi.",
+          "retrieval_score": 11.105727964797811,
+          "rerank_score": 35.10572796479781,
+          "used_in_answer": false
+        },
+        {
+          "rank": 5,
+          "chunk_id": "lex:6257288#uz-Latn#art-110#2026-10-15",
+          "doc_id": "lex:6257288",
+          "article": "110-modda",
+          "text": "110-modda. Mehnat shartnomasining muddati\nMehnat shartnomasi:\nnomuayyan muddatga;\nuch yildan koʻp boʻlmagan muayyan muddatga (muddatli mehnat shartnomasi) tuzilishi mumkin.\nAgar mehnat shartnomasida uning amal qilish muddati shartlashilmagan boʻlsa, shartnoma nomuayyan muddatga tuzilgan deb hisoblanadi.",
+          "retrieval_score": 9.340998012312799,
+          "rerank_score": 33.340998012312795,
+          "used_in_answer": false
+        }
+      ],
+      "error": null,
+      "timing": {
+        "retrieval_ms": 29.491,
+        "rerank_ms": 0,
+        "generation_ms": 0.073,
+        "total_ms": 46.425
+      }
+    },
+    {
+      "id": "q079",
+      "status": "ok",
+      "answer": "Fuqarolik huquq va burchlari qonunchilikda nazarda tutilgan asoslardan, shuningdek fuqarolar hamda yuridik shaxslarning, garchi qonunchilikda nazarda tutilgan boʻlmasa-da, lekin fuqarolik qonunchiligining umumiy negizlari va mazmuniga koʻra fuqarolik huquq hamda burchlarni keltirib chiqaradigan harakatlaridan vujudga keladi.\nFuqarolik huquq va burchlari quyidagilardan vujudga keladi:\n1) qonunda nazarda tutilgan shartnomalar va boshqa bitimlardan, shuningdek garchi qonunda nazarda tutilgan boʻlmasa-da, lekin unga zid boʻlmagan shartnomalar va boshqa bitimlardan;\n2) qonunda fuqarolik huquq va burchlari vujudga kelishining asosi sifatida nazarda tutilgan davlat organlarining yoki fuqarolarning oʻzini oʻzi boshqarish organlari hujjatlaridan;\n3) sudning fuqarolik huquq va burchlarini belgilagan qaroridan;\n4) qonun yoʻl qoʻyadigan asoslarda mol-mulk olish natijasida;\n5) fan, adabiyot, sanʼat asarlarini yaratish, ixtirolar va boshqa intellektual faoliyat natijasida;\n6) boshqa shaxsga zarar yetkazish natijasida;\n7) asossiz boyib ketish natijasida;\n8) fuqarolar va yuridik shaxslarning boshqa harakatlari natijasida;\n9) qonunchilik fuqarolik-huquqiy oqibatlarning kelib chiqishi bilan bogʻlaydigan hodisalar natijasida.\nDavlat roʻyxatidan oʻtkazilishi shart boʻlgan mol-mulkka boʻlgan huquqlar, agar qonunda boshqacha tartib nazarda tutilgan boʻlmasa, unga boʻlgan tegishli huquqlar roʻyxatdan oʻtkazilgan paytdan boshlab vujudga keladi. [1]",
+      "answer_language": "uz-Latn",
+      "no_answer": false,
+      "citations": [
+        {
+          "doc_id": "lex:111189",
+          "doc_title": "Oʻzbekiston Respublikasining Fuqarolik kodeksi (birinchi qism)",
+          "doc_type": "kodeks",
+          "url": "https://lex.uz/docs/-111189",
+          "article": "8-modda",
+          "part": null,
+          "edition_date": "2026-09-12",
+          "doc_status": "amalda",
+          "chunk_id": "lex:111189#uz-Latn#art-8#2026-09-12",
+          "ref": 1,
+          "quote": "Fuqarolik huquq va burchlari qonunchilikda nazarda tutilgan asoslardan, shuningdek fuqarolar hamda yuridik shaxslarning, garchi qonunchilikda nazarda tutilgan boʻlmasa-da, lekin fuqarolik qonunchiligining umumiy negizlari va mazmuniga koʻra fuqarolik huquq hamda burchlarni keltirib chiqaradigan harakatlaridan vujudga keladi.\nFuqarolik huquq va burchlari quyidagilardan vujudga keladi:\n1) qonunda nazarda tutilgan shartnomalar va boshqa bitimlardan, shuningdek garchi qonunda nazarda tutilgan boʻlmasa-da, lekin unga zid boʻlmagan shartnomalar va boshqa bitimlardan;\n2) qonunda fuqarolik huquq va burchlari vujudga kelishining asosi sifatida nazarda tutilgan davlat organlarining yoki fuqarolarning oʻzini oʻzi boshqarish organlari hujjatlaridan;\n3) sudning fuqarolik huquq va burchlarini belgilagan qaroridan;\n4) qonun yoʻl qoʻyadigan asoslarda mol-mulk olish natijasida;\n5) fan, adabiyot, sanʼat asarlarini yaratish, ixtirolar va boshqa intellektual faoliyat natijasida;\n6) boshqa shaxsga zarar yetkazish natijasida;\n7) asossiz boyib ketish natijasida;\n8) fuqarolar va yuridik shaxslarning boshqa harakatlari natijasida;\n9) qonunchilik fuqarolik-huquqiy oqibatlarning kelib chiqishi bilan bogʻlaydigan hodisalar natijasida.\nDavlat roʻyxatidan oʻtkazilishi shart boʻlgan mol-mulkka boʻlgan huquqlar, agar qonunda boshqacha tartib nazarda tutilgan boʻlmasa, unga boʻlgan tegishli huquqlar roʻyxatdan oʻtkazilgan paytdan boshlab vujudga keladi.",
+          "source_url": "https://www.lex.uz/docs/-111189?ONDATE=12.09.2026+01",
+          "source_anchor": "-150083",
+          "edition_label": "12.09.2026 01"
+        }
+      ],
+      "contexts": [
+        {
+          "rank": 1,
+          "chunk_id": "lex:111189#uz-Latn#art-8#2026-09-12",
+          "doc_id": "lex:111189",
+          "article": "8-modda",
+          "text": "8-modda. Fuqarolik huquq va burchlarining vujudga kelish asoslari\nFuqarolik huquq va burchlari qonunchilikda nazarda tutilgan asoslardan, shuningdek fuqarolar hamda yuridik shaxslarning, garchi qonunchilikda nazarda tutilgan boʻlmasa-da, lekin fuqarolik qonunchiligining umumiy negizlari va mazmuniga koʻra fuqarolik huquq hamda burchlarni keltirib chiqaradigan harakatlaridan vujudga keladi.\nFuqarolik huquq va burchlari quyidagilardan vujudga keladi:\n1) qonunda nazarda tutilgan shartnomalar va boshqa bitimlardan, shuningdek garchi qonunda nazarda tutilgan boʻlmasa-da, lekin unga zid boʻlmagan shartnomalar va boshqa bitimlardan;\n2) qonunda fuqarolik huquq va burchlari vujudga kelishining asosi sifatida nazarda tutilgan davlat organlarining yoki fuqarolarning oʻzini oʻzi boshqarish organlari hujjatlaridan;\n3) sudning fuqarolik huquq va burchlarini belgilagan qaroridan;\n4) qonun yoʻl qoʻyadigan asoslarda mol-mulk olish natijasida;\n5) fan, adabiyot, sanʼat asarlarini yaratish, ixtirolar va boshqa intellektual faoliyat natijasida;\n6) boshqa shaxsga zarar yetkazish natijasida;\n7) asossiz boyib ketish natijasida;\n8) fuqarolar va yuridik shaxslarning boshqa harakatlari natijasida;\n9) qonunchilik fuqarolik-huquqiy oqibatlarning kelib chiqishi bilan bogʻlaydigan hodisalar natijasida.\nDavlat roʻyxatidan oʻtkazilishi shart boʻlgan mol-mulkka boʻlgan huquqlar, agar qonunda boshqacha tartib nazarda tutilgan boʻlmasa, unga boʻlgan tegishli huquqlar roʻyxatdan oʻtkazilgan paytdan boshlab vujudga keladi.",
+          "retrieval_score": 32.47507374728609,
+          "rerank_score": 138.4750737472861,
+          "used_in_answer": true
+        },
+        {
+          "rank": 2,
+          "chunk_id": "lex:111189#uz-Latn#art-182#2026-09-12",
+          "doc_id": "lex:111189",
+          "article": "182-modda",
+          "text": "182-modda. Mulk huquqining vujudga kelish asoslari\nMulk huquqining vujudga kelish asoslari quyidagilardan iborat: mehnat faoliyati; mol-mulkdan foydalanish sohasidagi tadbirkorlik va boshqa xoʻjalik faoliyati, shu jumladan mol-mulkni yaratish, koʻpaytirish, bitimlar asosida qoʻlga kiritish; davlat mol-mulkini xususiylashtirish; meros qilib olish; egalik qilish huquqini vujudga keltiruvchi muddat; qonunchilikka zid boʻlmagan boshqa asoslar.",
+          "retrieval_score": 20.588112225693397,
+          "rerank_score": 74.5881122256934,
+          "used_in_answer": false
+        },
+        {
+          "rank": 3,
+          "chunk_id": "lex:111189#uz-Latn#art-185#2026-09-12",
+          "doc_id": "lex:111189",
+          "article": "185-modda",
+          "text": "185-modda. Shartnoma asosida mol-mulk oluvchida mulk huquqining vujudga kelish payti\nShartnoma asosida mol-mulk oluvchida mulk huquqi, agar qonunchilikda yoki shartnomada boshqacha tartib nazarda tutilgan boʻlmasa, ashyo topshirilgan paytdan boshlab vujudga keladi.\nAgar mol-mulkni boshqa shaxsga berish haqidagi shartnoma davlat roʻyxatidan oʻtkazilishi yoki notarial tasdiqlanishi kerak boʻlsa, mol-mulkni oluvchida mulk huquqi shartnoma roʻyxatdan oʻtkazilgan yoki tasdiqlangan paytdan boshlab, shartnomani ham notarial tasdiqlash, ham davlat roʻyxatidan oʻtkazish zarur boʻlganida esa — roʻyxatdan oʻtkazilgan paytdan boshlab vujudga keladi.",
+          "retrieval_score": 18.739604515989242,
+          "rerank_score": 64.73960451598924,
+          "used_in_answer": false
+        },
+        {
+          "rank": 4,
+          "chunk_id": "lex:111189#uz-Latn#art-234#2026-09-12",
+          "doc_id": "lex:111189",
+          "article": "234-modda",
+          "text": "234-modda. Majburiyat tushunchasi va uning vujudga kelish asoslari\nMajburiyat — fuqarolik huquqiy munosabati boʻlib, unga asosan bir shaxs (qarzdor) boshqa shaxs (kreditor) foydasiga muayyan harakatni amalga oshirishga, chunonchi: mol-mulkni topshirish, ishni bajarish, xizmatlar koʻrsatish, pul toʻlash va hokazo yoki muayyan harakatdan oʻzini saqlashga majbur boʻladi, kreditor esa — qarzdordan oʻzining majburiyatlarini bajarishni talab qilish huquqiga ega boʻladi.\nMajburiyatlar shartnomadan, ziyon yetkazish natijasida hamda ushbu Kodeksda koʻrsatilgan boshqa asoslardan kelib chiqadi.",
+          "retrieval_score": 23.433659832785757,
+          "rerank_score": 58.433659832785764,
+          "used_in_answer": false
+        },
+        {
+          "rank": 5,
+          "chunk_id": "lex:111189#uz-Latn#art-270#2026-09-12",
+          "doc_id": "lex:111189",
+          "article": "270-modda",
+          "text": "270-modda. Garov huquqining vujudga kelishi\nGarov huquqi garov toʻgʻrisida shartnoma tuzilgan paytdan yoxud, basharti shartnoma notarial tasdiqlanishi shart boʻlsa — notarial tasdiqlangan paytdan, shartnoma roʻyxatdan oʻtkazilishi shart boʻlganida esa — u roʻyxatdan oʻtkazilgan paytdan boshlab vujudga keladi.\nBasharti, garov narsasi qonunga yoki shartnomaga asosan garovga qoʻyuvchida boʻlishi lozim boʻlsa, garov huquqi unga garov narsasi berilgan paytdan, basharti bunday topshirish shartnoma tuzilishidan avval amalga oshgan boʻlsa — shartnoma tuzilgan paytdan boshlab vujudga keladi.",
+          "retrieval_score": 15.911628276799515,
+          "rerank_score": 54.91162827679952,
+          "used_in_answer": false
+        }
+      ],
+      "error": null,
+      "timing": {
+        "retrieval_ms": 31.232,
+        "rerank_ms": 0,
+        "generation_ms": 0.045,
+        "total_ms": 46.835
+      }
+    },
+    {
+      "id": "q080",
+      "status": "ok",
+      "answer": "Ish vaqtidan tashqari ishning davomiyligi xodim uchun surunkasiga ikki kun davomida toʻrt soatdan (mehnat sharoitlari noqulay boʻlgan ishlarda — bir kunda ikki soatdan) oshmasligi kerak.\nIsh beruvchi xodimning ish vaqtidan tashqari ishining davomiyligi aniq hisobga olinishini taʼminlashi shart. [1]",
+      "answer_language": "uz-Latn",
+      "no_answer": false,
+      "citations": [
+        {
+          "doc_id": "lex:6257288",
+          "doc_title": "Oʻzbekiston Respublikasining Mehnat kodeksi",
+          "doc_type": "kodeks",
+          "url": "https://lex.uz/docs/-6257288",
+          "article": "190-modda",
+          "part": null,
+          "edition_date": "2026-10-15",
+          "doc_status": "amalda",
+          "chunk_id": "lex:6257288#uz-Latn#art-190#2026-10-15",
+          "ref": 1,
+          "quote": "Ish vaqtidan tashqari ishning davomiyligi xodim uchun surunkasiga ikki kun davomida toʻrt soatdan (mehnat sharoitlari noqulay boʻlgan ishlarda — bir kunda ikki soatdan) oshmasligi kerak.\nIsh beruvchi xodimning ish vaqtidan tashqari ishining davomiyligi aniq hisobga olinishini taʼminlashi shart.",
+          "source_url": "https://www.lex.uz/docs/-6257288?ONDATE=15.10.2026+01",
+          "source_anchor": "-6262447",
+          "edition_label": "15.10.2026 01"
+        }
+      ],
+      "contexts": [
+        {
+          "rank": 1,
+          "chunk_id": "lex:6257288#uz-Latn#art-190#2026-10-15",
+          "doc_id": "lex:6257288",
+          "article": "190-modda",
+          "text": "190-modda. Ish vaqtidan tashqari ishlarning eng koʻp davomiyligi\nIsh vaqtidan tashqari ishning davomiyligi xodim uchun surunkasiga ikki kun davomida toʻrt soatdan (mehnat sharoitlari noqulay boʻlgan ishlarda — bir kunda ikki soatdan) oshmasligi kerak.\nIsh beruvchi xodimning ish vaqtidan tashqari ishining davomiyligi aniq hisobga olinishini taʼminlashi shart.",
+          "retrieval_score": 28.32330268600125,
+          "rerank_score": 134.32330268600126,
+          "used_in_answer": true
+        },
+        {
+          "rank": 2,
+          "chunk_id": "lex:6257288#uz-Latn#art-189#2026-10-15",
+          "doc_id": "lex:6257288",
+          "article": "189-modda",
+          "text": "189-modda. Ish vaqtidan tashqari ish\nIsh beruvchi tomonidan xodimni xodim uchun belgilangan ish vaqti davomiyligidan tashqari ishga jalb etish ish vaqtidan tashqari ish deb hisoblanadi.\nIsh vaqtidan tashqari ishning soatlari miqdorini aniqlash tartibi ish vaqtini hisobga olish turiga bogʻliqdir.\nIsh vaqti kunlik hisobga olinganda xodim uchun belgilangan har kungi ish (smena) vaqtining davomiyligidan oshadigan ish ish vaqtidan tashqari ish deb hisoblanadi.\nIsh vaqti haftalik hisobga olinganda xodim uchun belgilangan haftalik ish vaqtining davomiyligidan oshadigan ish ish vaqtidan tashqari ish deb hisoblanadi.\nIsh vaqti jamlab hisobga olinganda bir haftadan oshadigan hisobga olish davri uchun xodimga belgilangan ish vaqtining davomiyligidan tashqari ish ish vaqtidan tashqari ish deb hisoblanadi.\nIsh beruvchi tomonidan xodimni uning roziligisiz ish vaqtidan tashqari ishga jalb etishga quyidagi hollarda yoʻl qoʻyiladi:\n1) tabiiy yoki texnogen xususiyatga ega halokatlarning, ishlab chiqarishdagi avariyalarning, ishlab chiqarishdagi baxtsiz hodisalarning, shuningdek yongʻinlarning, toshqinlarning, zilzilalarning, epidemiyalarning yoki epizootiyalarning oldini olish yoki oqibatlarini bartaraf etish hamda aholining yoxud uning bir qismining hayotiga yoki normal yashash sharoitlariga tahdid soladigan boshqa alohida hollarda bajarilgan ishlar amalga oshirilganda;\n2) markazlashtirilgan issiq suv taʼminoti, sovuq suv taʼminoti va (yoki) suv chiqarish tizimlarining, gaz taʼminoti, issiqlik taʼminoti, yoritish, transport, aloqa tizimlarining normal ishlashini buzadigan kutilmagan holatlarni bartaraf etishga doir ijtimoiy jihatdan zarur ishlar amalga oshirilganda;\n3) agar ishda tanaffusga yoʻl qoʻyilmasa, smena almashayotgan xodim kelmay qolganda ishni davom ettirish uchun. Bunday holda ish beruvchi zudlik bilan smenachini boshqa xodim bilan almashtirish choralarini koʻrishi shart.\nUshbu modda oltinchi qismining 2 va 3-bandlarida nazarda tutilgan hollarda ish beruvchi tomonidan xodimni ish vaqtidan tashqari ishga jalb etishga xodimning mehnat vazifasi doirasida yoʻl qoʻyiladi.\nUshbu moddaning oltinchi qismida nazarda tutilgan hollardan tashqari ish vaqtidan tashqari ishga jalb etishga xodimning yozma roziligi bilan yoʻl qoʻyiladi.\nIsh smenasining davomiyligi oʻn ikki soat boʻlganida, shuningdek mehnat sharoitlari oʻta zararli va oʻta xavfli ishlarda ish vaqtidan tashqari ishlarga yoʻl qoʻyilmaydi.\nIsh vaqtidan tashqari ishga jalb etish ushbu Kodeks 396, 417-moddalarining birinchi qismida va 428-moddasida belgilangan cheklovlarga rioya etilgan holda amalga oshiriladi.\nIsh vaqtidan tashqari ish uchun kompensatsiya va haq toʻlash ushbu Kodeksning 262-moddasiga muvofiq amalga oshiriladi.",
+          "retrieval_score": 20.165890464456425,
+          "rerank_score": 81.16589046445642,
+          "used_in_answer": false
+        },
+        {
+          "rank": 3,
+          "chunk_id": "lex:6257288#uz-Latn#art-262#2026-10-15",
+          "doc_id": "lex:6257288",
+          "article": "262-modda",
+          "text": "262-modda. Ish vaqtidan tashqari ish uchun haq toʻlash\nIsh vaqtidan tashqari ishning bir kundagi birinchi ikki soati uchun kamida bir yarim hissa miqdorida, ikki soatdan ortiq qismi uchun kamida ikki hissa miqdorida (mehnat sharoitlari noqulay boʻlgan ishlarda — har bir soati uchun kamida ikki hissa miqdorida) haq toʻlanadi.\nJamoa shartnomasida, kasaba uyushmasi qoʻmitasi bilan kelishuvga koʻra ish beruvchi tomonidan qabul qilingan ichki hujjatda, mehnat shartnomasida ish vaqtidan tashqari ish uchun qoʻshimcha toʻlovlarning yuqoriroq miqdorlari nazarda tutilishi mumkin.\nXodimning xohishiga koʻra ish vaqtidan tashqari ish uchun oshirilgan haq toʻlash oʻrniga ish vaqtidan tashqari ishlab berilgan vaqtning davomiyligiga muvofiq keladigan qoʻshimcha dam olish vaqtini berish bilan kompensatsiya qilinishi mumkin. Bunday holda ish vaqtidan tashqari ish uchun bir hissa miqdorida haq toʻlanadi, dam olish vaqti uchun esa haq toʻlanmaydi.",
+          "retrieval_score": 21.616855136980128,
+          "rerank_score": 58.61685513698012,
+          "used_in_answer": false
+        },
+        {
+          "rank": 4,
+          "chunk_id": "lex:6257288#uz-Latn#art-482#2026-10-15",
+          "doc_id": "lex:6257288",
+          "article": "482-modda",
+          "text": "482-modda. Ish vaqtining qisqartirilgan davomiyligi belgilangan noqulay mehnat sharoitlaridagi ishlarda band boʻlgan shaxslarning mehnatiga haq toʻlash\nNoqulay mehnat sharoitlaridagi ishlarda band boʻlgan shaxslarning mehnatiga haq toʻlash ish vaqtining qisqartirilgan davomiyligida xodimlar uchun xuddi ish vaqtining normal davomiyligida boʻlgani kabi miqdorda amalga oshiriladi.\nZararli va (yoki) xavfli mehnat sharoitlaridagi ishlarda band boʻlgan xodimlarning mehnatiga haq toʻlash oshirilgan miqdorda belgilanadi.\nZararli va (yoki) xavfli mehnat sharoitlaridagi ishlarda band boʻlgan xodimlar mehnatiga toʻlanadigan haqni oshirishning eng kam miqdori normal mehnat sharoitlaridagi har xil turdagi ishlar uchun belgilangan tarif stavkasining (maoshning) toʻrt foizini tashkil etadi.\nMehnat haqini oshirishning aniq miqdorlari ish beruvchi tomonidan kasaba uyushmasi qoʻmitasi bilan kelishilgan holda belgilanadi.",
+          "retrieval_score": 18.927001364625486,
+          "rerank_score": 56.92700136462548,
+          "used_in_answer": false
+        },
+        {
+          "rank": 5,
+          "chunk_id": "lex:6257288#uz-Latn#art-477#2026-10-15",
+          "doc_id": "lex:6257288",
+          "article": "477-modda",
+          "text": "477-modda. Noqulay mehnat sharoitlaridagi ishlarda band boʻlgan xodimlar uchun ish vaqtining qisqartirilgan davomiyligi\nMehnat jarayonida zararli va xavfli ishlab chiqarish omillari taʼsiriga duchor boʻladigan xodimlarga haftasiga oʻttiz olti soatdan oshmaydigan ish vaqtining qisqartirilgan davomiyligi belgilanadi. Bunday ishlar roʻyxati va ularni bajarishdagi ish vaqtining aniq davomiyligi jamoa kelishuvlarida, jamoa shartnomasida, agar ular tuzilmagan boʻlsa — ish beruvchi tomonidan kasaba uyushmasi qoʻmitasi bilan kelishilgan holda ish oʻrinlarini mehnat sharoitlari va asbob-uskunaning jarohat yetkazish xavfi yuzasidan attestatsiyadan oʻtkazish asosida belgilanadi.\nOʻta zararli va oʻta xavfli mehnat sharoitlaridagi ishlarda band boʻlgan xodimlar uchun ish vaqtining cheklangan davomiyligi Oʻzbekiston Respublikasi Vazirlar Mahkamasi tomonidan Ijtimoiy-mehnat masalalari boʻyicha respublika uch tomonlama komissiyasi bilan kelishilgan holda belgilanadi.",
+          "retrieval_score": 14.540975912246687,
+          "rerank_score": 56.540975912246694,
+          "used_in_answer": false
+        }
+      ],
+      "error": null,
+      "timing": {
+        "retrieval_ms": 35.552,
+        "rerank_ms": 0,
+        "generation_ms": 0.068,
+        "total_ms": 47.209
+      }
+    }
+  ]
+}

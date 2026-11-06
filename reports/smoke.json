@@ -1,0 +1,635 @@
+{
+  "kind": "development smoke check; not a held-out benchmark",
+  "snapshot_date": "2026-11-06",
+  "total": 7,
+  "passed": 7,
+  "checks": [
+    {
+      "id": "q001",
+      "question": "Yillik asosiy mehnat ta'tilining eng kam muddati qancha?",
+      "expected_doc_id": "lex:6257288",
+      "expected_article": "217-modda",
+      "passed": true
+    },
+    {
+      "id": "q002",
+      "question": "Ҳар йилги асосий энг кам меҳнат таътилининг давомийлиги қанча?",
+      "expected_doc_id": "lex:6257288",
+      "expected_article": "217-modda",
+      "passed": true
+    },
+    {
+      "id": "q003",
+      "question": "Какова минимальная продолжительность ежегодного основного трудового отпуска?",
+      "expected_doc_id": "lex:6257291",
+      "expected_article": "Статья 217",
+      "passed": true
+    },
+    {
+      "id": "q004",
+      "question": "Umumiy daʼvo muddati qancha?",
+      "expected_doc_id": "lex:111189",
+      "expected_article": "150-modda",
+      "passed": true
+    },
+    {
+      "id": "q005",
+      "question": "Умумий даъво муддати қанча?",
+      "expected_doc_id": "lex:111189",
+      "expected_article": "150-modda",
+      "passed": true
+    },
+    {
+      "id": "q006",
+      "question": "Какой срок исковой давности установлен Гражданским кодексом?",
+      "expected_doc_id": "lex:111181",
+      "expected_article": "Статья 150",
+      "passed": true
+    },
+    {
+      "id": "q007",
+      "question": "Marsga sayohat chiptasi qancha turadi?",
+      "expected_doc_id": null,
+      "expected_article": null,
+      "passed": true
+    }
+  ],
+  "response": {
+    "run_id": "real-corpus-smoke",
+    "batch_id": "smoke-b01",
+    "status": "completed",
+    "system": {
+      "pipeline_version": "0.2.0",
+      "llm_model": null,
+      "embedding_model": null,
+      "reranker": "lexical-title-v1",
+      "index_version": "1cc8a2d267bb4899",
+      "lex_snapshot_date": "2026-11-06",
+      "mode": "bm25-extractive",
+      "documents": 6,
+      "chunks": 2937
+    },
+    "timing": {
+      "received_at": "2026-11-05T20:31:20.937671+00:00",
+      "completed_at": "2026-11-05T20:31:20.992840+00:00",
+      "total_ms": 55.682
+    },
+    "summary": {
+      "total": 7,
+      "ok": 6,
+      "no_answer": 1,
+      "error": 0
+    },
+    "results": [
+      {
+        "id": "q001",
+        "status": "ok",
+        "answer": "Har yilgi asosiy eng kam mehnat taʼtilining davomiyligi yigirma bir kalendar kunni tashkil etadi. [1]",
+        "answer_language": "uz-Latn",
+        "no_answer": false,
+        "citations": [
+          {
+            "doc_id": "lex:6257288",
+            "doc_title": "Oʻzbekiston Respublikasining Mehnat kodeksi",
+            "doc_type": "kodeks",
+            "url": "https://lex.uz/docs/-6257288",
+            "article": "217-modda",
+            "part": null,
+            "edition_date": "2026-10-15",
+            "doc_status": "amalda",
+            "chunk_id": "lex:6257288#uz-Latn#art-217#2026-10-15",
+            "ref": 1,
+            "quote": "Har yilgi asosiy eng kam mehnat taʼtilining davomiyligi yigirma bir kalendar kunni tashkil etadi.",
+            "source_url": "https://www.lex.uz/docs/-6257288",
+            "source_anchor": "-6263022"
+          }
+        ],
+        "contexts": [
+          {
+            "rank": 1,
+            "chunk_id": "lex:6257288#uz-Latn#art-217#2026-10-15",
+            "doc_id": "lex:6257288",
+            "article": "217-modda",
+            "text": "217-modda. Har yilgi asosiy eng kam mehnat taʼtilining davomiyligi\nHar yilgi asosiy eng kam mehnat taʼtilining davomiyligi yigirma bir kalendar kunni tashkil etadi.",
+            "retrieval_score": 30.893034398231144,
+            "rerank_score": 116.89303439823115,
+            "used_in_answer": true
+          },
+          {
+            "rank": 2,
+            "chunk_id": "lex:6257288#uz-Latn#art-222#2026-10-15",
+            "doc_id": "lex:6257288",
+            "article": "222-modda",
+            "text": "222-modda. Har yilgi asosiy va qoʻshimcha mehnat taʼtillarini jamlash tartibi\nHar yilgi mehnat taʼtilining umumiy davomiyligini hisoblab chiqarishda qoʻshimcha taʼtillar har yilgi asosiy eng kam taʼtil yoki har yilgi asosiy uzaytirilgan taʼtilga qoʻshib jamlanadi.\nBarcha hollarda qonunchilik bilan belgilangan taʼtillarni jamlashda ularning davomiyligi bir ish yili uchun ellik olti kalendar kundan oshib ketishi mumkin emas.\nUshbu moddaning ikkinchi qismida nazarda tutilgan cheklov qonunchilikda nazarda tutilmagan, jamoa kelishuvlarida, shuningdek jamoa shartnomasida, ish beruvchining kasaba uyushmasi qoʻmitasi bilan kelishuvga koʻra qabul qilingan ichki hujjatlarida yoxud mehnat shartnomasida belgilangan mehnat taʼtillariga nisbatan tatbiq etilmaydi.",
+            "retrieval_score": 26.121234027474557,
+            "rerank_score": 76.12123402747456,
+            "used_in_answer": false
+          },
+          {
+            "rank": 3,
+            "chunk_id": "lex:6257288#uz-Latn#art-221#2026-10-15",
+            "doc_id": "lex:6257288",
+            "article": "221-modda",
+            "text": "221-modda. Har yilgi mehnat taʼtillarining davomiyligini hisoblab chiqarish\nXodimlarning har yilgi asosiy va qoʻshimcha mehnat taʼtillarining davomiyligi kalendar kunlarda hisoblab chiqariladi.\nHar yilgi mehnat taʼtili davriga toʻgʻri keladigan ishlanmaydigan bayram kunlari mehnat taʼtillarining davomiyligini belgilashda hisobga olinmaydi.\nQonunchilikda nazarda tutilgan hollarda ayrim toifadagi xodimlarga beriladigan har yilgi asosiy va qoʻshimcha mehnat taʼtillarining davomiyligi olti kunlik ish haftasi hisobidan kalendar boʻyicha ish kunlarida hisoblab chiqariladi.",
+            "retrieval_score": 22.95727973294182,
+            "rerank_score": 74.95727973294183,
+            "used_in_answer": false
+          },
+          {
+            "rank": 4,
+            "chunk_id": "lex:6257288#uz-Latn#art-229#2026-10-15",
+            "doc_id": "lex:6257288",
+            "article": "229-modda",
+            "text": "229-modda. Har yilgi mehnat taʼtilini uzaytirish yoki uni boshqa muddatga koʻchirish\nXodimlar quyidagi hollarda har yilgi mehnat taʼtilini uzaytirish yoki boshqa muddatga koʻchirish huquqiga ega:\nvaqtincha mehnatga qobiliyatsizlik davrida;\nhomiladorlik va tugʻish taʼtilining muddati boshlanganda;\nhar yilgi mehnat taʼtili oʻquv taʼtiliga toʻgʻri kelib qolganda;\ndavlat yoki jamoat majburiyatlarini bajarayotganda, agar qonunchilikda bunday majburiyatlarni bajarish uchun ishdan ozod etish nazarda tutilgan boʻlsa;\njamoa kelishuvlarida yoki jamoa shartnomasida nazarda tutilgan boshqa hollarda.\nAgar har yilgi mehnat taʼtilidan foydalanishga monelik qiluvchi sabablar taʼtil boshlanguniga qadar kelib chiqqan boʻlsa, xodim bilan ish beruvchi oʻrtasidagi kelishuvga binoan taʼtildan foydalanishning yangi muddati belgilanadi. Bunday sabablar taʼtil davrida kelib chiqqan hollarda taʼtil tegishli kunlar soniga uzaytiriladi yoki xodim bilan ish beruvchining kelishuviga koʻra taʼtilning foydalanilmay qolgan qismi boshqa muddatga koʻchiriladi.\nXodim har yilgi mehnat taʼtilidan foydalanishga toʻsqinlik qiladigan, yuzaga kelgan sabablar toʻgʻrisida ish beruvchini yozma shaklda xabardor qilishi shart.\nAgar xodim ushbu Kodeks 228-moddasining uchinchi qismida nazarda tutilgan muddatda taʼtil boshlanadigan vaqt haqida oʻz vaqtida xabardor qilinmagan yoki unga taʼtil boshlanguniga qadar ushbu Kodeks 233-moddasining uchinchi qismiga muvofiq taʼtil vaqti uchun haq toʻlanmagan boʻlsa, har yilgi mehnat taʼtili xodimning arizasiga koʻra boshqa muddatga koʻchiriladi.",
+            "retrieval_score": 17.425133460573587,
+            "rerank_score": 65.42513346057359,
+            "used_in_answer": false
+          },
+          {
+            "rank": 5,
+            "chunk_id": "lex:6257288#uz-Latn#art-223#2026-10-15",
+            "doc_id": "lex:6257288",
+            "article": "223-modda",
+            "text": "223-modda. Har yilgi mehnat taʼtili davomiyligini ishlab berilgan vaqtga mutanosib ravishda hisoblab chiqarish hollari\nAgar ish yili davomida xodimning har yilgi mehnat taʼtilining davomiyligi oʻzgargan (voyaga yetmagan xodim oʻn sakkiz yoshga toʻlganligi munosabati bilan u asosiy uzaytirilgan mehnat taʼtilini olish huquqini yoʻqotgan; xodimga I yoki II guruh nogironligi belgilangan va shu sababli unda uzaytirilgan taʼtil olish huquqi yuzaga kelgan; xodim ish yilining bir qismini oddiy mehnat sharoitlarida, boshqa qismini esa unga qoʻshimcha taʼtil olish huquqini beradigan noqulay mehnat sharoitlarida ishlagan boʻlsa; xodim ish yili davomida boshqa ishga oʻtkazilgan va bu ishda mehnat taʼtilining xodim unga oʻtkazilguniga qadar bajargan ishidagiga nisbatan boshqacha davomiyligi nazarda tutilgan boʻlsa va boshqalar) boʻlsa, har yilgi mehnat taʼtilining davomiyligini ishlab berilgan vaqtga mutanosib ravishda hisoblab chiqarish amalga oshiriladi.\nIshlab chiqarish zaruriyati yoki bekor turib qolish munosabati bilan ish beruvchining tashabbusiga koʻra xodimni vaqtincha boshqa ishga oʻtkazish har yilgi mehnat taʼtili davomiyligining mehnat shartnomasida nazarda tutilgan asosiy ish boʻyicha belgilangan mehnat taʼtili davomiyligiga nisbatan kamayishiga olib kelmasligi kerak.\nIshning birinchi yili uchun har yilgi mehnat taʼtili quyidagi toifadagi xodimlarga ishlab berilgan vaqtiga mutanosib ravishda haq toʻlangan holda toʻliq davomiylikda beriladi:\nhar yilgi mehnat taʼtili oʻquvchilarning yozgi taʼtili davrida beriladigan taʼlim tashkilotlarining oʻqituvchilar tarkibiga va uslubiyotchilariga. Ushbu toifadagi xodimlarning ikkinchi va keyingi ish yillari uchun har yilgi mehnat taʼtiliga toʻliq hajmda haq toʻlanadi;\nbirinchi ish yilida olti oydan kam ishlagan oʻrindoshlarga — asosiy ishi boʻyicha har yilgi mehnat taʼtili bilan bir vaqtda mehnat taʼtili berilganda. Birinchi ish yilida oʻrindoshlik asosidagi ishda olti oydan koʻp ishlagan xodimlarga bunday ishda beriladigan mehnat taʼtili, shuningdek keyingi ish yillaridagi har yilgi mehnat taʼtillari uchun toʻliq haq toʻlanadi.\nXodim bilan mehnat shartnomasi bekor qilinganda joriy ish yilida foydalanilmagan har yilgi mehnat taʼtili uchun xodimga tegishli boʻlgan kompensatsiyaning miqdori, shuningdek joriy ish yilida ishlab berilmagan taʼtil kunlari uchun ushlab qolinadigan haq miqdori xodimning oxirgi ish yilida ishlab bergan vaqtiga mutanosib ravishda hisoblab chiqariladi.",
+            "retrieval_score": 22.705710520288715,
+            "rerank_score": 62.70571052028872,
+            "used_in_answer": false
+          }
+        ],
+        "error": null,
+        "debug": {
+          "rewritten_query": "Yillik asosiy mehnat ta'tilining eng kam muddati qancha?",
+          "retrieved_total": 99,
+          "mode": "bm25-extractive"
+        },
+        "timing": {
+          "retrieval_ms": 11.441,
+          "rerank_ms": 0,
+          "generation_ms": 0,
+          "total_ms": 11.441
+        }
+      },
+      {
+        "id": "q002",
+        "status": "ok",
+        "answer": "Ҳар йилги асосий энг кам меҳнат таътилининг давомийлиги йигирма бир календарь кунни ташкил этади. [1]",
+        "answer_language": "uz-Cyrl",
+        "no_answer": false,
+        "citations": [
+          {
+            "doc_id": "lex:6257288",
+            "doc_title": "Ўзбекистон Республикасининг Меҳнат кодекси",
+            "doc_type": "kodeks",
+            "url": "https://lex.uz/docs/6257288",
+            "article": "217-modda",
+            "part": null,
+            "edition_date": "2026-10-15",
+            "doc_status": "amalda",
+            "chunk_id": "lex:6257288#uz-Cyrl#art-217#2026-10-15",
+            "ref": 1,
+            "quote": "Ҳар йилги асосий энг кам меҳнат таътилининг давомийлиги йигирма бир календарь кунни ташкил этади.",
+            "source_url": "https://www.lex.uz/docs/6257288",
+            "source_anchor": "6263022"
+          }
+        ],
+        "contexts": [
+          {
+            "rank": 1,
+            "chunk_id": "lex:6257288#uz-Cyrl#art-217#2026-10-15",
+            "doc_id": "lex:6257288",
+            "article": "217-modda",
+            "text": "217-модда. Ҳар йилги асосий энг кам меҳнат таътилининг давомийлиги\nҲар йилги асосий энг кам меҳнат таътилининг давомийлиги йигирма бир календарь кунни ташкил этади.",
+            "retrieval_score": 30.893034398231144,
+            "rerank_score": 116.89303439823115,
+            "used_in_answer": true
+          },
+          {
+            "rank": 2,
+            "chunk_id": "lex:6257288#uz-Cyrl#art-222#2026-10-15",
+            "doc_id": "lex:6257288",
+            "article": "222-modda",
+            "text": "222-модда. Ҳар йилги асосий ва қўшимча меҳнат таътилларини жамлаш тартиби\nҲар йилги меҳнат таътилининг умумий давомийлигини ҳисоблаб чиқаришда қўшимча таътиллар ҳар йилги асосий энг кам таътил ёки ҳар йилги асосий узайтирилган таътилга қўшиб жамланади.\nБарча ҳолларда қонунчилик билан белгиланган таътилларни жамлашда уларнинг давомийлиги бир иш йили учун эллик олти календарь кундан ошиб кетиши мумкин эмас.\nУшбу модданинг иккинчи қисмида назарда тутилган чеклов қонунчиликда назарда тутилмаган, жамоа келишувларида, шунингдек жамоа шартномасида, иш берувчининг касаба уюшмаси қўмитаси билан келишувга кўра қабул қилинган ички ҳужжатларида ёхуд меҳнат шартномасида белгиланган меҳнат таътилларига нисбатан татбиқ этилмайди.",
+            "retrieval_score": 26.121234027474557,
+            "rerank_score": 76.12123402747456,
+            "used_in_answer": false
+          },
+          {
+            "rank": 3,
+            "chunk_id": "lex:6257288#uz-Cyrl#art-221#2026-10-15",
+            "doc_id": "lex:6257288",
+            "article": "221-modda",
+            "text": "221-модда. Ҳар йилги меҳнат таътилларининг давомийлигини ҳисоблаб чиқариш\nХодимларнинг ҳар йилги асосий ва қўшимча меҳнат таътилларининг давомийлиги календарь кунларда ҳисоблаб чиқарилади.\nҲар йилги меҳнат таътили даврига тўғри келадиган ишланмайдиган байрам кунлари меҳнат таътилларининг давомийлигини белгилашда ҳисобга олинмайди.\nҚонунчиликда назарда тутилган ҳолларда айрим тоифадаги ходимларга бериладиган ҳар йилги асосий ва қўшимча меҳнат таътилларининг давомийлиги олти кунлик иш ҳафтаси ҳисобидан календарь бўйича иш кунларида ҳисоблаб чиқарилади.",
+            "retrieval_score": 22.95727973294182,
+            "rerank_score": 74.95727973294183,
+            "used_in_answer": false
+          },
+          {
+            "rank": 4,
+            "chunk_id": "lex:6257288#uz-Cyrl#art-229#2026-10-15",
+            "doc_id": "lex:6257288",
+            "article": "229-modda",
+            "text": "229-модда. Ҳар йилги меҳнат таътилини узайтириш ёки уни бошқа муддатга кўчириш\nХодимлар қуйидаги ҳолларда ҳар йилги меҳнат таътилини узайтириш ёки бошқа муддатга кўчириш ҳуқуқига эга:\nвақтинча меҳнатга қобилиятсизлик даврида;\nҳомиладорлик ва туғиш таътилининг муддати бошланганда;\nҳар йилги меҳнат таътили ўқув таътилига тўғри келиб қолганда;\nдавлат ёки жамоат мажбуриятларини бажараётганда, агар қонунчиликда бундай мажбуриятларни бажариш учун ишдан озод этиш назарда тутилган бўлса;\nжамоа келишувларида ёки жамоа шартномасида назарда тутилган бошқа ҳолларда.\nАгар ҳар йилги меҳнат таътилидан фойдаланишга монелик қилувчи сабаблар таътил бошлангунига қадар келиб чиққан бўлса, ходим билан иш берувчи ўртасидаги келишувга биноан таътилдан фойдаланишнинг янги муддати белгиланади. Бундай сабаблар таътил даврида келиб чиққан ҳолларда таътил тегишли кунлар сонига узайтирилади ёки ходим билан иш берувчининг келишувига кўра таътилнинг фойдаланилмай қолган қисми бошқа муддатга кўчирилади.\nХодим ҳар йилги меҳнат таътилидан фойдаланишга тўсқинлик қиладиган, юзага келган сабаблар тўғрисида иш берувчини ёзма шаклда хабардор қилиши шарт.\nАгар ходим ушбу Кодекс 228-моддасининг учинчи қисмида назарда тутилган муддатда таътил бошланадиган вақт ҳақида ўз вақтида хабардор қилинмаган ёки унга таътил бошлангунига қадар ушбу Кодекс 233-моддасининг учинчи қисмига мувофиқ таътил вақти учун ҳақ тўланмаган бўлса, ҳар йилги меҳнат таътили ходимнинг аризасига кўра бошқа муддатга кўчирилади.",
+            "retrieval_score": 17.425133460573587,
+            "rerank_score": 65.42513346057359,
+            "used_in_answer": false
+          },
+          {
+            "rank": 5,
+            "chunk_id": "lex:6257288#uz-Cyrl#art-223#2026-10-15",
+            "doc_id": "lex:6257288",
+            "article": "223-modda",
+            "text": "223-модда. Ҳар йилги меҳнат таътили давомийлигини ишлаб берилган вақтга мутаносиб равишда ҳисоблаб чиқариш ҳоллари\nАгар иш йили давомида ходимнинг ҳар йилги меҳнат таътилининг давомийлиги ўзгарган (вояга етмаган ходим ўн саккиз ёшга тўлганлиги муносабати билан у асосий узайтирилган меҳнат таътилини олиш ҳуқуқини йўқотган; ходимга I ёки II гуруҳ ногиронлиги белгиланган ва шу сабабли унда узайтирилган таътил олиш ҳуқуқи юзага келган; ходим иш йилининг бир қисмини оддий меҳнат шароитларида, бошқа қисмини эса унга қўшимча таътил олиш ҳуқуқини берадиган ноқулай меҳнат шароитларида ишлаган бўлса; ходим иш йили давомида бошқа ишга ўтказилган ва бу ишда меҳнат таътилининг ходим унга ўтказилгунига қадар бажарган ишидагига нисбатан бошқача давомийлиги назарда тутилган бўлса ва бошқалар) бўлса, ҳар йилги меҳнат таътилининг давомийлигини ишлаб берилган вақтга мутаносиб равишда ҳисоблаб чиқариш амалга оширилади.\nИшлаб чиқариш зарурияти ёки бекор туриб қолиш муносабати билан иш берувчининг ташаббусига кўра ходимни вақтинча бошқа ишга ўтказиш ҳар йилги меҳнат таътили давомийлигининг меҳнат шартномасида назарда тутилган асосий иш бўйича белгиланган меҳнат таътили давомийлигига нисбатан камайишига олиб келмаслиги керак.\nИшнинг биринчи йили учун ҳар йилги меҳнат таътили қуйидаги тоифадаги ходимларга ишлаб берилган вақтига мутаносиб равишда ҳақ тўланган ҳолда тўлиқ давомийликда берилади:\nҳар йилги меҳнат таътили ўқувчиларнинг ёзги таътили даврида бериладиган таълим ташкилотларининг ўқитувчилар таркибига ва услубиётчиларига. Ушбу тоифадаги ходимларнинг иккинчи ва кейинги иш йиллари учун ҳар йилги меҳнат таътилига тўлиқ ҳажмда ҳақ тўланади;\nбиринчи иш йилида олти ойдан кам ишлаган ўриндошларга — асосий иши бўйича ҳар йилги меҳнат таътили билан бир вақтда меҳнат таътили берилганда. Биринчи иш йилида ўриндошлик асосидаги ишда олти ойдан кўп ишлаган ходимларга бундай ишда бериладиган меҳнат таътили, шунингдек кейинги иш йилларидаги ҳар йилги меҳнат таътиллари учун тўлиқ ҳақ тўланади.\nХодим билан меҳнат шартномаси бекор қилинганда жорий иш йилида фойдаланилмаган ҳар йилги меҳнат таътили учун ходимга тегишли бўлган компенсациянинг миқдори, шунингдек жорий иш йилида ишлаб берилмаган таътил кунлари учун ушлаб қолинадиган ҳақ миқдори ходимнинг охирги иш йилида ишлаб берган вақтига мутаносиб равишда ҳисоблаб чиқарилади.",
+            "retrieval_score": 22.705710520288715,
+            "rerank_score": 62.70571052028872,
+            "used_in_answer": false
+          }
+        ],
+        "error": null,
+        "debug": {
+          "rewritten_query": "Ҳар йилги асосий энг кам меҳнат таътилининг давомийлиги қанча?",
+          "retrieved_total": 99,
+          "mode": "bm25-extractive"
+        },
+        "timing": {
+          "retrieval_ms": 12.408,
+          "rerank_ms": 0,
+          "generation_ms": 0,
+          "total_ms": 12.408
+        }
+      },
+      {
+        "id": "q003",
+        "status": "ok",
+        "answer": "Продолжительность ежегодного основного минимального трудового отпуска составляет двадцать один календарный день. [1]",
+        "answer_language": "ru",
+        "no_answer": false,
+        "citations": [
+          {
+            "doc_id": "lex:6257291",
+            "doc_title": "Трудовой кодекс Республики Узбекистан",
+            "doc_type": "kodeks",
+            "url": "https://lex.uz/docs/6257291",
+            "article": "Статья 217",
+            "part": null,
+            "edition_date": "2026-10-15",
+            "doc_status": "amalda",
+            "chunk_id": "lex:6257291#ru#art-217#2026-10-15",
+            "ref": 1,
+            "quote": "Продолжительность ежегодного основного минимального трудового отпуска составляет двадцать один календарный день.",
+            "source_url": "https://www.lex.uz/docs/6257291",
+            "source_anchor": "6263232"
+          }
+        ],
+        "contexts": [
+          {
+            "rank": 1,
+            "chunk_id": "lex:6257291#ru#art-217#2026-10-15",
+            "doc_id": "lex:6257291",
+            "article": "Статья 217",
+            "text": "Статья 217. Продолжительность ежегодного основного минимального трудового отпуска\nПродолжительность ежегодного основного минимального трудового отпуска составляет двадцать один календарный день.",
+            "retrieval_score": 45.7030943422947,
+            "rerank_score": 131.7030943422947,
+            "used_in_answer": true
+          },
+          {
+            "rank": 2,
+            "chunk_id": "lex:6257291#ru#art-223#2026-10-15",
+            "doc_id": "lex:6257291",
+            "article": "Статья 223",
+            "text": "Статья 223. Случаи исчисления продолжительности ежегодного трудового отпуска пропорционально отработанному времени\nИсчисление продолжительности ежегодного трудового отпуска пропорционально отработанному времени производится в случаях, если в течение рабочего года изменилась продолжительность ежегодного трудового отпуска работника (несовершеннолетнему работнику исполнилось восемнадцать лет в связи с чем он утратил право на основной удлиненный трудовой отпуск; работнику была установлена инвалидность I или II группы и по этой причине у него возникло право на удлиненный отпуск; часть рабочего года работник проработал в обычных условиях труда, а другую часть — в неблагоприятных условиях труда, работа в которых дает ему право на дополнительный отпуск; работник в течение рабочего года был переведен на другую работу, на которой предусмотрена иная продолжительность трудового отпуска, чем на той работе, которую работник выполнял до перевода, и другие).\nВременный перевод работника на другую работу по инициативе работодателя в связи с производственной необходимостью или простоем не должен приводить к уменьшению продолжительности ежегодного трудового отпуска по сравнению с той его продолжительностью, которая установлена по основной работе, предусмотренной трудовым договором.\nЕжегодный трудовой отпуск за первый год работы предоставляется полной продолжительности с оплатой пропорционально отработанному времени следующим категориям работников:\nпреподавательскому составу и методистам образовательных организаций, в которых ежегодный трудовой отпуск предоставляется в период летних каникул учащихся. За второй и последующие рабочие годы ежегодный трудовой отпуск этой категории работников оплачивается в полном объеме;\nсовместителям, проработавшим в первом рабочем году менее шести месяцев, при предоставлении трудового отпуска одновременно с ежегодным трудовым отпуском по основной работе. Трудовой отпуск, предоставляемый на работе по совместительству работникам, проработавшим на такой работе в первый рабочий год более шести месяцев, а также ежегодные трудовые отпуска за последующие годы работы оплачиваются полностью.\nПри прекращении с работником трудового договора размер компенсации, причитающейся работнику за неиспользованный ежегодный трудовой отпуск в текущем рабочем году, а также размер удержания за неотработанные в текущем рабочем году дни отпуска исчисляются пропорционально отработанному работником времени в последнем рабочем году.",
+            "retrieval_score": 31.340766866928885,
+            "rerank_score": 77.34076686692889,
+            "used_in_answer": false
+          },
+          {
+            "rank": 3,
+            "chunk_id": "lex:6257291#ru#art-224#2026-10-15",
+            "doc_id": "lex:6257291",
+            "article": "Статья 224",
+            "text": "Статья 224. Порядок исчисления продолжительности ежегодного трудового отпуска пропорционально отработанному времени\nПри исчислении продолжительности ежегодного трудового отпуска пропорционально отработанному времени его длительность определяется путем деления полного размера основного и дополнительного ежегодного трудового отпуска на двенадцать и умножения на число полных месяцев работы. При этом излишки, равные пятнадцати и более календарным дням, округляются до месяца, а менее пятнадцати календарных дней не учитываются. Полученные при расчете общей продолжительности дней трудового отпуска пропорционально отработанному времени десятые, равные 0,5 и больше, округляются до одного дня, а менее 0,5 — исключаются из подсчета.",
+            "retrieval_score": 30.44696197541882,
+            "rerank_score": 76.44696197541882,
+            "used_in_answer": false
+          },
+          {
+            "rank": 4,
+            "chunk_id": "lex:6257291#ru#art-216#2026-10-15",
+            "doc_id": "lex:6257291",
+            "article": "Статья 216",
+            "text": "Статья 216. Понятие и виды ежегодного трудового отпуска\nЕжегодным трудовым отпуском является период времени, на который работник освобождается от работы с сохранением места работы (должности) и средней заработной платы, для отдыха и восстановления работоспособности, предоставляемый работнику ежегодно в течение рабочего года.\nПраво на ежегодный трудовой отпуск имеют все работники, в том числе работающие по совместительству.\nВидами ежегодного трудового отпуска являются:\nосновной трудовой отпуск (ежегодный основной минимальный или ежегодный основной удлиненный);\nдополнительный трудовой отпуск, который суммируется с основным минимальным или основным удлиненным отпуском в порядке, предусмотренном статьей 222 настоящего Кодекса.",
+            "retrieval_score": 32.941201052740794,
+            "rerank_score": 69.9412010527408,
+            "used_in_answer": false
+          },
+          {
+            "rank": 5,
+            "chunk_id": "lex:6257291#ru#art-218#2026-10-15",
+            "doc_id": "lex:6257291",
+            "article": "Статья 218",
+            "text": "Статья 218. Ежегодный основной удлиненный отпуск\nС учетом возраста и состояния здоровья ежегодный основной удлиненный отпуск предоставляется:\nлицам в возрасте до восемнадцати лет — тридцать календарных дней;\nработникам с инвалидностью I и II групп — тридцать календарных дней.\nРаботникам органов государственной власти и республиканских органов исполнительной власти ежегодный основной удлиненный отпуск предоставляется продолжительностью двадцать семь календарных дней, за исключением случаев, когда для отдельных категорий работников законодательством установлена более длительная продолжительность ежегодного основного удлиненного отпуска.\nЕжегодные основные удлиненные отпуска устанавливаются также отдельным категориям работников в зависимости от специфики и характера их трудовых функций и других обстоятельств. Перечень работников, имеющих право на такие отпуска, и продолжительность этих отпусков определяются законодательством.\nПредоставление ежегодных основных удлиненных отпусков, помимо тех, которые установлены законодательством, а также увеличение продолжительности ежегодного основного удлиненного отпуска по сравнению с их продолжительностью, гарантированной законодательством, могут быть предусмотрены коллективными соглашениями, а также коллективным договором, локальными актами, трудовым договором.",
+            "retrieval_score": 30.431293270694713,
+            "rerank_score": 69.43129327069471,
+            "used_in_answer": false
+          }
+        ],
+        "error": null,
+        "debug": {
+          "rewritten_query": "Какова минимальная продолжительность ежегодного основного трудового отпуска?",
+          "retrieved_total": 63,
+          "mode": "bm25-extractive"
+        },
+        "timing": {
+          "retrieval_ms": 7.214,
+          "rerank_ms": 0,
+          "generation_ms": 0,
+          "total_ms": 7.214
+        }
+      },
+      {
+        "id": "q004",
+        "status": "ok",
+        "answer": "Umumiy daʼvo muddati — uch yil. [1]",
+        "answer_language": "uz-Latn",
+        "no_answer": false,
+        "citations": [
+          {
+            "doc_id": "lex:111189",
+            "doc_title": "Oʻzbekiston Respublikasining Fuqarolik kodeksi (birinchi qism)",
+            "doc_type": "kodeks",
+            "url": "https://lex.uz/docs/-111189",
+            "article": "150-modda",
+            "part": null,
+            "edition_date": "2026-09-12",
+            "doc_status": "amalda",
+            "chunk_id": "lex:111189#uz-Latn#art-150#2026-09-12",
+            "ref": 1,
+            "quote": "Umumiy daʼvo muddati — uch yil.",
+            "source_url": "https://www.lex.uz/docs/-111189",
+            "source_anchor": "-153702"
+          }
+        ],
+        "contexts": [
+          {
+            "rank": 1,
+            "chunk_id": "lex:111189#uz-Latn#art-150#2026-09-12",
+            "doc_id": "lex:111189",
+            "article": "150-modda",
+            "text": "150-modda. Umumiy daʼvo muddati\nUmumiy daʼvo muddati — uch yil.",
+            "retrieval_score": 17.327123082851,
+            "rerank_score": 62.327123082851,
+            "used_in_answer": true
+          },
+          {
+            "rank": 2,
+            "chunk_id": "lex:111189#uz-Latn#art-151#2026-09-12",
+            "doc_id": "lex:111189",
+            "article": "151-modda",
+            "text": "151-modda. Maxsus daʼvo muddatlari\nAyrim turdagi talablar uchun qonunchilikda umumiy daʼvo muddatiga qaraganda qisqartirilgan yoki uzaytirilgan maxsus daʼvo muddatlari belgilanishi mumkin.\nAgar qonunda boshqacha tartib belgilangan boʻlmasa, ushbu Kodeks 152-162-moddalarining qoidalari maxsus daʼvo muddatlariga ham joriy qilinadi.",
+            "retrieval_score": 15.150917130091106,
+            "rerank_score": 39.1509171300911,
+            "used_in_answer": false
+          },
+          {
+            "rank": 3,
+            "chunk_id": "lex:111189#uz-Latn#art-159#2026-09-12",
+            "doc_id": "lex:111189",
+            "article": "159-modda",
+            "text": "159-modda. Daʼvo muddatini tiklash\nBasharti, sud daʼvo muddatining oʻtkazib yuborilganligi sababini uzrli deb topsa, buzilgan huquq himoya qilinishi kerak. Daʼvo muddatini oʻtkazib yuborish sabablari daʼvo muddatining oxirgi olti oyida, bu muddat olti oyga teng yoki olti oydan kam boʻlsa, daʼvo muddatida yuz bergan boʻlsa, ular uzrli deb hisoblanishi mumkin.",
+            "retrieval_score": 11.419945360943764,
+            "rerank_score": 35.419945360943764,
+            "used_in_answer": false
+          },
+          {
+            "rank": 4,
+            "chunk_id": "lex:111189#uz-Latn#art-149#2026-09-12",
+            "doc_id": "lex:111189",
+            "article": "149-modda",
+            "text": "149-modda. Daʼvo muddati tushunchasi\nDaʼvo muddati — shaxs oʻzining buzilgan huquqini daʼvo qoʻzgʻatish yoʻli bilan himoya qilishi mumkin boʻlgan muddatdir.",
+            "retrieval_score": 11.366884327310672,
+            "rerank_score": 35.36688432731067,
+            "used_in_answer": false
+          },
+          {
+            "rank": 5,
+            "chunk_id": "lex:111189#uz-Latn#art-153#2026-09-12",
+            "doc_id": "lex:111189",
+            "article": "153-modda",
+            "text": "153-modda. Daʼvo muddatini qoʻllash\nBuzilgan huquqni himoya qilish talabi daʼvo muddatining oʻtganligidan qatʼi nazar, sudda koʻrib chiqish uchun qabul qilinadi.\nDaʼvo muddati sud tomonidan faqat nizodagi tarafning sud qaror chiqargunicha bergan arizasiga muvofiq qoʻllanadi.\nQoʻllanish toʻgʻrisida nizodagi taraf bayon qilgan daʼvo muddatining oʻtishi sudning daʼvoni rad etish haqida qaror chiqarishi uchun asos boʻladi.",
+            "retrieval_score": 11.263030130716661,
+            "rerank_score": 35.26303013071666,
+            "used_in_answer": false
+          }
+        ],
+        "error": null,
+        "debug": {
+          "rewritten_query": "Umumiy daʼvo muddati qancha?",
+          "retrieved_total": 59,
+          "mode": "bm25-extractive"
+        },
+        "timing": {
+          "retrieval_ms": 5.221,
+          "rerank_ms": 0,
+          "generation_ms": 0,
+          "total_ms": 5.221
+        }
+      },
+      {
+        "id": "q005",
+        "status": "ok",
+        "answer": "Умумий даъво муддати — уч йил. [1]",
+        "answer_language": "uz-Cyrl",
+        "no_answer": false,
+        "citations": [
+          {
+            "doc_id": "lex:111189",
+            "doc_title": "Ўзбекистон Республикасининг Фуқаролик кодекси (биринчи қисм)",
+            "doc_type": "kodeks",
+            "url": "https://lex.uz/docs/111189",
+            "article": "150-modda",
+            "part": null,
+            "edition_date": "2026-09-12",
+            "doc_status": "amalda",
+            "chunk_id": "lex:111189#uz-Cyrl#art-150#2026-09-12",
+            "ref": 1,
+            "quote": "Умумий даъво муддати — уч йил.",
+            "source_url": "https://www.lex.uz/docs/111189",
+            "source_anchor": "153702"
+          }
+        ],
+        "contexts": [
+          {
+            "rank": 1,
+            "chunk_id": "lex:111189#uz-Cyrl#art-150#2026-09-12",
+            "doc_id": "lex:111189",
+            "article": "150-modda",
+            "text": "150-модда. Умумий даъво муддати\nУмумий даъво муддати — уч йил.",
+            "retrieval_score": 17.327123082851,
+            "rerank_score": 62.327123082851,
+            "used_in_answer": true
+          },
+          {
+            "rank": 2,
+            "chunk_id": "lex:111189#uz-Cyrl#art-151#2026-09-12",
+            "doc_id": "lex:111189",
+            "article": "151-modda",
+            "text": "151-модда. Махсус даъво муддатлари\nАйрим турдаги талаблар учун қонунчиликда умумий даъво муддатига қараганда қисқартирилган ёки узайтирилган махсус даъво муддатлари белгиланиши мумкин.\nАгар қонунда бошқача тартиб белгиланган бўлмаса, ушбу Кодекс 152-162-моддаларининг қоидалари махсус даъво муддатларига ҳам жорий қилинади.",
+            "retrieval_score": 15.150917130091106,
+            "rerank_score": 39.1509171300911,
+            "used_in_answer": false
+          },
+          {
+            "rank": 3,
+            "chunk_id": "lex:111189#uz-Cyrl#art-159#2026-09-12",
+            "doc_id": "lex:111189",
+            "article": "159-modda",
+            "text": "159-модда. Даъво муддатини тиклаш\nБашарти, суд даъво муддатининг ўтказиб юборилганлиги сабабини узрли деб топса, бузилган ҳуқуқ ҳимоя қилиниши керак. Даъво муддатини ўтказиб юбориш сабаблари даъво муддатининг охирги олти ойида, бу муддат олти ойга тенг ёки олти ойдан кам бўлса, даъво муддатида юз берган бўлса, улар узрли деб ҳисобланиши мумкин.",
+            "retrieval_score": 11.419945360943764,
+            "rerank_score": 35.419945360943764,
+            "used_in_answer": false
+          },
+          {
+            "rank": 4,
+            "chunk_id": "lex:111189#uz-Cyrl#art-149#2026-09-12",
+            "doc_id": "lex:111189",
+            "article": "149-modda",
+            "text": "149-модда. Даъво муддати тушунчаси\nДаъво муддати — шахс ўзининг бузилган ҳуқуқини даъво қўзғатиш йўли билан ҳимоя қилиши мумкин бўлган муддатдир.",
+            "retrieval_score": 11.366884327310672,
+            "rerank_score": 35.36688432731067,
+            "used_in_answer": false
+          },
+          {
+            "rank": 5,
+            "chunk_id": "lex:111189#uz-Cyrl#art-153#2026-09-12",
+            "doc_id": "lex:111189",
+            "article": "153-modda",
+            "text": "153-модда. Даъво муддатини қўллаш\nБузилган ҳуқуқни ҳимоя қилиш талаби даъво муддатининг ўтганлигидан қатъи назар, судда кўриб чиқиш учун қабул қилинади.\nДаъво муддати суд томонидан фақат низодаги тарафнинг суд қарор чиқаргунича берган аризасига мувофиқ қўлланади.\nҚўлланиш тўғрисида низодаги тараф баён қилган даъво муддатининг ўтиши суднинг даъвони рад этиш ҳақида қарор чиқариши учун асос бўлади.",
+            "retrieval_score": 11.263030130716661,
+            "rerank_score": 35.26303013071666,
+            "used_in_answer": false
+          }
+        ],
+        "error": null,
+        "debug": {
+          "rewritten_query": "Умумий даъво муддати қанча?",
+          "retrieved_total": 59,
+          "mode": "bm25-extractive"
+        },
+        "timing": {
+          "retrieval_ms": 9.448,
+          "rerank_ms": 0,
+          "generation_ms": 0,
+          "total_ms": 9.448
+        }
+      },
+      {
+        "id": "q006",
+        "status": "ok",
+        "answer": "Общий срок исковой давности — три года. [1]",
+        "answer_language": "ru",
+        "no_answer": false,
+        "citations": [
+          {
+            "doc_id": "lex:111181",
+            "doc_title": "Гражданский кодекс Республики Узбекистан (часть первая)",
+            "doc_type": "kodeks",
+            "url": "https://lex.uz/docs/111181",
+            "article": "Статья 150",
+            "part": null,
+            "edition_date": "2026-09-12",
+            "doc_status": "amalda",
+            "chunk_id": "lex:111181#ru#art-150#2026-09-12",
+            "ref": 1,
+            "quote": "Общий срок исковой давности — три года.",
+            "source_url": "https://www.lex.uz/docs/111181",
+            "source_anchor": "160038"
+          }
+        ],
+        "contexts": [
+          {
+            "rank": 1,
+            "chunk_id": "lex:111181#ru#art-150#2026-09-12",
+            "doc_id": "lex:111181",
+            "article": "Статья 150",
+            "text": "Статья 150. Общий срок исковой давности\nОбщий срок исковой давности — три года.",
+            "retrieval_score": 28.35539024341554,
+            "rerank_score": 71.35539024341554,
+            "used_in_answer": true
+          },
+          {
+            "rank": 2,
+            "chunk_id": "lex:111181#ru#art-152#2026-09-12",
+            "doc_id": "lex:111181",
+            "article": "Статья 152",
+            "text": "Статья 152. Недействительность соглашения об изменении сроков исковой давности\nСроки исковой давности и порядок их исчисления не могут быть изменены соглашением сторон.\nОснования приостановления и перерыва течения сроков исковой давности устанавливаются настоящим Кодексом.",
+            "retrieval_score": 31.15300052437452,
+            "rerank_score": 66.15300052437452,
+            "used_in_answer": false
+          },
+          {
+            "rank": 3,
+            "chunk_id": "lex:111181#ru#art-160#2026-09-12",
+            "doc_id": "lex:111181",
+            "article": "Статья 160",
+            "text": "Статья 160. Приостановление, перерыв и восстановление специальных сроков исковой давности\nПравила о приостановлении, перерыве и восстановлении сроков исковой давности (статьи 156, 157, 159 настоящего Кодекса) применяются также к специальным срокам давности, если законом не установлено иное.",
+            "retrieval_score": 30.768898528285295,
+            "rerank_score": 63.76889852828529,
+            "used_in_answer": false
+          },
+          {
+            "rank": 4,
+            "chunk_id": "lex:111181#ru#art-155#2026-09-12",
+            "doc_id": "lex:111181",
+            "article": "Статья 155",
+            "text": "Статья 155. Срок исковой давности при перемене лиц в обязательстве\nПеремена лиц в обязательстве не влечет за собой изменения срока исковой давности и порядка его исчисления.",
+            "retrieval_score": 27.11168834498786,
+            "rerank_score": 60.11168834498787,
+            "used_in_answer": false
+          },
+          {
+            "rank": 5,
+            "chunk_id": "lex:111181#ru#art-151#2026-09-12",
+            "doc_id": "lex:111181",
+            "article": "Статья 151",
+            "text": "Статья 151. Специальные сроки исковой давности\nДля отдельных видов требований законодательством могут устанавливаться специальные сроки исковой давности, сокращенные или более длительные по сравнению с общим сроком.\nПравила статей 152—162 настоящего Кодекса распространяются на специальные сроки исковой давности, если законом не установлено иное.",
+            "retrieval_score": 28.73187757577407,
+            "rerank_score": 50.73187757577407,
+            "used_in_answer": false
+          }
+        ],
+        "error": null,
+        "debug": {
+          "rewritten_query": "Какой срок исковой давности установлен Гражданским кодексом?",
+          "retrieved_total": 71,
+          "mode": "bm25-extractive"
+        },
+        "timing": {
+          "retrieval_ms": 6.952,
+          "rerank_ms": 0,
+          "generation_ms": 0,
+          "total_ms": 6.952
+        }
+      },
+      {
+        "id": "q007",
+        "status": "no_answer",
+        "answer": null,
+        "answer_language": "uz-Latn",
+        "no_answer": true,
+        "citations": [],
+        "contexts": [],
+        "error": null,
+        "debug": {
+          "rewritten_query": "Marsga sayohat chiptasi qancha turadi?",
+          "retrieved_total": 0,
+          "mode": "bm25-extractive"
+        },
+        "timing": {
+          "retrieval_ms": 2.745,
+          "rerank_ms": 0,
+          "generation_ms": 0,
+          "total_ms": 2.745
+        }
+      }
+    ]
+  }
+}

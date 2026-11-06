@@ -1,0 +1,44 @@
+{
+  "http_checks": [
+    {
+      "path": "/",
+      "status": 200
+    },
+    {
+      "path": "/assets/app.js",
+      "status": 200
+    },
+    {
+      "path": "/assets/style.css",
+      "status": 200
+    },
+    {
+      "path": "/v1/health",
+      "status": 200
+    },
+    {
+      "path": "/v1/meta",
+      "status": 200
+    },
+    {
+      "path": "/v1/coverage",
+      "status": 200
+    },
+    {
+      "path": "/docs",
+      "status": 200
+    },
+    {
+      "path": "POST batch + GET result + auth401",
+      "passed": true
+    }
+  ],
+  "corpus_hashes_verified": 7,
+  "frozen_dataset_verified": true,
+  "automatic_tests_passed": 33,
+  "browser_regression": "Mehnat code article33 returned correctly",
+  "llm_connected": false,
+  "github_pushed": false,
+  "actual_project_path": "C:\\Users\\polaponim\\Documents\\Codex\\2026-11-06\\men\\outputs\\lex-rag-final-2026-11-06",
+  "requested_D_destination_completed": false
+}

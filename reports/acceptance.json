@@ -1,0 +1,231 @@
+{
+  "verified": true,
+  "transport": "real loopback HTTP",
+  "health": true,
+  "frontend": true,
+  "unauthorized_rejected": true,
+  "system": {
+    "pipeline_version": "0.4.0",
+    "llm_model": null,
+    "embedding_model": null,
+    "reranker": "lexical-title-v2",
+    "query_rewriter": "uz-colloquial-rules-v1",
+    "implementation_version": "28230ff628ff3fba",
+    "index_version": "f7713de8144eee76",
+    "lex_snapshot_date": "2026-11-06",
+    "mode": "bm25-multisource-extractive",
+    "documents": 6,
+    "chunks": 29727,
+    "translation_map_version": "f4467e667a7fd4d1"
+  },
+  "coverage": {
+    "total_chunks": 29727,
+    "document_variants": 6,
+    "documents": [
+      {
+        "doc_id": "lex:111181",
+        "title": "Гражданский кодекс Республики Узбекистан (часть первая)",
+        "language": "ru",
+        "articles": 386,
+        "edition_date": "2026-09-12",
+        "editions": [
+          "2024-12-06",
+          "2025-02-12",
+          "2025-02-19",
+          "2025-04-22",
+          "2025-05-08",
+          "2025-09-25",
+          "2025-12-25",
+          "2025-12-26",
+          "2025-12-30",
+          "2026-06-29",
+          "2026-07-25",
+          "2026-09-12"
+        ],
+        "indexed_chunks": 4656,
+        "snapshot_date": "2026-11-06",
+        "url": "https://www.lex.uz/docs/111181?ONDATE=12.09.2026"
+      },
+      {
+        "doc_id": "lex:111189",
+        "title": "Ўзбекистон Республикасининг Фуқаролик кодекси (биринчи қисм)",
+        "language": "uz-Cyrl",
+        "articles": 386,
+        "edition_date": "2026-09-12",
+        "editions": [
+          "2024-12-06",
+          "2025-02-12",
+          "2025-02-19",
+          "2025-04-22",
+          "2025-05-08",
+          "2025-09-25",
+          "2025-12-25",
+          "2025-12-26",
+          "2025-12-30",
+          "2026-06-29",
+          "2026-07-25",
+          "2026-09-12"
+        ],
+        "indexed_chunks": 4656,
+        "snapshot_date": "2026-11-06",
+        "url": "https://www.lex.uz/docs/111189?ONDATE=12.09.2026+01"
+      },
+      {
+        "doc_id": "lex:111189",
+        "title": "Oʻzbekiston Respublikasining Fuqarolik kodeksi (birinchi qism)",
+        "language": "uz-Latn",
+        "articles": 386,
+        "edition_date": "2026-09-12",
+        "editions": [
+          "2024-12-06",
+          "2025-02-12",
+          "2025-02-19",
+          "2025-04-22",
+          "2025-05-08",
+          "2025-09-25",
+          "2025-12-25",
+          "2025-12-26",
+          "2025-12-30",
+          "2026-06-29",
+          "2026-07-25",
+          "2026-09-12"
+        ],
+        "indexed_chunks": 4656,
+        "snapshot_date": "2026-11-06",
+        "url": "https://www.lex.uz/docs/-111189?ONDATE=12.09.2026+01"
+      },
+      {
+        "doc_id": "lex:6257288",
+        "title": "Ўзбекистон Республикасининг Меҳнат кодекси",
+        "language": "uz-Cyrl",
+        "articles": 593,
+        "edition_date": "2026-10-15",
+        "editions": [
+          "2024-09-21",
+          "2025-02-14",
+          "2025-09-25",
+          "2025-11-12",
+          "2025-12-30",
+          "2026-01-01",
+          "2026-07-25",
+          "2026-09-12",
+          "2026-10-15"
+        ],
+        "indexed_chunks": 5253,
+        "snapshot_date": "2026-11-06",
+        "url": "https://www.lex.uz/docs/6257288?ONDATE=15.10.2026+01"
+      },
+      {
+        "doc_id": "lex:6257288",
+        "title": "Oʻzbekiston Respublikasining Mehnat kodeksi",
+        "language": "uz-Latn",
+        "articles": 593,
+        "edition_date": "2026-10-15",
+        "editions": [
+          "2024-09-21",
+          "2025-02-14",
+          "2025-09-25",
+          "2025-11-12",
+          "2025-12-30",
+          "2026-01-01",
+          "2026-07-25",
+          "2026-09-12",
+          "2026-10-15"
+        ],
+        "indexed_chunks": 5253,
+        "snapshot_date": "2026-11-06",
+        "url": "https://www.lex.uz/docs/-6257288?ONDATE=15.10.2026+01"
+      },
+      {
+        "doc_id": "lex:6257291",
+        "title": "Трудовой кодекс Республики Узбекистан",
+        "language": "ru",
+        "articles": 593,
+        "edition_date": "2026-10-15",
+        "editions": [
+          "2024-09-21",
+          "2025-02-14",
+          "2025-09-25",
+          "2025-11-12",
+          "2025-12-30",
+          "2026-01-01",
+          "2026-07-25",
+          "2026-09-12",
+          "2026-10-15"
+        ],
+        "indexed_chunks": 5253,
+        "snapshot_date": "2026-11-06",
+        "url": "https://www.lex.uz/docs/6257291?ONDATE=15.10.2026+01"
+      }
+    ],
+    "date_windows": {
+      "ru": {
+        "from": "2024-12-06",
+        "to": "2026-11-06"
+      },
+      "uz-Cyrl": {
+        "from": "2024-12-06",
+        "to": "2026-11-06"
+      },
+      "uz-Latn": {
+        "from": "2024-12-06",
+        "to": "2026-11-06"
+      }
+    },
+    "date_intervals": {
+      "ru": [
+        {
+          "from": "2024-12-06",
+          "to": "2026-11-06"
+        }
+      ],
+      "uz-Cyrl": [
+        {
+          "from": "2024-12-06",
+          "to": "2026-11-06"
+        }
+      ],
+      "uz-Latn": [
+        {
+          "from": "2024-12-06",
+          "to": "2026-11-06"
+        }
+      ]
+    },
+    "snapshot_date": "2026-11-06",
+    "scope_note": "Faqat Mehnat kodeksi va Fuqarolik kodeksining birinchi qismi. Butun lex.uz bazasi emas.",
+    "answer_mode": "Bir yoki bir nechta manbadan aynan olingan matn; har bir iqtibos alohida havola bilan."
+  },
+  "metrics": {
+    "total": 100,
+    "answerable": 90,
+    "unanswerable": 10,
+    "Hit@1": 1.0,
+    "Hit@5": 1.0,
+    "MRR@5": 1.0,
+    "no_result_answerable": 0,
+    "expected_missing_top5": 0,
+    "wrong_top1_answerable": 0,
+    "no_answer_all": 10,
+    "correct_rejections": 10,
+    "false_answers_out_of_scope": 0,
+    "errors": 0,
+    "multi_all_targets_top5": 15,
+    "Hit@5_document": 1.0,
+    "Recall@5": 1.0,
+    "gold_context_precision_at5": 0.93,
+    "exact_answer_correctness_proxy_0_2": 2.0,
+    "verbatim_quote_rate": 1.0,
+    "gold_citation_accuracy_proxy": 1.0,
+    "fabricated_sources": 0,
+    "out_of_date_citations": 0,
+    "latency_p50_ms": 26.868,
+    "latency_p95_ms": 63.747,
+    "error_rate": 0.0,
+    "answer_correctness": 2.0,
+    "faithfulness": 1.0,
+    "citation_accuracy": 1.0,
+    "context_precision": 0.93
+  },
+  "dataset_sha256": "bc9eeba49ed3706e471688263619dc345361297d6db3adf19028c5bfe69485ec"
+}

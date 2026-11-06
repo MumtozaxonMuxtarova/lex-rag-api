@@ -1,0 +1,29 @@
+INFO:     Started server process [11560]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://127.0.0.1:56297 (Press CTRL+C to quit)
+INFO:     127.0.0.1:56303 - "GET /v1/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56304 - "GET / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56304 - "GET /assets/app.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56304 - "GET /v1/meta HTTP/1.1" 401 Unauthorized
+INFO:     127.0.0.1:56304 - "GET /v1/meta HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56304 - "GET /v1/coverage HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56305 - "POST /v1/rag/batch HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56305 - "POST /v1/rag/batch HTTP/1.1" 429 Too Many Requests
+INFO:     127.0.0.1:56306 - "POST /v1/rag/batch HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56306 - "POST /v1/rag/batch HTTP/1.1" 429 Too Many Requests
+INFO:     127.0.0.1:56309 - "POST /v1/rag/batch HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56309 - "POST /v1/rag/batch HTTP/1.1" 429 Too Many Requests
+INFO:     127.0.0.1:56310 - "POST /v1/rag/batch HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56310 - "POST /v1/rag/batch HTTP/1.1" 429 Too Many Requests
+INFO:     127.0.0.1:56313 - "POST /v1/rag/batch HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56313 - "POST /v1/rag/batch HTTP/1.1" 429 Too Many Requests
+INFO:     127.0.0.1:56314 - "POST /v1/rag/batch HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56314 - "POST /v1/rag/batch HTTP/1.1" 429 Too Many Requests
+INFO:     127.0.0.1:56315 - "POST /v1/rag/batch HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56315 - "POST /v1/rag/batch HTTP/1.1" 429 Too Many Requests
+INFO:     127.0.0.1:56338 - "POST /v1/rag/batch HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56338 - "POST /v1/rag/batch HTTP/1.1" 429 Too Many Requests
+INFO:     127.0.0.1:56340 - "POST /v1/rag/batch HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56340 - "POST /v1/rag/batch HTTP/1.1" 429 Too Many Requests
+INFO:     127.0.0.1:56341 - "POST /v1/rag/batch HTTP/1.1" 200 OK

@@ -1,0 +1,184 @@
+{
+  "verified": true,
+  "raw_sources": 63,
+  "chunks": 29727,
+  "corpus_sha256": "f7713de8144eee76fa69d8410a80b60040cb94ca206b9e533b0ed9cc0ca744e4",
+  "coverage": {
+    "total_chunks": 29727,
+    "document_variants": 6,
+    "documents": [
+      {
+        "doc_id": "lex:111181",
+        "title": "Гражданский кодекс Республики Узбекистан (часть первая)",
+        "language": "ru",
+        "articles": 386,
+        "edition_date": "2026-09-12",
+        "editions": [
+          "2024-12-06",
+          "2025-02-12",
+          "2025-02-19",
+          "2025-04-22",
+          "2025-05-08",
+          "2025-09-25",
+          "2025-12-25",
+          "2025-12-26",
+          "2025-12-30",
+          "2026-06-29",
+          "2026-07-25",
+          "2026-09-12"
+        ],
+        "indexed_chunks": 4656,
+        "snapshot_date": "2026-11-06",
+        "url": "https://www.lex.uz/docs/111181?ONDATE=12.09.2026"
+      },
+      {
+        "doc_id": "lex:111189",
+        "title": "Ўзбекистон Республикасининг Фуқаролик кодекси (биринчи қисм)",
+        "language": "uz-Cyrl",
+        "articles": 386,
+        "edition_date": "2026-09-12",
+        "editions": [
+          "2024-12-06",
+          "2025-02-12",
+          "2025-02-19",
+          "2025-04-22",
+          "2025-05-08",
+          "2025-09-25",
+          "2025-12-25",
+          "2025-12-26",
+          "2025-12-30",
+          "2026-06-29",
+          "2026-07-25",
+          "2026-09-12"
+        ],
+        "indexed_chunks": 4656,
+        "snapshot_date": "2026-11-06",
+        "url": "https://www.lex.uz/docs/111189?ONDATE=12.09.2026+01"
+      },
+      {
+        "doc_id": "lex:111189",
+        "title": "Oʻzbekiston Respublikasining Fuqarolik kodeksi (birinchi qism)",
+        "language": "uz-Latn",
+        "articles": 386,
+        "edition_date": "2026-09-12",
+        "editions": [
+          "2024-12-06",
+          "2025-02-12",
+          "2025-02-19",
+          "2025-04-22",
+          "2025-05-08",
+          "2025-09-25",
+          "2025-12-25",
+          "2025-12-26",
+          "2025-12-30",
+          "2026-06-29",
+          "2026-07-25",
+          "2026-09-12"
+        ],
+        "indexed_chunks": 4656,
+        "snapshot_date": "2026-11-06",
+        "url": "https://www.lex.uz/docs/-111189?ONDATE=12.09.2026+01"
+      },
+      {
+        "doc_id": "lex:6257288",
+        "title": "Ўзбекистон Республикасининг Меҳнат кодекси",
+        "language": "uz-Cyrl",
+        "articles": 593,
+        "edition_date": "2026-10-15",
+        "editions": [
+          "2024-09-21",
+          "2025-02-14",
+          "2025-09-25",
+          "2025-11-12",
+          "2025-12-30",
+          "2026-01-01",
+          "2026-07-25",
+          "2026-09-12",
+          "2026-10-15"
+        ],
+        "indexed_chunks": 5253,
+        "snapshot_date": "2026-11-06",
+        "url": "https://www.lex.uz/docs/6257288?ONDATE=15.10.2026+01"
+      },
+      {
+        "doc_id": "lex:6257288",
+        "title": "Oʻzbekiston Respublikasining Mehnat kodeksi",
+        "language": "uz-Latn",
+        "articles": 593,
+        "edition_date": "2026-10-15",
+        "editions": [
+          "2024-09-21",
+          "2025-02-14",
+          "2025-09-25",
+          "2025-11-12",
+          "2025-12-30",
+          "2026-01-01",
+          "2026-07-25",
+          "2026-09-12",
+          "2026-10-15"
+        ],
+        "indexed_chunks": 5253,
+        "snapshot_date": "2026-11-06",
+        "url": "https://www.lex.uz/docs/-6257288?ONDATE=15.10.2026+01"
+      },
+      {
+        "doc_id": "lex:6257291",
+        "title": "Трудовой кодекс Республики Узбекистан",
+        "language": "ru",
+        "articles": 593,
+        "edition_date": "2026-10-15",
+        "editions": [
+          "2024-09-21",
+          "2025-02-14",
+          "2025-09-25",
+          "2025-11-12",
+          "2025-12-30",
+          "2026-01-01",
+          "2026-07-25",
+          "2026-09-12",
+          "2026-10-15"
+        ],
+        "indexed_chunks": 5253,
+        "snapshot_date": "2026-11-06",
+        "url": "https://www.lex.uz/docs/6257291?ONDATE=15.10.2026+01"
+      }
+    ],
+    "date_windows": {
+      "ru": {
+        "from": "2024-12-06",
+        "to": "2026-11-06"
+      },
+      "uz-Cyrl": {
+        "from": "2024-12-06",
+        "to": "2026-11-06"
+      },
+      "uz-Latn": {
+        "from": "2024-12-06",
+        "to": "2026-11-06"
+      }
+    },
+    "date_intervals": {
+      "ru": [
+        {
+          "from": "2024-12-06",
+          "to": "2026-11-06"
+        }
+      ],
+      "uz-Cyrl": [
+        {
+          "from": "2024-12-06",
+          "to": "2026-11-06"
+        }
+      ],
+      "uz-Latn": [
+        {
+          "from": "2024-12-06",
+          "to": "2026-11-06"
+        }
+      ]
+    },
+    "snapshot_date": "2026-11-06",
+    "scope_note": "Faqat Mehnat kodeksi va Fuqarolik kodeksining birinchi qismi. Butun lex.uz bazasi emas.",
+    "answer_mode": "Bir yoki bir nechta manbadan aynan olingan matn; har bir iqtibos alohida havola bilan."
+  }
+}
